@@ -13,7 +13,7 @@ namespace Bank
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ClientFrm());
+            Application.Run(new SplashScreen());
         }
     }
 }

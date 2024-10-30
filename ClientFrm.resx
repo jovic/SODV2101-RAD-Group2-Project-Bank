@@ -132,6 +132,27 @@
   <metadata name="datePostedLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
+  <metadata name="accountIDLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="customerIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="accountTypeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="dateModefiedLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="branchIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="cardPINLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="passwordLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txt_sendAmount.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -163,26 +184,89 @@
         RK5CYII=
 </value>
   </data>
-  <metadata name="savingAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>186, 17</value>
-  </metadata>
+  <data name="txt_confirmPassword.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
+        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
+        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
+        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="txt_confirmPassword.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6gAAAOoB+Ss1JgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHdSURBVFhH5dex
+        S1VhGMfxS9qgTQ6lFCiJjTYkJFHtiqP9ATmGsyBCVPQnBDXomkNBQ1Q0iYM6WVQQjtqgIpG2BIVRfb+H
+        90KD557znvseF3/wgfMe3+e5z/Ve7jmn0WY6g2PNOBaxgz+Bx08xhtpyAcv4G/zEZvArnNMSziNpLsF3
+        6Qt8xCS60YzHt/AJ7tnGEJLkDDZg43mcRl782wLc+xn/D1k5d2HDlzjliYK45zWsmfNEO+nAV/gZD3ii
+        ZC7Cmj3Yo3Kuw3fyJlvF5S2svZatKmYKNrmXreJyH9bezlYVMwObTGeruFhjrT0qZxY2uZOt4mKNtfao
+        nJM7wDk8xhZs8gXrkayx1h72OotS8er2Hhan9A6lrpwjsGAVvehpUz/WYM8rKMwE3Oy/LVXsZU97FyZm
+        gK6gKMkH8EW9KfmNQ3gz0mqQ5AM8hHu8R/gWjh8gL8kH8AvqHm86BsPxCvKSfIDncM8TPArHz5CX5ANc
+        xgHcp30MIy/JBzB9+BH4e9EqtQxgvgdFqW0Ab8m9Ay5KbQP4XWj12TdT2wBlEzXATbj5VbZKkxew541s
+        VRAfRHZhgQ8kR13rYzQfavzVtHepjMJHMB88LW6HPT7gKqLjo9VR1/gYLR7PGo1/J0nXxRFSwXIAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="txt_newPasswrod.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
+        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
+        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
+        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="txt_newPasswrod.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6gAAAOoB+Ss1JgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHdSURBVFhH5dex
+        S1VhGMfxS9qgTQ6lFCiJjTYkJFHtiqP9ATmGsyBCVPQnBDXomkNBQ1Q0iYM6WVQQjtqgIpG2BIVRfb+H
+        90KD557znvseF3/wgfMe3+e5z/Ve7jmn0WY6g2PNOBaxgz+Bx08xhtpyAcv4G/zEZvArnNMSziNpLsF3
+        6Qt8xCS60YzHt/AJ7tnGEJLkDDZg43mcRl782wLc+xn/D1k5d2HDlzjliYK45zWsmfNEO+nAV/gZD3ii
+        ZC7Cmj3Yo3Kuw3fyJlvF5S2svZatKmYKNrmXreJyH9bezlYVMwObTGeruFhjrT0qZxY2uZOt4mKNtfao
+        nJM7wDk8xhZs8gXrkayx1h72OotS8er2Hhan9A6lrpwjsGAVvehpUz/WYM8rKMwE3Oy/LVXsZU97FyZm
+        gK6gKMkH8EW9KfmNQ3gz0mqQ5AM8hHu8R/gWjh8gL8kH8AvqHm86BsPxCvKSfIDncM8TPArHz5CX5ANc
+        xgHcp30MIy/JBzB9+BH4e9EqtQxgvgdFqW0Ab8m9Ay5KbQP4XWj12TdT2wBlEzXATbj5VbZKkxew541s
+        VRAfRHZhgQ8kR13rYzQfavzVtHepjMJHMB88LW6HPT7gKqLjo9VR1/gYLR7PGo1/J0nXxRFSwXIAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="txt_currentPassword.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
+        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
+        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
+        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="txt_currentPassword.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6gAAAOoB+Ss1JgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHdSURBVFhH5dex
+        S1VhGMfxS9qgTQ6lFCiJjTYkJFHtiqP9ATmGsyBCVPQnBDXomkNBQ1Q0iYM6WVQQjtqgIpG2BIVRfb+H
+        90KD557znvseF3/wgfMe3+e5z/Ve7jmn0WY6g2PNOBaxgz+Bx08xhtpyAcv4G/zEZvArnNMSziNpLsF3
+        6Qt8xCS60YzHt/AJ7tnGEJLkDDZg43mcRl782wLc+xn/D1k5d2HDlzjliYK45zWsmfNEO+nAV/gZD3ii
+        ZC7Cmj3Yo3Kuw3fyJlvF5S2svZatKmYKNrmXreJyH9bezlYVMwObTGeruFhjrT0qZxY2uZOt4mKNtfao
+        nJM7wDk8xhZs8gXrkayx1h72OotS8er2Hhan9A6lrpwjsGAVvehpUz/WYM8rKMwE3Oy/LVXsZU97FyZm
+        gK6gKMkH8EW9KfmNQ3gz0mqQ5AM8hHu8R/gWjh8gL8kH8AvqHm86BsPxCvKSfIDncM8TPArHz5CX5ANc
+        xgHcp30MIy/JBzB9+BH4e9EqtQxgvgdFqW0Ab8m9Ay5KbQP4XWj12TdT2wBlEzXATbj5VbZKkxew541s
+        VRAfRHZhgQ8kR13rYzQfavzVtHepjMJHMB88LW6HPT7gKqLjo9VR1/gYLR7PGo1/J0nXxRFSwXIAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
   <metadata name="savingAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>186, 17</value>
   </metadata>
   <metadata name="dB_BankDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="dB_BankDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="loanAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1033, 58</value>
-  </metadata>
-  <metadata name="loanAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1033, 58</value>
-  </metadata>
-  <metadata name="checkingAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 58</value>
   </metadata>
   <metadata name="checkingAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 58</value>
@@ -353,104 +437,8 @@
         dtINAGGiDUDGyGpoawAxeNSAQWkAORiqnRLAwAAA9EMMU8Daa3MAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="txt_confirmPassword.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
-        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
-        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
-        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
-        RK5CYII=
-</value>
-  </data>
-  <data name="txt_confirmPassword.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAOsAAADrASts18IAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAAB3UlEQVRYR+XXsUtVYRjH8UvaoE0OpRQoiY02JCRR7Yqj/QE5hrMgQlT0JwQ16JpDQUNUNImDOllU
-        EI7aoCKRtgSFUX2/h/dCg+ee8577Hhd/8IHzHt/nuc/1Xu45p9FmOoNjzTgWsYM/gcdPMYbacgHL+Bv8
-        xGbwK5zTEs4jaS7Bd+kLfMQkutGMx7fwCe7ZxhCS5Aw2YON5nEZe/NsC3PsZ/w9ZOXdhw5c45YmCuOc1
-        rJnzRDvpwFf4GQ94omQuwpo92KNyrsN38iZbxeUtrL2WrSpmCja5l63ich/W3s5WFTMDm0xnq7hYY609
-        KmcWNrmTreJijbX2qJyTO8A5PMYWbPIF65GssdYe9jqLUvHq9h4Wp/QOpa6cI7BgFb3oaVM/1mDPKyjM
-        BNzsvy1V7GVPexcmZoCuoCjJB/BFvSn5jUN4M9JqkOQDPIR7vEf4Fo4fIC/JB/AL6h5vOgbD8QryknyA
-        53DPEzwKx8+Ql+QDXMYB3Kd9DCMvyQcwffgR+HvRKrUMYL4HRaltAG/JvQMuSm0D+F1o9dk3U9sAZRM1
-        wE24+VW2SpMXsOeNbFUQH0R2YYEPJEdd62M0H2r81bR3qYzCRzAfPC1uhz0+4Cqi46PVUdf4GC0ezxqN
-        fydJ18URUsFyAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="txt_newPasswrod.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
-        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
-        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
-        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
-        RK5CYII=
-</value>
-  </data>
-  <data name="txt_newPasswrod.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAOsAAADrASts18IAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAAB3UlEQVRYR+XXsUtVYRjH8UvaoE0OpRQoiY02JCRR7Yqj/QE5hrMgQlT0JwQ16JpDQUNUNImDOllU
-        EI7aoCKRtgSFUX2/h/dCg+ee8577Hhd/8IHzHt/nuc/1Xu45p9FmOoNjzTgWsYM/gcdPMYbacgHL+Bv8
-        xGbwK5zTEs4jaS7Bd+kLfMQkutGMx7fwCe7ZxhCS5Aw2YON5nEZe/NsC3PsZ/w9ZOXdhw5c45YmCuOc1
-        rJnzRDvpwFf4GQ94omQuwpo92KNyrsN38iZbxeUtrL2WrSpmCja5l63ich/W3s5WFTMDm0xnq7hYY609
-        KmcWNrmTreJijbX2qJyTO8A5PMYWbPIF65GssdYe9jqLUvHq9h4Wp/QOpa6cI7BgFb3oaVM/1mDPKyjM
-        BNzsvy1V7GVPexcmZoCuoCjJB/BFvSn5jUN4M9JqkOQDPIR7vEf4Fo4fIC/JB/AL6h5vOgbD8QryknyA
-        53DPEzwKx8+Ql+QDXMYB3Kd9DCMvyQcwffgR+HvRKrUMYL4HRaltAG/JvQMuSm0D+F1o9dk3U9sAZRM1
-        wE24+VW2SpMXsOeNbFUQH0R2YYEPJEdd62M0H2r81bR3qYzCRzAfPC1uhz0+4Cqi46PVUdf4GC0ezxqN
-        fydJ18URUsFyAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="txt_currentPassword.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAVEAAAApCAYAAACMcBpaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADGSURBVHhe7dSxCQMxAARB9V+VHpXhMlyAH4ESZ29vOgOX
-        XAE7AIjWWq8558fMzJ5td/MkdIx9APDc7uZJqIgC/EpEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQB
-        AhEFCEQUIBBRgEBEAQIRBQhEFCAQUYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIBBRgEBEAQIRBQhEFCAQ
-        UYBARAECEQUIRBQgEFGAQEQBAhEFCEQUIPiK6HVd732Ymdmz7W6ehALwnzFuUUg+FJRXmSAAAAAASUVO
-        RK5CYII=
-</value>
-  </data>
-  <data name="txt_currentPassword.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAOsAAADrASts18IAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAAB3UlEQVRYR+XXsUtVYRjH8UvaoE0OpRQoiY02JCRR7Yqj/QE5hrMgQlT0JwQ16JpDQUNUNImDOllU
-        EI7aoCKRtgSFUX2/h/dCg+ee8577Hhd/8IHzHt/nuc/1Xu45p9FmOoNjzTgWsYM/gcdPMYbacgHL+Bv8
-        xGbwK5zTEs4jaS7Bd+kLfMQkutGMx7fwCe7ZxhCS5Aw2YON5nEZe/NsC3PsZ/w9ZOXdhw5c45YmCuOc1
-        rJnzRDvpwFf4GQ94omQuwpo92KNyrsN38iZbxeUtrL2WrSpmCja5l63ich/W3s5WFTMDm0xnq7hYY609
-        KmcWNrmTreJijbX2qJyTO8A5PMYWbPIF65GssdYe9jqLUvHq9h4Wp/QOpa6cI7BgFb3oaVM/1mDPKyjM
-        BNzsvy1V7GVPexcmZoCuoCjJB/BFvSn5jUN4M9JqkOQDPIR7vEf4Fo4fIC/JB/AL6h5vOgbD8QryknyA
-        53DPEzwKx8+Ql+QDXMYB3Kd9DCMvyQcwffgR+HvRKrUMYL4HRaltAG/JvQMuSm0D+F1o9dk3U9sAZRM1
-        wE24+VW2SpMXsOeNbFUQH0R2YYEPJEdd62M0H2r81bR3qYzCRzAfPC1uhz0+4Cqi46PVUdf4GC0ezxqN
-        fydJ18URUsFyAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <metadata name="accountIDLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <metadata name="accountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>775, 99</value>
-  </metadata>
-  <metadata name="customerIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="accountTypeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="dateModefiedLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="branchIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="cardPINLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="passwordLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
   </metadata>
   <metadata name="accountbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1184, 99</value>

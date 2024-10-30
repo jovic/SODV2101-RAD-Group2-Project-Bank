@@ -34,31 +34,6 @@
             System.Windows.Forms.Label checkNumbersLabel;
             System.Windows.Forms.Label amountLabel;
             System.Windows.Forms.Label datePostedLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientFrm));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties97 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties98 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties99 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties100 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties101 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties102 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties103 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties104 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties105 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties106 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties107 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties108 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties109 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties110 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties111 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties112 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties113 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties114 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties115 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties116 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties117 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties118 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties119 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties120 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             System.Windows.Forms.Label accountIDLabel1;
             System.Windows.Forms.Label customerIDLabel;
             System.Windows.Forms.Label accountTypeLabel;
@@ -66,18 +41,34 @@
             System.Windows.Forms.Label branchIDLabel;
             System.Windows.Forms.Label cardPINLabel;
             System.Windows.Forms.Label passwordLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientFrm));
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnl_main = new System.Windows.Forms.Panel();
             this.pnl_mainInner = new System.Windows.Forms.Panel();
-            this.pnl_Home = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.lbl_loanTotal = new System.Windows.Forms.Label();
-            this.lbl_CheckingTotal = new System.Windows.Forms.Label();
-            this.lbl_savingsTotal = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbl_accountNumber = new System.Windows.Forms.Label();
             this.pnl_sendMoney = new System.Windows.Forms.Panel();
             this.btn_sendMoney = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -87,6 +78,24 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txt_sendAccountNumber = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pnl_settings = new System.Windows.Forms.Panel();
+            this.btn_saveAccount = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txt_confirmPassword = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txt_newPasswrod = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txt_currentPassword = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pnl_Home = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lbl_loanTotal = new System.Windows.Forms.Label();
+            this.lbl_CheckingTotal = new System.Windows.Forms.Label();
+            this.lbl_savingsTotal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_accountNumber = new System.Windows.Forms.Label();
             this.pnl_savings = new System.Windows.Forms.Panel();
             this.savingAccountDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -128,6 +137,7 @@
             this.btn_close = new DevExpress.XtraEditors.SimpleButton();
             this.savingAccountTableAdapter = new Bank.DB_BankDataSetTableAdapters.SavingAccountTableAdapter();
             this.tableAdapterManager = new Bank.DB_BankDataSetTableAdapters.TableAdapterManager();
+            this.accountTableAdapter = new Bank.DB_BankDataSetTableAdapters.AccountTableAdapter();
             this.checkingAccountTableAdapter = new Bank.DB_BankDataSetTableAdapters.CheckingAccountTableAdapter();
             this.loanAccountTableAdapter = new Bank.DB_BankDataSetTableAdapters.LoanAccountTableAdapter();
             this.customerAndAccountTableAdapter = new Bank.DB_BankDataSetTableAdapters.CustomerAndAccountTableAdapter();
@@ -163,19 +173,9 @@
             this.checkNumbersTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.amountSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.datePostedDateEdit = new DevExpress.XtraEditors.DateEdit();
-            this.pnl_settings = new System.Windows.Forms.Panel();
-            this.btn_saveAccount = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txt_confirmPassword = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txt_newPasswrod = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txt_currentPassword = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.accountTableAdapter = new Bank.DB_BankDataSetTableAdapters.AccountTableAdapter();
             this.accountIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.customerIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.accountTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.dateModefiedDateEdit = new DevExpress.XtraEditors.DateEdit();
@@ -210,8 +210,9 @@
             this.panel1.SuspendLayout();
             this.pnl_main.SuspendLayout();
             this.pnl_mainInner.SuspendLayout();
-            this.pnl_Home.SuspendLayout();
             this.pnl_sendMoney.SuspendLayout();
+            this.pnl_settings.SuspendLayout();
+            this.pnl_Home.SuspendLayout();
             this.pnl_savings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingSource)).BeginInit();
@@ -236,10 +237,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit.Properties.CalendarTimeProperties)).BeginInit();
-            this.pnl_settings.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties)).BeginInit();
@@ -296,6 +296,69 @@
             datePostedLabel.TabIndex = 8;
             datePostedLabel.Text = "Date Posted:";
             // 
+            // accountIDLabel1
+            // 
+            accountIDLabel1.AutoSize = true;
+            accountIDLabel1.Location = new System.Drawing.Point(6, 31);
+            accountIDLabel1.Name = "accountIDLabel1";
+            accountIDLabel1.Size = new System.Drawing.Size(85, 20);
+            accountIDLabel1.TabIndex = 0;
+            accountIDLabel1.Text = "Account ID:";
+            // 
+            // customerIDLabel
+            // 
+            customerIDLabel.AutoSize = true;
+            customerIDLabel.Location = new System.Drawing.Point(6, 61);
+            customerIDLabel.Name = "customerIDLabel";
+            customerIDLabel.Size = new System.Drawing.Size(94, 20);
+            customerIDLabel.TabIndex = 2;
+            customerIDLabel.Text = "Customer ID:";
+            // 
+            // accountTypeLabel
+            // 
+            accountTypeLabel.AutoSize = true;
+            accountTypeLabel.Location = new System.Drawing.Point(6, 91);
+            accountTypeLabel.Name = "accountTypeLabel";
+            accountTypeLabel.Size = new System.Drawing.Size(101, 20);
+            accountTypeLabel.TabIndex = 4;
+            accountTypeLabel.Text = "Account Type:";
+            // 
+            // dateModefiedLabel
+            // 
+            dateModefiedLabel.AutoSize = true;
+            dateModefiedLabel.Location = new System.Drawing.Point(6, 121);
+            dateModefiedLabel.Name = "dateModefiedLabel";
+            dateModefiedLabel.Size = new System.Drawing.Size(113, 20);
+            dateModefiedLabel.TabIndex = 6;
+            dateModefiedLabel.Text = "Date Modefied:";
+            // 
+            // branchIDLabel
+            // 
+            branchIDLabel.AutoSize = true;
+            branchIDLabel.Location = new System.Drawing.Point(6, 149);
+            branchIDLabel.Name = "branchIDLabel";
+            branchIDLabel.Size = new System.Drawing.Size(76, 20);
+            branchIDLabel.TabIndex = 8;
+            branchIDLabel.Text = "Branch ID:";
+            // 
+            // cardPINLabel
+            // 
+            cardPINLabel.AutoSize = true;
+            cardPINLabel.Location = new System.Drawing.Point(6, 179);
+            cardPINLabel.Name = "cardPINLabel";
+            cardPINLabel.Size = new System.Drawing.Size(70, 20);
+            cardPINLabel.TabIndex = 10;
+            cardPINLabel.Text = "Card PIN:";
+            // 
+            // passwordLabel
+            // 
+            passwordLabel.AutoSize = true;
+            passwordLabel.Location = new System.Drawing.Point(6, 209);
+            passwordLabel.Name = "passwordLabel";
+            passwordLabel.Size = new System.Drawing.Size(73, 20);
+            passwordLabel.TabIndex = 12;
+            passwordLabel.Text = "Password:";
+            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -332,6 +395,594 @@
             this.pnl_mainInner.Name = "pnl_mainInner";
             this.pnl_mainInner.Size = new System.Drawing.Size(510, 440);
             this.pnl_mainInner.TabIndex = 0;
+            // 
+            // pnl_sendMoney
+            // 
+            this.pnl_sendMoney.Controls.Add(this.btn_sendMoney);
+            this.pnl_sendMoney.Controls.Add(this.label10);
+            this.pnl_sendMoney.Controls.Add(this.txt_sendAmount);
+            this.pnl_sendMoney.Controls.Add(this.label9);
+            this.pnl_sendMoney.Controls.Add(this.txt_sendName);
+            this.pnl_sendMoney.Controls.Add(this.label8);
+            this.pnl_sendMoney.Controls.Add(this.txt_sendAccountNumber);
+            this.pnl_sendMoney.Controls.Add(this.label7);
+            this.pnl_sendMoney.Location = new System.Drawing.Point(22, 245);
+            this.pnl_sendMoney.Name = "pnl_sendMoney";
+            this.pnl_sendMoney.Size = new System.Drawing.Size(403, 40);
+            this.pnl_sendMoney.TabIndex = 4;
+            // 
+            // btn_sendMoney
+            // 
+            this.btn_sendMoney.Image = global::Bank.Properties.Resources.forward_32x32;
+            this.btn_sendMoney.Location = new System.Drawing.Point(131, 315);
+            this.btn_sendMoney.Name = "btn_sendMoney";
+            this.btn_sendMoney.Size = new System.Drawing.Size(136, 44);
+            this.btn_sendMoney.TabIndex = 12;
+            this.btn_sendMoney.Text = "Send Money";
+            this.btn_sendMoney.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_sendMoney.UseVisualStyleBackColor = true;
+            this.btn_sendMoney.Click += new System.EventHandler(this.btn_sendMoney_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(27, 219);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 20);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Amount:";
+            // 
+            // txt_sendAmount
+            // 
+            this.txt_sendAmount.AcceptsReturn = false;
+            this.txt_sendAmount.AcceptsTab = false;
+            this.txt_sendAmount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_sendAmount.AnimationSpeed = 200;
+            this.txt_sendAmount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_sendAmount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_sendAmount.BackColor = System.Drawing.Color.Transparent;
+            this.txt_sendAmount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAmount.BackgroundImage")));
+            this.txt_sendAmount.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_sendAmount.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_sendAmount.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_sendAmount.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_sendAmount.BorderRadius = 1;
+            this.txt_sendAmount.BorderThickness = 1;
+            this.txt_sendAmount.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_sendAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_sendAmount.DefaultText = "";
+            this.txt_sendAmount.FillColor = System.Drawing.Color.White;
+            this.txt_sendAmount.HideSelection = true;
+            this.txt_sendAmount.IconLeft = global::Bank.Properties.Resources.dollar_5719055;
+            this.txt_sendAmount.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.IconPadding = 10;
+            this.txt_sendAmount.IconRight = null;
+            this.txt_sendAmount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.Lines = new string[0];
+            this.txt_sendAmount.Location = new System.Drawing.Point(31, 242);
+            this.txt_sendAmount.MaxLength = 32767;
+            this.txt_sendAmount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_sendAmount.Modified = false;
+            this.txt_sendAmount.Multiline = false;
+            this.txt_sendAmount.Name = "txt_sendAmount";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_sendAmount.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnIdleState = stateProperties4;
+            this.txt_sendAmount.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_sendAmount.PasswordChar = '\0';
+            this.txt_sendAmount.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_sendAmount.PlaceholderText = "Enter Amount";
+            this.txt_sendAmount.ReadOnly = false;
+            this.txt_sendAmount.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sendAmount.SelectedText = "";
+            this.txt_sendAmount.SelectionLength = 0;
+            this.txt_sendAmount.SelectionStart = 0;
+            this.txt_sendAmount.ShortcutsEnabled = true;
+            this.txt_sendAmount.Size = new System.Drawing.Size(337, 41);
+            this.txt_sendAmount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_sendAmount.TabIndex = 10;
+            this.txt_sendAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_sendAmount.TextMarginBottom = 0;
+            this.txt_sendAmount.TextMarginLeft = 10;
+            this.txt_sendAmount.TextMarginTop = 0;
+            this.txt_sendAmount.TextPlaceholder = "Enter Amount";
+            this.txt_sendAmount.UseSystemPasswordChar = false;
+            this.txt_sendAmount.WordWrap = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(27, 129);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(118, 20);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Recipient Name:";
+            // 
+            // txt_sendName
+            // 
+            this.txt_sendName.AcceptsReturn = false;
+            this.txt_sendName.AcceptsTab = false;
+            this.txt_sendName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_sendName.AnimationSpeed = 200;
+            this.txt_sendName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_sendName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_sendName.BackColor = System.Drawing.Color.Transparent;
+            this.txt_sendName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendName.BackgroundImage")));
+            this.txt_sendName.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_sendName.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_sendName.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_sendName.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_sendName.BorderRadius = 1;
+            this.txt_sendName.BorderThickness = 1;
+            this.txt_sendName.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_sendName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendName.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_sendName.DefaultText = "";
+            this.txt_sendName.FillColor = System.Drawing.Color.White;
+            this.txt_sendName.HideSelection = true;
+            this.txt_sendName.IconLeft = global::Bank.Properties.Resources.user;
+            this.txt_sendName.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendName.IconPadding = 10;
+            this.txt_sendName.IconRight = null;
+            this.txt_sendName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendName.Lines = new string[0];
+            this.txt_sendName.Location = new System.Drawing.Point(31, 159);
+            this.txt_sendName.MaxLength = 32767;
+            this.txt_sendName.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_sendName.Modified = false;
+            this.txt_sendName.Multiline = false;
+            this.txt_sendName.Name = "txt_sendName";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendName.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_sendName.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendName.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendName.OnIdleState = stateProperties8;
+            this.txt_sendName.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_sendName.PasswordChar = '\0';
+            this.txt_sendName.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_sendName.PlaceholderText = "Enter Name";
+            this.txt_sendName.ReadOnly = false;
+            this.txt_sendName.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sendName.SelectedText = "";
+            this.txt_sendName.SelectionLength = 0;
+            this.txt_sendName.SelectionStart = 0;
+            this.txt_sendName.ShortcutsEnabled = true;
+            this.txt_sendName.Size = new System.Drawing.Size(337, 41);
+            this.txt_sendName.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_sendName.TabIndex = 8;
+            this.txt_sendName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_sendName.TextMarginBottom = 0;
+            this.txt_sendName.TextMarginLeft = 10;
+            this.txt_sendName.TextMarginTop = 0;
+            this.txt_sendName.TextPlaceholder = "Enter Name";
+            this.txt_sendName.UseSystemPasswordChar = false;
+            this.txt_sendName.WordWrap = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(27, 43);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(124, 20);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Account Number:";
+            // 
+            // txt_sendAccountNumber
+            // 
+            this.txt_sendAccountNumber.AcceptsReturn = false;
+            this.txt_sendAccountNumber.AcceptsTab = false;
+            this.txt_sendAccountNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_sendAccountNumber.AnimationSpeed = 200;
+            this.txt_sendAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_sendAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_sendAccountNumber.BackColor = System.Drawing.Color.Transparent;
+            this.txt_sendAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAccountNumber.BackgroundImage")));
+            this.txt_sendAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_sendAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_sendAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_sendAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_sendAccountNumber.BorderRadius = 1;
+            this.txt_sendAccountNumber.BorderThickness = 1;
+            this.txt_sendAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_sendAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_sendAccountNumber.DefaultText = "";
+            this.txt_sendAccountNumber.FillColor = System.Drawing.Color.White;
+            this.txt_sendAccountNumber.HideSelection = true;
+            this.txt_sendAccountNumber.IconLeft = global::Bank.Properties.Resources.passbook;
+            this.txt_sendAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAccountNumber.IconPadding = 10;
+            this.txt_sendAccountNumber.IconRight = null;
+            this.txt_sendAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAccountNumber.Lines = new string[0];
+            this.txt_sendAccountNumber.Location = new System.Drawing.Point(31, 73);
+            this.txt_sendAccountNumber.MaxLength = 32767;
+            this.txt_sendAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_sendAccountNumber.Modified = false;
+            this.txt_sendAccountNumber.Multiline = false;
+            this.txt_sendAccountNumber.Name = "txt_sendAccountNumber";
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAccountNumber.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_sendAccountNumber.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAccountNumber.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.Empty;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAccountNumber.OnIdleState = stateProperties12;
+            this.txt_sendAccountNumber.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_sendAccountNumber.PasswordChar = '\0';
+            this.txt_sendAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_sendAccountNumber.PlaceholderText = "Enter Account Number";
+            this.txt_sendAccountNumber.ReadOnly = false;
+            this.txt_sendAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sendAccountNumber.SelectedText = "";
+            this.txt_sendAccountNumber.SelectionLength = 0;
+            this.txt_sendAccountNumber.SelectionStart = 0;
+            this.txt_sendAccountNumber.ShortcutsEnabled = true;
+            this.txt_sendAccountNumber.Size = new System.Drawing.Size(337, 41);
+            this.txt_sendAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_sendAccountNumber.TabIndex = 6;
+            this.txt_sendAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_sendAccountNumber.TextMarginBottom = 0;
+            this.txt_sendAccountNumber.TextMarginLeft = 10;
+            this.txt_sendAccountNumber.TextMarginTop = 0;
+            this.txt_sendAccountNumber.TextPlaceholder = "Enter Account Number";
+            this.txt_sendAccountNumber.UseSystemPasswordChar = false;
+            this.txt_sendAccountNumber.WordWrap = true;
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Margin = new System.Windows.Forms.Padding(0);
+            this.label7.Name = "label7";
+            this.label7.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.label7.Size = new System.Drawing.Size(403, 44);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Send Money";
+            // 
+            // pnl_settings
+            // 
+            this.pnl_settings.Controls.Add(this.btn_saveAccount);
+            this.pnl_settings.Controls.Add(this.label12);
+            this.pnl_settings.Controls.Add(this.txt_confirmPassword);
+            this.pnl_settings.Controls.Add(this.label13);
+            this.pnl_settings.Controls.Add(this.txt_newPasswrod);
+            this.pnl_settings.Controls.Add(this.label14);
+            this.pnl_settings.Controls.Add(this.txt_currentPassword);
+            this.pnl_settings.Controls.Add(this.label15);
+            this.pnl_settings.Location = new System.Drawing.Point(26, 300);
+            this.pnl_settings.Name = "pnl_settings";
+            this.pnl_settings.Size = new System.Drawing.Size(403, 47);
+            this.pnl_settings.TabIndex = 5;
+            // 
+            // btn_saveAccount
+            // 
+            this.btn_saveAccount.Image = global::Bank.Properties.Resources.saveandnew_32x32;
+            this.btn_saveAccount.Location = new System.Drawing.Point(184, 315);
+            this.btn_saveAccount.Name = "btn_saveAccount";
+            this.btn_saveAccount.Size = new System.Drawing.Size(83, 44);
+            this.btn_saveAccount.TabIndex = 12;
+            this.btn_saveAccount.Text = "Save";
+            this.btn_saveAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_saveAccount.UseVisualStyleBackColor = true;
+            this.btn_saveAccount.Click += new System.EventHandler(this.btn_saveAccount_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(27, 219);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(164, 20);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Confirm New Password:";
+            // 
+            // txt_confirmPassword
+            // 
+            this.txt_confirmPassword.AcceptsReturn = false;
+            this.txt_confirmPassword.AcceptsTab = false;
+            this.txt_confirmPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_confirmPassword.AnimationSpeed = 200;
+            this.txt_confirmPassword.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_confirmPassword.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_confirmPassword.BackColor = System.Drawing.Color.Transparent;
+            this.txt_confirmPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_confirmPassword.BackgroundImage")));
+            this.txt_confirmPassword.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_confirmPassword.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_confirmPassword.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_confirmPassword.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_confirmPassword.BorderRadius = 1;
+            this.txt_confirmPassword.BorderThickness = 1;
+            this.txt_confirmPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_confirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_confirmPassword.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_confirmPassword.DefaultText = "";
+            this.txt_confirmPassword.FillColor = System.Drawing.Color.White;
+            this.txt_confirmPassword.HideSelection = true;
+            this.txt_confirmPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_confirmPassword.IconLeft")));
+            this.txt_confirmPassword.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_confirmPassword.IconPadding = 10;
+            this.txt_confirmPassword.IconRight = null;
+            this.txt_confirmPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_confirmPassword.Lines = new string[0];
+            this.txt_confirmPassword.Location = new System.Drawing.Point(31, 242);
+            this.txt_confirmPassword.MaxLength = 32767;
+            this.txt_confirmPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_confirmPassword.Modified = false;
+            this.txt_confirmPassword.Multiline = false;
+            this.txt_confirmPassword.Name = "txt_confirmPassword";
+            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties13.FillColor = System.Drawing.Color.Empty;
+            stateProperties13.ForeColor = System.Drawing.Color.Empty;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_confirmPassword.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_confirmPassword.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.FillColor = System.Drawing.Color.Empty;
+            stateProperties15.ForeColor = System.Drawing.Color.Empty;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_confirmPassword.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.Silver;
+            stateProperties16.FillColor = System.Drawing.Color.White;
+            stateProperties16.ForeColor = System.Drawing.Color.Empty;
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_confirmPassword.OnIdleState = stateProperties16;
+            this.txt_confirmPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_confirmPassword.PasswordChar = '•';
+            this.txt_confirmPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_confirmPassword.PlaceholderText = "Enter Amount";
+            this.txt_confirmPassword.ReadOnly = false;
+            this.txt_confirmPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_confirmPassword.SelectedText = "";
+            this.txt_confirmPassword.SelectionLength = 0;
+            this.txt_confirmPassword.SelectionStart = 0;
+            this.txt_confirmPassword.ShortcutsEnabled = true;
+            this.txt_confirmPassword.Size = new System.Drawing.Size(337, 41);
+            this.txt_confirmPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_confirmPassword.TabIndex = 10;
+            this.txt_confirmPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_confirmPassword.TextMarginBottom = 0;
+            this.txt_confirmPassword.TextMarginLeft = 3;
+            this.txt_confirmPassword.TextMarginTop = 0;
+            this.txt_confirmPassword.TextPlaceholder = "Enter Amount";
+            this.txt_confirmPassword.UseSystemPasswordChar = false;
+            this.txt_confirmPassword.WordWrap = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(27, 129);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(107, 20);
+            this.label13.TabIndex = 9;
+            this.label13.Text = "New Password:";
+            // 
+            // txt_newPasswrod
+            // 
+            this.txt_newPasswrod.AcceptsReturn = false;
+            this.txt_newPasswrod.AcceptsTab = false;
+            this.txt_newPasswrod.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_newPasswrod.AnimationSpeed = 200;
+            this.txt_newPasswrod.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_newPasswrod.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_newPasswrod.BackColor = System.Drawing.Color.Transparent;
+            this.txt_newPasswrod.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_newPasswrod.BackgroundImage")));
+            this.txt_newPasswrod.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_newPasswrod.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_newPasswrod.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_newPasswrod.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_newPasswrod.BorderRadius = 1;
+            this.txt_newPasswrod.BorderThickness = 1;
+            this.txt_newPasswrod.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_newPasswrod.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_newPasswrod.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_newPasswrod.DefaultText = "";
+            this.txt_newPasswrod.FillColor = System.Drawing.Color.White;
+            this.txt_newPasswrod.HideSelection = true;
+            this.txt_newPasswrod.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_newPasswrod.IconLeft")));
+            this.txt_newPasswrod.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_newPasswrod.IconPadding = 10;
+            this.txt_newPasswrod.IconRight = null;
+            this.txt_newPasswrod.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_newPasswrod.Lines = new string[0];
+            this.txt_newPasswrod.Location = new System.Drawing.Point(31, 159);
+            this.txt_newPasswrod.MaxLength = 32767;
+            this.txt_newPasswrod.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_newPasswrod.Modified = false;
+            this.txt_newPasswrod.Multiline = false;
+            this.txt_newPasswrod.Name = "txt_newPasswrod";
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_newPasswrod.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_newPasswrod.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_newPasswrod.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Empty;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_newPasswrod.OnIdleState = stateProperties20;
+            this.txt_newPasswrod.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_newPasswrod.PasswordChar = '•';
+            this.txt_newPasswrod.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_newPasswrod.PlaceholderText = "Enter Name";
+            this.txt_newPasswrod.ReadOnly = false;
+            this.txt_newPasswrod.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_newPasswrod.SelectedText = "";
+            this.txt_newPasswrod.SelectionLength = 0;
+            this.txt_newPasswrod.SelectionStart = 0;
+            this.txt_newPasswrod.ShortcutsEnabled = true;
+            this.txt_newPasswrod.Size = new System.Drawing.Size(337, 41);
+            this.txt_newPasswrod.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_newPasswrod.TabIndex = 8;
+            this.txt_newPasswrod.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_newPasswrod.TextMarginBottom = 0;
+            this.txt_newPasswrod.TextMarginLeft = 3;
+            this.txt_newPasswrod.TextMarginTop = 0;
+            this.txt_newPasswrod.TextPlaceholder = "Enter Name";
+            this.txt_newPasswrod.UseSystemPasswordChar = false;
+            this.txt_newPasswrod.WordWrap = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(27, 43);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(122, 20);
+            this.label14.TabIndex = 7;
+            this.label14.Text = "Current Password";
+            // 
+            // txt_currentPassword
+            // 
+            this.txt_currentPassword.AcceptsReturn = false;
+            this.txt_currentPassword.AcceptsTab = false;
+            this.txt_currentPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_currentPassword.AnimationSpeed = 200;
+            this.txt_currentPassword.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_currentPassword.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_currentPassword.BackColor = System.Drawing.Color.Transparent;
+            this.txt_currentPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_currentPassword.BackgroundImage")));
+            this.txt_currentPassword.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_currentPassword.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_currentPassword.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_currentPassword.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_currentPassword.BorderRadius = 1;
+            this.txt_currentPassword.BorderThickness = 1;
+            this.txt_currentPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_currentPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_currentPassword.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_currentPassword.DefaultText = "";
+            this.txt_currentPassword.FillColor = System.Drawing.Color.White;
+            this.txt_currentPassword.HideSelection = true;
+            this.txt_currentPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_currentPassword.IconLeft")));
+            this.txt_currentPassword.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_currentPassword.IconPadding = 10;
+            this.txt_currentPassword.IconRight = null;
+            this.txt_currentPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_currentPassword.Lines = new string[0];
+            this.txt_currentPassword.Location = new System.Drawing.Point(31, 63);
+            this.txt_currentPassword.MaxLength = 32767;
+            this.txt_currentPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_currentPassword.Modified = false;
+            this.txt_currentPassword.Multiline = false;
+            this.txt_currentPassword.Name = "txt_currentPassword";
+            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties21.FillColor = System.Drawing.Color.Empty;
+            stateProperties21.ForeColor = System.Drawing.Color.Empty;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_currentPassword.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_currentPassword.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.FillColor = System.Drawing.Color.Empty;
+            stateProperties23.ForeColor = System.Drawing.Color.Empty;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_currentPassword.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.Empty;
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_currentPassword.OnIdleState = stateProperties24;
+            this.txt_currentPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_currentPassword.PasswordChar = '•';
+            this.txt_currentPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_currentPassword.PlaceholderText = "Enter Complete Name";
+            this.txt_currentPassword.ReadOnly = false;
+            this.txt_currentPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_currentPassword.SelectedText = "";
+            this.txt_currentPassword.SelectionLength = 0;
+            this.txt_currentPassword.SelectionStart = 0;
+            this.txt_currentPassword.ShortcutsEnabled = true;
+            this.txt_currentPassword.Size = new System.Drawing.Size(337, 41);
+            this.txt_currentPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_currentPassword.TabIndex = 6;
+            this.txt_currentPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_currentPassword.TextMarginBottom = 0;
+            this.txt_currentPassword.TextMarginLeft = 3;
+            this.txt_currentPassword.TextMarginTop = 0;
+            this.txt_currentPassword.TextPlaceholder = "Enter Complete Name";
+            this.txt_currentPassword.UseSystemPasswordChar = false;
+            this.txt_currentPassword.WordWrap = true;
+            // 
+            // label15
+            // 
+            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(0, 0);
+            this.label15.Margin = new System.Windows.Forms.Padding(0);
+            this.label15.Name = "label15";
+            this.label15.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.label15.Size = new System.Drawing.Size(403, 44);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Personal Information";
             // 
             // pnl_Home
             // 
@@ -433,300 +1084,6 @@
             this.lbl_accountNumber.Size = new System.Drawing.Size(294, 23);
             this.lbl_accountNumber.TabIndex = 4;
             this.lbl_accountNumber.Text = "lbl_accountNumber";
-            // 
-            // pnl_sendMoney
-            // 
-            this.pnl_sendMoney.Controls.Add(this.btn_sendMoney);
-            this.pnl_sendMoney.Controls.Add(this.label10);
-            this.pnl_sendMoney.Controls.Add(this.txt_sendAmount);
-            this.pnl_sendMoney.Controls.Add(this.label9);
-            this.pnl_sendMoney.Controls.Add(this.txt_sendName);
-            this.pnl_sendMoney.Controls.Add(this.label8);
-            this.pnl_sendMoney.Controls.Add(this.txt_sendAccountNumber);
-            this.pnl_sendMoney.Controls.Add(this.label7);
-            this.pnl_sendMoney.Location = new System.Drawing.Point(22, 245);
-            this.pnl_sendMoney.Name = "pnl_sendMoney";
-            this.pnl_sendMoney.Size = new System.Drawing.Size(403, 40);
-            this.pnl_sendMoney.TabIndex = 4;
-            // 
-            // btn_sendMoney
-            // 
-            this.btn_sendMoney.Image = global::Bank.Properties.Resources.forward_32x32;
-            this.btn_sendMoney.Location = new System.Drawing.Point(131, 315);
-            this.btn_sendMoney.Name = "btn_sendMoney";
-            this.btn_sendMoney.Size = new System.Drawing.Size(136, 44);
-            this.btn_sendMoney.TabIndex = 12;
-            this.btn_sendMoney.Text = "Send Money";
-            this.btn_sendMoney.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_sendMoney.UseVisualStyleBackColor = true;
-            this.btn_sendMoney.Click += new System.EventHandler(this.btn_sendMoney_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(27, 219);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 20);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Amount:";
-            // 
-            // txt_sendAmount
-            // 
-            this.txt_sendAmount.AcceptsReturn = false;
-            this.txt_sendAmount.AcceptsTab = false;
-            this.txt_sendAmount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_sendAmount.AnimationSpeed = 200;
-            this.txt_sendAmount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_sendAmount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_sendAmount.BackColor = System.Drawing.Color.Transparent;
-            this.txt_sendAmount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAmount.BackgroundImage")));
-            this.txt_sendAmount.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_sendAmount.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_sendAmount.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_sendAmount.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_sendAmount.BorderRadius = 1;
-            this.txt_sendAmount.BorderThickness = 1;
-            this.txt_sendAmount.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_sendAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_sendAmount.DefaultText = "";
-            this.txt_sendAmount.FillColor = System.Drawing.Color.White;
-            this.txt_sendAmount.HideSelection = true;
-            this.txt_sendAmount.IconLeft = global::Bank.Properties.Resources.dollar_5719055;
-            this.txt_sendAmount.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.IconPadding = 10;
-            this.txt_sendAmount.IconRight = null;
-            this.txt_sendAmount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.Lines = new string[0];
-            this.txt_sendAmount.Location = new System.Drawing.Point(31, 242);
-            this.txt_sendAmount.MaxLength = 32767;
-            this.txt_sendAmount.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_sendAmount.Modified = false;
-            this.txt_sendAmount.Multiline = false;
-            this.txt_sendAmount.Name = "txt_sendAmount";
-            stateProperties97.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties97.FillColor = System.Drawing.Color.Empty;
-            stateProperties97.ForeColor = System.Drawing.Color.Empty;
-            stateProperties97.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnActiveState = stateProperties97;
-            stateProperties98.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties98.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties98.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_sendAmount.OnDisabledState = stateProperties98;
-            stateProperties99.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties99.FillColor = System.Drawing.Color.Empty;
-            stateProperties99.ForeColor = System.Drawing.Color.Empty;
-            stateProperties99.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnHoverState = stateProperties99;
-            stateProperties100.BorderColor = System.Drawing.Color.Silver;
-            stateProperties100.FillColor = System.Drawing.Color.White;
-            stateProperties100.ForeColor = System.Drawing.Color.Empty;
-            stateProperties100.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnIdleState = stateProperties100;
-            this.txt_sendAmount.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_sendAmount.PasswordChar = '\0';
-            this.txt_sendAmount.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_sendAmount.PlaceholderText = "Enter Amount";
-            this.txt_sendAmount.ReadOnly = false;
-            this.txt_sendAmount.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_sendAmount.SelectedText = "";
-            this.txt_sendAmount.SelectionLength = 0;
-            this.txt_sendAmount.SelectionStart = 0;
-            this.txt_sendAmount.ShortcutsEnabled = true;
-            this.txt_sendAmount.Size = new System.Drawing.Size(337, 41);
-            this.txt_sendAmount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_sendAmount.TabIndex = 10;
-            this.txt_sendAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_sendAmount.TextMarginBottom = 0;
-            this.txt_sendAmount.TextMarginLeft = 10;
-            this.txt_sendAmount.TextMarginTop = 0;
-            this.txt_sendAmount.TextPlaceholder = "Enter Amount";
-            this.txt_sendAmount.UseSystemPasswordChar = false;
-            this.txt_sendAmount.WordWrap = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(27, 129);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(118, 20);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Recipient Name:";
-            // 
-            // txt_sendName
-            // 
-            this.txt_sendName.AcceptsReturn = false;
-            this.txt_sendName.AcceptsTab = false;
-            this.txt_sendName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_sendName.AnimationSpeed = 200;
-            this.txt_sendName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_sendName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_sendName.BackColor = System.Drawing.Color.Transparent;
-            this.txt_sendName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendName.BackgroundImage")));
-            this.txt_sendName.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_sendName.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_sendName.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_sendName.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_sendName.BorderRadius = 1;
-            this.txt_sendName.BorderThickness = 1;
-            this.txt_sendName.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_sendName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendName.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_sendName.DefaultText = "";
-            this.txt_sendName.FillColor = System.Drawing.Color.White;
-            this.txt_sendName.HideSelection = true;
-            this.txt_sendName.IconLeft = global::Bank.Properties.Resources.user;
-            this.txt_sendName.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendName.IconPadding = 10;
-            this.txt_sendName.IconRight = null;
-            this.txt_sendName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendName.Lines = new string[0];
-            this.txt_sendName.Location = new System.Drawing.Point(31, 159);
-            this.txt_sendName.MaxLength = 32767;
-            this.txt_sendName.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_sendName.Modified = false;
-            this.txt_sendName.Multiline = false;
-            this.txt_sendName.Name = "txt_sendName";
-            stateProperties101.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties101.FillColor = System.Drawing.Color.Empty;
-            stateProperties101.ForeColor = System.Drawing.Color.Empty;
-            stateProperties101.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendName.OnActiveState = stateProperties101;
-            stateProperties102.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties102.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_sendName.OnDisabledState = stateProperties102;
-            stateProperties103.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties103.FillColor = System.Drawing.Color.Empty;
-            stateProperties103.ForeColor = System.Drawing.Color.Empty;
-            stateProperties103.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendName.OnHoverState = stateProperties103;
-            stateProperties104.BorderColor = System.Drawing.Color.Silver;
-            stateProperties104.FillColor = System.Drawing.Color.White;
-            stateProperties104.ForeColor = System.Drawing.Color.Empty;
-            stateProperties104.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendName.OnIdleState = stateProperties104;
-            this.txt_sendName.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_sendName.PasswordChar = '\0';
-            this.txt_sendName.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_sendName.PlaceholderText = "Enter Name";
-            this.txt_sendName.ReadOnly = false;
-            this.txt_sendName.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_sendName.SelectedText = "";
-            this.txt_sendName.SelectionLength = 0;
-            this.txt_sendName.SelectionStart = 0;
-            this.txt_sendName.ShortcutsEnabled = true;
-            this.txt_sendName.Size = new System.Drawing.Size(337, 41);
-            this.txt_sendName.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_sendName.TabIndex = 8;
-            this.txt_sendName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_sendName.TextMarginBottom = 0;
-            this.txt_sendName.TextMarginLeft = 10;
-            this.txt_sendName.TextMarginTop = 0;
-            this.txt_sendName.TextPlaceholder = "Enter Name";
-            this.txt_sendName.UseSystemPasswordChar = false;
-            this.txt_sendName.WordWrap = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(27, 43);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 20);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Account Number:";
-            // 
-            // txt_sendAccountNumber
-            // 
-            this.txt_sendAccountNumber.AcceptsReturn = false;
-            this.txt_sendAccountNumber.AcceptsTab = false;
-            this.txt_sendAccountNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_sendAccountNumber.AnimationSpeed = 200;
-            this.txt_sendAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_sendAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_sendAccountNumber.BackColor = System.Drawing.Color.Transparent;
-            this.txt_sendAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAccountNumber.BackgroundImage")));
-            this.txt_sendAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_sendAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_sendAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_sendAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_sendAccountNumber.BorderRadius = 1;
-            this.txt_sendAccountNumber.BorderThickness = 1;
-            this.txt_sendAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_sendAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_sendAccountNumber.DefaultText = "";
-            this.txt_sendAccountNumber.FillColor = System.Drawing.Color.White;
-            this.txt_sendAccountNumber.HideSelection = true;
-            this.txt_sendAccountNumber.IconLeft = global::Bank.Properties.Resources.passbook;
-            this.txt_sendAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAccountNumber.IconPadding = 10;
-            this.txt_sendAccountNumber.IconRight = null;
-            this.txt_sendAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAccountNumber.Lines = new string[0];
-            this.txt_sendAccountNumber.Location = new System.Drawing.Point(31, 73);
-            this.txt_sendAccountNumber.MaxLength = 32767;
-            this.txt_sendAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_sendAccountNumber.Modified = false;
-            this.txt_sendAccountNumber.Multiline = false;
-            this.txt_sendAccountNumber.Name = "txt_sendAccountNumber";
-            stateProperties105.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties105.FillColor = System.Drawing.Color.Empty;
-            stateProperties105.ForeColor = System.Drawing.Color.Empty;
-            stateProperties105.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAccountNumber.OnActiveState = stateProperties105;
-            stateProperties106.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties106.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties106.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_sendAccountNumber.OnDisabledState = stateProperties106;
-            stateProperties107.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties107.FillColor = System.Drawing.Color.Empty;
-            stateProperties107.ForeColor = System.Drawing.Color.Empty;
-            stateProperties107.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAccountNumber.OnHoverState = stateProperties107;
-            stateProperties108.BorderColor = System.Drawing.Color.Silver;
-            stateProperties108.FillColor = System.Drawing.Color.White;
-            stateProperties108.ForeColor = System.Drawing.Color.Empty;
-            stateProperties108.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAccountNumber.OnIdleState = stateProperties108;
-            this.txt_sendAccountNumber.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_sendAccountNumber.PasswordChar = '\0';
-            this.txt_sendAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_sendAccountNumber.PlaceholderText = "Enter Account Number";
-            this.txt_sendAccountNumber.ReadOnly = false;
-            this.txt_sendAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_sendAccountNumber.SelectedText = "";
-            this.txt_sendAccountNumber.SelectionLength = 0;
-            this.txt_sendAccountNumber.SelectionStart = 0;
-            this.txt_sendAccountNumber.ShortcutsEnabled = true;
-            this.txt_sendAccountNumber.Size = new System.Drawing.Size(337, 41);
-            this.txt_sendAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_sendAccountNumber.TabIndex = 6;
-            this.txt_sendAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_sendAccountNumber.TextMarginBottom = 0;
-            this.txt_sendAccountNumber.TextMarginLeft = 10;
-            this.txt_sendAccountNumber.TextMarginTop = 0;
-            this.txt_sendAccountNumber.TextPlaceholder = "Enter Account Number";
-            this.txt_sendAccountNumber.UseSystemPasswordChar = false;
-            this.txt_sendAccountNumber.WordWrap = true;
-            // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.label7.Size = new System.Drawing.Size(403, 44);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Send Money";
             // 
             // pnl_savings
             // 
@@ -1193,6 +1550,10 @@
             this.tableAdapterManager.UpdateOrder = Bank.DB_BankDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.userAccountsTableAdapter = null;
             // 
+            // accountTableAdapter
+            // 
+            this.accountTableAdapter.ClearBeforeFill = true;
+            // 
             // checkingAccountTableAdapter
             // 
             this.checkingAccountTableAdapter.ClearBeforeFill = true;
@@ -1360,7 +1721,7 @@
             this.checkingbindingNavigator.MovePreviousItem = this.toolStripButton4;
             this.checkingbindingNavigator.Name = "checkingbindingNavigator";
             this.checkingbindingNavigator.PositionItem = this.toolStripTextBox1;
-            this.checkingbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.checkingbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.checkingbindingNavigator.TabIndex = 2;
             this.checkingbindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1370,13 +1731,13 @@
             this.checkingbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorAddItem.Image")));
             this.checkingbindingNavigatorAddItem.Name = "checkingbindingNavigatorAddItem";
             this.checkingbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.checkingbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorAddItem.Text = "Add new";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(45, 28);
+            this.toolStripLabel1.Size = new System.Drawing.Size(45, 24);
             this.toolStripLabel1.Text = "of {0}";
             this.toolStripLabel1.ToolTipText = "Total number of items";
             // 
@@ -1386,7 +1747,7 @@
             this.checkingbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorDeleteItem.Image")));
             this.checkingbindingNavigatorDeleteItem.Name = "checkingbindingNavigatorDeleteItem";
             this.checkingbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.checkingbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorDeleteItem.Text = "Delete";
             // 
             // toolStripButton3
@@ -1395,7 +1756,7 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton3.Text = "Move first";
             // 
             // toolStripButton4
@@ -1404,13 +1765,13 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton4.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton4.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton4.Text = "Move previous";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripTextBox1
             // 
@@ -1425,7 +1786,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton5
             // 
@@ -1433,7 +1794,7 @@
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton5.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton5.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton5.Text = "Move next";
             // 
             // toolStripButton6
@@ -1442,20 +1803,20 @@
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton6.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton6.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton6.Text = "Move last";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // checkingbindingNavigatorSaveItem
             // 
             this.checkingbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.checkingbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorSaveItem.Image")));
             this.checkingbindingNavigatorSaveItem.Name = "checkingbindingNavigatorSaveItem";
-            this.checkingbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorSaveItem.Text = "Save Data";
             this.checkingbindingNavigatorSaveItem.Click += new System.EventHandler(this.checkingbindingNavigatorSaveItem_Click);
             // 
@@ -1545,300 +1906,6 @@
             this.datePostedDateEdit.Size = new System.Drawing.Size(125, 22);
             this.datePostedDateEdit.TabIndex = 9;
             // 
-            // pnl_settings
-            // 
-            this.pnl_settings.Controls.Add(this.btn_saveAccount);
-            this.pnl_settings.Controls.Add(this.label12);
-            this.pnl_settings.Controls.Add(this.txt_confirmPassword);
-            this.pnl_settings.Controls.Add(this.label13);
-            this.pnl_settings.Controls.Add(this.txt_newPasswrod);
-            this.pnl_settings.Controls.Add(this.label14);
-            this.pnl_settings.Controls.Add(this.txt_currentPassword);
-            this.pnl_settings.Controls.Add(this.label15);
-            this.pnl_settings.Location = new System.Drawing.Point(26, 300);
-            this.pnl_settings.Name = "pnl_settings";
-            this.pnl_settings.Size = new System.Drawing.Size(403, 47);
-            this.pnl_settings.TabIndex = 5;
-            // 
-            // btn_saveAccount
-            // 
-            this.btn_saveAccount.Image = global::Bank.Properties.Resources.saveandnew_32x32;
-            this.btn_saveAccount.Location = new System.Drawing.Point(184, 315);
-            this.btn_saveAccount.Name = "btn_saveAccount";
-            this.btn_saveAccount.Size = new System.Drawing.Size(83, 44);
-            this.btn_saveAccount.TabIndex = 12;
-            this.btn_saveAccount.Text = "Save";
-            this.btn_saveAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_saveAccount.UseVisualStyleBackColor = true;
-            this.btn_saveAccount.Click += new System.EventHandler(this.btn_saveAccount_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(27, 219);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(164, 20);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Confirm New Password:";
-            // 
-            // txt_confirmPassword
-            // 
-            this.txt_confirmPassword.AcceptsReturn = false;
-            this.txt_confirmPassword.AcceptsTab = false;
-            this.txt_confirmPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_confirmPassword.AnimationSpeed = 200;
-            this.txt_confirmPassword.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_confirmPassword.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_confirmPassword.BackColor = System.Drawing.Color.Transparent;
-            this.txt_confirmPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_confirmPassword.BackgroundImage")));
-            this.txt_confirmPassword.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_confirmPassword.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_confirmPassword.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_confirmPassword.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_confirmPassword.BorderRadius = 1;
-            this.txt_confirmPassword.BorderThickness = 1;
-            this.txt_confirmPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_confirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_confirmPassword.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_confirmPassword.DefaultText = "";
-            this.txt_confirmPassword.FillColor = System.Drawing.Color.White;
-            this.txt_confirmPassword.HideSelection = true;
-            this.txt_confirmPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_confirmPassword.IconLeft")));
-            this.txt_confirmPassword.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_confirmPassword.IconPadding = 10;
-            this.txt_confirmPassword.IconRight = null;
-            this.txt_confirmPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_confirmPassword.Lines = new string[0];
-            this.txt_confirmPassword.Location = new System.Drawing.Point(31, 242);
-            this.txt_confirmPassword.MaxLength = 32767;
-            this.txt_confirmPassword.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_confirmPassword.Modified = false;
-            this.txt_confirmPassword.Multiline = false;
-            this.txt_confirmPassword.Name = "txt_confirmPassword";
-            stateProperties109.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties109.FillColor = System.Drawing.Color.Empty;
-            stateProperties109.ForeColor = System.Drawing.Color.Empty;
-            stateProperties109.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_confirmPassword.OnActiveState = stateProperties109;
-            stateProperties110.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties110.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties110.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_confirmPassword.OnDisabledState = stateProperties110;
-            stateProperties111.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties111.FillColor = System.Drawing.Color.Empty;
-            stateProperties111.ForeColor = System.Drawing.Color.Empty;
-            stateProperties111.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_confirmPassword.OnHoverState = stateProperties111;
-            stateProperties112.BorderColor = System.Drawing.Color.Silver;
-            stateProperties112.FillColor = System.Drawing.Color.White;
-            stateProperties112.ForeColor = System.Drawing.Color.Empty;
-            stateProperties112.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_confirmPassword.OnIdleState = stateProperties112;
-            this.txt_confirmPassword.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_confirmPassword.PasswordChar = '•';
-            this.txt_confirmPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_confirmPassword.PlaceholderText = "Enter Amount";
-            this.txt_confirmPassword.ReadOnly = false;
-            this.txt_confirmPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_confirmPassword.SelectedText = "";
-            this.txt_confirmPassword.SelectionLength = 0;
-            this.txt_confirmPassword.SelectionStart = 0;
-            this.txt_confirmPassword.ShortcutsEnabled = true;
-            this.txt_confirmPassword.Size = new System.Drawing.Size(337, 41);
-            this.txt_confirmPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_confirmPassword.TabIndex = 10;
-            this.txt_confirmPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_confirmPassword.TextMarginBottom = 0;
-            this.txt_confirmPassword.TextMarginLeft = 3;
-            this.txt_confirmPassword.TextMarginTop = 0;
-            this.txt_confirmPassword.TextPlaceholder = "Enter Amount";
-            this.txt_confirmPassword.UseSystemPasswordChar = false;
-            this.txt_confirmPassword.WordWrap = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(27, 129);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(107, 20);
-            this.label13.TabIndex = 9;
-            this.label13.Text = "New Password:";
-            // 
-            // txt_newPasswrod
-            // 
-            this.txt_newPasswrod.AcceptsReturn = false;
-            this.txt_newPasswrod.AcceptsTab = false;
-            this.txt_newPasswrod.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_newPasswrod.AnimationSpeed = 200;
-            this.txt_newPasswrod.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_newPasswrod.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_newPasswrod.BackColor = System.Drawing.Color.Transparent;
-            this.txt_newPasswrod.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_newPasswrod.BackgroundImage")));
-            this.txt_newPasswrod.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_newPasswrod.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_newPasswrod.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_newPasswrod.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_newPasswrod.BorderRadius = 1;
-            this.txt_newPasswrod.BorderThickness = 1;
-            this.txt_newPasswrod.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_newPasswrod.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_newPasswrod.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_newPasswrod.DefaultText = "";
-            this.txt_newPasswrod.FillColor = System.Drawing.Color.White;
-            this.txt_newPasswrod.HideSelection = true;
-            this.txt_newPasswrod.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_newPasswrod.IconLeft")));
-            this.txt_newPasswrod.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_newPasswrod.IconPadding = 10;
-            this.txt_newPasswrod.IconRight = null;
-            this.txt_newPasswrod.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_newPasswrod.Lines = new string[0];
-            this.txt_newPasswrod.Location = new System.Drawing.Point(31, 159);
-            this.txt_newPasswrod.MaxLength = 32767;
-            this.txt_newPasswrod.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_newPasswrod.Modified = false;
-            this.txt_newPasswrod.Multiline = false;
-            this.txt_newPasswrod.Name = "txt_newPasswrod";
-            stateProperties113.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties113.FillColor = System.Drawing.Color.Empty;
-            stateProperties113.ForeColor = System.Drawing.Color.Empty;
-            stateProperties113.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_newPasswrod.OnActiveState = stateProperties113;
-            stateProperties114.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties114.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties114.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties114.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_newPasswrod.OnDisabledState = stateProperties114;
-            stateProperties115.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties115.FillColor = System.Drawing.Color.Empty;
-            stateProperties115.ForeColor = System.Drawing.Color.Empty;
-            stateProperties115.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_newPasswrod.OnHoverState = stateProperties115;
-            stateProperties116.BorderColor = System.Drawing.Color.Silver;
-            stateProperties116.FillColor = System.Drawing.Color.White;
-            stateProperties116.ForeColor = System.Drawing.Color.Empty;
-            stateProperties116.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_newPasswrod.OnIdleState = stateProperties116;
-            this.txt_newPasswrod.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_newPasswrod.PasswordChar = '•';
-            this.txt_newPasswrod.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_newPasswrod.PlaceholderText = "Enter Name";
-            this.txt_newPasswrod.ReadOnly = false;
-            this.txt_newPasswrod.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_newPasswrod.SelectedText = "";
-            this.txt_newPasswrod.SelectionLength = 0;
-            this.txt_newPasswrod.SelectionStart = 0;
-            this.txt_newPasswrod.ShortcutsEnabled = true;
-            this.txt_newPasswrod.Size = new System.Drawing.Size(337, 41);
-            this.txt_newPasswrod.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_newPasswrod.TabIndex = 8;
-            this.txt_newPasswrod.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_newPasswrod.TextMarginBottom = 0;
-            this.txt_newPasswrod.TextMarginLeft = 3;
-            this.txt_newPasswrod.TextMarginTop = 0;
-            this.txt_newPasswrod.TextPlaceholder = "Enter Name";
-            this.txt_newPasswrod.UseSystemPasswordChar = false;
-            this.txt_newPasswrod.WordWrap = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(27, 43);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(122, 20);
-            this.label14.TabIndex = 7;
-            this.label14.Text = "Current Password";
-            // 
-            // txt_currentPassword
-            // 
-            this.txt_currentPassword.AcceptsReturn = false;
-            this.txt_currentPassword.AcceptsTab = false;
-            this.txt_currentPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_currentPassword.AnimationSpeed = 200;
-            this.txt_currentPassword.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_currentPassword.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_currentPassword.BackColor = System.Drawing.Color.Transparent;
-            this.txt_currentPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_currentPassword.BackgroundImage")));
-            this.txt_currentPassword.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_currentPassword.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_currentPassword.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_currentPassword.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_currentPassword.BorderRadius = 1;
-            this.txt_currentPassword.BorderThickness = 1;
-            this.txt_currentPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_currentPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_currentPassword.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_currentPassword.DefaultText = "";
-            this.txt_currentPassword.FillColor = System.Drawing.Color.White;
-            this.txt_currentPassword.HideSelection = true;
-            this.txt_currentPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txt_currentPassword.IconLeft")));
-            this.txt_currentPassword.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_currentPassword.IconPadding = 10;
-            this.txt_currentPassword.IconRight = null;
-            this.txt_currentPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_currentPassword.Lines = new string[0];
-            this.txt_currentPassword.Location = new System.Drawing.Point(31, 63);
-            this.txt_currentPassword.MaxLength = 32767;
-            this.txt_currentPassword.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_currentPassword.Modified = false;
-            this.txt_currentPassword.Multiline = false;
-            this.txt_currentPassword.Name = "txt_currentPassword";
-            stateProperties117.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties117.FillColor = System.Drawing.Color.Empty;
-            stateProperties117.ForeColor = System.Drawing.Color.Empty;
-            stateProperties117.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_currentPassword.OnActiveState = stateProperties117;
-            stateProperties118.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties118.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties118.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties118.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_currentPassword.OnDisabledState = stateProperties118;
-            stateProperties119.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties119.FillColor = System.Drawing.Color.Empty;
-            stateProperties119.ForeColor = System.Drawing.Color.Empty;
-            stateProperties119.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_currentPassword.OnHoverState = stateProperties119;
-            stateProperties120.BorderColor = System.Drawing.Color.Silver;
-            stateProperties120.FillColor = System.Drawing.Color.White;
-            stateProperties120.ForeColor = System.Drawing.Color.Empty;
-            stateProperties120.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_currentPassword.OnIdleState = stateProperties120;
-            this.txt_currentPassword.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_currentPassword.PasswordChar = '•';
-            this.txt_currentPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_currentPassword.PlaceholderText = "Enter Complete Name";
-            this.txt_currentPassword.ReadOnly = false;
-            this.txt_currentPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_currentPassword.SelectedText = "";
-            this.txt_currentPassword.SelectionLength = 0;
-            this.txt_currentPassword.SelectionStart = 0;
-            this.txt_currentPassword.ShortcutsEnabled = true;
-            this.txt_currentPassword.Size = new System.Drawing.Size(337, 41);
-            this.txt_currentPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_currentPassword.TabIndex = 6;
-            this.txt_currentPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_currentPassword.TextMarginBottom = 0;
-            this.txt_currentPassword.TextMarginLeft = 3;
-            this.txt_currentPassword.TextMarginTop = 0;
-            this.txt_currentPassword.TextPlaceholder = "Enter Complete Name";
-            this.txt_currentPassword.UseSystemPasswordChar = false;
-            this.txt_currentPassword.WordWrap = true;
-            // 
-            // label15
-            // 
-            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(0, 0);
-            this.label15.Margin = new System.Windows.Forms.Padding(0);
-            this.label15.Name = "label15";
-            this.label15.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.label15.Size = new System.Drawing.Size(403, 44);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Personal Information";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(accountIDLabel1);
@@ -1862,24 +1929,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Account";
             // 
-            // accountBindingSource
-            // 
-            this.accountBindingSource.DataMember = "Account";
-            this.accountBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // accountTableAdapter
-            // 
-            this.accountTableAdapter.ClearBeforeFill = true;
-            // 
-            // accountIDLabel1
-            // 
-            accountIDLabel1.AutoSize = true;
-            accountIDLabel1.Location = new System.Drawing.Point(6, 31);
-            accountIDLabel1.Name = "accountIDLabel1";
-            accountIDLabel1.Size = new System.Drawing.Size(85, 20);
-            accountIDLabel1.TabIndex = 0;
-            accountIDLabel1.Text = "Account ID:";
-            // 
             // accountIDSpinEdit1
             // 
             this.accountIDSpinEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "AccountID", true));
@@ -1895,14 +1944,10 @@
             this.accountIDSpinEdit1.Size = new System.Drawing.Size(125, 24);
             this.accountIDSpinEdit1.TabIndex = 1;
             // 
-            // customerIDLabel
+            // accountBindingSource
             // 
-            customerIDLabel.AutoSize = true;
-            customerIDLabel.Location = new System.Drawing.Point(6, 61);
-            customerIDLabel.Name = "customerIDLabel";
-            customerIDLabel.Size = new System.Drawing.Size(94, 20);
-            customerIDLabel.TabIndex = 2;
-            customerIDLabel.Text = "Customer ID:";
+            this.accountBindingSource.DataMember = "Account";
+            this.accountBindingSource.DataSource = this.dB_BankDataSet;
             // 
             // customerIDSpinEdit
             // 
@@ -1919,15 +1964,6 @@
             this.customerIDSpinEdit.Size = new System.Drawing.Size(125, 24);
             this.customerIDSpinEdit.TabIndex = 3;
             // 
-            // accountTypeLabel
-            // 
-            accountTypeLabel.AutoSize = true;
-            accountTypeLabel.Location = new System.Drawing.Point(6, 91);
-            accountTypeLabel.Name = "accountTypeLabel";
-            accountTypeLabel.Size = new System.Drawing.Size(101, 20);
-            accountTypeLabel.TabIndex = 4;
-            accountTypeLabel.Text = "Account Type:";
-            // 
             // accountTypeSpinEdit
             // 
             this.accountTypeSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "AccountType", true));
@@ -1943,15 +1979,6 @@
             this.accountTypeSpinEdit.Size = new System.Drawing.Size(125, 24);
             this.accountTypeSpinEdit.TabIndex = 5;
             // 
-            // dateModefiedLabel
-            // 
-            dateModefiedLabel.AutoSize = true;
-            dateModefiedLabel.Location = new System.Drawing.Point(6, 121);
-            dateModefiedLabel.Name = "dateModefiedLabel";
-            dateModefiedLabel.Size = new System.Drawing.Size(113, 20);
-            dateModefiedLabel.TabIndex = 6;
-            dateModefiedLabel.Text = "Date Modefied:";
-            // 
             // dateModefiedDateEdit
             // 
             this.dateModefiedDateEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "DateModefied", true));
@@ -1964,15 +1991,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dateModefiedDateEdit.Size = new System.Drawing.Size(125, 22);
             this.dateModefiedDateEdit.TabIndex = 7;
-            // 
-            // branchIDLabel
-            // 
-            branchIDLabel.AutoSize = true;
-            branchIDLabel.Location = new System.Drawing.Point(6, 149);
-            branchIDLabel.Name = "branchIDLabel";
-            branchIDLabel.Size = new System.Drawing.Size(76, 20);
-            branchIDLabel.TabIndex = 8;
-            branchIDLabel.Text = "Branch ID:";
             // 
             // branchIDSpinEdit
             // 
@@ -1989,15 +2007,6 @@
             this.branchIDSpinEdit.Size = new System.Drawing.Size(125, 24);
             this.branchIDSpinEdit.TabIndex = 9;
             // 
-            // cardPINLabel
-            // 
-            cardPINLabel.AutoSize = true;
-            cardPINLabel.Location = new System.Drawing.Point(6, 179);
-            cardPINLabel.Name = "cardPINLabel";
-            cardPINLabel.Size = new System.Drawing.Size(70, 20);
-            cardPINLabel.TabIndex = 10;
-            cardPINLabel.Text = "Card PIN:";
-            // 
             // cardPINSpinEdit
             // 
             this.cardPINSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "CardPIN", true));
@@ -2012,15 +2021,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cardPINSpinEdit.Size = new System.Drawing.Size(125, 24);
             this.cardPINSpinEdit.TabIndex = 11;
-            // 
-            // passwordLabel
-            // 
-            passwordLabel.AutoSize = true;
-            passwordLabel.Location = new System.Drawing.Point(6, 209);
-            passwordLabel.Name = "passwordLabel";
-            passwordLabel.Size = new System.Drawing.Size(73, 20);
-            passwordLabel.TabIndex = 12;
-            passwordLabel.Text = "Password:";
             // 
             // passwordTextEdit
             // 
@@ -2058,7 +2058,7 @@
             this.accountbindingNavigator.MovePreviousItem = this.toolStripButton8;
             this.accountbindingNavigator.Name = "accountbindingNavigator";
             this.accountbindingNavigator.PositionItem = this.toolStripTextBox2;
-            this.accountbindingNavigator.Size = new System.Drawing.Size(370, 27);
+            this.accountbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.accountbindingNavigator.TabIndex = 14;
             this.accountbindingNavigator.Text = "bindingNavigator1";
             // 
@@ -2068,13 +2068,13 @@
             this.accountbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("accountbindingNavigatorAddItem.Image")));
             this.accountbindingNavigatorAddItem.Name = "accountbindingNavigatorAddItem";
             this.accountbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.accountbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 28);
+            this.accountbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorAddItem.Text = "Add new";
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(45, 28);
+            this.toolStripLabel2.Size = new System.Drawing.Size(45, 24);
             this.toolStripLabel2.Text = "of {0}";
             this.toolStripLabel2.ToolTipText = "Total number of items";
             // 
@@ -2084,7 +2084,7 @@
             this.accountbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("accountbindingNavigatorDeleteItem.Image")));
             this.accountbindingNavigatorDeleteItem.Name = "accountbindingNavigatorDeleteItem";
             this.accountbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.accountbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
+            this.accountbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorDeleteItem.Text = "Delete";
             // 
             // toolStripButton7
@@ -2093,7 +2093,7 @@
             this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton7.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton7.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton7.Text = "Move first";
             // 
             // toolStripButton8
@@ -2102,13 +2102,13 @@
             this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
             this.toolStripButton8.Name = "toolStripButton8";
             this.toolStripButton8.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton8.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton8.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton8.Text = "Move previous";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripTextBox2
             // 
@@ -2123,7 +2123,7 @@
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton9
             // 
@@ -2131,7 +2131,7 @@
             this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
             this.toolStripButton9.Name = "toolStripButton9";
             this.toolStripButton9.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton9.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton9.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton9.Text = "Move next";
             // 
             // toolStripButton10
@@ -2140,13 +2140,13 @@
             this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
             this.toolStripButton10.Name = "toolStripButton10";
             this.toolStripButton10.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton10.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton10.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton10.Text = "Move last";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
             // 
             // accountbindingNavigatorSaveItem
             // 
@@ -2178,10 +2178,12 @@
             this.panel1.ResumeLayout(false);
             this.pnl_main.ResumeLayout(false);
             this.pnl_mainInner.ResumeLayout(false);
-            this.pnl_Home.ResumeLayout(false);
-            this.pnl_Home.PerformLayout();
             this.pnl_sendMoney.ResumeLayout(false);
             this.pnl_sendMoney.PerformLayout();
+            this.pnl_settings.ResumeLayout(false);
+            this.pnl_settings.PerformLayout();
+            this.pnl_Home.ResumeLayout(false);
+            this.pnl_Home.PerformLayout();
             this.pnl_savings.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingSource)).EndInit();
@@ -2210,12 +2212,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit.Properties)).EndInit();
-            this.pnl_settings.ResumeLayout(false);
-            this.pnl_settings.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties.CalendarTimeProperties)).EndInit();
