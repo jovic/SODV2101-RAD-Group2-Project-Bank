@@ -235,7 +235,7 @@
     <value>False</value>
   </metadata>
   <metadata name="branchBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>242, 80</value>
+    <value>672, 99</value>
   </metadata>
   <metadata name="dB_BankDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>162, 17</value>
@@ -287,7 +287,7 @@
 </value>
   </data>
   <metadata name="accountbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1341, 58</value>
+    <value>218, 99</value>
   </metadata>
   <data name="accountbindingNavigatorAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -302,7 +302,7 @@
 </value>
   </data>
   <metadata name="accountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>932, 58</value>
+    <value>1176, 58</value>
   </metadata>
   <data name="accountbindingNavigatorDeleteItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -367,7 +367,7 @@
     <value>331, 17</value>
   </metadata>
   <metadata name="savingsbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 80</value>
+    <value>447, 99</value>
   </metadata>
   <data name="savingsbindingNavigatorAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -441,7 +441,7 @@
 </value>
   </data>
   <metadata name="branchbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>637, 80</value>
+    <value>1067, 99</value>
   </metadata>
   <data name="branchbindingNavigatorAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -515,7 +515,7 @@
 </value>
   </data>
   <metadata name="checkingbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>859, 80</value>
+    <value>17, 140</value>
   </metadata>
   <data name="checkingbindingNavigatorAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -530,7 +530,7 @@
 </value>
   </data>
   <metadata name="checkingAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1035, 17</value>
+    <value>1177, 17</value>
   </metadata>
   <data name="checkingbindingNavigatorDeleteItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -592,10 +592,10 @@
 </value>
   </data>
   <metadata name="loanAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>34, 58</value>
+    <value>278, 58</value>
   </metadata>
   <metadata name="loanbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1094, 80</value>
+    <value>252, 140</value>
   </metadata>
   <data name="loanbindingNavigatorAddItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -680,7 +680,7 @@
 </value>
   </data>
   <metadata name="customerBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>505, 58</value>
+    <value>749, 58</value>
   </metadata>
   <metadata name="customerbindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>932, 0</value>
@@ -787,7 +787,7 @@
 </value>
   </data>
   <metadata name="savingAccountBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1008, 124</value>
+    <value>458, 140</value>
   </metadata>
   <data name="bindingNavigatorAddNewItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -860,6 +860,18 @@
         dtINAGGiDUDGyGpoawAxeNSAQWkAORiqnRLAwAAA9EMMU8Daa3MAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="simpleButton3.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAPHRFWHRUaXRsZQBTdHJldGNo
+        O1RyYW5zZm9ybTtMYXJnZTtFbmxhcmdlO0JpZztFeHBhbmQ7RXh0ZW5kO0dyb3dRh2sfAAABE0lEQVRY
+        R8XUUQ7CIBCEYU/jBXr/syFQltDpv1uMyfrwxTowLDHqq5TyVxhmwjAThpkwzIQhOY6jfEP7HgwJDYlo
+        34MhoSER7XswJDQkon0PhoSGRLTvwZDQkIj2PRgSGhLRvqp7Og3f6/uVHbxL+6au9Rn19XqBtvBQxEEe
+        7Zux3madFxgPffhgWSfFbaNDbE+/RAvW4Te/XGCj9348ePOgm91e2/D3T0AvYVn3ywXqK7E953dgGWCX
+        uBSW9Xn4jtEhbX3+3OeAUUj7HzCXRVU3r884yGN9Y+eoW7Bulmcc5LG+Wc6Zz83lTaQd+g3tezAkNCSi
+        fQ+GhIZEtO/BkNCQiPY9GGbCMBOGmTDMhGGe8voAx36iDNCZYEYAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="txt_searchClient.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAArYAAAAoCAYAAAAL8Ln2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -872,27 +884,30 @@
 </value>
   </data>
   <metadata name="savingAccountTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>583, 17</value>
+    <value>725, 17</value>
   </metadata>
   <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>828, 17</value>
+    <value>970, 17</value>
   </metadata>
   <metadata name="accountTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1140, 58</value>
+    <value>17, 99</value>
   </metadata>
   <metadata name="branchTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>443, 80</value>
+    <value>873, 99</value>
   </metadata>
   <metadata name="checkingAccountTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1303, 17</value>
+    <value>17, 58</value>
   </metadata>
   <metadata name="customerTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>722, 58</value>
+    <value>966, 58</value>
   </metadata>
   <metadata name="loanAccountTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>273, 58</value>
+    <value>517, 58</value>
   </metadata>
   <metadata name="customerAndAccountTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 165</value>
+    <value>731, 140</value>
+  </metadata>
+  <metadata name="toggleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>583, 17</value>
   </metadata>
 </root>

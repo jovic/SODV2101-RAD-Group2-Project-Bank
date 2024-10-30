@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace Bank
@@ -45,6 +46,7 @@ namespace Bank
                     if (Int32.Parse(employeeDataGridView1.Rows[0].Cells[2].Value.ToString()) > 3)
                     {
                         AccountantForm frm_Main = new AccountantForm(details);
+                        //showForms(frm_Main);
                         frm_Main.Show();
                         this.Hide();
                     }
@@ -77,10 +79,7 @@ namespace Bank
             testingValues();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
         private void testingValues()
         {
@@ -97,6 +96,35 @@ namespace Bank
             };
 
             timer.Start();
+        }
+
+        public void showForms(Form form)
+        {
+
+            // Create the splash screen form
+            using (var splashScreen = new SplashScreen())
+            {
+                splashScreen.TopMost = true;
+                splashScreen.Show();
+
+                // Set up the BackgroundWorker to load resources
+                var backgroundWorker = new BackgroundWorker();
+                backgroundWorker.DoWork += (s, e) =>
+                {
+                    // Simulate resource loading
+                    System.Threading.Thread.Sleep(3000);  // Simulating a delay
+                };
+
+                backgroundWorker.RunWorkerCompleted += (s, e) =>
+                {
+                    splashScreen.Close(); // Close splash screen after loading
+                };
+
+                // Start the loading process
+                backgroundWorker.RunWorkerAsync();
+
+                form.Show();  // Replace MainForm with your main form
+            }
         }
 
     }

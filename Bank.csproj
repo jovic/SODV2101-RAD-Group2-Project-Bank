@@ -456,5 +456,11 @@
   <ItemGroup>
     <None Include="Resources\apply_32x321.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out_4720772 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-button_10461145.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

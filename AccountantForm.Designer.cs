@@ -110,6 +110,7 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_left_outer = new System.Windows.Forms.Panel();
             this.pnl_left_inner = new System.Windows.Forms.Panel();
+            this.btn_logout = new DevExpress.XtraEditors.SimpleButton();
             this.info = new DevExpress.XtraEditors.SimpleButton();
             this.panel7 = new System.Windows.Forms.Panel();
             this.nav_statistics = new System.Windows.Forms.Button();
@@ -378,6 +379,7 @@
             this.btn_selectClient = new DevExpress.XtraEditors.SimpleButton();
             this.txt_searchClient = new Bunifu.UI.WinForms.BunifuTextBox();
             this.customerAndAccountTableAdapter = new Bank.DB_BankDataSetTableAdapters.CustomerAndAccountTableAdapter();
+            this.toggleTimer = new System.Windows.Forms.Timer(this.components);
             fullNameLabel = new System.Windows.Forms.Label();
             homeAddressLabel = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
@@ -910,6 +912,7 @@
             this.pnl_left_outer.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_left_outer.Location = new System.Drawing.Point(0, 0);
             this.pnl_left_outer.MaximumSize = new System.Drawing.Size(222, 0);
+            this.pnl_left_outer.MinimumSize = new System.Drawing.Size(85, 0);
             this.pnl_left_outer.Name = "pnl_left_outer";
             this.pnl_left_outer.Padding = new System.Windows.Forms.Padding(13);
             this.pnl_left_outer.Size = new System.Drawing.Size(222, 1055);
@@ -918,6 +921,7 @@
             // pnl_left_inner
             // 
             this.pnl_left_inner.BackColor = System.Drawing.Color.Gainsboro;
+            this.pnl_left_inner.Controls.Add(this.btn_logout);
             this.pnl_left_inner.Controls.Add(this.info);
             this.pnl_left_inner.Controls.Add(this.panel7);
             this.pnl_left_inner.Controls.Add(this.panel6);
@@ -933,10 +937,27 @@
             this.pnl_left_inner.Size = new System.Drawing.Size(196, 1029);
             this.pnl_left_inner.TabIndex = 1;
             // 
+            // btn_logout
+            // 
+            this.btn_logout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_logout.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btn_logout.Appearance.Options.UseFont = true;
+            this.btn_logout.Appearance.Options.UseTextOptions = true;
+            this.btn_logout.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            this.btn_logout.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btn_logout.Location = new System.Drawing.Point(1, 987);
+            this.btn_logout.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
+            this.btn_logout.Size = new System.Drawing.Size(192, 38);
+            this.btn_logout.TabIndex = 11;
+            this.btn_logout.Text = " Logout";
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
+            // 
             // info
             // 
             this.info.ImageOptions.Image = global::Bank.Properties.Resources.info_32x32;
-            this.info.Location = new System.Drawing.Point(27, 751);
+            this.info.Location = new System.Drawing.Point(75, 637);
             this.info.Name = "info";
             this.info.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.info.Size = new System.Drawing.Size(42, 30);
@@ -1113,15 +1134,17 @@
             // 
             // btn_toggle
             // 
+            this.btn_toggle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_toggle.FlatAppearance.BorderSize = 0;
             this.btn_toggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_toggle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_toggle.Location = new System.Drawing.Point(159, 50);
+            this.btn_toggle.Location = new System.Drawing.Point(159, 61);
             this.btn_toggle.Name = "btn_toggle";
             this.btn_toggle.Size = new System.Drawing.Size(34, 39);
             this.btn_toggle.TabIndex = 3;
             this.btn_toggle.Text = "☰";
             this.btn_toggle.UseVisualStyleBackColor = true;
+            this.btn_toggle.Click += new System.EventHandler(this.btn_toggle_Click);
             // 
             // pictureBox1
             // 
@@ -1320,6 +1343,7 @@
             // btn_exit
             // 
             this.btn_exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_exit.BackColor = System.Drawing.Color.Transparent;
             this.btn_exit.FlatAppearance.BorderSize = 0;
             this.btn_exit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_exit.Location = new System.Drawing.Point(1651, -3);
@@ -1327,7 +1351,7 @@
             this.btn_exit.Size = new System.Drawing.Size(34, 39);
             this.btn_exit.TabIndex = 6;
             this.btn_exit.Text = "X";
-            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // simpleButton1
@@ -4472,6 +4496,11 @@
             // 
             this.customerAndAccountTableAdapter.ClearBeforeFill = true;
             // 
+            // toggleTimer
+            // 
+            this.toggleTimer.Interval = 10;
+            this.toggleTimer.Tick += new System.EventHandler(this.toggleTimer_Tick);
+            // 
             // AccountantForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -4913,6 +4942,8 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.DataGridView dataGridViewRates;
         private DevExpress.XtraCharts.ChartControl chartControl1;
+        private System.Windows.Forms.Timer toggleTimer;
+        private DevExpress.XtraEditors.SimpleButton btn_logout;
     }
 }
 #endregion  

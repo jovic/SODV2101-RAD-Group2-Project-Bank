@@ -443,6 +443,16 @@ namespace Bank.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap log_out_4720772__1_ {
+            get {
+                object obj = ResourceManager.GetObject("log-out_4720772 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map {
             get {
                 object obj = ResourceManager.GetObject("map", resourceCulture);
@@ -566,6 +576,16 @@ namespace Bank.Properties {
         internal static System.Drawing.Bitmap plaza {
             get {
                 object obj = ResourceManager.GetObject("plaza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap power_button_10461145 {
+            get {
+                object obj = ResourceManager.GetObject("power-button_10461145", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -23,6 +23,7 @@ namespace Bank
         Panel[] outerPanels;
         Button[] navButtons;
         DataGridView[] dgv;
+        private bool toggle=false;
         private string dateToday = DateTime.UtcNow.ToString();
         private int _accountBranchID, _deposit, _loan;
         private static readonly string apiUrl = "http://api.exchangeratesapi.io/v1/latest?access_key=fd6f67d35cd5a99a5c7d6dafced15bc8";
@@ -491,6 +492,40 @@ namespace Bank
             }
             else
                 set.showMessageError(this, $"Account Number : {text} does not exist.", "Try Again");
+        }
+
+        private void btn_toggle_Click(object sender, EventArgs e)
+        {
+            toggleTimer.Start();
+        }
+
+        private void toggleTimer_Tick(object sender, EventArgs e)
+        {
+            if(!toggle)
+            {
+                if (pnl_left_outer.Width > pnl_left_outer.MinimumSize.Width)
+                    pnl_left_outer.Width-=10;
+                else
+                {
+                    toggleTimer.Stop();
+                    toggle = true;
+                }
+            }
+            else
+            {
+                if (pnl_left_outer.Width <pnl_left_outer.MaximumSize.Width)
+                    pnl_left_outer.Width += 10;
+                else
+                {
+                    toggleTimer.Stop();
+                    toggle = false;
+                }
+            }
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
 
         private void savingAccountDataGridView_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
