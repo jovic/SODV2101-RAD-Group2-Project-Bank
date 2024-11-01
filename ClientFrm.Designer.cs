@@ -1572,7 +1572,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -1581,13 +1581,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -1602,14 +1602,14 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -1617,7 +1617,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -1626,13 +1626,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -1640,7 +1640,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorDeleteItem
@@ -1649,7 +1649,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // savingAccountBindingNavigatorSaveItem
@@ -1657,7 +1657,7 @@
             this.savingAccountBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.savingAccountBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("savingAccountBindingNavigatorSaveItem.Image")));
             this.savingAccountBindingNavigatorSaveItem.Name = "savingAccountBindingNavigatorSaveItem";
-            this.savingAccountBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
+            this.savingAccountBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.savingAccountBindingNavigatorSaveItem.Text = "Save Data";
             this.savingAccountBindingNavigatorSaveItem.Click += new System.EventHandler(this.savingAccountBindingNavigatorSaveItem_Click);
             // 
@@ -1689,7 +1689,7 @@
             this.savingAccountBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.savingAccountBindingNavigator.Name = "savingAccountBindingNavigator";
             this.savingAccountBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.savingAccountBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.savingAccountBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.savingAccountBindingNavigator.TabIndex = 1;
             this.savingAccountBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1721,7 +1721,7 @@
             this.checkingbindingNavigator.MovePreviousItem = this.toolStripButton4;
             this.checkingbindingNavigator.Name = "checkingbindingNavigator";
             this.checkingbindingNavigator.PositionItem = this.toolStripTextBox1;
-            this.checkingbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.checkingbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.checkingbindingNavigator.TabIndex = 2;
             this.checkingbindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1731,13 +1731,13 @@
             this.checkingbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorAddItem.Image")));
             this.checkingbindingNavigatorAddItem.Name = "checkingbindingNavigatorAddItem";
             this.checkingbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.checkingbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorAddItem.Text = "Add new";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(45, 28);
+            this.toolStripLabel1.Size = new System.Drawing.Size(45, 24);
             this.toolStripLabel1.Text = "of {0}";
             this.toolStripLabel1.ToolTipText = "Total number of items";
             // 
@@ -1747,7 +1747,7 @@
             this.checkingbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorDeleteItem.Image")));
             this.checkingbindingNavigatorDeleteItem.Name = "checkingbindingNavigatorDeleteItem";
             this.checkingbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.checkingbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorDeleteItem.Text = "Delete";
             // 
             // toolStripButton3
@@ -1756,7 +1756,7 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton3.Text = "Move first";
             // 
             // toolStripButton4
@@ -1765,13 +1765,13 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton4.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton4.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton4.Text = "Move previous";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripTextBox1
             // 
@@ -1786,7 +1786,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton5
             // 
@@ -1794,7 +1794,7 @@
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton5.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton5.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton5.Text = "Move next";
             // 
             // toolStripButton6
@@ -1803,20 +1803,20 @@
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton6.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton6.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton6.Text = "Move last";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // checkingbindingNavigatorSaveItem
             // 
             this.checkingbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.checkingbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("checkingbindingNavigatorSaveItem.Image")));
             this.checkingbindingNavigatorSaveItem.Name = "checkingbindingNavigatorSaveItem";
-            this.checkingbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
+            this.checkingbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.checkingbindingNavigatorSaveItem.Text = "Save Data";
             this.checkingbindingNavigatorSaveItem.Click += new System.EventHandler(this.checkingbindingNavigatorSaveItem_Click);
             // 
@@ -2058,7 +2058,7 @@
             this.accountbindingNavigator.MovePreviousItem = this.toolStripButton8;
             this.accountbindingNavigator.Name = "accountbindingNavigator";
             this.accountbindingNavigator.PositionItem = this.toolStripTextBox2;
-            this.accountbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.accountbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.accountbindingNavigator.TabIndex = 14;
             this.accountbindingNavigator.Text = "bindingNavigator1";
             // 
@@ -2068,13 +2068,13 @@
             this.accountbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("accountbindingNavigatorAddItem.Image")));
             this.accountbindingNavigatorAddItem.Name = "accountbindingNavigatorAddItem";
             this.accountbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.accountbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 28);
+            this.accountbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorAddItem.Text = "Add new";
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(45, 28);
+            this.toolStripLabel2.Size = new System.Drawing.Size(45, 24);
             this.toolStripLabel2.Text = "of {0}";
             this.toolStripLabel2.ToolTipText = "Total number of items";
             // 
@@ -2084,7 +2084,7 @@
             this.accountbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("accountbindingNavigatorDeleteItem.Image")));
             this.accountbindingNavigatorDeleteItem.Name = "accountbindingNavigatorDeleteItem";
             this.accountbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.accountbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
+            this.accountbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorDeleteItem.Text = "Delete";
             // 
             // toolStripButton7
@@ -2093,7 +2093,7 @@
             this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton7.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton7.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton7.Text = "Move first";
             // 
             // toolStripButton8
@@ -2102,13 +2102,13 @@
             this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
             this.toolStripButton8.Name = "toolStripButton8";
             this.toolStripButton8.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton8.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton8.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton8.Text = "Move previous";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripTextBox2
             // 
@@ -2123,7 +2123,7 @@
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton9
             // 
@@ -2131,7 +2131,7 @@
             this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
             this.toolStripButton9.Name = "toolStripButton9";
             this.toolStripButton9.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton9.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton9.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton9.Text = "Move next";
             // 
             // toolStripButton10
@@ -2140,20 +2140,20 @@
             this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
             this.toolStripButton10.Name = "toolStripButton10";
             this.toolStripButton10.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton10.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton10.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton10.Text = "Move last";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
             // 
             // accountbindingNavigatorSaveItem
             // 
             this.accountbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.accountbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("accountbindingNavigatorSaveItem.Image")));
             this.accountbindingNavigatorSaveItem.Name = "accountbindingNavigatorSaveItem";
-            this.accountbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
+            this.accountbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorSaveItem.Text = "Save Data";
             this.accountbindingNavigatorSaveItem.Click += new System.EventHandler(this.accountbindingNavigatorSaveItem_Click);
             // 

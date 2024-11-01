@@ -1,5 +1,8 @@
-﻿using DevExpress.XtraEditors;
+﻿using Bank.DB_BankDataSetTableAdapters;
+using DevExpress.DataAccess.Native.Data;
+using DevExpress.XtraEditors;
 using System;
+using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -125,6 +128,43 @@ namespace Bank
         private void btn_nav_reports_Click(object sender, EventArgs e)
         {
             setNavButtons(navButtons, sender);
+            set.showPanel(pnl_MI_reports,this,DockStyle.Fill);
+
+            XtraReport1 report = new XtraReport1();
+            report.DataSource = GetData();
+            documentViewer1.DocumentSource = report;
+            report.CreateDocument();
+        }
+
+        private System.Data.DataTable GetData()
+        {
+            // Instantiate your DataSet
+            DB_BankDataSet dataSet = new DB_BankDataSet();
+
+            // Instantiate the TableAdapter
+            var adapter = new DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
+
+            // Fill the strongly-typed DataTable
+            adapter.Fill(dataSet.DisplayEmployee);
+
+            // Create a standard DataTable and copy the data
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+
+            // Copy columns
+            foreach (System.Data.DataColumn column in dataSet.DisplayEmployee.Columns)
+            {
+                dataTable.Columns.Add(column.ColumnName, column.DataType);
+            }
+
+            // Copy rows
+            foreach (DataRow row in dataSet.DisplayEmployee.Rows)
+            {
+                DataRow newRow = dataTable.NewRow();
+                newRow.ItemArray = row.ItemArray;
+                dataTable.Rows.Add(newRow);
+            }
+
+            return dataTable; // Return a standard DataTable
         }
 
         private void btn_close_Click(object sender, EventArgs e)
@@ -132,7 +172,7 @@ namespace Bank
             DialogResult = MessageBox.Show("You are about to close the Application.\r\nDo you want to proceed?", "Application Closing", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.OK)
             {
-                Application.Exit();
+                Application.Restart();
             }
 
         }

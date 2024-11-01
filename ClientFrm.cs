@@ -10,6 +10,7 @@ namespace Bank
     {
         Settings set = new Settings();
         TransferDetails transferDetails;
+        UserDetails userDetails;
         Panel[] MainPanels;
         Panel[] InnerPanels;
         Panel[] MainInnerPanels;
@@ -18,11 +19,12 @@ namespace Bank
         private string dateToday = DateTime.UtcNow.ToString();
         private int id;
         string password = null;
-        public ClientFrm()
+        public ClientFrm(UserDetails userDetails)
         {
             InitializeComponent();
-            id = 85;
             setDefaults();
+            this.userDetails = userDetails;
+            id = userDetails.Id;
         }
         public void setDefaults()
         {
@@ -40,9 +42,7 @@ namespace Bank
 
         private void ClientFrm_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Account' table. You can move, or remove it, as needed.
             this.accountTableAdapter.FillByAccountID(this.dB_BankDataSet.Account,id);
-
             this.checkingAccountTableAdapter.FillByAccountID(this.dB_BankDataSet.CheckingAccount, id);
             this.savingAccountTableAdapter.FillByID(this.dB_BankDataSet.SavingAccount, id);
             this.loanAccountTableAdapter.FillByID(this.dB_BankDataSet.LoanAccount,id);
@@ -51,7 +51,18 @@ namespace Bank
             Totals(lbl_CheckingTotal, checkingAccountDataGridView, 2);
             Totals(lbl_loanTotal, loanAccountDataGridView, 2);
 
-            password = passwordTextEdit.Text; 
+            password = passwordTextEdit.Text;
+
+            string str = DateTime.Now.ToString("tt");
+            if (str == "AM")
+                lbl_greetings.Text = "Good Morning!";
+            else
+                lbl_greetings.Text = "Good Evening!";
+
+            lbl_name.Text = userDetails.Name;
+            lbl_address.Text = userDetails.Role;
+            lbl_accountNumber.Text = userDetails.Id.ToString();
+
         }
 
         private void setPanels(Panel[] pnl, int radius, Color color, Padding pad)

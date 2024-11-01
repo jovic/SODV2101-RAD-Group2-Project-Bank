@@ -26,14 +26,20 @@ namespace Bank
 
             if (!string.IsNullOrEmpty(uname) && !string.IsNullOrEmpty(pass))
             {
-                this.accountTableAdapter.FillByUsernameAndPassword(this.dB_BankDataSet.Account, Int32.Parse(uname), pass);
                 this.displayEmployeeTableAdapter.FillByUserAccount(this.dB_BankDataSet1.DisplayEmployee, Int32.Parse(uname), pass);
                 this.employeeTableAdapter.FillByUsernameAndPassword(this.dB_BankDataSet.Employee, Int32.Parse(uname), pass);
+                this.clientLoginTableAdapter.ClientLogin(this.dB_BankDataSet.ClientLogin, Int32.Parse(uname), pass);
 
-                if (accountDataGridView.Rows.Count > 1)
+                if (clientLoginDataGridView.Rows.Count > 1)
                 {
-                    set.showMessageSuccess(this, $"Login as Client");
-                    //Client to Do
+                    details.Id = Int32.Parse(uname);
+                    details.Name = clientLoginDataGridView.Rows[0].Cells[0].Value.ToString();
+                    details.Role = clientLoginDataGridView.Rows[0].Cells[1].Value.ToString();
+                    details.BranchID = Int32.Parse(clientLoginDataGridView.Rows[0].Cells[2].Value.ToString());
+
+                    ClientFrm clientFrm = new ClientFrm(details);
+                    clientFrm.Show();
+                    this.Hide();
 
                 }
                 else if (employeeDataGridView.Rows.Count > 1)
@@ -46,7 +52,6 @@ namespace Bank
                     if (Int32.Parse(employeeDataGridView1.Rows[0].Cells[2].Value.ToString()) > 3)
                     {
                         AccountantForm frm_Main = new AccountantForm(details);
-                        //showForms(frm_Main);
                         frm_Main.Show();
                         this.Hide();
                     }
@@ -56,7 +61,7 @@ namespace Bank
                         frm_Main.Show();
                         this.Hide();
                     }
-                }
+                } 
                 else
                     set.showMessageError(this, "Incorrect Username or Password.", "OK");
             }
@@ -76,7 +81,7 @@ namespace Bank
         private void LoginForm_Load(object sender, EventArgs e)
         {
 
-            testingValues();
+            //testingValues();
         }
 
 
@@ -97,35 +102,6 @@ namespace Bank
 
             timer.Start();
         }
-
-        public void showForms(Form form)
-        {
-
-            // Create the splash screen form
-            using (var splashScreen = new SplashScreen())
-            {
-                splashScreen.TopMost = true;
-                splashScreen.Show();
-
-                // Set up the BackgroundWorker to load resources
-                var backgroundWorker = new BackgroundWorker();
-                backgroundWorker.DoWork += (s, e) =>
-                {
-                    // Simulate resource loading
-                    System.Threading.Thread.Sleep(3000);  // Simulating a delay
-                };
-
-                backgroundWorker.RunWorkerCompleted += (s, e) =>
-                {
-                    splashScreen.Close(); // Close splash screen after loading
-                };
-
-                // Start the loading process
-                backgroundWorker.RunWorkerAsync();
-
-                form.Show();  // Replace MainForm with your main form
-            }
-        }
-
+ 
     }
 }

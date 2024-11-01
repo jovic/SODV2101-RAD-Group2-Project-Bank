@@ -539,12 +539,7 @@ namespace Bank
                 savingsbindingNavigatorDeleteItem.PerformClick();
                 set.showMessageSuccess(this, "Transaction successfully deleted.");
             }
-
-            
-            
         }
-
-      
 
         private void updateBank()
         {

@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle2 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -106,6 +106,7 @@
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Main_innerPanel = new System.Windows.Forms.Panel();
+            this.pnl_MI_reports = new System.Windows.Forms.Panel();
             this.pnl_MI_dashboard = new System.Windows.Forms.Panel();
             this.calendarControl1 = new DevExpress.XtraEditors.Controls.CalendarControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
@@ -347,6 +348,7 @@
             this.employeeTypeTableAdapter = new Bank.DB_BankDataSetTableAdapters.EmployeeTypeTableAdapter();
             this.displayEmployeeTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
             this.displayBranchTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayBranchTableAdapter();
+            this.documentViewer1 = new DevExpress.XtraPrinting.Preview.DocumentViewer();
             branchIDLabel = new System.Windows.Forms.Label();
             locationIDLabel = new System.Windows.Forms.Label();
             cityIDLabel = new System.Windows.Forms.Label();
@@ -395,6 +397,7 @@
             this.bindingNavigator1.SuspendLayout();
             this.Main_Panel.SuspendLayout();
             this.Main_innerPanel.SuspendLayout();
+            this.pnl_MI_reports.SuspendLayout();
             this.pnl_MI_dashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendarControl1.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
@@ -441,9 +444,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
@@ -859,10 +862,10 @@
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel10.Controls.Add(this.btn_nav_manager);
-            this.panel10.Location = new System.Drawing.Point(6, 320);
+            this.panel10.Location = new System.Drawing.Point(6, 325);
             this.panel10.Margin = new System.Windows.Forms.Padding(0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(887, 42);
+            this.panel10.Size = new System.Drawing.Size(887, 53);
             this.panel10.TabIndex = 20;
             // 
             // btn_nav_manager
@@ -877,7 +880,7 @@
             this.btn_nav_manager.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_manager.Name = "btn_nav_manager";
             this.btn_nav_manager.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_manager.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_manager.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_manager.TabIndex = 13;
             this.btn_nav_manager.Text = "      Managers";
             this.btn_nav_manager.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -888,10 +891,10 @@
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel6.Controls.Add(this.btn_nav_reports);
-            this.panel6.Location = new System.Drawing.Point(4, 472);
+            this.panel6.Location = new System.Drawing.Point(4, 484);
             this.panel6.Margin = new System.Windows.Forms.Padding(0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(887, 42);
+            this.panel6.Size = new System.Drawing.Size(887, 53);
             this.panel6.TabIndex = 19;
             // 
             // btn_nav_reports
@@ -906,7 +909,7 @@
             this.btn_nav_reports.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_reports.Name = "btn_nav_reports";
             this.btn_nav_reports.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_reports.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_reports.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_reports.TabIndex = 13;
             this.btn_nav_reports.Text = "      Reports";
             this.btn_nav_reports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -917,10 +920,10 @@
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel5.Controls.Add(this.btn_nav_statistics);
-            this.panel5.Location = new System.Drawing.Point(6, 421);
+            this.panel5.Location = new System.Drawing.Point(6, 431);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(887, 42);
+            this.panel5.Size = new System.Drawing.Size(887, 53);
             this.panel5.TabIndex = 19;
             // 
             // btn_nav_statistics
@@ -935,7 +938,7 @@
             this.btn_nav_statistics.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_statistics.Name = "btn_nav_statistics";
             this.btn_nav_statistics.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_statistics.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_statistics.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_statistics.TabIndex = 13;
             this.btn_nav_statistics.Text = "      Statistics";
             this.btn_nav_statistics.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -946,10 +949,10 @@
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel4.Controls.Add(this.btn_nav_employee);
-            this.panel4.Location = new System.Drawing.Point(6, 370);
+            this.panel4.Location = new System.Drawing.Point(6, 378);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(887, 42);
+            this.panel4.Size = new System.Drawing.Size(887, 53);
             this.panel4.TabIndex = 19;
             // 
             // btn_nav_employee
@@ -964,7 +967,7 @@
             this.btn_nav_employee.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_employee.Name = "btn_nav_employee";
             this.btn_nav_employee.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_employee.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_employee.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_employee.TabIndex = 13;
             this.btn_nav_employee.Text = "      Employees";
             this.btn_nav_employee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -975,10 +978,10 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel3.Controls.Add(this.btn_nav_location);
-            this.panel3.Location = new System.Drawing.Point(6, 269);
+            this.panel3.Location = new System.Drawing.Point(6, 273);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(887, 42);
+            this.panel3.Size = new System.Drawing.Size(887, 53);
             this.panel3.TabIndex = 19;
             // 
             // btn_nav_location
@@ -993,7 +996,7 @@
             this.btn_nav_location.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_location.Name = "btn_nav_location";
             this.btn_nav_location.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_location.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_location.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_location.TabIndex = 13;
             this.btn_nav_location.Text = "      Location";
             this.btn_nav_location.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1004,10 +1007,10 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Controls.Add(this.btn_nav_city);
-            this.panel2.Location = new System.Drawing.Point(6, 217);
+            this.panel2.Location = new System.Drawing.Point(6, 220);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(887, 42);
+            this.panel2.Size = new System.Drawing.Size(887, 53);
             this.panel2.TabIndex = 19;
             // 
             // btn_nav_city
@@ -1022,7 +1025,7 @@
             this.btn_nav_city.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_city.Name = "btn_nav_city";
             this.btn_nav_city.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_city.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_city.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_city.TabIndex = 13;
             this.btn_nav_city.Text = "      City";
             this.btn_nav_city.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1033,10 +1036,10 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Controls.Add(this.btn_nav_Branch);
-            this.panel1.Location = new System.Drawing.Point(6, 166);
+            this.panel1.Location = new System.Drawing.Point(6, 167);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(887, 42);
+            this.panel1.Size = new System.Drawing.Size(887, 53);
             this.panel1.TabIndex = 19;
             // 
             // btn_nav_Branch
@@ -1051,7 +1054,7 @@
             this.btn_nav_Branch.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_Branch.Name = "btn_nav_Branch";
             this.btn_nav_Branch.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_Branch.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_Branch.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_Branch.TabIndex = 13;
             this.btn_nav_Branch.Text = "      Branch";
             this.btn_nav_Branch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1065,7 +1068,7 @@
             this.panel9.Location = new System.Drawing.Point(6, 114);
             this.panel9.Margin = new System.Windows.Forms.Padding(0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(887, 42);
+            this.panel9.Size = new System.Drawing.Size(887, 53);
             this.panel9.TabIndex = 18;
             // 
             // btn_nav_dashboard
@@ -1080,7 +1083,7 @@
             this.btn_nav_dashboard.Location = new System.Drawing.Point(0, 0);
             this.btn_nav_dashboard.Name = "btn_nav_dashboard";
             this.btn_nav_dashboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_nav_dashboard.Size = new System.Drawing.Size(974, 42);
+            this.btn_nav_dashboard.Size = new System.Drawing.Size(974, 53);
             this.btn_nav_dashboard.TabIndex = 13;
             this.btn_nav_dashboard.Text = "      Dashboard";
             this.btn_nav_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1172,7 +1175,7 @@
             this.bindingNavigator1.MovePreviousItem = this.toolStripButton4;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.toolStripTextBox1;
-            this.bindingNavigator1.Size = new System.Drawing.Size(331, 27);
+            this.bindingNavigator1.Size = new System.Drawing.Size(331, 31);
             this.bindingNavigator1.TabIndex = 4;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -1285,6 +1288,7 @@
             // 
             this.Main_innerPanel.AutoScroll = true;
             this.Main_innerPanel.BackColor = System.Drawing.Color.Transparent;
+            this.Main_innerPanel.Controls.Add(this.pnl_MI_reports);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_dashboard);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_about);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_branch);
@@ -1303,6 +1307,14 @@
             this.Main_innerPanel.Padding = new System.Windows.Forms.Padding(15);
             this.Main_innerPanel.Size = new System.Drawing.Size(1075, 964);
             this.Main_innerPanel.TabIndex = 0;
+            // 
+            // pnl_MI_reports
+            // 
+            this.pnl_MI_reports.Controls.Add(this.documentViewer1);
+            this.pnl_MI_reports.Location = new System.Drawing.Point(625, 72);
+            this.pnl_MI_reports.Name = "pnl_MI_reports";
+            this.pnl_MI_reports.Size = new System.Drawing.Size(442, 269);
+            this.pnl_MI_reports.TabIndex = 12;
             // 
             // pnl_MI_dashboard
             // 
@@ -1333,7 +1345,7 @@
             this.calendarControl1.Location = new System.Drawing.Point(0, 99);
             this.calendarControl1.Name = "calendarControl1";
             this.calendarControl1.ShowWeekNumbers = true;
-            this.calendarControl1.Size = new System.Drawing.Size(357, 291);
+            this.calendarControl1.Size = new System.Drawing.Size(338, 291);
             this.calendarControl1.TabIndex = 4;
             // 
             // layoutControl1
@@ -2152,36 +2164,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram1.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram1.AxisX.Title.Text = "Branch Names";
-            xyDiagram1.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram1.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram1.AxisY.Title.Text = "Amount";
-            xyDiagram1.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram1;
+            xyDiagram2.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram2.AxisX.Title.Text = "Branch Names";
+            xyDiagram2.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram2.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram2.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram2.AxisY.Title.Text = "Amount";
+            xyDiagram2.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram2;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series1.ArgumentDataMember = "BranchName";
-            series1.DataSource = this.branchBindingSource;
-            series1.Name = "Deposits";
-            series1.ValueDataMembersSerializable = "Deposit";
-            series2.ArgumentDataMember = "BranchName";
-            series2.DataSource = this.branchBindingSource;
-            series2.Name = "Loans";
-            series2.ValueDataMembersSerializable = "Loan";
+            series3.ArgumentDataMember = "BranchName";
+            series3.DataSource = this.branchBindingSource;
+            series3.Name = "Deposits";
+            series3.ValueDataMembersSerializable = "Deposit";
+            series4.ArgumentDataMember = "BranchName";
+            series4.DataSource = this.branchBindingSource;
+            series4.Name = "Loans";
+            series4.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1,
-        series2};
+        series3,
+        series4};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle1.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle1.Text = "Bank Branches Statistics";
+            chartTitle2.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle2.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle1});
+            chartTitle2});
             // 
             // panel22
             // 
@@ -2314,7 +2326,7 @@
             this.branchBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.branchBindingNavigator.Name = "branchBindingNavigator";
             this.branchBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 31);
             this.branchBindingNavigator.TabIndex = 3;
             this.branchBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -2514,7 +2526,7 @@
             this.ManagerbindingNavigator.MovePreviousItem = this.toolStripButton23;
             this.ManagerbindingNavigator.Name = "ManagerbindingNavigator";
             this.ManagerbindingNavigator.PositionItem = this.toolStripTextBox4;
-            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 31);
             this.ManagerbindingNavigator.TabIndex = 8;
             this.ManagerbindingNavigator.Text = "bindingNavigator4";
             // 
@@ -2759,7 +2771,7 @@
             this.employeeBindingNavigator.MovePreviousItem = this.toolStripButton19;
             this.employeeBindingNavigator.Name = "employeeBindingNavigator";
             this.employeeBindingNavigator.PositionItem = this.employeeBindingNavigatorIndex;
-            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 31);
             this.employeeBindingNavigator.TabIndex = 8;
             this.employeeBindingNavigator.Text = "bindingNavigator4";
             // 
@@ -2983,7 +2995,7 @@
             this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
             this.bindingNavigator2.Name = "bindingNavigator2";
             this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator2.Size = new System.Drawing.Size(331, 27);
+            this.bindingNavigator2.Size = new System.Drawing.Size(331, 31);
             this.bindingNavigator2.TabIndex = 6;
             this.bindingNavigator2.Text = "bindingNavigator2";
             // 
@@ -3121,7 +3133,7 @@
             this.bindingNavigator3.MovePreviousItem = this.toolStripButton15;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator3.Size = new System.Drawing.Size(331, 27);
+            this.bindingNavigator3.Size = new System.Drawing.Size(331, 31);
             this.bindingNavigator3.TabIndex = 6;
             this.bindingNavigator3.Text = "bindingNavigator3";
             // 
@@ -4049,6 +4061,16 @@
             // 
             this.displayBranchTableAdapter.ClearBeforeFill = true;
             // 
+            // documentViewer1
+            // 
+            this.documentViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.documentViewer1.IsMetric = false;
+            this.documentViewer1.Location = new System.Drawing.Point(0, 0);
+            this.documentViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.documentViewer1.Name = "documentViewer1";
+            this.documentViewer1.Size = new System.Drawing.Size(442, 269);
+            this.documentViewer1.TabIndex = 0;
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4088,6 +4110,7 @@
             this.Main_Panel.ResumeLayout(false);
             this.Main_innerPanel.ResumeLayout(false);
             this.Main_innerPanel.PerformLayout();
+            this.pnl_MI_reports.ResumeLayout(false);
             this.pnl_MI_dashboard.ResumeLayout(false);
             this.pnl_MI_dashboard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendarControl1.CalendarTimeProperties)).EndInit();
@@ -4139,9 +4162,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
@@ -4514,5 +4537,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn homeAddressDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Password;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateStartedDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Panel pnl_MI_reports;
+        private DevExpress.XtraPrinting.Preview.DocumentViewer documentViewer1;
     }
 }

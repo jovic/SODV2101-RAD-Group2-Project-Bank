@@ -31,33 +31,21 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label accountIDLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.employeeDataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmployeeType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.accountIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.accountDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -72,12 +60,6 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.employeeDataGridView = new System.Windows.Forms.DataGridView();
-            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.branchNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.displayEmployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dB_BankDataSet1 = new Bank.DB_BankDataSet();
             this.employeeBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -102,28 +84,58 @@
             this.txt_uname = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.label5 = new System.Windows.Forms.Label();
+            this.clientLoginDataGridView = new System.Windows.Forms.DataGridView();
+            this.clientLoginBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dB_BankDataSet = new Bank.DB_BankDataSet();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.branchNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.displayEmployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dB_BankDataSet1 = new Bank.DB_BankDataSet();
             this.employeeTableAdapter = new Bank.DB_BankDataSetTableAdapters.EmployeeTableAdapter();
             this.tableAdapterManager = new Bank.DB_BankDataSetTableAdapters.TableAdapterManager();
             this.accountTableAdapter = new Bank.DB_BankDataSetTableAdapters.AccountTableAdapter();
             this.displayEmployeeTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
+            this.clientLoginTableAdapter = new Bank.DB_BankDataSetTableAdapters.ClientLoginTableAdapter();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BranchID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             accountIDLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).BeginInit();
             this.accountbindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).BeginInit();
             this.employeeBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clientLoginDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientLoginBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // accountIDLabel
@@ -143,6 +155,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btn_cancel);
@@ -162,16 +175,17 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.clientLoginDataGridView);
+            this.panel3.Controls.Add(this.accountDataGridView);
             this.panel3.Controls.Add(this.employeeDataGridView1);
             this.panel3.Controls.Add(accountIDLabel);
             this.panel3.Controls.Add(this.accountIDSpinEdit);
-            this.panel3.Controls.Add(this.accountDataGridView);
             this.panel3.Controls.Add(this.accountbindingNavigator);
             this.panel3.Controls.Add(this.employeeDataGridView);
             this.panel3.Controls.Add(this.employeeBindingNavigator);
             this.panel3.Location = new System.Drawing.Point(472, 29);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(793, 538);
+            this.panel3.Size = new System.Drawing.Size(793, 478);
             this.panel3.TabIndex = 9;
             // 
             // employeeDataGridView1
@@ -190,23 +204,6 @@
             this.employeeDataGridView1.Size = new System.Drawing.Size(300, 100);
             this.employeeDataGridView1.TabIndex = 36;
             // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "EmployeeID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "EmployeeID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "BranchID";
-            this.dataGridViewTextBoxColumn3.HeaderText = "BranchID";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
             // EmployeeType
             // 
             this.EmployeeType.DataPropertyName = "EmployeeType";
@@ -214,16 +211,6 @@
             this.EmployeeType.MinimumWidth = 6;
             this.EmployeeType.Name = "EmployeeType";
             this.EmployeeType.Width = 125;
-            // 
-            // employeeBindingSource
-            // 
-            this.employeeBindingSource.DataMember = "Employee";
-            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // dB_BankDataSet
-            // 
-            this.dB_BankDataSet.DataSetName = "DB_BankDataSet";
-            this.dB_BankDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // accountIDSpinEdit
             // 
@@ -240,23 +227,18 @@
             this.accountIDSpinEdit.Size = new System.Drawing.Size(125, 24);
             this.accountIDSpinEdit.TabIndex = 36;
             // 
-            // accountBindingSource
-            // 
-            this.accountBindingSource.DataMember = "Account";
-            this.accountBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // accountDataGridView
             // 
             this.accountDataGridView.AutoGenerateColumns = false;
             this.accountDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.accountDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn16,
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12,
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14,
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16});
+            this.dataGridViewTextBoxColumn15});
             this.accountDataGridView.DataSource = this.accountBindingSource;
             this.accountDataGridView.Location = new System.Drawing.Point(36, 284);
             this.accountDataGridView.Name = "accountDataGridView";
@@ -264,63 +246,6 @@
             this.accountDataGridView.RowTemplate.Height = 24;
             this.accountDataGridView.Size = new System.Drawing.Size(300, 204);
             this.accountDataGridView.TabIndex = 35;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "AccountID";
-            this.dataGridViewTextBoxColumn10.HeaderText = "AccountID";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "CustomerID";
-            this.dataGridViewTextBoxColumn11.HeaderText = "CustomerID";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "AccountType";
-            this.dataGridViewTextBoxColumn12.HeaderText = "AccountType";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "DateModefied";
-            this.dataGridViewTextBoxColumn13.HeaderText = "DateModefied";
-            this.dataGridViewTextBoxColumn13.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "BranchID";
-            this.dataGridViewTextBoxColumn14.HeaderText = "BranchID";
-            this.dataGridViewTextBoxColumn14.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "CardPIN";
-            this.dataGridViewTextBoxColumn15.HeaderText = "CardPIN";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Password";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Password";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Width = 125;
             // 
             // accountbindingNavigator
             // 
@@ -350,7 +275,7 @@
             this.accountbindingNavigator.MovePreviousItem = this.toolStripButton4;
             this.accountbindingNavigator.Name = "accountbindingNavigator";
             this.accountbindingNavigator.PositionItem = this.toolStripTextBox1;
-            this.accountbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.accountbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.accountbindingNavigator.TabIndex = 20;
             this.accountbindingNavigator.Text = "bindingNavigator1";
             // 
@@ -360,7 +285,7 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton1.Text = "Add new";
             // 
             // toolStripLabel1
@@ -465,49 +390,6 @@
             this.employeeDataGridView.Size = new System.Drawing.Size(300, 101);
             this.employeeDataGridView.TabIndex = 19;
             // 
-            // employeeIDDataGridViewTextBoxColumn
-            // 
-            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
-            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // employeeNameDataGridViewTextBoxColumn
-            // 
-            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "EmployeeName";
-            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "EmployeeName";
-            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
-            this.employeeNameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // descriptionDataGridViewTextBoxColumn
-            // 
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
-            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // branchNameDataGridViewTextBoxColumn
-            // 
-            this.branchNameDataGridViewTextBoxColumn.DataPropertyName = "BranchName";
-            this.branchNameDataGridViewTextBoxColumn.HeaderText = "BranchName";
-            this.branchNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.branchNameDataGridViewTextBoxColumn.Name = "branchNameDataGridViewTextBoxColumn";
-            this.branchNameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // displayEmployeeBindingSource
-            // 
-            this.displayEmployeeBindingSource.DataMember = "DisplayEmployee";
-            this.displayEmployeeBindingSource.DataSource = this.dB_BankDataSet1;
-            // 
-            // dB_BankDataSet1
-            // 
-            this.dB_BankDataSet1.DataSetName = "DB_BankDataSet";
-            this.dB_BankDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // employeeBindingNavigator
             // 
             this.employeeBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
@@ -536,7 +418,7 @@
             this.employeeBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employeeBindingNavigator.Name = "employeeBindingNavigator";
             this.employeeBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.employeeBindingNavigator.TabIndex = 3;
             this.employeeBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -745,26 +627,26 @@
             this.txt_password.Modified = false;
             this.txt_password.Multiline = false;
             this.txt_password.Name = "txt_password";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_password.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_password.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_password.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_password.OnIdleState = stateProperties4;
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_password.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_password.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_password.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Empty;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_password.OnIdleState = stateProperties20;
             this.txt_password.Padding = new System.Windows.Forms.Padding(3);
             this.txt_password.PasswordChar = '●';
             this.txt_password.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -819,26 +701,26 @@
             this.txt_uname.Modified = false;
             this.txt_uname.Multiline = false;
             this.txt_uname.Name = "txt_uname";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_uname.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_uname.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_uname.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_uname.OnIdleState = stateProperties8;
+            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties21.FillColor = System.Drawing.Color.Empty;
+            stateProperties21.ForeColor = System.Drawing.Color.Empty;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_uname.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_uname.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.FillColor = System.Drawing.Color.Empty;
+            stateProperties23.ForeColor = System.Drawing.Color.Empty;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_uname.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.Empty;
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_uname.OnIdleState = stateProperties24;
             this.txt_uname.Padding = new System.Windows.Forms.Padding(3);
             this.txt_uname.PasswordChar = '\0';
             this.txt_uname.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -876,6 +758,172 @@
             this.bunifuElipse2.ElipseRadius = 20;
             this.bunifuElipse2.TargetControl = this.panel1;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(32, 45);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "377";
+            this.label5.Visible = false;
+            // 
+            // clientLoginDataGridView
+            // 
+            this.clientLoginDataGridView.AutoGenerateColumns = false;
+            this.clientLoginDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.clientLoginDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn4,
+            this.BranchID,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7});
+            this.clientLoginDataGridView.DataSource = this.clientLoginBindingSource;
+            this.clientLoginDataGridView.Location = new System.Drawing.Point(346, 318);
+            this.clientLoginDataGridView.Name = "clientLoginDataGridView";
+            this.clientLoginDataGridView.RowHeadersWidth = 51;
+            this.clientLoginDataGridView.RowTemplate.Height = 24;
+            this.clientLoginDataGridView.Size = new System.Drawing.Size(228, 170);
+            this.clientLoginDataGridView.TabIndex = 36;
+            // 
+            // clientLoginBindingSource
+            // 
+            this.clientLoginBindingSource.DataMember = "ClientLogin";
+            this.clientLoginBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // dB_BankDataSet
+            // 
+            this.dB_BankDataSet.DataSetName = "DB_BankDataSet";
+            this.dB_BankDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "AccountID";
+            this.dataGridViewTextBoxColumn10.HeaderText = "AccountID";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Password";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Password";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "CustomerID";
+            this.dataGridViewTextBoxColumn11.HeaderText = "CustomerID";
+            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "AccountType";
+            this.dataGridViewTextBoxColumn12.HeaderText = "AccountType";
+            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "DateModefied";
+            this.dataGridViewTextBoxColumn13.HeaderText = "DateModefied";
+            this.dataGridViewTextBoxColumn13.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "BranchID";
+            this.dataGridViewTextBoxColumn14.HeaderText = "BranchID";
+            this.dataGridViewTextBoxColumn14.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "CardPIN";
+            this.dataGridViewTextBoxColumn15.HeaderText = "CardPIN";
+            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.Width = 125;
+            // 
+            // accountBindingSource
+            // 
+            this.accountBindingSource.DataMember = "Account";
+            this.accountBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "EmployeeID";
+            this.dataGridViewTextBoxColumn1.HeaderText = "EmployeeID";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "BranchID";
+            this.dataGridViewTextBoxColumn3.HeaderText = "BranchID";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // employeeBindingSource
+            // 
+            this.employeeBindingSource.DataMember = "Employee";
+            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // employeeIDDataGridViewTextBoxColumn
+            // 
+            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
+            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // employeeNameDataGridViewTextBoxColumn
+            // 
+            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "EmployeeName";
+            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "EmployeeName";
+            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
+            this.employeeNameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            this.descriptionDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // branchNameDataGridViewTextBoxColumn
+            // 
+            this.branchNameDataGridViewTextBoxColumn.DataPropertyName = "BranchName";
+            this.branchNameDataGridViewTextBoxColumn.HeaderText = "BranchName";
+            this.branchNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.branchNameDataGridViewTextBoxColumn.Name = "branchNameDataGridViewTextBoxColumn";
+            this.branchNameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // displayEmployeeBindingSource
+            // 
+            this.displayEmployeeBindingSource.DataMember = "DisplayEmployee";
+            this.displayEmployeeBindingSource.DataSource = this.dB_BankDataSet1;
+            // 
+            // dB_BankDataSet1
+            // 
+            this.dB_BankDataSet1.DataSetName = "DB_BankDataSet";
+            this.dB_BankDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // employeeTableAdapter
             // 
             this.employeeTableAdapter.ClearBeforeFill = true;
@@ -909,10 +957,63 @@
             // 
             this.displayEmployeeTableAdapter.ClearBeforeFill = true;
             // 
+            // clientLoginTableAdapter
+            // 
+            this.clientLoginTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "FullName";
+            this.dataGridViewTextBoxColumn2.HeaderText = "FullName";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "HomeAddress";
+            this.dataGridViewTextBoxColumn4.HeaderText = "HomeAddress";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 125;
+            // 
+            // BranchID
+            // 
+            this.BranchID.DataPropertyName = "BranchID";
+            this.BranchID.HeaderText = "BranchID";
+            this.BranchID.MinimumWidth = 6;
+            this.BranchID.Name = "BranchID";
+            this.BranchID.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "AccountID";
+            this.dataGridViewTextBoxColumn5.HeaderText = "AccountID";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "CustomerID";
+            this.dataGridViewTextBoxColumn6.HeaderText = "CustomerID";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Expr1";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Expr1";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 125;
+            // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(377, 621);
             this.Controls.Add(this.panel2);
@@ -926,22 +1027,24 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).EndInit();
             this.accountbindingNavigator.ResumeLayout(false);
             this.accountbindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).EndInit();
             this.employeeBindingNavigator.ResumeLayout(false);
             this.employeeBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.clientLoginDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientLoginBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dB_BankDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -996,13 +1099,6 @@
         private DB_BankDataSetTableAdapters.AccountTableAdapter accountTableAdapter;
         private System.Windows.Forms.BindingSource accountBindingSource;
         private System.Windows.Forms.DataGridView accountDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private DevExpress.XtraEditors.SpinEdit accountIDSpinEdit;
         private DB_BankDataSet dB_BankDataSet1;
         private System.Windows.Forms.BindingSource displayEmployeeBindingSource;
@@ -1015,5 +1111,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmployeeType;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.BindingSource clientLoginBindingSource;
+        private DB_BankDataSetTableAdapters.ClientLoginTableAdapter clientLoginTableAdapter;
+        private System.Windows.Forms.DataGridView clientLoginDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BranchID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
     }
 }

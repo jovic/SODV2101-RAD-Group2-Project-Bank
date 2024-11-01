@@ -62,6 +62,8 @@ namespace Bank {
         
         private CustomerAndAccountDataTable tableCustomerAndAccount;
         
+        private ClientLoginDataTable tableClientLogin;
+        
         private global::System.Data.DataRelation relationFK__userAccou__roleI__3B40CD36;
         
         private global::System.Data.DataRelation relationFK__Employee__Manage__693CA210;
@@ -107,6 +109,16 @@ namespace Bank {
         private global::System.Data.DataRelation relationFK__SavingAcc__Accou__6EF57B661;
         
         private global::System.Data.DataRelation relationFK__CheckingA__Accou__6477ECF32;
+        
+        private global::System.Data.DataRelation relationFK__CheckingA__Accou__6477ECF33;
+        
+        private global::System.Data.DataRelation relationFK__LoanAccou__Accou__6C190EBB2;
+        
+        private global::System.Data.DataRelation relationFK__SavingAcc__Accou__6EF57B662;
+        
+        private global::System.Data.DataRelation relationFK__Account__Custome__60A75C0F1;
+        
+        private global::System.Data.DataRelation relationFK__Account__BranchI__3C34F16F2;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -192,6 +204,9 @@ namespace Bank {
                 }
                 if ((ds.Tables["CustomerAndAccount"] != null)) {
                     base.Tables.Add(new CustomerAndAccountDataTable(ds.Tables["CustomerAndAccount"]));
+                }
+                if ((ds.Tables["ClientLogin"] != null)) {
+                    base.Tables.Add(new ClientLoginDataTable(ds.Tables["ClientLogin"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -403,6 +418,16 @@ namespace Bank {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public ClientLoginDataTable ClientLogin {
+            get {
+                return this.tableClientLogin;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
         public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
@@ -524,6 +549,9 @@ namespace Bank {
                 }
                 if ((ds.Tables["CustomerAndAccount"] != null)) {
                     base.Tables.Add(new CustomerAndAccountDataTable(ds.Tables["CustomerAndAccount"]));
+                }
+                if ((ds.Tables["ClientLogin"] != null)) {
+                    base.Tables.Add(new ClientLoginDataTable(ds.Tables["ClientLogin"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -672,6 +700,12 @@ namespace Bank {
                     this.tableCustomerAndAccount.InitVars();
                 }
             }
+            this.tableClientLogin = ((ClientLoginDataTable)(base.Tables["ClientLogin"]));
+            if ((initTable == true)) {
+                if ((this.tableClientLogin != null)) {
+                    this.tableClientLogin.InitVars();
+                }
+            }
             this.relationFK__userAccou__roleI__3B40CD36 = this.Relations["FK__userAccou__roleI__3B40CD36"];
             this.relationFK__Employee__Manage__693CA210 = this.Relations["FK__Employee__Manage__693CA210"];
             this.relationFK__Employee__Locati__6A30C649 = this.Relations["FK__Employee__Locati__6A30C649"];
@@ -695,6 +729,11 @@ namespace Bank {
             this.relationFK__LoanAccou__Accou__6C190EBB1 = this.Relations["FK__LoanAccou__Accou__6C190EBB1"];
             this.relationFK__SavingAcc__Accou__6EF57B661 = this.Relations["FK__SavingAcc__Accou__6EF57B661"];
             this.relationFK__CheckingA__Accou__6477ECF32 = this.Relations["FK__CheckingA__Accou__6477ECF32"];
+            this.relationFK__CheckingA__Accou__6477ECF33 = this.Relations["FK__CheckingA__Accou__6477ECF33"];
+            this.relationFK__LoanAccou__Accou__6C190EBB2 = this.Relations["FK__LoanAccou__Accou__6C190EBB2"];
+            this.relationFK__SavingAcc__Accou__6EF57B662 = this.Relations["FK__SavingAcc__Accou__6EF57B662"];
+            this.relationFK__Account__Custome__60A75C0F1 = this.Relations["FK__Account__Custome__60A75C0F1"];
+            this.relationFK__Account__BranchI__3C34F16F2 = this.Relations["FK__Account__BranchI__3C34F16F2"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -743,6 +782,8 @@ namespace Bank {
             base.Tables.Add(this.tableDisplayBranch);
             this.tableCustomerAndAccount = new CustomerAndAccountDataTable();
             base.Tables.Add(this.tableCustomerAndAccount);
+            this.tableClientLogin = new ClientLoginDataTable();
+            base.Tables.Add(this.tableClientLogin);
             this.relationFK__userAccou__roleI__3B40CD36 = new global::System.Data.DataRelation("FK__userAccou__roleI__3B40CD36", new global::System.Data.DataColumn[] {
                         this.tableRole.RoleIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableuserAccounts.roleIDColumn}, false);
@@ -835,6 +876,26 @@ namespace Bank {
                         this.tableAccount.AccountIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableCustomerAndAccount.AccountIDColumn}, false);
             this.Relations.Add(this.relationFK__CheckingA__Accou__6477ECF32);
+            this.relationFK__CheckingA__Accou__6477ECF33 = new global::System.Data.DataRelation("FK__CheckingA__Accou__6477ECF33", new global::System.Data.DataColumn[] {
+                        this.tableClientLogin.AccountIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableCheckingAccount.AccountIDColumn}, false);
+            this.Relations.Add(this.relationFK__CheckingA__Accou__6477ECF33);
+            this.relationFK__LoanAccou__Accou__6C190EBB2 = new global::System.Data.DataRelation("FK__LoanAccou__Accou__6C190EBB2", new global::System.Data.DataColumn[] {
+                        this.tableClientLogin.AccountIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableLoanAccount.AccountIDColumn}, false);
+            this.Relations.Add(this.relationFK__LoanAccou__Accou__6C190EBB2);
+            this.relationFK__SavingAcc__Accou__6EF57B662 = new global::System.Data.DataRelation("FK__SavingAcc__Accou__6EF57B662", new global::System.Data.DataColumn[] {
+                        this.tableClientLogin.AccountIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableSavingAccount.AccountIDColumn}, false);
+            this.Relations.Add(this.relationFK__SavingAcc__Accou__6EF57B662);
+            this.relationFK__Account__Custome__60A75C0F1 = new global::System.Data.DataRelation("FK__Account__Custome__60A75C0F1", new global::System.Data.DataColumn[] {
+                        this.tableCustomer.CustomerIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableClientLogin.CustomerIDColumn}, false);
+            this.Relations.Add(this.relationFK__Account__Custome__60A75C0F1);
+            this.relationFK__Account__BranchI__3C34F16F2 = new global::System.Data.DataRelation("FK__Account__BranchI__3C34F16F2", new global::System.Data.DataColumn[] {
+                        this.tableBranch.BranchIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableClientLogin.BranchIDColumn}, false);
+            this.Relations.Add(this.relationFK__Account__BranchI__3C34F16F2);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -953,6 +1014,12 @@ namespace Bank {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        private bool ShouldSerializeClientLogin() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
             if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
                 this.InitVars();
@@ -1062,6 +1129,9 @@ namespace Bank {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void CustomerAndAccountRowChangeEventHandler(object sender, CustomerAndAccountRowChangeEvent e);
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        public delegate void ClientLoginRowChangeEventHandler(object sender, ClientLoginRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -7106,6 +7176,356 @@ namespace Bank {
         }
         
         /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class ClientLoginDataTable : global::System.Data.TypedTableBase<ClientLoginRow> {
+            
+            private global::System.Data.DataColumn columnFullName;
+            
+            private global::System.Data.DataColumn columnHomeAddress;
+            
+            private global::System.Data.DataColumn columnAccountID;
+            
+            private global::System.Data.DataColumn columnCustomerID;
+            
+            private global::System.Data.DataColumn columnExpr1;
+            
+            private global::System.Data.DataColumn columnBranchID;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginDataTable() {
+                this.TableName = "ClientLogin";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            internal ClientLoginDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected ClientLoginDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn FullNameColumn {
+                get {
+                    return this.columnFullName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn HomeAddressColumn {
+                get {
+                    return this.columnHomeAddress;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn AccountIDColumn {
+                get {
+                    return this.columnAccountID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn CustomerIDColumn {
+                get {
+                    return this.columnCustomerID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn Expr1Column {
+                get {
+                    return this.columnExpr1;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn BranchIDColumn {
+                get {
+                    return this.columnBranchID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow this[int index] {
+                get {
+                    return ((ClientLoginRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public event ClientLoginRowChangeEventHandler ClientLoginRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public event ClientLoginRowChangeEventHandler ClientLoginRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public event ClientLoginRowChangeEventHandler ClientLoginRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public event ClientLoginRowChangeEventHandler ClientLoginRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void AddClientLoginRow(ClientLoginRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow AddClientLoginRow(string FullName, string HomeAddress, CustomerRow parentCustomerRowByFK__Account__Custome__60A75C0F1, BranchRow parentBranchRowByFK__Account__BranchI__3C34F16F2) {
+                ClientLoginRow rowClientLoginRow = ((ClientLoginRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        FullName,
+                        HomeAddress,
+                        null,
+                        null,
+                        null,
+                        null};
+                if ((parentCustomerRowByFK__Account__Custome__60A75C0F1 != null)) {
+                    columnValuesArray[3] = parentCustomerRowByFK__Account__Custome__60A75C0F1[0];
+                }
+                if ((parentBranchRowByFK__Account__BranchI__3C34F16F2 != null)) {
+                    columnValuesArray[5] = parentBranchRowByFK__Account__BranchI__3C34F16F2[0];
+                }
+                rowClientLoginRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowClientLoginRow);
+                return rowClientLoginRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow FindByAccountIDExpr1(int AccountID, int Expr1) {
+                return ((ClientLoginRow)(this.Rows.Find(new object[] {
+                            AccountID,
+                            Expr1})));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                ClientLoginDataTable cln = ((ClientLoginDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new ClientLoginDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            internal void InitVars() {
+                this.columnFullName = base.Columns["FullName"];
+                this.columnHomeAddress = base.Columns["HomeAddress"];
+                this.columnAccountID = base.Columns["AccountID"];
+                this.columnCustomerID = base.Columns["CustomerID"];
+                this.columnExpr1 = base.Columns["Expr1"];
+                this.columnBranchID = base.Columns["BranchID"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            private void InitClass() {
+                this.columnFullName = new global::System.Data.DataColumn("FullName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFullName);
+                this.columnHomeAddress = new global::System.Data.DataColumn("HomeAddress", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHomeAddress);
+                this.columnAccountID = new global::System.Data.DataColumn("AccountID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAccountID);
+                this.columnCustomerID = new global::System.Data.DataColumn("CustomerID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCustomerID);
+                this.columnExpr1 = new global::System.Data.DataColumn("Expr1", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnExpr1);
+                this.columnBranchID = new global::System.Data.DataColumn("BranchID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnBranchID);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnAccountID,
+                                this.columnExpr1}, true));
+                this.columnFullName.AllowDBNull = false;
+                this.columnFullName.MaxLength = 50;
+                this.columnHomeAddress.AllowDBNull = false;
+                this.columnHomeAddress.MaxLength = 50;
+                this.columnAccountID.AutoIncrement = true;
+                this.columnAccountID.AutoIncrementSeed = -1;
+                this.columnAccountID.AutoIncrementStep = -1;
+                this.columnAccountID.AllowDBNull = false;
+                this.columnAccountID.ReadOnly = true;
+                this.columnCustomerID.AllowDBNull = false;
+                this.columnExpr1.AutoIncrement = true;
+                this.columnExpr1.AutoIncrementSeed = -1;
+                this.columnExpr1.AutoIncrementStep = -1;
+                this.columnExpr1.AllowDBNull = false;
+                this.columnExpr1.ReadOnly = true;
+                this.columnBranchID.AllowDBNull = false;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow NewClientLoginRow() {
+                return ((ClientLoginRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new ClientLoginRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(ClientLoginRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.ClientLoginRowChanged != null)) {
+                    this.ClientLoginRowChanged(this, new ClientLoginRowChangeEvent(((ClientLoginRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.ClientLoginRowChanging != null)) {
+                    this.ClientLoginRowChanging(this, new ClientLoginRowChangeEvent(((ClientLoginRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.ClientLoginRowDeleted != null)) {
+                    this.ClientLoginRowDeleted(this, new ClientLoginRowChangeEvent(((ClientLoginRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.ClientLoginRowDeleting != null)) {
+                    this.ClientLoginRowDeleting(this, new ClientLoginRowChangeEvent(((ClientLoginRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void RemoveClientLoginRow(ClientLoginRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                DB_BankDataSet ds = new DB_BankDataSet();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "ClientLoginDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class AccountRow : global::System.Data.DataRow {
@@ -7586,6 +8006,17 @@ namespace Bank {
                     return ((AccountRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Account__BranchI__3C34F16F"])));
                 }
             }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow[] GetClientLoginRows() {
+                if ((this.Table.ChildRelations["FK__Account__BranchI__3C34F16F2"] == null)) {
+                    return new ClientLoginRow[0];
+                }
+                else {
+                    return ((ClientLoginRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Account__BranchI__3C34F16F2"])));
+                }
+            }
         }
         
         /// <summary>
@@ -7676,6 +8107,17 @@ namespace Bank {
                 }
                 set {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__CheckingA__Accou__6477ECF31"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow ClientLoginRow {
+                get {
+                    return ((ClientLoginRow)(this.GetParentRow(this.Table.ParentRelations["FK__CheckingA__Accou__6477ECF33"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__CheckingA__Accou__6477ECF33"]);
                 }
             }
         }
@@ -7937,6 +8379,17 @@ namespace Bank {
                 }
                 else {
                     return ((AccountRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Account__Custome__60A75C0F"])));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow[] GetClientLoginRows() {
+                if ((this.Table.ChildRelations["FK__Account__Custome__60A75C0F1"] == null)) {
+                    return new ClientLoginRow[0];
+                }
+                else {
+                    return ((ClientLoginRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Account__Custome__60A75C0F1"])));
                 }
             }
         }
@@ -8445,6 +8898,17 @@ namespace Bank {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow ClientLoginRow {
+                get {
+                    return ((ClientLoginRow)(this.GetParentRow(this.Table.ParentRelations["FK__LoanAccou__Accou__6C190EBB2"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__LoanAccou__Accou__6C190EBB2"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDatePostedNull() {
                 return this.IsNull(this.tableLoanAccount.DatePostedColumn);
             }
@@ -8791,6 +9255,17 @@ namespace Bank {
                 }
                 set {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__SavingAcc__Accou__6EF57B661"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow ClientLoginRow {
+                get {
+                    return ((ClientLoginRow)(this.GetParentRow(this.Table.ParentRelations["FK__SavingAcc__Accou__6EF57B662"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__SavingAcc__Accou__6EF57B662"]);
                 }
             }
             
@@ -9613,6 +10088,142 @@ namespace Bank {
         }
         
         /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class ClientLoginRow : global::System.Data.DataRow {
+            
+            private ClientLoginDataTable tableClientLogin;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            internal ClientLoginRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableClientLogin = ((ClientLoginDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string FullName {
+                get {
+                    return ((string)(this[this.tableClientLogin.FullNameColumn]));
+                }
+                set {
+                    this[this.tableClientLogin.FullNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string HomeAddress {
+                get {
+                    return ((string)(this[this.tableClientLogin.HomeAddressColumn]));
+                }
+                set {
+                    this[this.tableClientLogin.HomeAddressColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int AccountID {
+                get {
+                    return ((int)(this[this.tableClientLogin.AccountIDColumn]));
+                }
+                set {
+                    this[this.tableClientLogin.AccountIDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int CustomerID {
+                get {
+                    return ((int)(this[this.tableClientLogin.CustomerIDColumn]));
+                }
+                set {
+                    this[this.tableClientLogin.CustomerIDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int Expr1 {
+                get {
+                    return ((int)(this[this.tableClientLogin.Expr1Column]));
+                }
+                set {
+                    this[this.tableClientLogin.Expr1Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int BranchID {
+                get {
+                    return ((int)(this[this.tableClientLogin.BranchIDColumn]));
+                }
+                set {
+                    this[this.tableClientLogin.BranchIDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public CustomerRow CustomerRow {
+                get {
+                    return ((CustomerRow)(this.GetParentRow(this.Table.ParentRelations["FK__Account__Custome__60A75C0F1"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Account__Custome__60A75C0F1"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public BranchRow BranchRow {
+                get {
+                    return ((BranchRow)(this.GetParentRow(this.Table.ParentRelations["FK__Account__BranchI__3C34F16F2"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Account__BranchI__3C34F16F2"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public CheckingAccountRow[] GetCheckingAccountRows() {
+                if ((this.Table.ChildRelations["FK__CheckingA__Accou__6477ECF33"] == null)) {
+                    return new CheckingAccountRow[0];
+                }
+                else {
+                    return ((CheckingAccountRow[])(base.GetChildRows(this.Table.ChildRelations["FK__CheckingA__Accou__6477ECF33"])));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public LoanAccountRow[] GetLoanAccountRows() {
+                if ((this.Table.ChildRelations["FK__LoanAccou__Accou__6C190EBB2"] == null)) {
+                    return new LoanAccountRow[0];
+                }
+                else {
+                    return ((LoanAccountRow[])(base.GetChildRows(this.Table.ChildRelations["FK__LoanAccou__Accou__6C190EBB2"])));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public SavingAccountRow[] GetSavingAccountRows() {
+                if ((this.Table.ChildRelations["FK__SavingAcc__Accou__6EF57B662"] == null)) {
+                    return new SavingAccountRow[0];
+                }
+                else {
+                    return ((SavingAccountRow[])(base.GetChildRows(this.Table.ChildRelations["FK__SavingAcc__Accou__6EF57B662"])));
+                }
+            }
+        }
+        
+        /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -10244,6 +10855,40 @@ namespace Bank {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public CustomerAndAccountRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        public class ClientLoginRowChangeEvent : global::System.EventArgs {
+            
+            private ClientLoginRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRowChangeEvent(ClientLoginRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public ClientLoginRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -17306,6 +17951,196 @@ GROUP BY CheckingAccount.AccountID, Customer.FullName";
             this.Adapter.SelectCommand = this.CommandCollection[0];
             this.Adapter.SelectCommand.Parameters[0].Value = ((int)(AccountID));
             DB_BankDataSet.CustomerAndAccountDataTable dataTable = new DB_BankDataSet.CustomerAndAccountDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+    }
+    
+    /// <summary>
+    ///Represents the connection and commands used to retrieve and save data.
+    ///</summary>
+    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
+    [global::System.ComponentModel.ToolboxItem(true)]
+    [global::System.ComponentModel.DataObjectAttribute(true)]
+    [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+    public partial class ClientLoginTableAdapter : global::System.ComponentModel.Component {
+        
+        private global::System.Data.SqlClient.SqlDataAdapter _adapter;
+        
+        private global::System.Data.SqlClient.SqlConnection _connection;
+        
+        private global::System.Data.SqlClient.SqlTransaction _transaction;
+        
+        private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
+        
+        private bool _clearBeforeFill;
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        public ClientLoginTableAdapter() {
+            this.ClearBeforeFill = true;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
+            get {
+                if ((this._adapter == null)) {
+                    this.InitAdapter();
+                }
+                return this._adapter;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        internal global::System.Data.SqlClient.SqlConnection Connection {
+            get {
+                if ((this._connection == null)) {
+                    this.InitConnection();
+                }
+                return this._connection;
+            }
+            set {
+                this._connection = value;
+                if ((this.Adapter.InsertCommand != null)) {
+                    this.Adapter.InsertCommand.Connection = value;
+                }
+                if ((this.Adapter.DeleteCommand != null)) {
+                    this.Adapter.DeleteCommand.Connection = value;
+                }
+                if ((this.Adapter.UpdateCommand != null)) {
+                    this.Adapter.UpdateCommand.Connection = value;
+                }
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    if ((this.CommandCollection[i] != null)) {
+                        ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[i])).Connection = value;
+                    }
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        internal global::System.Data.SqlClient.SqlTransaction Transaction {
+            get {
+                return this._transaction;
+            }
+            set {
+                this._transaction = value;
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    this.CommandCollection[i].Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.DeleteCommand != null))) {
+                    this.Adapter.DeleteCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.InsertCommand != null))) {
+                    this.Adapter.InsertCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.UpdateCommand != null))) {
+                    this.Adapter.UpdateCommand.Transaction = this._transaction;
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
+            get {
+                if ((this._commandCollection == null)) {
+                    this.InitCommandCollection();
+                }
+                return this._commandCollection;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        public bool ClearBeforeFill {
+            get {
+                return this._clearBeforeFill;
+            }
+            set {
+                this._clearBeforeFill = value;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        private void InitAdapter() {
+            this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
+            global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
+            tableMapping.SourceTable = "Table";
+            tableMapping.DataSetTable = "ClientLogin";
+            tableMapping.ColumnMappings.Add("FullName", "FullName");
+            tableMapping.ColumnMappings.Add("HomeAddress", "HomeAddress");
+            tableMapping.ColumnMappings.Add("AccountID", "AccountID");
+            tableMapping.ColumnMappings.Add("CustomerID", "CustomerID");
+            tableMapping.ColumnMappings.Add("Expr1", "Expr1");
+            tableMapping.ColumnMappings.Add("BranchID", "BranchID");
+            this._adapter.TableMappings.Add(tableMapping);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        private void InitConnection() {
+            this._connection = new global::System.Data.SqlClient.SqlConnection();
+            this._connection.ConnectionString = global::Bank.Properties.Settings.Default.DB_BankConnectionString;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        private void InitCommandCollection() {
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[0].Connection = this.Connection;
+            this._commandCollection[0].CommandText = @"SELECT Customer.FullName, Customer.HomeAddress, Account.AccountID, Account.CustomerID, Customer.CustomerID AS Expr1, Account.BranchID
+FROM     Customer INNER JOIN
+                  Account ON Account.AccountID = @ID AND Account.Password = @password AND Customer.CustomerID = Account.CustomerID";
+            this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "AccountID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.VarChar, 255, global::System.Data.ParameterDirection.Input, 0, 0, "Password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
+        public virtual int ClientLogin(DB_BankDataSet.ClientLoginDataTable dataTable, int ID, string password) {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ID));
+            if ((password == null)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(password));
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
+        public virtual DB_BankDataSet.ClientLoginDataTable GetData(int ID, string password) {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ID));
+            if ((password == null)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(password));
+            }
+            DB_BankDataSet.ClientLoginDataTable dataTable = new DB_BankDataSet.ClientLoginDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
