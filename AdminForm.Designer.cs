@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle2 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram4 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series7 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series8 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle4 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -107,6 +107,7 @@
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Main_innerPanel = new System.Windows.Forms.Panel();
             this.pnl_MI_reports = new System.Windows.Forms.Panel();
+            this.documentViewer1 = new DevExpress.XtraPrinting.Preview.DocumentViewer();
             this.pnl_MI_dashboard = new System.Windows.Forms.Panel();
             this.calendarControl1 = new DevExpress.XtraEditors.Controls.CalendarControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
@@ -348,7 +349,8 @@
             this.employeeTypeTableAdapter = new Bank.DB_BankDataSetTableAdapters.EmployeeTypeTableAdapter();
             this.displayEmployeeTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
             this.displayBranchTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayBranchTableAdapter();
-            this.documentViewer1 = new DevExpress.XtraPrinting.Preview.DocumentViewer();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cbo_reports = new System.Windows.Forms.ComboBox();
             branchIDLabel = new System.Windows.Forms.Label();
             locationIDLabel = new System.Windows.Forms.Label();
             cityIDLabel = new System.Windows.Forms.Label();
@@ -444,9 +446,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series8)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
@@ -1175,7 +1177,7 @@
             this.bindingNavigator1.MovePreviousItem = this.toolStripButton4;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.toolStripTextBox1;
-            this.bindingNavigator1.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator1.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator1.TabIndex = 4;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -1310,11 +1312,25 @@
             // 
             // pnl_MI_reports
             // 
+            this.pnl_MI_reports.Controls.Add(this.cbo_reports);
+            this.pnl_MI_reports.Controls.Add(this.label22);
             this.pnl_MI_reports.Controls.Add(this.documentViewer1);
-            this.pnl_MI_reports.Location = new System.Drawing.Point(625, 72);
+            this.pnl_MI_reports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl_MI_reports.Location = new System.Drawing.Point(173, 38);
             this.pnl_MI_reports.Name = "pnl_MI_reports";
-            this.pnl_MI_reports.Size = new System.Drawing.Size(442, 269);
+            this.pnl_MI_reports.Size = new System.Drawing.Size(771, 418);
             this.pnl_MI_reports.TabIndex = 12;
+            // 
+            // documentViewer1
+            // 
+            this.documentViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.documentViewer1.IsMetric = false;
+            this.documentViewer1.Location = new System.Drawing.Point(0, 64);
+            this.documentViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.documentViewer1.Name = "documentViewer1";
+            this.documentViewer1.Size = new System.Drawing.Size(771, 354);
+            this.documentViewer1.TabIndex = 0;
             // 
             // pnl_MI_dashboard
             // 
@@ -1345,7 +1361,7 @@
             this.calendarControl1.Location = new System.Drawing.Point(0, 99);
             this.calendarControl1.Name = "calendarControl1";
             this.calendarControl1.ShowWeekNumbers = true;
-            this.calendarControl1.Size = new System.Drawing.Size(338, 291);
+            this.calendarControl1.Size = new System.Drawing.Size(344, 291);
             this.calendarControl1.TabIndex = 4;
             // 
             // layoutControl1
@@ -2164,36 +2180,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram2.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram2.AxisX.Title.Text = "Branch Names";
-            xyDiagram2.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram2.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram2.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram2.AxisY.Title.Text = "Amount";
-            xyDiagram2.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram2;
+            xyDiagram4.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram4.AxisX.Title.Text = "Branch Names";
+            xyDiagram4.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram4.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram4.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram4.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram4.AxisY.Title.Text = "Amount";
+            xyDiagram4.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram4.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram4;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series3.ArgumentDataMember = "BranchName";
-            series3.DataSource = this.branchBindingSource;
-            series3.Name = "Deposits";
-            series3.ValueDataMembersSerializable = "Deposit";
-            series4.ArgumentDataMember = "BranchName";
-            series4.DataSource = this.branchBindingSource;
-            series4.Name = "Loans";
-            series4.ValueDataMembersSerializable = "Loan";
+            series7.ArgumentDataMember = "BranchName";
+            series7.DataSource = this.branchBindingSource;
+            series7.Name = "Deposits";
+            series7.ValueDataMembersSerializable = "Deposit";
+            series8.ArgumentDataMember = "BranchName";
+            series8.DataSource = this.branchBindingSource;
+            series8.Name = "Loans";
+            series8.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series3,
-        series4};
+        series7,
+        series8};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle2.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle2.Text = "Bank Branches Statistics";
+            chartTitle4.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle4.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle2});
+            chartTitle4});
             // 
             // panel22
             // 
@@ -2326,7 +2342,7 @@
             this.branchBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.branchBindingNavigator.Name = "branchBindingNavigator";
             this.branchBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.branchBindingNavigator.TabIndex = 3;
             this.branchBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -2526,7 +2542,7 @@
             this.ManagerbindingNavigator.MovePreviousItem = this.toolStripButton23;
             this.ManagerbindingNavigator.Name = "ManagerbindingNavigator";
             this.ManagerbindingNavigator.PositionItem = this.toolStripTextBox4;
-            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.ManagerbindingNavigator.TabIndex = 8;
             this.ManagerbindingNavigator.Text = "bindingNavigator4";
             // 
@@ -2771,7 +2787,7 @@
             this.employeeBindingNavigator.MovePreviousItem = this.toolStripButton19;
             this.employeeBindingNavigator.Name = "employeeBindingNavigator";
             this.employeeBindingNavigator.PositionItem = this.employeeBindingNavigatorIndex;
-            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.employeeBindingNavigator.TabIndex = 8;
             this.employeeBindingNavigator.Text = "bindingNavigator4";
             // 
@@ -2995,7 +3011,7 @@
             this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
             this.bindingNavigator2.Name = "bindingNavigator2";
             this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator2.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator2.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator2.TabIndex = 6;
             this.bindingNavigator2.Text = "bindingNavigator2";
             // 
@@ -3133,7 +3149,7 @@
             this.bindingNavigator3.MovePreviousItem = this.toolStripButton15;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator3.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator3.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator3.TabIndex = 6;
             this.bindingNavigator3.Text = "bindingNavigator3";
             // 
@@ -4061,15 +4077,33 @@
             // 
             this.displayBranchTableAdapter.ClearBeforeFill = true;
             // 
-            // documentViewer1
+            // label22
             // 
-            this.documentViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.documentViewer1.IsMetric = false;
-            this.documentViewer1.Location = new System.Drawing.Point(0, 0);
-            this.documentViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.documentViewer1.Name = "documentViewer1";
-            this.documentViewer1.Size = new System.Drawing.Size(442, 269);
-            this.documentViewer1.TabIndex = 0;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(10, 14);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(98, 20);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "Select Report";
+            // 
+            // cbo_reports
+            // 
+            this.cbo_reports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_reports.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_reports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_reports.FormattingEnabled = true;
+            this.cbo_reports.Items.AddRange(new object[] {
+            "List of Employees",
+            "Branch Report",
+            "List of Managers",
+            "List of Accountants"});
+            this.cbo_reports.Location = new System.Drawing.Point(113, 9);
+            this.cbo_reports.Name = "cbo_reports";
+            this.cbo_reports.Size = new System.Drawing.Size(645, 28);
+            this.cbo_reports.TabIndex = 2;
+            this.cbo_reports.SelectedIndexChanged += new System.EventHandler(this.cbo_reports_SelectedIndexChanged);
             // 
             // AdminForm
             // 
@@ -4111,6 +4145,7 @@
             this.Main_innerPanel.ResumeLayout(false);
             this.Main_innerPanel.PerformLayout();
             this.pnl_MI_reports.ResumeLayout(false);
+            this.pnl_MI_reports.PerformLayout();
             this.pnl_MI_dashboard.ResumeLayout(false);
             this.pnl_MI_dashboard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendarControl1.CalendarTimeProperties)).EndInit();
@@ -4162,9 +4197,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
@@ -4539,5 +4574,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dateStartedDataGridViewTextBoxColumn;
         private System.Windows.Forms.Panel pnl_MI_reports;
         private DevExpress.XtraPrinting.Preview.DocumentViewer documentViewer1;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox cbo_reports;
     }
 }

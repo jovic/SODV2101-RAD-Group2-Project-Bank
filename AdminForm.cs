@@ -130,33 +130,22 @@ namespace Bank
             setNavButtons(navButtons, sender);
             set.showPanel(pnl_MI_reports,this,DockStyle.Fill);
 
-            XtraReport1 report = new XtraReport1();
-            report.DataSource = GetData();
-            documentViewer1.DocumentSource = report;
-            report.CreateDocument();
+            
         }
 
-        private System.Data.DataTable GetData()
+        private System.Data.DataTable GetDataEmployee()
         {
-            // Instantiate your DataSet
+            
             DB_BankDataSet dataSet = new DB_BankDataSet();
-
-            // Instantiate the TableAdapter
             var adapter = new DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
-
-            // Fill the strongly-typed DataTable
             adapter.Fill(dataSet.DisplayEmployee);
-
-            // Create a standard DataTable and copy the data
             System.Data.DataTable dataTable = new System.Data.DataTable();
 
-            // Copy columns
             foreach (System.Data.DataColumn column in dataSet.DisplayEmployee.Columns)
             {
                 dataTable.Columns.Add(column.ColumnName, column.DataType);
             }
 
-            // Copy rows
             foreach (DataRow row in dataSet.DisplayEmployee.Rows)
             {
                 DataRow newRow = dataTable.NewRow();
@@ -164,7 +153,7 @@ namespace Bank
                 dataTable.Rows.Add(newRow);
             }
 
-            return dataTable; // Return a standard DataTable
+            return dataTable;
         }
 
         private void btn_close_Click(object sender, EventArgs e)
@@ -189,25 +178,18 @@ namespace Bank
 
         private void AdminForm_Load(object sender, EventArgs e)
         {
-            btn_nav_dashboard.PerformClick();
-            // TODO: This line of code loads data into the 'dB_BankDataSet.DisplayBranch' table. You can move, or remove it, as needed.
+            //btn_nav_dashboard.PerformClick();
+
+
             this.displayBranchTableAdapter.Fill(this.dB_BankDataSet.DisplayBranch);
-            // TODO: This line of code loads data into the 'dB_BankDataSet1.DisplayBranch' table. You can move, or remove it, as needed.
             //this.displayBranchTableAdapter.Fill(this.dB_BankDataSet1.DisplayBranch);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.DisplayEmployee' table. You can move, or remove it, as needed.
             this.displayEmployeeTableAdapter.Fill(this.dB_BankDataSet.DisplayEmployee);
 
-            // TODO: This line of code loads data into the 'dB_BankDataSet.EmployeeType' table. You can move, or remove it, as needed.
             this.employeeTypeTableAdapter.Fill(this.dB_BankDataSet.EmployeeType);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Manager' table. You can move, or remove it, as needed.
             this.managerTableAdapter.Fill(this.dB_BankDataSet.Manager);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Employee' table. You can move, or remove it, as needed.
             this.employeeTableAdapter.Fill(this.dB_BankDataSet.Employee);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.City' table. You can move, or remove it, as needed.
             this.cityTableAdapter.Fill(this.dB_BankDataSet.City);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Location' table. You can move, or remove it, as needed.
             this.locationTableAdapter.Fill(this.dB_BankDataSet.Location);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Branch' table. You can move, or remove it, as needed.
             this.branchTableAdapter.Fill(this.dB_BankDataSet.Branch);
 
             string str = DateTime.Now.ToString("tt");
@@ -485,6 +467,36 @@ namespace Bank
             set.showPanel(pnl_MI_about, this, DockStyle.Fill);
         }
 
+        private void cbo_reports_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string str = cbo_reports.Text;
+            if (str == "List of Employees")
+            {
+                XtraReport1 report = new XtraReport1();
+                report.DataSource = GetDataEmployee();
+                documentViewer1.DocumentSource = report;
+                report.CreateDocument();
+            }
+            else if (str == "Branch Report")
+            {
 
+            }else if (str == "List of Managers")
+            {
+
+            }else if(str == "List of Accountants")
+            {
+
+            }
+            else
+            {
+
+            }
+            
+        }
     }
 }
+
+/*List of Employees
+Branch Report
+List of Managers
+List of Accountants*/
