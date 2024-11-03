@@ -102,6 +102,14 @@ namespace Bank
 
             timer.Start();
         }
- 
+
+        private void txt_password_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_login.PerformClick();
+                e.SuppressKeyPress = false; 
+            }
+        }
     }
 }

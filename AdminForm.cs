@@ -222,9 +222,7 @@ namespace Bank
 
         private void AdminForm_Load(object sender, EventArgs e)
         {
-            //btn_nav_dashboard.PerformClick();
-
-
+            btn_nav_dashboard.PerformClick();
             this.displayBranchTableAdapter.Fill(this.dB_BankDataSet.DisplayBranch);
             //this.displayBranchTableAdapter.Fill(this.dB_BankDataSet1.DisplayBranch);
             this.displayEmployeeTableAdapter.Fill(this.dB_BankDataSet.DisplayEmployee);
