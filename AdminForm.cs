@@ -13,6 +13,7 @@ namespace Bank
     {
         Settings set = new Settings();
         UserDetails userDetails = new UserDetails();
+        ReportPrintTool printTool;
         System.Windows.Forms.Button[] navButtons;
         SimpleButton[] branchButtons;
         SimpleButton[] CityButtons;
@@ -511,6 +512,7 @@ namespace Bank
                 report.DataSource = GetDataEmployee();
                 documentViewer1.DocumentSource = report;
                 report.CreateDocument();
+                printTool = new ReportPrintTool(report);
             }
             else if (str == "Branch Report")
             {
@@ -518,6 +520,7 @@ namespace Bank
                 report.DataSource = GetDataBranch();
                 documentViewer1.DocumentSource = report;
                 report.CreateDocument();
+                printTool = new ReportPrintTool(report);
             }
             else if (str == "List of Managers")
             {
@@ -525,35 +528,14 @@ namespace Bank
                 report.DataSource = GetDataManager();
                 documentViewer1.DocumentSource = report;
                 report.CreateDocument();
+                printTool = new ReportPrintTool(report);
             }
             
         }
 
         private void btn_print_Click(object sender, EventArgs e)
         {
-            string str = cbo_reports.Text;
-
-            if (str == "List of Employees")
-            {
-                XtraReport1 report = new XtraReport1();
-                report.DataSource = GetDataEmployee();
-                ReportPrintTool printTool = new ReportPrintTool(report);
-                printTool.ShowPreviewDialog();
-            }
-            else if (str == "Branch Report")
-            {
-                XtraReport2 report = new XtraReport2();
-                report.DataSource = GetDataBranch();
-                ReportPrintTool printTool = new ReportPrintTool(report);
-                printTool.ShowPreviewDialog();
-            }
-            else if (str == "List of Managers")
-            {
-                XtraReport3 report = new XtraReport3();
-                report.DataSource = GetDataManager();
-                ReportPrintTool printTool = new ReportPrintTool(report);
-                printTool.ShowPreviewDialog();
-            }
+            printTool.ShowPreviewDialog();
         }
     }
 }
