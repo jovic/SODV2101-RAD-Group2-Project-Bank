@@ -227,6 +227,18 @@
     <Compile Include="XtraReport1.Designer.cs">
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </Compile>
+    <Compile Include="XtraReport2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport2.Designer.cs">
+      <DependentUpon>XtraReport2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport3.Designer.cs">
+      <DependentUpon>XtraReport3.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AccountantForm.resx">
       <DependentUpon>AccountantForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -262,6 +274,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="XtraReport1.resx">
       <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport2.resx">
+      <DependentUpon>XtraReport2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport3.resx">
+      <DependentUpon>XtraReport3.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DB_BankDataSet.xsc">
       <DependentUpon>DB_BankDataSet.xsd</DependentUpon>
@@ -485,6 +503,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\power-button_10461145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

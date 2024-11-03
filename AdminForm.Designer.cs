@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram4 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series7 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series8 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle4 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram5 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series9 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series10 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle5 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -106,7 +106,11 @@
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Main_innerPanel = new System.Windows.Forms.Panel();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_MI_reports = new System.Windows.Forms.Panel();
+            this.btn_print = new System.Windows.Forms.Button();
+            this.cbo_reports = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.documentViewer1 = new DevExpress.XtraPrinting.Preview.DocumentViewer();
             this.pnl_MI_dashboard = new System.Windows.Forms.Panel();
             this.calendarControl1 = new DevExpress.XtraEditors.Controls.CalendarControl();
@@ -349,8 +353,6 @@
             this.employeeTypeTableAdapter = new Bank.DB_BankDataSetTableAdapters.EmployeeTypeTableAdapter();
             this.displayEmployeeTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
             this.displayBranchTableAdapter = new Bank.DB_BankDataSetTableAdapters.DisplayBranchTableAdapter();
-            this.label22 = new System.Windows.Forms.Label();
-            this.cbo_reports = new System.Windows.Forms.ComboBox();
             branchIDLabel = new System.Windows.Forms.Label();
             locationIDLabel = new System.Windows.Forms.Label();
             cityIDLabel = new System.Windows.Forms.Label();
@@ -446,9 +448,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
@@ -1290,6 +1292,7 @@
             // 
             this.Main_innerPanel.AutoScroll = true;
             this.Main_innerPanel.BackColor = System.Drawing.Color.Transparent;
+            this.Main_innerPanel.Controls.Add(this.simpleButton1);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_reports);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_dashboard);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_about);
@@ -1310,8 +1313,18 @@
             this.Main_innerPanel.Size = new System.Drawing.Size(1075, 964);
             this.Main_innerPanel.TabIndex = 0;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.ImageOptions.Image = global::Bank.Properties.Resources.print_32x32;
+            this.simpleButton1.Location = new System.Drawing.Point(977, 121);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(37, 50);
+            this.simpleButton1.TabIndex = 13;
+            this.simpleButton1.Text = "simpleButton1";
+            // 
             // pnl_MI_reports
             // 
+            this.pnl_MI_reports.Controls.Add(this.btn_print);
             this.pnl_MI_reports.Controls.Add(this.cbo_reports);
             this.pnl_MI_reports.Controls.Add(this.label22);
             this.pnl_MI_reports.Controls.Add(this.documentViewer1);
@@ -1321,9 +1334,48 @@
             this.pnl_MI_reports.Size = new System.Drawing.Size(771, 418);
             this.pnl_MI_reports.TabIndex = 12;
             // 
+            // btn_print
+            // 
+            this.btn_print.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_print.Image = global::Bank.Properties.Resources.print_32x32;
+            this.btn_print.Location = new System.Drawing.Point(709, 7);
+            this.btn_print.Name = "btn_print";
+            this.btn_print.Size = new System.Drawing.Size(59, 50);
+            this.btn_print.TabIndex = 3;
+            this.btn_print.UseVisualStyleBackColor = true;
+            this.btn_print.Click += new System.EventHandler(this.btn_print_Click);
+            // 
+            // cbo_reports
+            // 
+            this.cbo_reports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_reports.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_reports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_reports.FormattingEnabled = true;
+            this.cbo_reports.Items.AddRange(new object[] {
+            "List of Employees",
+            "Branch Report",
+            "List of Managers"});
+            this.cbo_reports.Location = new System.Drawing.Point(113, 19);
+            this.cbo_reports.Name = "cbo_reports";
+            this.cbo_reports.Size = new System.Drawing.Size(590, 28);
+            this.cbo_reports.TabIndex = 2;
+            this.cbo_reports.SelectedIndexChanged += new System.EventHandler(this.cbo_reports_SelectedIndexChanged);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(9, 23);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(98, 20);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "Select Report";
+            // 
             // documentViewer1
             // 
-            this.documentViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.documentViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.documentViewer1.IsMetric = false;
             this.documentViewer1.Location = new System.Drawing.Point(0, 64);
@@ -2180,36 +2232,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram4.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram4.AxisX.Title.Text = "Branch Names";
-            xyDiagram4.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram4.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram4.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram4.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram4.AxisY.Title.Text = "Amount";
-            xyDiagram4.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram4.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram4;
+            xyDiagram5.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram5.AxisX.Title.Text = "Branch Names";
+            xyDiagram5.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram5.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram5.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram5.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram5.AxisY.Title.Text = "Amount";
+            xyDiagram5.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram5.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram5;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series7.ArgumentDataMember = "BranchName";
-            series7.DataSource = this.branchBindingSource;
-            series7.Name = "Deposits";
-            series7.ValueDataMembersSerializable = "Deposit";
-            series8.ArgumentDataMember = "BranchName";
-            series8.DataSource = this.branchBindingSource;
-            series8.Name = "Loans";
-            series8.ValueDataMembersSerializable = "Loan";
+            series9.ArgumentDataMember = "BranchName";
+            series9.DataSource = this.branchBindingSource;
+            series9.Name = "Deposits";
+            series9.ValueDataMembersSerializable = "Deposit";
+            series10.ArgumentDataMember = "BranchName";
+            series10.DataSource = this.branchBindingSource;
+            series10.Name = "Loans";
+            series10.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series7,
-        series8};
+        series9,
+        series10};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle4.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle4.Text = "Bank Branches Statistics";
+            chartTitle5.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle5.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle4});
+            chartTitle5});
             // 
             // panel22
             // 
@@ -4077,34 +4129,6 @@
             // 
             this.displayBranchTableAdapter.ClearBeforeFill = true;
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(10, 14);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(98, 20);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Select Report";
-            // 
-            // cbo_reports
-            // 
-            this.cbo_reports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_reports.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_reports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_reports.FormattingEnabled = true;
-            this.cbo_reports.Items.AddRange(new object[] {
-            "List of Employees",
-            "Branch Report",
-            "List of Managers",
-            "List of Accountants"});
-            this.cbo_reports.Location = new System.Drawing.Point(113, 9);
-            this.cbo_reports.Name = "cbo_reports";
-            this.cbo_reports.Size = new System.Drawing.Size(645, 28);
-            this.cbo_reports.TabIndex = 2;
-            this.cbo_reports.SelectedIndexChanged += new System.EventHandler(this.cbo_reports_SelectedIndexChanged);
-            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4197,9 +4221,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
@@ -4576,5 +4600,7 @@
         private DevExpress.XtraPrinting.Preview.DocumentViewer documentViewer1;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.ComboBox cbo_reports;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private System.Windows.Forms.Button btn_print;
     }
 }

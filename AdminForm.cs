@@ -1,6 +1,7 @@
 ﻿using Bank.DB_BankDataSetTableAdapters;
 using DevExpress.DataAccess.Native.Data;
 using DevExpress.XtraEditors;
+using DevExpress.XtraReports.UI;
 using System;
 using System.Data;
 using System.Drawing;
@@ -129,13 +130,10 @@ namespace Bank
         {
             setNavButtons(navButtons, sender);
             set.showPanel(pnl_MI_reports,this,DockStyle.Fill);
-
-            
         }
 
         private System.Data.DataTable GetDataEmployee()
         {
-            
             DB_BankDataSet dataSet = new DB_BankDataSet();
             var adapter = new DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
             adapter.Fill(dataSet.DisplayEmployee);
@@ -147,6 +145,52 @@ namespace Bank
             }
 
             foreach (DataRow row in dataSet.DisplayEmployee.Rows)
+            {
+                DataRow newRow = dataTable.NewRow();
+                newRow.ItemArray = row.ItemArray;
+                dataTable.Rows.Add(newRow);
+            }
+
+            return dataTable;
+        }
+
+        private System.Data.DataTable GetDataBranch()
+        {
+
+            DB_BankDataSet dataSet = new DB_BankDataSet();
+            var adapter = new DB_BankDataSetTableAdapters.DisplayBranchTableAdapter();
+            adapter.Fill(dataSet.DisplayBranch);
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+
+            foreach (System.Data.DataColumn column in dataSet.DisplayBranch.Columns)
+            {
+                dataTable.Columns.Add(column.ColumnName, column.DataType);
+            }
+
+            foreach (DataRow row in dataSet.DisplayBranch.Rows)
+            {
+                DataRow newRow = dataTable.NewRow();
+                newRow.ItemArray = row.ItemArray;
+                dataTable.Rows.Add(newRow);
+            }
+
+            return dataTable;
+        }
+
+        private System.Data.DataTable GetDataManager()
+        {
+
+            DB_BankDataSet dataSet = new DB_BankDataSet();
+            var adapter = new DB_BankDataSetTableAdapters.ManagerTableAdapter();
+            adapter.Fill(dataSet.Manager);
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+
+            foreach (System.Data.DataColumn column in dataSet.Manager.Columns)
+            {
+                dataTable.Columns.Add(column.ColumnName, column.DataType);
+            }
+
+            foreach (DataRow row in dataSet.Manager.Rows)
             {
                 DataRow newRow = dataTable.NewRow();
                 newRow.ItemArray = row.ItemArray;
@@ -354,14 +398,7 @@ namespace Bank
 
         private void employeeIDSpinEdit_EditValueChanged(object sender, EventArgs e)
         {
-            /*if(employeeIDSpinEdit.Text != "")
-            {
-                cbo_BranchID.SelectedValue = branchIDSpinEdit1.Text;
-                cbo_locationID.SelectedValue = Int32.Parse(locationIDSpinEdit2.Text.ToString());
-                cbo_managerID.SelectedValue = managerIDSpinEdit.Text;
-                cbo_employeeType.SelectedValue = employeeTypeSpinEdit.Text;
-            }
-            */
+           
         }
 
         private void btn_EmployeeNew_Click(object sender, EventArgs e)
@@ -479,24 +516,46 @@ namespace Bank
             }
             else if (str == "Branch Report")
             {
-
-            }else if (str == "List of Managers")
-            {
-
-            }else if(str == "List of Accountants")
-            {
-
+                XtraReport2 report = new XtraReport2();
+                report.DataSource = GetDataBranch();
+                documentViewer1.DocumentSource = report;
+                report.CreateDocument();
             }
-            else
+            else if (str == "List of Managers")
             {
-
+                XtraReport3 report = new XtraReport3();
+                report.DataSource = GetDataManager();
+                documentViewer1.DocumentSource = report;
+                report.CreateDocument();
             }
             
         }
+
+        private void btn_print_Click(object sender, EventArgs e)
+        {
+            string str = cbo_reports.Text;
+
+            if (str == "List of Employees")
+            {
+                XtraReport1 report = new XtraReport1();
+                report.DataSource = GetDataEmployee();
+                ReportPrintTool printTool = new ReportPrintTool(report);
+                printTool.ShowPreviewDialog();
+            }
+            else if (str == "Branch Report")
+            {
+                XtraReport2 report = new XtraReport2();
+                report.DataSource = GetDataBranch();
+                ReportPrintTool printTool = new ReportPrintTool(report);
+                printTool.ShowPreviewDialog();
+            }
+            else if (str == "List of Managers")
+            {
+                XtraReport3 report = new XtraReport3();
+                report.DataSource = GetDataManager();
+                ReportPrintTool printTool = new ReportPrintTool(report);
+                printTool.ShowPreviewDialog();
+            }
+        }
     }
 }
-
-/*List of Employees
-Branch Report
-List of Managers
-List of Accountants*/
