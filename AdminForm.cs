@@ -1,5 +1,5 @@
-﻿using Bank.DB_BankDataSetTableAdapters;
-using DevExpress.DataAccess.Native.Data;
+﻿
+using Bank.DB_BankDataSetTableAdapters;
 using DevExpress.XtraEditors;
 using DevExpress.XtraReports.UI;
 using System;
@@ -14,7 +14,7 @@ namespace Bank
         Settings set = new Settings();
         UserDetails userDetails = new UserDetails();
         ReportPrintTool printTool;
-        System.Windows.Forms.Button[] navButtons;
+        Button[] navButtons;
         SimpleButton[] branchButtons;
         SimpleButton[] CityButtons;
         SimpleButton[] LocationButtons;
@@ -34,7 +34,7 @@ namespace Bank
         private void SetDefaults()
         {
             panelList = new Panel[] { left_innerPanel, Top_innerPanel, Main_innerPanel };
-            navButtons = new System.Windows.Forms.Button[] { btn_nav_Branch, btn_nav_city, btn_nav_dashboard, btn_nav_manager, btn_nav_employee, btn_nav_location, btn_nav_reports, btn_nav_statistics, btn_nav_aboutus };
+            navButtons = new Button[] { btn_nav_Branch, btn_nav_city, btn_nav_dashboard, btn_nav_manager, btn_nav_employee, btn_nav_location, btn_nav_reports, btn_nav_statistics, btn_nav_aboutus };
             branchButtons = new SimpleButton[] { btn_branchNew, btn_branchSave, btn_branchCancel };
             CityButtons = new SimpleButton[] { btn_cityNew, btn_citySave, btn_cityDelete };
             LocationButtons = new SimpleButton[] { btn_LocationNew, btn_LocationSave, btn_LocationDelete };
@@ -58,7 +58,7 @@ namespace Bank
             set.setElipse(pb_logo, 5);
 
         }
-        public void setNavButtons(System.Windows.Forms.Button[] btn, Object obj)
+        public void setNavButtons(Button[] btn, Object obj)
         {
             for (int i = 0; i < btn.Length; i++)
                 set.NavButtonIdle(btn[i]);
@@ -68,7 +68,7 @@ namespace Bank
 
             if (obj != null)
             {
-                System.Windows.Forms.Button getButtonText = (System.Windows.Forms.Button)obj;
+                Button getButtonText = (Button)obj;
                 lbl_header.Text = (getButtonText.Text).Trim();
             }
 
@@ -133,72 +133,31 @@ namespace Bank
             set.showPanel(pnl_MI_reports,this,DockStyle.Fill);
         }
 
-        private System.Data.DataTable GetDataEmployee()
+        private DataTable GetDataEmployee()
         {
-            DB_BankDataSet dataSet = new DB_BankDataSet();
-            var adapter = new DB_BankDataSetTableAdapters.DisplayEmployeeTableAdapter();
+            var dataSet = new DB_BankDataSet();
+            var adapter = new DisplayEmployeeTableAdapter();
             adapter.Fill(dataSet.DisplayEmployee);
-            System.Data.DataTable dataTable = new System.Data.DataTable();
 
-            foreach (System.Data.DataColumn column in dataSet.DisplayEmployee.Columns)
-            {
-                dataTable.Columns.Add(column.ColumnName, column.DataType);
-            }
-
-            foreach (DataRow row in dataSet.DisplayEmployee.Rows)
-            {
-                DataRow newRow = dataTable.NewRow();
-                newRow.ItemArray = row.ItemArray;
-                dataTable.Rows.Add(newRow);
-            }
-
-            return dataTable;
+            return dataSet.DisplayEmployee;
         }
 
-        private System.Data.DataTable GetDataBranch()
+        private DataTable GetDataBranch()
         {
-
-            DB_BankDataSet dataSet = new DB_BankDataSet();
-            var adapter = new DB_BankDataSetTableAdapters.DisplayBranchTableAdapter();
+            var dataSet = new DB_BankDataSet();
+            var adapter = new DisplayBranchTableAdapter();
             adapter.Fill(dataSet.DisplayBranch);
-            System.Data.DataTable dataTable = new System.Data.DataTable();
 
-            foreach (System.Data.DataColumn column in dataSet.DisplayBranch.Columns)
-            {
-                dataTable.Columns.Add(column.ColumnName, column.DataType);
-            }
-
-            foreach (DataRow row in dataSet.DisplayBranch.Rows)
-            {
-                DataRow newRow = dataTable.NewRow();
-                newRow.ItemArray = row.ItemArray;
-                dataTable.Rows.Add(newRow);
-            }
-
-            return dataTable;
+            return dataSet.DisplayBranch;
         }
 
-        private System.Data.DataTable GetDataManager()
+        private DataTable GetDataManager()
         {
-
-            DB_BankDataSet dataSet = new DB_BankDataSet();
-            var adapter = new DB_BankDataSetTableAdapters.ManagerTableAdapter();
+            var dataSet = new DB_BankDataSet();
+            var adapter = new ManagerTableAdapter();
             adapter.Fill(dataSet.Manager);
-            System.Data.DataTable dataTable = new System.Data.DataTable();
 
-            foreach (System.Data.DataColumn column in dataSet.Manager.Columns)
-            {
-                dataTable.Columns.Add(column.ColumnName, column.DataType);
-            }
-
-            foreach (DataRow row in dataSet.Manager.Rows)
-            {
-                DataRow newRow = dataTable.NewRow();
-                newRow.ItemArray = row.ItemArray;
-                dataTable.Rows.Add(newRow);
-            }
-
-            return dataTable;
+            return dataSet.Manager;
         }
 
         private void btn_close_Click(object sender, EventArgs e)
@@ -516,11 +475,11 @@ namespace Bank
             }
             else if (str == "Branch Report")
             {
-                XtraReport2 report = new XtraReport2();
-                report.DataSource = GetDataBranch();
-                documentViewer1.DocumentSource = report;
-                report.CreateDocument();
-                printTool = new ReportPrintTool(report);
+                XtraReport2 report1 = new XtraReport2();
+                report1.DataSource = GetDataBranch();
+                documentViewer1.DocumentSource = report1;
+                report1.CreateDocument();
+                printTool = new ReportPrintTool(report1);
             }
             else if (str == "List of Managers")
             {

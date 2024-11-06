@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram5 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series9 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series10 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle5 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -106,6 +106,35 @@
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Main_innerPanel = new System.Windows.Forms.Panel();
+            this.pnl_IM_Employee = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.employeeDataGridView = new System.Windows.Forms.DataGridView();
+            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.branchNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ManagerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.homeAddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateStartedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.displayEmployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cbo_employeeType = new System.Windows.Forms.ComboBox();
+            this.employeeTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cbo_locationID = new System.Windows.Forms.ComboBox();
+            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cbo_BranchID = new System.Windows.Forms.ComboBox();
+            this.cbo_managerID = new System.Windows.Forms.ComboBox();
+            this.managerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.employeeNameTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.homeAddressTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.dateStartedDateEdit = new DevExpress.XtraEditors.DateEdit();
+            this.separatorControl5 = new DevExpress.XtraEditors.SeparatorControl();
+            this.btn_EmployeeNew = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_EmployeeSave = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_EmployeeDelete = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_MI_reports = new System.Windows.Forms.Panel();
             this.btn_print = new System.Windows.Forms.Button();
@@ -179,7 +208,6 @@
             this.cityBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.separatorControl2 = new DevExpress.XtraEditors.SeparatorControl();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.branchNameTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.btn_branchNew = new DevExpress.XtraEditors.SimpleButton();
             this.btn_branchSave = new DevExpress.XtraEditors.SimpleButton();
@@ -213,7 +241,6 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.ManagerbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.ManagerbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.managerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.ManagerbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
@@ -235,7 +262,6 @@
             this.employeeNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.homeAddressDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateStartedDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employeeBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.employeeBindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
@@ -282,32 +308,6 @@
             this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.cityBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.pnl_IM_Employee = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.employeeDataGridView = new System.Windows.Forms.DataGridView();
-            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.branchNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ManagerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homeAddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateStartedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.displayEmployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.cbo_employeeType = new System.Windows.Forms.ComboBox();
-            this.employeeTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cbo_locationID = new System.Windows.Forms.ComboBox();
-            this.cbo_BranchID = new System.Windows.Forms.ComboBox();
-            this.cbo_managerID = new System.Windows.Forms.ComboBox();
-            this.employeeNameTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.homeAddressTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.dateStartedDateEdit = new DevExpress.XtraEditors.DateEdit();
-            this.separatorControl5 = new DevExpress.XtraEditors.SeparatorControl();
-            this.btn_EmployeeNew = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_EmployeeSave = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_EmployeeDelete = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_MI_Managers = new System.Windows.Forms.Panel();
             this.managerDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -401,6 +401,21 @@
             this.bindingNavigator1.SuspendLayout();
             this.Main_Panel.SuspendLayout();
             this.Main_innerPanel.SuspendLayout();
+            this.pnl_IM_Employee.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).BeginInit();
+            this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl5)).BeginInit();
             this.pnl_MI_reports.SuspendLayout();
             this.pnl_MI_dashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calendarControl1.CalendarTimeProperties)).BeginInit();
@@ -444,13 +459,12 @@
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
@@ -467,10 +481,8 @@
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).BeginInit();
             this.ManagerbindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).BeginInit();
             this.employeeBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeTypeSpinEdit.Properties)).BeginInit();
@@ -484,18 +496,6 @@
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
             this.bindingNavigator3.SuspendLayout();
-            this.pnl_IM_Employee.SuspendLayout();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).BeginInit();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl5)).BeginInit();
             this.pnl_MI_Managers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.managerDataGridView)).BeginInit();
             this.panel16.SuspendLayout();
@@ -1235,7 +1235,6 @@
             // 
             this.toolStripTextBox1.AccessibleName = "Position";
             this.toolStripTextBox1.AutoSize = false;
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox1.Text = "0";
@@ -1292,6 +1291,7 @@
             // 
             this.Main_innerPanel.AutoScroll = true;
             this.Main_innerPanel.BackColor = System.Drawing.Color.Transparent;
+            this.Main_innerPanel.Controls.Add(this.pnl_IM_Employee);
             this.Main_innerPanel.Controls.Add(this.simpleButton1);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_reports);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_dashboard);
@@ -1300,7 +1300,6 @@
             this.Main_innerPanel.Controls.Add(this.bindingNavigator1);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_statistics);
             this.Main_innerPanel.Controls.Add(this.pnl);
-            this.Main_innerPanel.Controls.Add(this.pnl_IM_Employee);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_Managers);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_city);
             this.Main_innerPanel.Controls.Add(this.pnl_IM_Location);
@@ -1312,6 +1311,332 @@
             this.Main_innerPanel.Padding = new System.Windows.Forms.Padding(15);
             this.Main_innerPanel.Size = new System.Drawing.Size(1075, 964);
             this.Main_innerPanel.TabIndex = 0;
+            // 
+            // pnl_IM_Employee
+            // 
+            this.pnl_IM_Employee.Controls.Add(this.panel12);
+            this.pnl_IM_Employee.Controls.Add(this.panel15);
+            this.pnl_IM_Employee.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl_IM_Employee.Location = new System.Drawing.Point(52, 262);
+            this.pnl_IM_Employee.Margin = new System.Windows.Forms.Padding(0);
+            this.pnl_IM_Employee.Name = "pnl_IM_Employee";
+            this.pnl_IM_Employee.Size = new System.Drawing.Size(549, 62);
+            this.pnl_IM_Employee.TabIndex = 7;
+            // 
+            // panel12
+            // 
+            this.panel12.AutoScroll = true;
+            this.panel12.Controls.Add(this.employeeDataGridView);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(485, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(64, 62);
+            this.panel12.TabIndex = 21;
+            // 
+            // employeeDataGridView
+            // 
+            this.employeeDataGridView.AutoGenerateColumns = false;
+            this.employeeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.employeeDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.employeeIDDataGridViewTextBoxColumn,
+            this.branchNameDataGridViewTextBoxColumn1,
+            this.ManagerName,
+            this.descriptionDataGridViewTextBoxColumn1,
+            this.employeeNameDataGridViewTextBoxColumn,
+            this.homeAddressDataGridViewTextBoxColumn,
+            this.Password,
+            this.dateStartedDataGridViewTextBoxColumn});
+            this.employeeDataGridView.DataSource = this.displayEmployeeBindingSource;
+            this.employeeDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.employeeDataGridView.Location = new System.Drawing.Point(0, 0);
+            this.employeeDataGridView.Name = "employeeDataGridView";
+            this.employeeDataGridView.RowHeadersWidth = 51;
+            this.employeeDataGridView.RowTemplate.Height = 24;
+            this.employeeDataGridView.Size = new System.Drawing.Size(64, 62);
+            this.employeeDataGridView.TabIndex = 0;
+            this.employeeDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDataGridView_CellContentClick);
+            // 
+            // employeeIDDataGridViewTextBoxColumn
+            // 
+            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
+            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // branchNameDataGridViewTextBoxColumn1
+            // 
+            this.branchNameDataGridViewTextBoxColumn1.DataPropertyName = "BranchName";
+            this.branchNameDataGridViewTextBoxColumn1.HeaderText = "Branch";
+            this.branchNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.branchNameDataGridViewTextBoxColumn1.Name = "branchNameDataGridViewTextBoxColumn1";
+            this.branchNameDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // ManagerName
+            // 
+            this.ManagerName.DataPropertyName = "ManagerName";
+            this.ManagerName.HeaderText = "Manager";
+            this.ManagerName.MinimumWidth = 6;
+            this.ManagerName.Name = "ManagerName";
+            this.ManagerName.Width = 125;
+            // 
+            // descriptionDataGridViewTextBoxColumn1
+            // 
+            this.descriptionDataGridViewTextBoxColumn1.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn1.HeaderText = "Role";
+            this.descriptionDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn1.Name = "descriptionDataGridViewTextBoxColumn1";
+            this.descriptionDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // employeeNameDataGridViewTextBoxColumn
+            // 
+            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "EmployeeName";
+            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "Employee Name";
+            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
+            this.employeeNameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // homeAddressDataGridViewTextBoxColumn
+            // 
+            this.homeAddressDataGridViewTextBoxColumn.DataPropertyName = "HomeAddress";
+            this.homeAddressDataGridViewTextBoxColumn.HeaderText = "Home Address";
+            this.homeAddressDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.homeAddressDataGridViewTextBoxColumn.Name = "homeAddressDataGridViewTextBoxColumn";
+            this.homeAddressDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // Password
+            // 
+            this.Password.DataPropertyName = "Password";
+            this.Password.HeaderText = "Password";
+            this.Password.MinimumWidth = 6;
+            this.Password.Name = "Password";
+            this.Password.Width = 125;
+            // 
+            // dateStartedDataGridViewTextBoxColumn
+            // 
+            this.dateStartedDataGridViewTextBoxColumn.DataPropertyName = "DateStarted";
+            this.dateStartedDataGridViewTextBoxColumn.HeaderText = "DateS tarted";
+            this.dateStartedDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dateStartedDataGridViewTextBoxColumn.Name = "dateStartedDataGridViewTextBoxColumn";
+            this.dateStartedDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // displayEmployeeBindingSource
+            // 
+            this.displayEmployeeBindingSource.DataMember = "DisplayEmployee";
+            this.displayEmployeeBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // panel15
+            // 
+            this.panel15.AutoScroll = true;
+            this.panel15.Controls.Add(this.passwordTextEdit);
+            this.panel15.Controls.Add(passwordLabel);
+            this.panel15.Controls.Add(this.cbo_employeeType);
+            this.panel15.Controls.Add(this.cbo_locationID);
+            this.panel15.Controls.Add(this.cbo_BranchID);
+            this.panel15.Controls.Add(this.cbo_managerID);
+            this.panel15.Controls.Add(label3);
+            this.panel15.Controls.Add(label4);
+            this.panel15.Controls.Add(label5);
+            this.panel15.Controls.Add(label6);
+            this.panel15.Controls.Add(employeeNameLabel);
+            this.panel15.Controls.Add(this.employeeNameTextEdit);
+            this.panel15.Controls.Add(homeAddressLabel);
+            this.panel15.Controls.Add(this.homeAddressTextEdit);
+            this.panel15.Controls.Add(dateStartedLabel);
+            this.panel15.Controls.Add(this.dateStartedDateEdit);
+            this.panel15.Controls.Add(this.separatorControl5);
+            this.panel15.Controls.Add(this.btn_EmployeeNew);
+            this.panel15.Controls.Add(this.btn_EmployeeSave);
+            this.panel15.Controls.Add(this.btn_EmployeeDelete);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Margin = new System.Windows.Forms.Padding(0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(485, 62);
+            this.panel15.TabIndex = 20;
+            // 
+            // passwordTextEdit
+            // 
+            this.passwordTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.passwordTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "Password", true));
+            this.passwordTextEdit.Location = new System.Drawing.Point(170, 250);
+            this.passwordTextEdit.Name = "passwordTextEdit";
+            this.passwordTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.passwordTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.passwordTextEdit.Size = new System.Drawing.Size(274, 26);
+            this.passwordTextEdit.TabIndex = 43;
+            // 
+            // employeeBindingSource
+            // 
+            this.employeeBindingSource.DataMember = "Employee";
+            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // cbo_employeeType
+            // 
+            this.cbo_employeeType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_employeeType.DataSource = this.employeeTypeBindingSource;
+            this.cbo_employeeType.DisplayMember = "Description";
+            this.cbo_employeeType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_employeeType.FormattingEnabled = true;
+            this.cbo_employeeType.Location = new System.Drawing.Point(170, 118);
+            this.cbo_employeeType.Name = "cbo_employeeType";
+            this.cbo_employeeType.Size = new System.Drawing.Size(274, 31);
+            this.cbo_employeeType.TabIndex = 42;
+            this.cbo_employeeType.ValueMember = "EmployeeTypeID";
+            // 
+            // employeeTypeBindingSource
+            // 
+            this.employeeTypeBindingSource.DataMember = "EmployeeType";
+            this.employeeTypeBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // cbo_locationID
+            // 
+            this.cbo_locationID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_locationID.DataSource = this.locationBindingSource;
+            this.cbo_locationID.DisplayMember = "Description";
+            this.cbo_locationID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_locationID.FormattingEnabled = true;
+            this.cbo_locationID.Location = new System.Drawing.Point(170, 50);
+            this.cbo_locationID.Name = "cbo_locationID";
+            this.cbo_locationID.Size = new System.Drawing.Size(274, 31);
+            this.cbo_locationID.TabIndex = 41;
+            this.cbo_locationID.ValueMember = "LocationID";
+            // 
+            // locationBindingSource
+            // 
+            this.locationBindingSource.DataMember = "Location";
+            this.locationBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // cbo_BranchID
+            // 
+            this.cbo_BranchID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_BranchID.DataSource = this.branchBindingSource;
+            this.cbo_BranchID.DisplayMember = "BranchName";
+            this.cbo_BranchID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_BranchID.FormattingEnabled = true;
+            this.cbo_BranchID.Location = new System.Drawing.Point(170, 17);
+            this.cbo_BranchID.Name = "cbo_BranchID";
+            this.cbo_BranchID.Size = new System.Drawing.Size(274, 31);
+            this.cbo_BranchID.TabIndex = 40;
+            this.cbo_BranchID.ValueMember = "BranchID";
+            // 
+            // cbo_managerID
+            // 
+            this.cbo_managerID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_managerID.DataSource = this.managerBindingSource;
+            this.cbo_managerID.DisplayMember = "ManagerName";
+            this.cbo_managerID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_managerID.FormattingEnabled = true;
+            this.cbo_managerID.Location = new System.Drawing.Point(170, 83);
+            this.cbo_managerID.Name = "cbo_managerID";
+            this.cbo_managerID.Size = new System.Drawing.Size(274, 31);
+            this.cbo_managerID.TabIndex = 39;
+            this.cbo_managerID.ValueMember = "ManagerID";
+            // 
+            // managerBindingSource
+            // 
+            this.managerBindingSource.DataMember = "Manager";
+            this.managerBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // employeeNameTextEdit
+            // 
+            this.employeeNameTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.employeeNameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeName", true));
+            this.employeeNameTextEdit.Location = new System.Drawing.Point(170, 151);
+            this.employeeNameTextEdit.Name = "employeeNameTextEdit";
+            this.employeeNameTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.employeeNameTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.employeeNameTextEdit.Size = new System.Drawing.Size(275, 26);
+            this.employeeNameTextEdit.TabIndex = 30;
+            // 
+            // homeAddressTextEdit
+            // 
+            this.homeAddressTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.homeAddressTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "HomeAddress", true));
+            this.homeAddressTextEdit.Location = new System.Drawing.Point(170, 182);
+            this.homeAddressTextEdit.Name = "homeAddressTextEdit";
+            this.homeAddressTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.homeAddressTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.homeAddressTextEdit.Size = new System.Drawing.Size(275, 26);
+            this.homeAddressTextEdit.TabIndex = 32;
+            // 
+            // dateStartedDateEdit
+            // 
+            this.dateStartedDateEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateStartedDateEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "DateStarted", true));
+            this.dateStartedDateEdit.EditValue = null;
+            this.dateStartedDateEdit.Location = new System.Drawing.Point(170, 213);
+            this.dateStartedDateEdit.Name = "dateStartedDateEdit";
+            this.dateStartedDateEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.dateStartedDateEdit.Properties.Appearance.Options.UseFont = true;
+            this.dateStartedDateEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateStartedDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateStartedDateEdit.Size = new System.Drawing.Size(275, 26);
+            this.dateStartedDateEdit.TabIndex = 34;
+            // 
+            // separatorControl5
+            // 
+            this.separatorControl5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.separatorControl5.Location = new System.Drawing.Point(6, 290);
+            this.separatorControl5.Name = "separatorControl5";
+            this.separatorControl5.Size = new System.Drawing.Size(442, 45);
+            this.separatorControl5.TabIndex = 19;
+            // 
+            // btn_EmployeeNew
+            // 
+            this.btn_EmployeeNew.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_EmployeeNew.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_EmployeeNew.Appearance.Options.UseFont = true;
+            this.btn_EmployeeNew.ImageOptions.Image = global::Bank.Properties.Resources.additem_32x32;
+            this.btn_EmployeeNew.Location = new System.Drawing.Point(17, 338);
+            this.btn_EmployeeNew.Name = "btn_EmployeeNew";
+            this.btn_EmployeeNew.Size = new System.Drawing.Size(427, 40);
+            this.btn_EmployeeNew.TabIndex = 12;
+            this.btn_EmployeeNew.Text = "New";
+            this.btn_EmployeeNew.Click += new System.EventHandler(this.btn_EmployeeNew_Click);
+            // 
+            // btn_EmployeeSave
+            // 
+            this.btn_EmployeeSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_EmployeeSave.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_EmployeeSave.Appearance.Options.UseFont = true;
+            this.btn_EmployeeSave.ImageOptions.Image = global::Bank.Properties.Resources.saveandnew_32x32;
+            this.btn_EmployeeSave.Location = new System.Drawing.Point(17, 385);
+            this.btn_EmployeeSave.Name = "btn_EmployeeSave";
+            this.btn_EmployeeSave.Size = new System.Drawing.Size(427, 40);
+            this.btn_EmployeeSave.TabIndex = 13;
+            this.btn_EmployeeSave.Text = "Save";
+            this.btn_EmployeeSave.Click += new System.EventHandler(this.btn_EmployeeSave_Click);
+            // 
+            // btn_EmployeeDelete
+            // 
+            this.btn_EmployeeDelete.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_EmployeeDelete.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_EmployeeDelete.Appearance.Options.UseFont = true;
+            this.btn_EmployeeDelete.ImageOptions.Image = global::Bank.Properties.Resources.cancel_32x32;
+            this.btn_EmployeeDelete.Location = new System.Drawing.Point(17, 431);
+            this.btn_EmployeeDelete.Name = "btn_EmployeeDelete";
+            this.btn_EmployeeDelete.Size = new System.Drawing.Size(427, 40);
+            this.btn_EmployeeDelete.TabIndex = 14;
+            this.btn_EmployeeDelete.Text = "Cancel/Delete";
+            this.btn_EmployeeDelete.Click += new System.EventHandler(this.btn_EmployeeDelete_Click);
             // 
             // simpleButton1
             // 
@@ -1329,16 +1654,16 @@
             this.pnl_MI_reports.Controls.Add(this.label22);
             this.pnl_MI_reports.Controls.Add(this.documentViewer1);
             this.pnl_MI_reports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl_MI_reports.Location = new System.Drawing.Point(173, 38);
+            this.pnl_MI_reports.Location = new System.Drawing.Point(607, 260);
             this.pnl_MI_reports.Name = "pnl_MI_reports";
-            this.pnl_MI_reports.Size = new System.Drawing.Size(771, 418);
+            this.pnl_MI_reports.Size = new System.Drawing.Size(472, 64);
             this.pnl_MI_reports.TabIndex = 12;
             // 
             // btn_print
             // 
             this.btn_print.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_print.Image = global::Bank.Properties.Resources.print_32x32;
-            this.btn_print.Location = new System.Drawing.Point(709, 7);
+            this.btn_print.Location = new System.Drawing.Point(410, 7);
             this.btn_print.Name = "btn_print";
             this.btn_print.Size = new System.Drawing.Size(59, 50);
             this.btn_print.TabIndex = 3;
@@ -1358,7 +1683,7 @@
             "List of Managers"});
             this.cbo_reports.Location = new System.Drawing.Point(113, 19);
             this.cbo_reports.Name = "cbo_reports";
-            this.cbo_reports.Size = new System.Drawing.Size(590, 28);
+            this.cbo_reports.Size = new System.Drawing.Size(291, 28);
             this.cbo_reports.TabIndex = 2;
             this.cbo_reports.SelectedIndexChanged += new System.EventHandler(this.cbo_reports_SelectedIndexChanged);
             // 
@@ -1381,7 +1706,7 @@
             this.documentViewer1.Location = new System.Drawing.Point(0, 64);
             this.documentViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.documentViewer1.Name = "documentViewer1";
-            this.documentViewer1.Size = new System.Drawing.Size(771, 354);
+            this.documentViewer1.Size = new System.Drawing.Size(472, 0);
             this.documentViewer1.TabIndex = 0;
             // 
             // pnl_MI_dashboard
@@ -1413,7 +1738,7 @@
             this.calendarControl1.Location = new System.Drawing.Point(0, 99);
             this.calendarControl1.Name = "calendarControl1";
             this.calendarControl1.ShowWeekNumbers = true;
-            this.calendarControl1.Size = new System.Drawing.Size(344, 291);
+            this.calendarControl1.Size = new System.Drawing.Size(340, 291);
             this.calendarControl1.TabIndex = 4;
             // 
             // layoutControl1
@@ -2158,11 +2483,6 @@
             this.comboBox1.ValueMember = "LocationID";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // locationBindingSource
-            // 
-            this.locationBindingSource.DataMember = "Location";
-            this.locationBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // branchNameTextEdit
             // 
             this.branchNameTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -2232,36 +2552,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram5.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram5.AxisX.Title.Text = "Branch Names";
-            xyDiagram5.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram5.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram5.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram5.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram5.AxisY.Title.Text = "Amount";
-            xyDiagram5.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram5.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram5;
+            xyDiagram1.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram1.AxisX.Title.Text = "Branch Names";
+            xyDiagram1.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram1.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram1.AxisY.Title.Text = "Amount";
+            xyDiagram1.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram1;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series9.ArgumentDataMember = "BranchName";
-            series9.DataSource = this.branchBindingSource;
-            series9.Name = "Deposits";
-            series9.ValueDataMembersSerializable = "Deposit";
-            series10.ArgumentDataMember = "BranchName";
-            series10.DataSource = this.branchBindingSource;
-            series10.Name = "Loans";
-            series10.ValueDataMembersSerializable = "Loan";
+            series1.ArgumentDataMember = "BranchName";
+            series1.DataSource = this.branchBindingSource;
+            series1.Name = "Deposits";
+            series1.ValueDataMembersSerializable = "Deposit";
+            series2.ArgumentDataMember = "BranchName";
+            series2.DataSource = this.branchBindingSource;
+            series2.Name = "Loans";
+            series2.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series9,
-        series10};
+        series1,
+        series2};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle5.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle5.Text = "Bank Branches Statistics";
+            chartTitle1.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle1.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle5});
+            chartTitle1});
             // 
             // panel22
             // 
@@ -2450,7 +2770,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -2607,11 +2926,6 @@
             this.ManagerbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.ManagerbindingNavigatorAddItem.Text = "Add new";
             // 
-            // managerBindingSource
-            // 
-            this.managerBindingSource.DataMember = "Manager";
-            this.managerBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // toolStripLabel5
             // 
             this.toolStripLabel5.Name = "toolStripLabel5";
@@ -2655,7 +2969,6 @@
             // 
             this.toolStripTextBox4.AccessibleName = "Position";
             this.toolStripTextBox4.AutoSize = false;
-            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox4.Name = "toolStripTextBox4";
             this.toolStripTextBox4.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox4.Text = "0";
@@ -2806,11 +3119,6 @@
             this.dateStartedDataGridViewTextBoxColumn1.Name = "dateStartedDataGridViewTextBoxColumn1";
             this.dateStartedDataGridViewTextBoxColumn1.Width = 125;
             // 
-            // employeeBindingSource
-            // 
-            this.employeeBindingSource.DataMember = "Employee";
-            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // employeeBindingNavigator
             // 
             this.employeeBindingNavigator.AddNewItem = this.employeeBindingNavigatorAddItem;
@@ -2895,7 +3203,6 @@
             // 
             this.employeeBindingNavigatorIndex.AccessibleName = "Position";
             this.employeeBindingNavigatorIndex.AutoSize = false;
-            this.employeeBindingNavigatorIndex.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.employeeBindingNavigatorIndex.Name = "employeeBindingNavigatorIndex";
             this.employeeBindingNavigatorIndex.Size = new System.Drawing.Size(50, 27);
             this.employeeBindingNavigatorIndex.Text = "0";
@@ -3119,7 +3426,6 @@
             // 
             this.toolStripTextBox2.AccessibleName = "Position";
             this.toolStripTextBox2.AutoSize = false;
-            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox2.Name = "toolStripTextBox2";
             this.toolStripTextBox2.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox2.Text = "0";
@@ -3257,7 +3563,6 @@
             // 
             this.toolStripTextBox3.AccessibleName = "Position";
             this.toolStripTextBox3.AutoSize = false;
-            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox3.Name = "toolStripTextBox3";
             this.toolStripTextBox3.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox3.Text = "0";
@@ -3299,317 +3604,6 @@
             this.cityBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.cityBindingNavigatorSaveItem.Text = "Save Data";
             this.cityBindingNavigatorSaveItem.Click += new System.EventHandler(this.cityBindingNavigatorSaveItem_Click);
-            // 
-            // pnl_IM_Employee
-            // 
-            this.pnl_IM_Employee.Controls.Add(this.panel12);
-            this.pnl_IM_Employee.Controls.Add(this.panel15);
-            this.pnl_IM_Employee.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl_IM_Employee.Location = new System.Drawing.Point(52, 262);
-            this.pnl_IM_Employee.Margin = new System.Windows.Forms.Padding(0);
-            this.pnl_IM_Employee.Name = "pnl_IM_Employee";
-            this.pnl_IM_Employee.Size = new System.Drawing.Size(549, 57);
-            this.pnl_IM_Employee.TabIndex = 7;
-            // 
-            // panel12
-            // 
-            this.panel12.AutoScroll = true;
-            this.panel12.Controls.Add(this.employeeDataGridView);
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel12.Location = new System.Drawing.Point(485, 0);
-            this.panel12.Margin = new System.Windows.Forms.Padding(0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(64, 57);
-            this.panel12.TabIndex = 21;
-            // 
-            // employeeDataGridView
-            // 
-            this.employeeDataGridView.AutoGenerateColumns = false;
-            this.employeeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.employeeDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.employeeIDDataGridViewTextBoxColumn,
-            this.branchNameDataGridViewTextBoxColumn1,
-            this.ManagerName,
-            this.descriptionDataGridViewTextBoxColumn1,
-            this.employeeNameDataGridViewTextBoxColumn,
-            this.homeAddressDataGridViewTextBoxColumn,
-            this.Password,
-            this.dateStartedDataGridViewTextBoxColumn});
-            this.employeeDataGridView.DataSource = this.displayEmployeeBindingSource;
-            this.employeeDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.employeeDataGridView.Location = new System.Drawing.Point(0, 0);
-            this.employeeDataGridView.Name = "employeeDataGridView";
-            this.employeeDataGridView.RowHeadersWidth = 51;
-            this.employeeDataGridView.RowTemplate.Height = 24;
-            this.employeeDataGridView.Size = new System.Drawing.Size(64, 57);
-            this.employeeDataGridView.TabIndex = 0;
-            this.employeeDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.employeeDataGridView_CellContentClick);
-            // 
-            // employeeIDDataGridViewTextBoxColumn
-            // 
-            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
-            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // branchNameDataGridViewTextBoxColumn1
-            // 
-            this.branchNameDataGridViewTextBoxColumn1.DataPropertyName = "BranchName";
-            this.branchNameDataGridViewTextBoxColumn1.HeaderText = "Branch";
-            this.branchNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.branchNameDataGridViewTextBoxColumn1.Name = "branchNameDataGridViewTextBoxColumn1";
-            this.branchNameDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // ManagerName
-            // 
-            this.ManagerName.DataPropertyName = "ManagerName";
-            this.ManagerName.HeaderText = "Manager";
-            this.ManagerName.MinimumWidth = 6;
-            this.ManagerName.Name = "ManagerName";
-            this.ManagerName.Width = 125;
-            // 
-            // descriptionDataGridViewTextBoxColumn1
-            // 
-            this.descriptionDataGridViewTextBoxColumn1.DataPropertyName = "Description";
-            this.descriptionDataGridViewTextBoxColumn1.HeaderText = "Role";
-            this.descriptionDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn1.Name = "descriptionDataGridViewTextBoxColumn1";
-            this.descriptionDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // employeeNameDataGridViewTextBoxColumn
-            // 
-            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "EmployeeName";
-            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "Employee Name";
-            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
-            this.employeeNameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // homeAddressDataGridViewTextBoxColumn
-            // 
-            this.homeAddressDataGridViewTextBoxColumn.DataPropertyName = "HomeAddress";
-            this.homeAddressDataGridViewTextBoxColumn.HeaderText = "Home Address";
-            this.homeAddressDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.homeAddressDataGridViewTextBoxColumn.Name = "homeAddressDataGridViewTextBoxColumn";
-            this.homeAddressDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // Password
-            // 
-            this.Password.DataPropertyName = "Password";
-            this.Password.HeaderText = "Password";
-            this.Password.MinimumWidth = 6;
-            this.Password.Name = "Password";
-            this.Password.Width = 125;
-            // 
-            // dateStartedDataGridViewTextBoxColumn
-            // 
-            this.dateStartedDataGridViewTextBoxColumn.DataPropertyName = "DateStarted";
-            this.dateStartedDataGridViewTextBoxColumn.HeaderText = "DateS tarted";
-            this.dateStartedDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.dateStartedDataGridViewTextBoxColumn.Name = "dateStartedDataGridViewTextBoxColumn";
-            this.dateStartedDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // displayEmployeeBindingSource
-            // 
-            this.displayEmployeeBindingSource.DataMember = "DisplayEmployee";
-            this.displayEmployeeBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // panel15
-            // 
-            this.panel15.AutoScroll = true;
-            this.panel15.Controls.Add(this.passwordTextEdit);
-            this.panel15.Controls.Add(passwordLabel);
-            this.panel15.Controls.Add(this.cbo_employeeType);
-            this.panel15.Controls.Add(this.cbo_locationID);
-            this.panel15.Controls.Add(this.cbo_BranchID);
-            this.panel15.Controls.Add(this.cbo_managerID);
-            this.panel15.Controls.Add(label3);
-            this.panel15.Controls.Add(label4);
-            this.panel15.Controls.Add(label5);
-            this.panel15.Controls.Add(label6);
-            this.panel15.Controls.Add(employeeNameLabel);
-            this.panel15.Controls.Add(this.employeeNameTextEdit);
-            this.panel15.Controls.Add(homeAddressLabel);
-            this.panel15.Controls.Add(this.homeAddressTextEdit);
-            this.panel15.Controls.Add(dateStartedLabel);
-            this.panel15.Controls.Add(this.dateStartedDateEdit);
-            this.panel15.Controls.Add(this.separatorControl5);
-            this.panel15.Controls.Add(this.btn_EmployeeNew);
-            this.panel15.Controls.Add(this.btn_EmployeeSave);
-            this.panel15.Controls.Add(this.btn_EmployeeDelete);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Margin = new System.Windows.Forms.Padding(0);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(485, 57);
-            this.panel15.TabIndex = 20;
-            // 
-            // passwordTextEdit
-            // 
-            this.passwordTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.passwordTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "Password", true));
-            this.passwordTextEdit.Location = new System.Drawing.Point(170, 250);
-            this.passwordTextEdit.Name = "passwordTextEdit";
-            this.passwordTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.passwordTextEdit.Properties.Appearance.Options.UseFont = true;
-            this.passwordTextEdit.Size = new System.Drawing.Size(274, 26);
-            this.passwordTextEdit.TabIndex = 43;
-            // 
-            // cbo_employeeType
-            // 
-            this.cbo_employeeType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_employeeType.DataSource = this.employeeTypeBindingSource;
-            this.cbo_employeeType.DisplayMember = "Description";
-            this.cbo_employeeType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_employeeType.FormattingEnabled = true;
-            this.cbo_employeeType.Location = new System.Drawing.Point(170, 118);
-            this.cbo_employeeType.Name = "cbo_employeeType";
-            this.cbo_employeeType.Size = new System.Drawing.Size(274, 31);
-            this.cbo_employeeType.TabIndex = 42;
-            this.cbo_employeeType.ValueMember = "EmployeeTypeID";
-            // 
-            // employeeTypeBindingSource
-            // 
-            this.employeeTypeBindingSource.DataMember = "EmployeeType";
-            this.employeeTypeBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // cbo_locationID
-            // 
-            this.cbo_locationID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_locationID.DataSource = this.locationBindingSource;
-            this.cbo_locationID.DisplayMember = "Description";
-            this.cbo_locationID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_locationID.FormattingEnabled = true;
-            this.cbo_locationID.Location = new System.Drawing.Point(170, 50);
-            this.cbo_locationID.Name = "cbo_locationID";
-            this.cbo_locationID.Size = new System.Drawing.Size(274, 31);
-            this.cbo_locationID.TabIndex = 41;
-            this.cbo_locationID.ValueMember = "LocationID";
-            // 
-            // cbo_BranchID
-            // 
-            this.cbo_BranchID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_BranchID.DataSource = this.branchBindingSource;
-            this.cbo_BranchID.DisplayMember = "BranchName";
-            this.cbo_BranchID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_BranchID.FormattingEnabled = true;
-            this.cbo_BranchID.Location = new System.Drawing.Point(170, 17);
-            this.cbo_BranchID.Name = "cbo_BranchID";
-            this.cbo_BranchID.Size = new System.Drawing.Size(274, 31);
-            this.cbo_BranchID.TabIndex = 40;
-            this.cbo_BranchID.ValueMember = "BranchID";
-            // 
-            // cbo_managerID
-            // 
-            this.cbo_managerID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_managerID.DataSource = this.managerBindingSource;
-            this.cbo_managerID.DisplayMember = "ManagerName";
-            this.cbo_managerID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_managerID.FormattingEnabled = true;
-            this.cbo_managerID.Location = new System.Drawing.Point(170, 83);
-            this.cbo_managerID.Name = "cbo_managerID";
-            this.cbo_managerID.Size = new System.Drawing.Size(274, 31);
-            this.cbo_managerID.TabIndex = 39;
-            this.cbo_managerID.ValueMember = "ManagerID";
-            // 
-            // employeeNameTextEdit
-            // 
-            this.employeeNameTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.employeeNameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeName", true));
-            this.employeeNameTextEdit.Location = new System.Drawing.Point(170, 151);
-            this.employeeNameTextEdit.Name = "employeeNameTextEdit";
-            this.employeeNameTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.employeeNameTextEdit.Properties.Appearance.Options.UseFont = true;
-            this.employeeNameTextEdit.Size = new System.Drawing.Size(275, 26);
-            this.employeeNameTextEdit.TabIndex = 30;
-            // 
-            // homeAddressTextEdit
-            // 
-            this.homeAddressTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.homeAddressTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "HomeAddress", true));
-            this.homeAddressTextEdit.Location = new System.Drawing.Point(170, 182);
-            this.homeAddressTextEdit.Name = "homeAddressTextEdit";
-            this.homeAddressTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.homeAddressTextEdit.Properties.Appearance.Options.UseFont = true;
-            this.homeAddressTextEdit.Size = new System.Drawing.Size(275, 26);
-            this.homeAddressTextEdit.TabIndex = 32;
-            // 
-            // dateStartedDateEdit
-            // 
-            this.dateStartedDateEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateStartedDateEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "DateStarted", true));
-            this.dateStartedDateEdit.EditValue = null;
-            this.dateStartedDateEdit.Location = new System.Drawing.Point(170, 213);
-            this.dateStartedDateEdit.Name = "dateStartedDateEdit";
-            this.dateStartedDateEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.dateStartedDateEdit.Properties.Appearance.Options.UseFont = true;
-            this.dateStartedDateEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateStartedDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateStartedDateEdit.Size = new System.Drawing.Size(275, 26);
-            this.dateStartedDateEdit.TabIndex = 34;
-            // 
-            // separatorControl5
-            // 
-            this.separatorControl5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.separatorControl5.Location = new System.Drawing.Point(6, 290);
-            this.separatorControl5.Name = "separatorControl5";
-            this.separatorControl5.Size = new System.Drawing.Size(442, 45);
-            this.separatorControl5.TabIndex = 19;
-            // 
-            // btn_EmployeeNew
-            // 
-            this.btn_EmployeeNew.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_EmployeeNew.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_EmployeeNew.Appearance.Options.UseFont = true;
-            this.btn_EmployeeNew.ImageOptions.Image = global::Bank.Properties.Resources.additem_32x32;
-            this.btn_EmployeeNew.Location = new System.Drawing.Point(17, 338);
-            this.btn_EmployeeNew.Name = "btn_EmployeeNew";
-            this.btn_EmployeeNew.Size = new System.Drawing.Size(427, 40);
-            this.btn_EmployeeNew.TabIndex = 12;
-            this.btn_EmployeeNew.Text = "New";
-            this.btn_EmployeeNew.Click += new System.EventHandler(this.btn_EmployeeNew_Click);
-            // 
-            // btn_EmployeeSave
-            // 
-            this.btn_EmployeeSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_EmployeeSave.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_EmployeeSave.Appearance.Options.UseFont = true;
-            this.btn_EmployeeSave.ImageOptions.Image = global::Bank.Properties.Resources.saveandnew_32x32;
-            this.btn_EmployeeSave.Location = new System.Drawing.Point(17, 385);
-            this.btn_EmployeeSave.Name = "btn_EmployeeSave";
-            this.btn_EmployeeSave.Size = new System.Drawing.Size(427, 40);
-            this.btn_EmployeeSave.TabIndex = 13;
-            this.btn_EmployeeSave.Text = "Save";
-            this.btn_EmployeeSave.Click += new System.EventHandler(this.btn_EmployeeSave_Click);
-            // 
-            // btn_EmployeeDelete
-            // 
-            this.btn_EmployeeDelete.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_EmployeeDelete.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_EmployeeDelete.Appearance.Options.UseFont = true;
-            this.btn_EmployeeDelete.ImageOptions.Image = global::Bank.Properties.Resources.cancel_32x32;
-            this.btn_EmployeeDelete.Location = new System.Drawing.Point(17, 431);
-            this.btn_EmployeeDelete.Name = "btn_EmployeeDelete";
-            this.btn_EmployeeDelete.Size = new System.Drawing.Size(427, 40);
-            this.btn_EmployeeDelete.TabIndex = 14;
-            this.btn_EmployeeDelete.Text = "Cancel/Delete";
-            this.btn_EmployeeDelete.Click += new System.EventHandler(this.btn_EmployeeDelete_Click);
             // 
             // pnl_MI_Managers
             // 
@@ -4138,6 +4132,7 @@
             this.Controls.Add(this.Main_Panel);
             this.Controls.Add(this.Top_panel);
             this.Controls.Add(this.left_panel);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -4168,6 +4163,22 @@
             this.Main_Panel.ResumeLayout(false);
             this.Main_innerPanel.ResumeLayout(false);
             this.Main_innerPanel.PerformLayout();
+            this.pnl_IM_Employee.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).EndInit();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl5)).EndInit();
             this.pnl_MI_reports.ResumeLayout(false);
             this.pnl_MI_reports.PerformLayout();
             this.pnl_MI_dashboard.ResumeLayout(false);
@@ -4218,12 +4229,11 @@
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
@@ -4245,11 +4255,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).EndInit();
             this.ManagerbindingNavigator.ResumeLayout(false);
             this.ManagerbindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).EndInit();
             this.employeeBindingNavigator.ResumeLayout(false);
             this.employeeBindingNavigator.PerformLayout();
@@ -4268,19 +4276,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
             this.bindingNavigator3.ResumeLayout(false);
             this.bindingNavigator3.PerformLayout();
-            this.pnl_IM_Employee.ResumeLayout(false);
-            this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl5)).EndInit();
             this.pnl_MI_Managers.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.managerDataGridView)).EndInit();
             this.panel16.ResumeLayout(false);

@@ -23,7 +23,7 @@
     <Shape ID="DesignTable:sysdiagrams" ZOrder="48" X="1896" Y="70" Height="204" Width="254" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="145" />
     <Shape ID="DesignTable:userAccounts" ZOrder="47" X="1564" Y="70" Height="227" Width="262" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="168" />
     <Shape ID="DesignTable:DisplayEmployee" ZOrder="17" X="1022" Y="313" Height="319" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="237" />
-    <Shape ID="DesignTable:DisplayBranch" ZOrder="21" X="890" Y="44" Height="227" Width="269" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="168" />
+    <Shape ID="DesignTable:DisplayBranch" ZOrder="21" X="890" Y="43" Height="250" Width="269" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="191" />
     <Shape ID="DesignTable:CustomerAndAccount" ZOrder="13" X="309" Y="622" Height="158" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="99" />
     <Shape ID="DesignTable:ClientLogin" ZOrder="6" X="-136" Y="491" Height="227" Width="290" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="168" />
   </Shapes>
@@ -272,7 +272,7 @@
       <RoutePoints>
         <Point>
           <X>958</X>
-          <Y>271</Y>
+          <Y>293</Y>
         </Point>
         <Point>
           <X>958</X>
@@ -288,7 +288,7 @@
       <RoutePoints>
         <Point>
           <X>915</X>
-          <Y>271</Y>
+          <Y>293</Y>
         </Point>
         <Point>
           <X>915</X>
