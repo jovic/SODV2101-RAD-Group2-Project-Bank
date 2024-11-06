@@ -81,15 +81,15 @@ namespace Bank
         private void LoginForm_Load(object sender, EventArgs e)
         {
 
-            //testingValues();
+            testingValues();
         }
 
 
 
         private void testingValues()
         {
-            txt_uname.Text = "4";
-            txt_password.Text = "mypassword";
+            txt_uname.Text = "8";
+            txt_password.Text = "abcpassword";
 
             Timer timer = new Timer();
             timer.Interval = 2000;
