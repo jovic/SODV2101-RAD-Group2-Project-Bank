@@ -1235,6 +1235,7 @@
             // 
             this.toolStripTextBox1.AccessibleName = "Position";
             this.toolStripTextBox1.AutoSize = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox1.Text = "0";
@@ -1759,10 +1760,10 @@
             this.pnl_core.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_core.Controls.Add(this.label9);
             this.pnl_core.Controls.Add(this.label12);
-            this.pnl_core.Location = new System.Drawing.Point(12, 312);
+            this.pnl_core.Location = new System.Drawing.Point(12, 297);
             this.pnl_core.Margin = new System.Windows.Forms.Padding(0);
             this.pnl_core.Name = "pnl_core";
-            this.pnl_core.Size = new System.Drawing.Size(368, 147);
+            this.pnl_core.Size = new System.Drawing.Size(368, 162);
             this.pnl_core.TabIndex = 1;
             // 
             // label9
@@ -1771,7 +1772,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(0, 53);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(368, 94);
+            this.label9.Size = new System.Drawing.Size(368, 109);
             this.label9.TabIndex = 4;
             this.label9.Text = resources.GetString("label9.Text");
             // 
@@ -1795,7 +1796,7 @@
             this.pnl_mission.Location = new System.Drawing.Point(12, 12);
             this.pnl_mission.Margin = new System.Windows.Forms.Padding(0);
             this.pnl_mission.Name = "pnl_mission";
-            this.pnl_mission.Size = new System.Drawing.Size(368, 146);
+            this.pnl_mission.Size = new System.Drawing.Size(368, 128);
             this.pnl_mission.TabIndex = 0;
             // 
             // label10
@@ -1804,7 +1805,7 @@
             this.label10.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(0, 53);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(368, 93);
+            this.label10.Size = new System.Drawing.Size(368, 75);
             this.label10.TabIndex = 1;
             this.label10.Text = "We help our customers and communities reach their financial aspirations by offeri" +
     "ng top-tier solutions and strong, effective leadership.";
@@ -1826,9 +1827,9 @@
             this.pnl_vision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnl_vision.Controls.Add(this.label11);
             this.pnl_vision.Controls.Add(this.label8);
-            this.pnl_vision.Location = new System.Drawing.Point(12, 162);
+            this.pnl_vision.Location = new System.Drawing.Point(12, 144);
             this.pnl_vision.Name = "pnl_vision";
-            this.pnl_vision.Size = new System.Drawing.Size(368, 146);
+            this.pnl_vision.Size = new System.Drawing.Size(368, 149);
             this.pnl_vision.TabIndex = 2;
             // 
             // label11
@@ -1839,7 +1840,7 @@
             this.label11.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(0, 53);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(368, 93);
+            this.label11.Size = new System.Drawing.Size(368, 96);
             this.label11.TabIndex = 2;
             this.label11.Text = resources.GetString("label11.Text");
             // 
@@ -1872,25 +1873,25 @@
             this.layoutControlItem1.Control = this.pnl_mission;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(372, 150);
+            this.layoutControlItem1.Size = new System.Drawing.Size(372, 132);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.pnl_vision;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 150);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 132);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(372, 150);
+            this.layoutControlItem2.Size = new System.Drawing.Size(372, 153);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.pnl_core;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 300);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 285);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(372, 151);
+            this.layoutControlItem3.Size = new System.Drawing.Size(372, 166);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
@@ -2770,6 +2771,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -2969,6 +2971,7 @@
             // 
             this.toolStripTextBox4.AccessibleName = "Position";
             this.toolStripTextBox4.AutoSize = false;
+            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox4.Name = "toolStripTextBox4";
             this.toolStripTextBox4.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox4.Text = "0";
@@ -3203,6 +3206,7 @@
             // 
             this.employeeBindingNavigatorIndex.AccessibleName = "Position";
             this.employeeBindingNavigatorIndex.AutoSize = false;
+            this.employeeBindingNavigatorIndex.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.employeeBindingNavigatorIndex.Name = "employeeBindingNavigatorIndex";
             this.employeeBindingNavigatorIndex.Size = new System.Drawing.Size(50, 27);
             this.employeeBindingNavigatorIndex.Text = "0";
@@ -3426,6 +3430,7 @@
             // 
             this.toolStripTextBox2.AccessibleName = "Position";
             this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox2.Name = "toolStripTextBox2";
             this.toolStripTextBox2.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox2.Text = "0";
@@ -3563,6 +3568,7 @@
             // 
             this.toolStripTextBox3.AccessibleName = "Position";
             this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox3.Name = "toolStripTextBox3";
             this.toolStripTextBox3.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox3.Text = "0";
