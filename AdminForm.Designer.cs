@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -106,6 +106,118 @@
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Main_innerPanel = new System.Windows.Forms.Panel();
+            this.pnl = new System.Windows.Forms.Panel();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.ManagerbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.ManagerbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
+            this.managerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.ManagerbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox4 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
+            this.ManagerbindingNavigatorSave = new System.Windows.Forms.ToolStripButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.dataTable1DataGridView = new System.Windows.Forms.DataGridView();
+            this.employeeIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.managerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.branchIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.locationIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.homeAddressDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateStartedDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.employeeBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.employeeBindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
+            this.employeeBindingNavigatorDelete = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.employeeBindingNavigatorIndex = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.employeeBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.employeeTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.managerIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.locationIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.branchIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.employeeIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.locationBindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.locationBindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.locationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.cityBindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.cityBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.cityBindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.cityBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.pnl_MI_branch = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.branchDataGridView = new System.Windows.Forms.DataGridView();
+            this.branchIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.locationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.branchNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.depositDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.displayBranchBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.branchIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.branchBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.branchbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.branchBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.depositSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.locationIDSpinEdit = new DevExpress.XtraEditors.TextEdit();
+            this.loanSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.cityIDSpinEdit = new DevExpress.XtraEditors.TextEdit();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.separatorControl2 = new DevExpress.XtraEditors.SeparatorControl();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.branchNameTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.btn_branchNew = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_branchSave = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_branchCancel = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_IM_Employee = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.employeeDataGridView = new System.Windows.Forms.DataGridView();
@@ -120,14 +232,11 @@
             this.displayEmployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel15 = new System.Windows.Forms.Panel();
             this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cbo_employeeType = new System.Windows.Forms.ComboBox();
             this.employeeTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cbo_locationID = new System.Windows.Forms.ComboBox();
-            this.locationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cbo_BranchID = new System.Windows.Forms.ComboBox();
             this.cbo_managerID = new System.Windows.Forms.ComboBox();
-            this.managerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employeeNameTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.homeAddressTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.dateStartedDateEdit = new DevExpress.XtraEditors.DateEdit();
@@ -193,121 +302,12 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pnl_MI_branch = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.branchDataGridView = new System.Windows.Forms.DataGridView();
-            this.branchIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.locationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.branchNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.depositDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.displayBranchBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.cityBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.separatorControl2 = new DevExpress.XtraEditors.SeparatorControl();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.branchNameTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.btn_branchNew = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_branchSave = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_branchCancel = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_MI_statistics = new System.Windows.Forms.Panel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.panel22 = new System.Windows.Forms.Panel();
             this.bunifuPictureBox4 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.panel23 = new System.Windows.Forms.Panel();
             this.bunifuPictureBox5 = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.pnl = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.branchIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.branchBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.branchbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.branchBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.depositSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.locationIDSpinEdit = new DevExpress.XtraEditors.TextEdit();
-            this.loanSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.cityIDSpinEdit = new DevExpress.XtraEditors.TextEdit();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.ManagerbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.ManagerbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
-            this.ManagerbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox4 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-            this.ManagerbindingNavigatorSave = new System.Windows.Forms.ToolStripButton();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dataTable1DataGridView = new System.Windows.Forms.DataGridView();
-            this.employeeIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.managerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.branchIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.locationIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homeAddressDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateStartedDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.employeeBindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-            this.employeeBindingNavigatorDelete = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.employeeBindingNavigatorIndex = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.employeeBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.employeeTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.managerIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.locationIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.branchIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
-            this.employeeIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.locationBindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.locationBindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.locationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.cityBindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-            this.cityBindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.cityBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.pnl_MI_Managers = new System.Windows.Forms.Panel();
             this.managerDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -401,16 +401,51 @@
             this.bindingNavigator1.SuspendLayout();
             this.Main_Panel.SuspendLayout();
             this.Main_innerPanel.SuspendLayout();
+            this.pnl.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).BeginInit();
+            this.ManagerbindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).BeginInit();
+            this.employeeBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeIDSpinEdit.Properties)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
+            this.bindingNavigator3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).BeginInit();
+            this.pnl_MI_branch.SuspendLayout();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.branchDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayBranchBindingSource)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchBindingNavigator)).BeginInit();
+            this.branchBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.depositSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_IM_Employee.SuspendLayout();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.displayEmployeeBindingSource)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties)).BeginInit();
@@ -452,50 +487,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            this.pnl_MI_branch.SuspendLayout();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.branchDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayBranchBindingSource)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series6)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox5)).BeginInit();
-            this.pnl.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchBindingNavigator)).BeginInit();
-            this.branchBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.depositSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cityIDSpinEdit.Properties)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).BeginInit();
-            this.ManagerbindingNavigator.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).BeginInit();
-            this.employeeBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeIDSpinEdit.Properties)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
-            this.bindingNavigator2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
-            this.bindingNavigator3.SuspendLayout();
             this.pnl_MI_Managers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.managerDataGridView)).BeginInit();
             this.panel16.SuspendLayout();
@@ -1292,15 +1292,15 @@
             // 
             this.Main_innerPanel.AutoScroll = true;
             this.Main_innerPanel.BackColor = System.Drawing.Color.Transparent;
+            this.Main_innerPanel.Controls.Add(this.pnl);
+            this.Main_innerPanel.Controls.Add(this.pnl_MI_branch);
             this.Main_innerPanel.Controls.Add(this.pnl_IM_Employee);
             this.Main_innerPanel.Controls.Add(this.simpleButton1);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_reports);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_dashboard);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_about);
-            this.Main_innerPanel.Controls.Add(this.pnl_MI_branch);
             this.Main_innerPanel.Controls.Add(this.bindingNavigator1);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_statistics);
-            this.Main_innerPanel.Controls.Add(this.pnl);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_Managers);
             this.Main_innerPanel.Controls.Add(this.pnl_MI_city);
             this.Main_innerPanel.Controls.Add(this.pnl_IM_Location);
@@ -1312,6 +1312,1210 @@
             this.Main_innerPanel.Padding = new System.Windows.Forms.Padding(15);
             this.Main_innerPanel.Size = new System.Drawing.Size(1075, 964);
             this.Main_innerPanel.TabIndex = 0;
+            // 
+            // pnl
+            // 
+            this.pnl.Controls.Add(this.groupBox5);
+            this.pnl.Controls.Add(this.groupBox4);
+            this.pnl.Controls.Add(this.groupBox2);
+            this.pnl.Controls.Add(this.groupBox3);
+            this.pnl.Location = new System.Drawing.Point(638, 501);
+            this.pnl.Name = "pnl";
+            this.pnl.Size = new System.Drawing.Size(397, 247);
+            this.pnl.TabIndex = 2;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.ManagerbindingNavigator);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Location = new System.Drawing.Point(3, 187);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(397, 30);
+            this.groupBox5.TabIndex = 29;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Manager";
+            // 
+            // ManagerbindingNavigator
+            // 
+            this.ManagerbindingNavigator.AddNewItem = this.ManagerbindingNavigatorAddItem;
+            this.ManagerbindingNavigator.BindingSource = this.managerBindingSource;
+            this.ManagerbindingNavigator.CountItem = this.toolStripLabel5;
+            this.ManagerbindingNavigator.DeleteItem = this.ManagerbindingNavigatorDeleteItem;
+            this.ManagerbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.ManagerbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.ManagerbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton22,
+            this.toolStripButton23,
+            this.toolStripSeparator13,
+            this.toolStripTextBox4,
+            this.toolStripLabel5,
+            this.toolStripSeparator14,
+            this.toolStripButton24,
+            this.toolStripButton25,
+            this.toolStripSeparator15,
+            this.ManagerbindingNavigatorAddItem,
+            this.ManagerbindingNavigatorDeleteItem,
+            this.ManagerbindingNavigatorSave});
+            this.ManagerbindingNavigator.Location = new System.Drawing.Point(7, 37);
+            this.ManagerbindingNavigator.MoveFirstItem = this.toolStripButton22;
+            this.ManagerbindingNavigator.MoveLastItem = this.toolStripButton25;
+            this.ManagerbindingNavigator.MoveNextItem = this.toolStripButton24;
+            this.ManagerbindingNavigator.MovePreviousItem = this.toolStripButton23;
+            this.ManagerbindingNavigator.Name = "ManagerbindingNavigator";
+            this.ManagerbindingNavigator.PositionItem = this.toolStripTextBox4;
+            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.ManagerbindingNavigator.TabIndex = 8;
+            this.ManagerbindingNavigator.Text = "bindingNavigator4";
+            // 
+            // ManagerbindingNavigatorAddItem
+            // 
+            this.ManagerbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ManagerbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorAddItem.Image")));
+            this.ManagerbindingNavigatorAddItem.Name = "ManagerbindingNavigatorAddItem";
+            this.ManagerbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
+            this.ManagerbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
+            this.ManagerbindingNavigatorAddItem.Text = "Add new";
+            // 
+            // managerBindingSource
+            // 
+            this.managerBindingSource.DataMember = "Manager";
+            this.managerBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // toolStripLabel5
+            // 
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel5.Text = "of {0}";
+            this.toolStripLabel5.ToolTipText = "Total number of items";
+            // 
+            // ManagerbindingNavigatorDeleteItem
+            // 
+            this.ManagerbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ManagerbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorDeleteItem.Image")));
+            this.ManagerbindingNavigatorDeleteItem.Name = "ManagerbindingNavigatorDeleteItem";
+            this.ManagerbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.ManagerbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.ManagerbindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton22.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton22.Text = "Move first";
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton23.Text = "Move previous";
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripTextBox4
+            // 
+            this.toolStripTextBox4.AccessibleName = "Position";
+            this.toolStripTextBox4.AutoSize = false;
+            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox4.Name = "toolStripTextBox4";
+            this.toolStripTextBox4.Size = new System.Drawing.Size(50, 27);
+            this.toolStripTextBox4.Text = "0";
+            this.toolStripTextBox4.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripButton24
+            // 
+            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
+            this.toolStripButton24.Name = "toolStripButton24";
+            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton24.Text = "Move next";
+            // 
+            // toolStripButton25
+            // 
+            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
+            this.toolStripButton25.Name = "toolStripButton25";
+            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton25.Text = "Move last";
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(6, 27);
+            // 
+            // ManagerbindingNavigatorSave
+            // 
+            this.ManagerbindingNavigatorSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ManagerbindingNavigatorSave.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorSave.Image")));
+            this.ManagerbindingNavigatorSave.Name = "ManagerbindingNavigatorSave";
+            this.ManagerbindingNavigatorSave.Size = new System.Drawing.Size(29, 24);
+            this.ManagerbindingNavigatorSave.Text = "Save Data";
+            this.ManagerbindingNavigatorSave.Click += new System.EventHandler(this.ManagerbindingNavigatorSave_Click);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dataTable1DataGridView);
+            this.groupBox4.Controls.Add(this.employeeBindingNavigator);
+            this.groupBox4.Controls.Add(managerIDLabel);
+            this.groupBox4.Controls.Add(this.employeeTypeSpinEdit);
+            this.groupBox4.Controls.Add(employeeTypeLabel);
+            this.groupBox4.Controls.Add(this.managerIDSpinEdit);
+            this.groupBox4.Controls.Add(this.locationIDSpinEdit2);
+            this.groupBox4.Controls.Add(branchIDLabel1);
+            this.groupBox4.Controls.Add(locationIDLabel2);
+            this.groupBox4.Controls.Add(employeeIDLabel);
+            this.groupBox4.Controls.Add(this.branchIDSpinEdit1);
+            this.groupBox4.Controls.Add(this.employeeIDSpinEdit);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(7, 155);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(387, 26);
+            this.groupBox4.TabIndex = 8;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Employee";
+            // 
+            // dataTable1DataGridView
+            // 
+            this.dataTable1DataGridView.AutoGenerateColumns = false;
+            this.dataTable1DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataTable1DataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.employeeIDDataGridViewTextBoxColumn1,
+            this.managerIDDataGridViewTextBoxColumn,
+            this.branchIDDataGridViewTextBoxColumn,
+            this.locationIDDataGridViewTextBoxColumn,
+            this.employeeTypeDataGridViewTextBoxColumn,
+            this.employeeNameDataGridViewTextBoxColumn1,
+            this.homeAddressDataGridViewTextBoxColumn1,
+            this.dateStartedDataGridViewTextBoxColumn1});
+            this.dataTable1DataGridView.DataSource = this.employeeBindingSource;
+            this.dataTable1DataGridView.Location = new System.Drawing.Point(16, 226);
+            this.dataTable1DataGridView.Name = "dataTable1DataGridView";
+            this.dataTable1DataGridView.RowHeadersWidth = 51;
+            this.dataTable1DataGridView.RowTemplate.Height = 24;
+            this.dataTable1DataGridView.Size = new System.Drawing.Size(616, 308);
+            this.dataTable1DataGridView.TabIndex = 7;
+            // 
+            // employeeIDDataGridViewTextBoxColumn1
+            // 
+            this.employeeIDDataGridViewTextBoxColumn1.DataPropertyName = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn1.HeaderText = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.employeeIDDataGridViewTextBoxColumn1.Name = "employeeIDDataGridViewTextBoxColumn1";
+            this.employeeIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.employeeIDDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // managerIDDataGridViewTextBoxColumn
+            // 
+            this.managerIDDataGridViewTextBoxColumn.DataPropertyName = "ManagerID";
+            this.managerIDDataGridViewTextBoxColumn.HeaderText = "ManagerID";
+            this.managerIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.managerIDDataGridViewTextBoxColumn.Name = "managerIDDataGridViewTextBoxColumn";
+            this.managerIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // branchIDDataGridViewTextBoxColumn
+            // 
+            this.branchIDDataGridViewTextBoxColumn.DataPropertyName = "BranchID";
+            this.branchIDDataGridViewTextBoxColumn.HeaderText = "BranchID";
+            this.branchIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.branchIDDataGridViewTextBoxColumn.Name = "branchIDDataGridViewTextBoxColumn";
+            this.branchIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // locationIDDataGridViewTextBoxColumn
+            // 
+            this.locationIDDataGridViewTextBoxColumn.DataPropertyName = "LocationID";
+            this.locationIDDataGridViewTextBoxColumn.HeaderText = "LocationID";
+            this.locationIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.locationIDDataGridViewTextBoxColumn.Name = "locationIDDataGridViewTextBoxColumn";
+            this.locationIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // employeeTypeDataGridViewTextBoxColumn
+            // 
+            this.employeeTypeDataGridViewTextBoxColumn.DataPropertyName = "EmployeeType";
+            this.employeeTypeDataGridViewTextBoxColumn.HeaderText = "EmployeeType";
+            this.employeeTypeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeTypeDataGridViewTextBoxColumn.Name = "employeeTypeDataGridViewTextBoxColumn";
+            this.employeeTypeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // employeeNameDataGridViewTextBoxColumn1
+            // 
+            this.employeeNameDataGridViewTextBoxColumn1.DataPropertyName = "EmployeeName";
+            this.employeeNameDataGridViewTextBoxColumn1.HeaderText = "EmployeeName";
+            this.employeeNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.employeeNameDataGridViewTextBoxColumn1.Name = "employeeNameDataGridViewTextBoxColumn1";
+            this.employeeNameDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // homeAddressDataGridViewTextBoxColumn1
+            // 
+            this.homeAddressDataGridViewTextBoxColumn1.DataPropertyName = "HomeAddress";
+            this.homeAddressDataGridViewTextBoxColumn1.HeaderText = "HomeAddress";
+            this.homeAddressDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.homeAddressDataGridViewTextBoxColumn1.Name = "homeAddressDataGridViewTextBoxColumn1";
+            this.homeAddressDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dateStartedDataGridViewTextBoxColumn1
+            // 
+            this.dateStartedDataGridViewTextBoxColumn1.DataPropertyName = "DateStarted";
+            this.dateStartedDataGridViewTextBoxColumn1.HeaderText = "DateStarted";
+            this.dateStartedDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dateStartedDataGridViewTextBoxColumn1.Name = "dateStartedDataGridViewTextBoxColumn1";
+            this.dateStartedDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // employeeBindingSource
+            // 
+            this.employeeBindingSource.DataMember = "Employee";
+            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // employeeBindingNavigator
+            // 
+            this.employeeBindingNavigator.AddNewItem = this.employeeBindingNavigatorAddItem;
+            this.employeeBindingNavigator.BindingSource = this.employeeBindingSource;
+            this.employeeBindingNavigator.CountItem = this.toolStripLabel4;
+            this.employeeBindingNavigator.DeleteItem = this.employeeBindingNavigatorDelete;
+            this.employeeBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.employeeBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.employeeBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton18,
+            this.toolStripButton19,
+            this.toolStripSeparator10,
+            this.employeeBindingNavigatorIndex,
+            this.toolStripLabel4,
+            this.toolStripSeparator11,
+            this.toolStripButton20,
+            this.toolStripButton21,
+            this.toolStripSeparator12,
+            this.employeeBindingNavigatorAddItem,
+            this.employeeBindingNavigatorDelete,
+            this.employeeBindingNavigatorSaveItem});
+            this.employeeBindingNavigator.Location = new System.Drawing.Point(11, 185);
+            this.employeeBindingNavigator.MoveFirstItem = this.toolStripButton18;
+            this.employeeBindingNavigator.MoveLastItem = this.toolStripButton21;
+            this.employeeBindingNavigator.MoveNextItem = this.toolStripButton20;
+            this.employeeBindingNavigator.MovePreviousItem = this.toolStripButton19;
+            this.employeeBindingNavigator.Name = "employeeBindingNavigator";
+            this.employeeBindingNavigator.PositionItem = this.employeeBindingNavigatorIndex;
+            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.employeeBindingNavigator.TabIndex = 8;
+            this.employeeBindingNavigator.Text = "bindingNavigator4";
+            // 
+            // employeeBindingNavigatorAddItem
+            // 
+            this.employeeBindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.employeeBindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorAddItem.Image")));
+            this.employeeBindingNavigatorAddItem.Name = "employeeBindingNavigatorAddItem";
+            this.employeeBindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
+            this.employeeBindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
+            this.employeeBindingNavigatorAddItem.Text = "Add new";
+            // 
+            // toolStripLabel4
+            // 
+            this.toolStripLabel4.Name = "toolStripLabel4";
+            this.toolStripLabel4.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel4.Text = "of {0}";
+            this.toolStripLabel4.ToolTipText = "Total number of items";
+            // 
+            // employeeBindingNavigatorDelete
+            // 
+            this.employeeBindingNavigatorDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.employeeBindingNavigatorDelete.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorDelete.Image")));
+            this.employeeBindingNavigatorDelete.Name = "employeeBindingNavigatorDelete";
+            this.employeeBindingNavigatorDelete.RightToLeftAutoMirrorImage = true;
+            this.employeeBindingNavigatorDelete.Size = new System.Drawing.Size(29, 24);
+            this.employeeBindingNavigatorDelete.Text = "Delete";
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton18.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton18.Text = "Move first";
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton19.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton19.Text = "Move previous";
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 27);
+            // 
+            // employeeBindingNavigatorIndex
+            // 
+            this.employeeBindingNavigatorIndex.AccessibleName = "Position";
+            this.employeeBindingNavigatorIndex.AutoSize = false;
+            this.employeeBindingNavigatorIndex.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.employeeBindingNavigatorIndex.Name = "employeeBindingNavigatorIndex";
+            this.employeeBindingNavigatorIndex.Size = new System.Drawing.Size(50, 27);
+            this.employeeBindingNavigatorIndex.Text = "0";
+            this.employeeBindingNavigatorIndex.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton20.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton20.Text = "Move next";
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton21.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton21.Text = "Move last";
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 27);
+            // 
+            // employeeBindingNavigatorSaveItem
+            // 
+            this.employeeBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.employeeBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorSaveItem.Image")));
+            this.employeeBindingNavigatorSaveItem.Name = "employeeBindingNavigatorSaveItem";
+            this.employeeBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.employeeBindingNavigatorSaveItem.Text = "Save Data";
+            this.employeeBindingNavigatorSaveItem.Click += new System.EventHandler(this.employeeBindingNavigatorSaveItem_Click);
+            // 
+            // employeeTypeSpinEdit
+            // 
+            this.employeeTypeSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeType", true));
+            this.employeeTypeSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.employeeTypeSpinEdit.Location = new System.Drawing.Point(145, 120);
+            this.employeeTypeSpinEdit.Name = "employeeTypeSpinEdit";
+            this.employeeTypeSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.employeeTypeSpinEdit.Properties.Appearance.Options.UseFont = true;
+            this.employeeTypeSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.employeeTypeSpinEdit.Size = new System.Drawing.Size(215, 26);
+            this.employeeTypeSpinEdit.TabIndex = 28;
+            // 
+            // managerIDSpinEdit
+            // 
+            this.managerIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "ManagerID", true));
+            this.managerIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.managerIDSpinEdit.Location = new System.Drawing.Point(145, 27);
+            this.managerIDSpinEdit.Name = "managerIDSpinEdit";
+            this.managerIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.managerIDSpinEdit.Properties.Appearance.Options.UseFont = true;
+            this.managerIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.managerIDSpinEdit.Size = new System.Drawing.Size(215, 26);
+            this.managerIDSpinEdit.TabIndex = 22;
+            // 
+            // locationIDSpinEdit2
+            // 
+            this.locationIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "LocationID", true));
+            this.locationIDSpinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.locationIDSpinEdit2.Location = new System.Drawing.Point(145, 89);
+            this.locationIDSpinEdit2.Name = "locationIDSpinEdit2";
+            this.locationIDSpinEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.locationIDSpinEdit2.Properties.Appearance.Options.UseFont = true;
+            this.locationIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.locationIDSpinEdit2.Size = new System.Drawing.Size(215, 26);
+            this.locationIDSpinEdit2.TabIndex = 26;
+            // 
+            // branchIDSpinEdit1
+            // 
+            this.branchIDSpinEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "BranchID", true));
+            this.branchIDSpinEdit1.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.branchIDSpinEdit1.Location = new System.Drawing.Point(145, 58);
+            this.branchIDSpinEdit1.Name = "branchIDSpinEdit1";
+            this.branchIDSpinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.branchIDSpinEdit1.Properties.Appearance.Options.UseFont = true;
+            this.branchIDSpinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.branchIDSpinEdit1.Size = new System.Drawing.Size(215, 26);
+            this.branchIDSpinEdit1.TabIndex = 24;
+            // 
+            // employeeIDSpinEdit
+            // 
+            this.employeeIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeID", true));
+            this.employeeIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.employeeIDSpinEdit.Location = new System.Drawing.Point(144, 152);
+            this.employeeIDSpinEdit.Name = "employeeIDSpinEdit";
+            this.employeeIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
+            this.employeeIDSpinEdit.Properties.Appearance.Options.UseFont = true;
+            this.employeeIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.employeeIDSpinEdit.Size = new System.Drawing.Size(216, 26);
+            this.employeeIDSpinEdit.TabIndex = 20;
+            this.employeeIDSpinEdit.EditValueChanged += new System.EventHandler(this.employeeIDSpinEdit_EditValueChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.bindingNavigator2);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(3, 75);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(388, 24);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Location";
+            // 
+            // bindingNavigator2
+            // 
+            this.bindingNavigator2.AddNewItem = this.locationBindingNavigatorAddNewItem;
+            this.bindingNavigator2.BindingSource = this.locationBindingSource;
+            this.bindingNavigator2.CountItem = this.toolStripLabel2;
+            this.bindingNavigator2.DeleteItem = this.locationBindingNavigatorDeleteItem;
+            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton10,
+            this.toolStripButton11,
+            this.toolStripSeparator4,
+            this.toolStripTextBox2,
+            this.toolStripLabel2,
+            this.toolStripSeparator5,
+            this.toolStripButton12,
+            this.toolStripButton13,
+            this.toolStripSeparator6,
+            this.locationBindingNavigatorAddNewItem,
+            this.locationBindingNavigatorDeleteItem,
+            this.locationBindingNavigatorSaveItem});
+            this.bindingNavigator2.Location = new System.Drawing.Point(7, 38);
+            this.bindingNavigator2.MoveFirstItem = this.toolStripButton10;
+            this.bindingNavigator2.MoveLastItem = this.toolStripButton13;
+            this.bindingNavigator2.MoveNextItem = this.toolStripButton12;
+            this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
+            this.bindingNavigator2.Size = new System.Drawing.Size(331, 27);
+            this.bindingNavigator2.TabIndex = 6;
+            this.bindingNavigator2.Text = "bindingNavigator2";
+            // 
+            // locationBindingNavigatorAddNewItem
+            // 
+            this.locationBindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.locationBindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorAddNewItem.Image")));
+            this.locationBindingNavigatorAddNewItem.Name = "locationBindingNavigatorAddNewItem";
+            this.locationBindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.locationBindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.locationBindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // locationBindingSource
+            // 
+            this.locationBindingSource.DataMember = "Location";
+            this.locationBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel2.Text = "of {0}";
+            this.toolStripLabel2.ToolTipText = "Total number of items";
+            // 
+            // locationBindingNavigatorDeleteItem
+            // 
+            this.locationBindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.locationBindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorDeleteItem.Image")));
+            this.locationBindingNavigatorDeleteItem.Name = "locationBindingNavigatorDeleteItem";
+            this.locationBindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.locationBindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.locationBindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // toolStripButton10
+            // 
+            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
+            this.toolStripButton10.Name = "toolStripButton10";
+            this.toolStripButton10.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton10.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton10.Text = "Move first";
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton11.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton11.Text = "Move previous";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripTextBox2
+            // 
+            this.toolStripTextBox2.AccessibleName = "Position";
+            this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox2.Name = "toolStripTextBox2";
+            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 27);
+            this.toolStripTextBox2.Text = "0";
+            this.toolStripTextBox2.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripButton12
+            // 
+            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
+            this.toolStripButton12.Name = "toolStripButton12";
+            this.toolStripButton12.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton12.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton12.Text = "Move next";
+            // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton13.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton13.Text = "Move last";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
+            // 
+            // locationBindingNavigatorSaveItem
+            // 
+            this.locationBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.locationBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorSaveItem.Image")));
+            this.locationBindingNavigatorSaveItem.Name = "locationBindingNavigatorSaveItem";
+            this.locationBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.locationBindingNavigatorSaveItem.Text = "Save Data";
+            this.locationBindingNavigatorSaveItem.Click += new System.EventHandler(this.locationBindingNavigatorSaveItem_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.bindingNavigator3);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(4, 118);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(388, 29);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "City";
+            // 
+            // bindingNavigator3
+            // 
+            this.bindingNavigator3.AddNewItem = this.cityBindingNavigatorAddNewItem;
+            this.bindingNavigator3.BindingSource = this.cityBindingSource;
+            this.bindingNavigator3.CountItem = this.toolStripLabel3;
+            this.bindingNavigator3.DeleteItem = this.cityBindingNavigatorDeleteItem;
+            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator3.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton14,
+            this.toolStripButton15,
+            this.toolStripSeparator7,
+            this.toolStripTextBox3,
+            this.toolStripLabel3,
+            this.toolStripSeparator8,
+            this.toolStripButton16,
+            this.toolStripButton17,
+            this.toolStripSeparator9,
+            this.cityBindingNavigatorAddNewItem,
+            this.cityBindingNavigatorDeleteItem,
+            this.cityBindingNavigatorSaveItem});
+            this.bindingNavigator3.Location = new System.Drawing.Point(7, 38);
+            this.bindingNavigator3.MoveFirstItem = this.toolStripButton14;
+            this.bindingNavigator3.MoveLastItem = this.toolStripButton17;
+            this.bindingNavigator3.MoveNextItem = this.toolStripButton16;
+            this.bindingNavigator3.MovePreviousItem = this.toolStripButton15;
+            this.bindingNavigator3.Name = "bindingNavigator3";
+            this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
+            this.bindingNavigator3.Size = new System.Drawing.Size(331, 27);
+            this.bindingNavigator3.TabIndex = 6;
+            this.bindingNavigator3.Text = "bindingNavigator3";
+            // 
+            // cityBindingNavigatorAddNewItem
+            // 
+            this.cityBindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cityBindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorAddNewItem.Image")));
+            this.cityBindingNavigatorAddNewItem.Name = "cityBindingNavigatorAddNewItem";
+            this.cityBindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.cityBindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.cityBindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // cityBindingSource
+            // 
+            this.cityBindingSource.DataMember = "City";
+            this.cityBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel3.Text = "of {0}";
+            this.toolStripLabel3.ToolTipText = "Total number of items";
+            // 
+            // cityBindingNavigatorDeleteItem
+            // 
+            this.cityBindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cityBindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorDeleteItem.Image")));
+            this.cityBindingNavigatorDeleteItem.Name = "cityBindingNavigatorDeleteItem";
+            this.cityBindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.cityBindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.cityBindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton14.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton14.Text = "Move first";
+            // 
+            // toolStripButton15
+            // 
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton15.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton15.Text = "Move previous";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripTextBox3
+            // 
+            this.toolStripTextBox3.AccessibleName = "Position";
+            this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 27);
+            this.toolStripTextBox3.Text = "0";
+            this.toolStripTextBox3.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton16.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton16.Image")));
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton16.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton16.Text = "Move next";
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton17.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton17.Text = "Move last";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 27);
+            // 
+            // cityBindingNavigatorSaveItem
+            // 
+            this.cityBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cityBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorSaveItem.Image")));
+            this.cityBindingNavigatorSaveItem.Name = "cityBindingNavigatorSaveItem";
+            this.cityBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.cityBindingNavigatorSaveItem.Text = "Save Data";
+            this.cityBindingNavigatorSaveItem.Click += new System.EventHandler(this.cityBindingNavigatorSaveItem_Click);
+            // 
+            // pnl_MI_branch
+            // 
+            this.pnl_MI_branch.Controls.Add(this.panel8);
+            this.pnl_MI_branch.Controls.Add(this.panel7);
+            this.pnl_MI_branch.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl_MI_branch.Location = new System.Drawing.Point(48, 483);
+            this.pnl_MI_branch.Margin = new System.Windows.Forms.Padding(0);
+            this.pnl_MI_branch.Name = "pnl_MI_branch";
+            this.pnl_MI_branch.Size = new System.Drawing.Size(553, 511);
+            this.pnl_MI_branch.TabIndex = 1;
+            // 
+            // panel8
+            // 
+            this.panel8.AutoScroll = true;
+            this.panel8.Controls.Add(this.branchDataGridView);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(520, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(33, 511);
+            this.panel8.TabIndex = 21;
+            // 
+            // branchDataGridView
+            // 
+            this.branchDataGridView.AutoGenerateColumns = false;
+            this.branchDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.branchDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.branchIDDataGridViewTextBoxColumn1,
+            this.cityDataGridViewTextBoxColumn,
+            this.locationDataGridViewTextBoxColumn,
+            this.branchNameDataGridViewTextBoxColumn,
+            this.depositDataGridViewTextBoxColumn,
+            this.loanDataGridViewTextBoxColumn});
+            this.branchDataGridView.DataSource = this.displayBranchBindingSource;
+            this.branchDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.branchDataGridView.Location = new System.Drawing.Point(0, 0);
+            this.branchDataGridView.Name = "branchDataGridView";
+            this.branchDataGridView.RowHeadersWidth = 51;
+            this.branchDataGridView.RowTemplate.Height = 24;
+            this.branchDataGridView.Size = new System.Drawing.Size(33, 511);
+            this.branchDataGridView.TabIndex = 0;
+            this.branchDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.branchDataGridView_CellContentClick);
+            // 
+            // branchIDDataGridViewTextBoxColumn1
+            // 
+            this.branchIDDataGridViewTextBoxColumn1.DataPropertyName = "BranchID";
+            this.branchIDDataGridViewTextBoxColumn1.HeaderText = "BranchID";
+            this.branchIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.branchIDDataGridViewTextBoxColumn1.Name = "branchIDDataGridViewTextBoxColumn1";
+            this.branchIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.branchIDDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // cityDataGridViewTextBoxColumn
+            // 
+            this.cityDataGridViewTextBoxColumn.DataPropertyName = "City";
+            this.cityDataGridViewTextBoxColumn.HeaderText = "City";
+            this.cityDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cityDataGridViewTextBoxColumn.Name = "cityDataGridViewTextBoxColumn";
+            this.cityDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // locationDataGridViewTextBoxColumn
+            // 
+            this.locationDataGridViewTextBoxColumn.DataPropertyName = "Location";
+            this.locationDataGridViewTextBoxColumn.HeaderText = "Location";
+            this.locationDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.locationDataGridViewTextBoxColumn.Name = "locationDataGridViewTextBoxColumn";
+            this.locationDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // branchNameDataGridViewTextBoxColumn
+            // 
+            this.branchNameDataGridViewTextBoxColumn.DataPropertyName = "BranchName";
+            this.branchNameDataGridViewTextBoxColumn.HeaderText = "BranchName";
+            this.branchNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.branchNameDataGridViewTextBoxColumn.Name = "branchNameDataGridViewTextBoxColumn";
+            this.branchNameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // depositDataGridViewTextBoxColumn
+            // 
+            this.depositDataGridViewTextBoxColumn.DataPropertyName = "Deposit";
+            this.depositDataGridViewTextBoxColumn.HeaderText = "Deposit";
+            this.depositDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.depositDataGridViewTextBoxColumn.Name = "depositDataGridViewTextBoxColumn";
+            this.depositDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // loanDataGridViewTextBoxColumn
+            // 
+            this.loanDataGridViewTextBoxColumn.DataPropertyName = "Loan";
+            this.loanDataGridViewTextBoxColumn.HeaderText = "Loan";
+            this.loanDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.loanDataGridViewTextBoxColumn.Name = "loanDataGridViewTextBoxColumn";
+            this.loanDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // displayBranchBindingSource
+            // 
+            this.displayBranchBindingSource.DataMember = "DisplayBranch";
+            this.displayBranchBindingSource.DataSource = this.dB_BankDataSet;
+            // 
+            // panel7
+            // 
+            this.panel7.AutoScroll = true;
+            this.panel7.Controls.Add(this.groupBox1);
+            this.panel7.Controls.Add(branchNameLabel);
+            this.panel7.Controls.Add(this.comboBox2);
+            this.panel7.Controls.Add(this.separatorControl2);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.branchNameTextEdit);
+            this.panel7.Controls.Add(label1);
+            this.panel7.Controls.Add(this.btn_branchNew);
+            this.panel7.Controls.Add(label2);
+            this.panel7.Controls.Add(this.btn_branchSave);
+            this.panel7.Controls.Add(this.btn_branchCancel);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(520, 511);
+            this.panel7.TabIndex = 20;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(branchIDLabel);
+            this.groupBox1.Controls.Add(this.branchIDSpinEdit);
+            this.groupBox1.Controls.Add(depositLabel);
+            this.groupBox1.Controls.Add(locationIDLabel);
+            this.groupBox1.Controls.Add(cityIDLabel);
+            this.groupBox1.Controls.Add(this.branchBindingNavigator);
+            this.groupBox1.Controls.Add(this.depositSpinEdit);
+            this.groupBox1.Controls.Add(loanLabel);
+            this.groupBox1.Controls.Add(this.locationIDSpinEdit);
+            this.groupBox1.Controls.Add(this.loanSpinEdit);
+            this.groupBox1.Controls.Add(this.cityIDSpinEdit);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(17, 305);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(387, 203);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Branch";
+            // 
+            // branchIDSpinEdit
+            // 
+            this.branchIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "BranchID", true));
+            this.branchIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.branchIDSpinEdit.Location = new System.Drawing.Point(143, 73);
+            this.branchIDSpinEdit.Name = "branchIDSpinEdit";
+            this.branchIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.branchIDSpinEdit.Size = new System.Drawing.Size(125, 24);
+            this.branchIDSpinEdit.TabIndex = 1;
+            this.branchIDSpinEdit.EditValueChanged += new System.EventHandler(this.branchIDSpinEdit_EditValueChanged);
+            // 
+            // branchBindingNavigator
+            // 
+            this.branchBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.branchBindingNavigator.BindingSource = this.branchBindingSource;
+            this.branchBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.branchBindingNavigator.DeleteItem = this.branchbindingNavigatorDeleteItem;
+            this.branchBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.branchBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.branchBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.bindingNavigatorAddNewItem,
+            this.branchbindingNavigatorDeleteItem,
+            this.branchBindingNavigatorSaveItem});
+            this.branchBindingNavigator.Location = new System.Drawing.Point(13, 25);
+            this.branchBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.branchBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.branchBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.branchBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.branchBindingNavigator.Name = "branchBindingNavigator";
+            this.branchBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 27);
+            this.branchBindingNavigator.TabIndex = 3;
+            this.branchBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // branchbindingNavigatorDeleteItem
+            // 
+            this.branchbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.branchbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("branchbindingNavigatorDeleteItem.Image")));
+            this.branchbindingNavigatorDeleteItem.Name = "branchbindingNavigatorDeleteItem";
+            this.branchbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.branchbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.branchbindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveFirstItem.Text = "Move first";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
+            // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Position";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveNextItem.Text = "Move next";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveLastItem.Text = "Move last";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+            // 
+            // branchBindingNavigatorSaveItem
+            // 
+            this.branchBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.branchBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("branchBindingNavigatorSaveItem.Image")));
+            this.branchBindingNavigatorSaveItem.Name = "branchBindingNavigatorSaveItem";
+            this.branchBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.branchBindingNavigatorSaveItem.Text = "Save Data";
+            this.branchBindingNavigatorSaveItem.Click += new System.EventHandler(this.branchBindingNavigatorSaveItem_Click);
+            // 
+            // depositSpinEdit
+            // 
+            this.depositSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "Deposit", true));
+            this.depositSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.depositSpinEdit.Location = new System.Drawing.Point(143, 103);
+            this.depositSpinEdit.Name = "depositSpinEdit";
+            this.depositSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.depositSpinEdit.Size = new System.Drawing.Size(125, 24);
+            this.depositSpinEdit.TabIndex = 7;
+            // 
+            // locationIDSpinEdit
+            // 
+            this.locationIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "LocationID", true));
+            this.locationIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.locationIDSpinEdit.Location = new System.Drawing.Point(143, 161);
+            this.locationIDSpinEdit.Name = "locationIDSpinEdit";
+            this.locationIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.locationIDSpinEdit.Properties.Appearance.Options.UseFont = true;
+            this.locationIDSpinEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered;
+            this.locationIDSpinEdit.Size = new System.Drawing.Size(125, 26);
+            this.locationIDSpinEdit.TabIndex = 3;
+            // 
+            // loanSpinEdit
+            // 
+            this.loanSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "Loan", true));
+            this.loanSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.loanSpinEdit.Location = new System.Drawing.Point(143, 133);
+            this.loanSpinEdit.Name = "loanSpinEdit";
+            this.loanSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.loanSpinEdit.Size = new System.Drawing.Size(125, 24);
+            this.loanSpinEdit.TabIndex = 9;
+            // 
+            // cityIDSpinEdit
+            // 
+            this.cityIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "CityID", true));
+            this.cityIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.cityIDSpinEdit.Location = new System.Drawing.Point(143, 191);
+            this.cityIDSpinEdit.Name = "cityIDSpinEdit";
+            this.cityIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityIDSpinEdit.Properties.Appearance.Options.UseFont = true;
+            this.cityIDSpinEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered;
+            this.cityIDSpinEdit.Size = new System.Drawing.Size(125, 26);
+            this.cityIDSpinEdit.TabIndex = 5;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox2.DataSource = this.cityBindingSource;
+            this.comboBox2.DisplayMember = "Description";
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(149, 78);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(353, 31);
+            this.comboBox2.TabIndex = 18;
+            this.comboBox2.ValueMember = "CityID";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // separatorControl2
+            // 
+            this.separatorControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.separatorControl2.Location = new System.Drawing.Point(14, 115);
+            this.separatorControl2.Name = "separatorControl2";
+            this.separatorControl2.Size = new System.Drawing.Size(494, 45);
+            this.separatorControl2.TabIndex = 19;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.DataSource = this.locationBindingSource;
+            this.comboBox1.DisplayMember = "Description";
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(149, 44);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(353, 31);
+            this.comboBox1.TabIndex = 17;
+            this.comboBox1.ValueMember = "LocationID";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // branchNameTextEdit
+            // 
+            this.branchNameTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.branchNameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "BranchName", true));
+            this.branchNameTextEdit.Location = new System.Drawing.Point(149, 10);
+            this.branchNameTextEdit.Name = "branchNameTextEdit";
+            this.branchNameTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.branchNameTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.branchNameTextEdit.Size = new System.Drawing.Size(354, 26);
+            this.branchNameTextEdit.TabIndex = 11;
+            // 
+            // btn_branchNew
+            // 
+            this.btn_branchNew.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_branchNew.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_branchNew.Appearance.Options.UseFont = true;
+            this.btn_branchNew.ImageOptions.Image = global::Bank.Properties.Resources.additem_32x32;
+            this.btn_branchNew.Location = new System.Drawing.Point(17, 160);
+            this.btn_branchNew.Name = "btn_branchNew";
+            this.btn_branchNew.Size = new System.Drawing.Size(483, 40);
+            this.btn_branchNew.TabIndex = 12;
+            this.btn_branchNew.Text = "New";
+            this.btn_branchNew.Click += new System.EventHandler(this.btn_branchNew_Click);
+            // 
+            // btn_branchSave
+            // 
+            this.btn_branchSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_branchSave.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_branchSave.Appearance.Options.UseFont = true;
+            this.btn_branchSave.ImageOptions.Image = global::Bank.Properties.Resources.saveandnew_32x32;
+            this.btn_branchSave.Location = new System.Drawing.Point(17, 207);
+            this.btn_branchSave.Name = "btn_branchSave";
+            this.btn_branchSave.Size = new System.Drawing.Size(483, 40);
+            this.btn_branchSave.TabIndex = 13;
+            this.btn_branchSave.Text = "Save";
+            this.btn_branchSave.Click += new System.EventHandler(this.btn_branchSave_Click);
+            // 
+            // btn_branchCancel
+            // 
+            this.btn_branchCancel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_branchCancel.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_branchCancel.Appearance.Options.UseFont = true;
+            this.btn_branchCancel.ImageOptions.Image = global::Bank.Properties.Resources.cancel_32x32;
+            this.btn_branchCancel.Location = new System.Drawing.Point(17, 253);
+            this.btn_branchCancel.Name = "btn_branchCancel";
+            this.btn_branchCancel.Size = new System.Drawing.Size(483, 40);
+            this.btn_branchCancel.TabIndex = 14;
+            this.btn_branchCancel.Text = "Cancel/Delete";
+            this.btn_branchCancel.Click += new System.EventHandler(this.btn_branchCancel_Click);
             // 
             // pnl_IM_Employee
             // 
@@ -1471,11 +2675,6 @@
             this.passwordTextEdit.Size = new System.Drawing.Size(274, 26);
             this.passwordTextEdit.TabIndex = 43;
             // 
-            // employeeBindingSource
-            // 
-            this.employeeBindingSource.DataMember = "Employee";
-            this.employeeBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // cbo_employeeType
             // 
             this.cbo_employeeType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1509,11 +2708,6 @@
             this.cbo_locationID.TabIndex = 41;
             this.cbo_locationID.ValueMember = "LocationID";
             // 
-            // locationBindingSource
-            // 
-            this.locationBindingSource.DataMember = "Location";
-            this.locationBindingSource.DataSource = this.dB_BankDataSet;
-            // 
             // cbo_BranchID
             // 
             this.cbo_BranchID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1541,11 +2735,6 @@
             this.cbo_managerID.Size = new System.Drawing.Size(274, 31);
             this.cbo_managerID.TabIndex = 39;
             this.cbo_managerID.ValueMember = "ManagerID";
-            // 
-            // managerBindingSource
-            // 
-            this.managerBindingSource.DataMember = "Manager";
-            this.managerBindingSource.DataSource = this.dB_BankDataSet;
             // 
             // employeeNameTextEdit
             // 
@@ -1721,7 +2910,7 @@
             this.pnl_MI_dashboard.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl_MI_dashboard.Location = new System.Drawing.Point(47, 402);
             this.pnl_MI_dashboard.Name = "pnl_MI_dashboard";
-            this.pnl_MI_dashboard.Size = new System.Drawing.Size(1059, 471);
+            this.pnl_MI_dashboard.Size = new System.Drawing.Size(1059, 42);
             this.pnl_MI_dashboard.TabIndex = 10;
             // 
             // calendarControl1
@@ -1736,10 +2925,12 @@
             this.calendarControl1.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calendarControl1.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Vista;
+            this.calendarControl1.DateTime = new System.DateTime(2024, 11, 5, 0, 0, 0, 0);
+            this.calendarControl1.EditValue = new System.DateTime(2024, 11, 5, 0, 0, 0, 0);
             this.calendarControl1.Location = new System.Drawing.Point(0, 99);
             this.calendarControl1.Name = "calendarControl1";
             this.calendarControl1.ShowWeekNumbers = true;
-            this.calendarControl1.Size = new System.Drawing.Size(340, 291);
+            this.calendarControl1.Size = new System.Drawing.Size(365, 291);
             this.calendarControl1.TabIndex = 4;
             // 
             // layoutControl1
@@ -1751,7 +2942,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(667, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(392, 471);
+            this.layoutControl1.Size = new System.Drawing.Size(392, 42);
             this.layoutControl1.TabIndex = 3;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -1760,10 +2951,10 @@
             this.pnl_core.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_core.Controls.Add(this.label9);
             this.pnl_core.Controls.Add(this.label12);
-            this.pnl_core.Location = new System.Drawing.Point(12, 297);
+            this.pnl_core.Location = new System.Drawing.Point(12, 60);
             this.pnl_core.Margin = new System.Windows.Forms.Padding(0);
             this.pnl_core.Name = "pnl_core";
-            this.pnl_core.Size = new System.Drawing.Size(368, 162);
+            this.pnl_core.Size = new System.Drawing.Size(347, 20);
             this.pnl_core.TabIndex = 1;
             // 
             // label9
@@ -1772,7 +2963,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(0, 53);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(368, 109);
+            this.label9.Size = new System.Drawing.Size(347, 0);
             this.label9.TabIndex = 4;
             this.label9.Text = resources.GetString("label9.Text");
             // 
@@ -1796,7 +2987,7 @@
             this.pnl_mission.Location = new System.Drawing.Point(12, 12);
             this.pnl_mission.Margin = new System.Windows.Forms.Padding(0);
             this.pnl_mission.Name = "pnl_mission";
-            this.pnl_mission.Size = new System.Drawing.Size(368, 128);
+            this.pnl_mission.Size = new System.Drawing.Size(347, 20);
             this.pnl_mission.TabIndex = 0;
             // 
             // label10
@@ -1805,7 +2996,7 @@
             this.label10.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(0, 53);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(368, 75);
+            this.label10.Size = new System.Drawing.Size(347, 0);
             this.label10.TabIndex = 1;
             this.label10.Text = "We help our customers and communities reach their financial aspirations by offeri" +
     "ng top-tier solutions and strong, effective leadership.";
@@ -1827,9 +3018,9 @@
             this.pnl_vision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pnl_vision.Controls.Add(this.label11);
             this.pnl_vision.Controls.Add(this.label8);
-            this.pnl_vision.Location = new System.Drawing.Point(12, 144);
+            this.pnl_vision.Location = new System.Drawing.Point(12, 36);
             this.pnl_vision.Name = "pnl_vision";
-            this.pnl_vision.Size = new System.Drawing.Size(368, 149);
+            this.pnl_vision.Size = new System.Drawing.Size(347, 20);
             this.pnl_vision.TabIndex = 2;
             // 
             // label11
@@ -1840,7 +3031,7 @@
             this.label11.Font = new System.Drawing.Font("Segoe UI Semilight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(0, 53);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(368, 96);
+            this.label11.Size = new System.Drawing.Size(347, 0);
             this.label11.TabIndex = 2;
             this.label11.Text = resources.GetString("label11.Text");
             // 
@@ -1865,7 +3056,7 @@
             this.layoutControlItem2,
             this.layoutControlItem3});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(392, 471);
+            this.Root.Size = new System.Drawing.Size(371, 92);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -1873,25 +3064,25 @@
             this.layoutControlItem1.Control = this.pnl_mission;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(372, 132);
+            this.layoutControlItem1.Size = new System.Drawing.Size(351, 24);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.pnl_vision;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 132);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(372, 153);
+            this.layoutControlItem2.Size = new System.Drawing.Size(351, 24);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.pnl_core;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 285);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(372, 166);
+            this.layoutControlItem3.Size = new System.Drawing.Size(351, 24);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
@@ -1925,9 +3116,9 @@
             this.pnl_MI_about.Controls.Add(this.label18);
             this.pnl_MI_about.Controls.Add(this.label16);
             this.pnl_MI_about.Controls.Add(this.label15);
-            this.pnl_MI_about.Location = new System.Drawing.Point(29, 429);
+            this.pnl_MI_about.Location = new System.Drawing.Point(29, 609);
             this.pnl_MI_about.Name = "pnl_MI_about";
-            this.pnl_MI_about.Size = new System.Drawing.Size(976, 474);
+            this.pnl_MI_about.Size = new System.Drawing.Size(976, 294);
             this.pnl_MI_about.TabIndex = 11;
             // 
             // label21
@@ -2322,222 +3513,6 @@
             this.label15.TabIndex = 1;
             this.label15.Text = "About Banking system..";
             // 
-            // pnl_MI_branch
-            // 
-            this.pnl_MI_branch.Controls.Add(this.panel8);
-            this.pnl_MI_branch.Controls.Add(this.panel7);
-            this.pnl_MI_branch.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl_MI_branch.Location = new System.Drawing.Point(48, 483);
-            this.pnl_MI_branch.Margin = new System.Windows.Forms.Padding(0);
-            this.pnl_MI_branch.Name = "pnl_MI_branch";
-            this.pnl_MI_branch.Size = new System.Drawing.Size(553, 45);
-            this.pnl_MI_branch.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            this.panel8.AutoScroll = true;
-            this.panel8.Controls.Add(this.branchDataGridView);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(520, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(33, 45);
-            this.panel8.TabIndex = 21;
-            // 
-            // branchDataGridView
-            // 
-            this.branchDataGridView.AutoGenerateColumns = false;
-            this.branchDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.branchDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.branchIDDataGridViewTextBoxColumn1,
-            this.cityDataGridViewTextBoxColumn,
-            this.locationDataGridViewTextBoxColumn,
-            this.branchNameDataGridViewTextBoxColumn,
-            this.depositDataGridViewTextBoxColumn,
-            this.loanDataGridViewTextBoxColumn});
-            this.branchDataGridView.DataSource = this.displayBranchBindingSource;
-            this.branchDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.branchDataGridView.Location = new System.Drawing.Point(0, 0);
-            this.branchDataGridView.Name = "branchDataGridView";
-            this.branchDataGridView.RowHeadersWidth = 51;
-            this.branchDataGridView.RowTemplate.Height = 24;
-            this.branchDataGridView.Size = new System.Drawing.Size(33, 45);
-            this.branchDataGridView.TabIndex = 0;
-            this.branchDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.branchDataGridView_CellContentClick);
-            // 
-            // branchIDDataGridViewTextBoxColumn1
-            // 
-            this.branchIDDataGridViewTextBoxColumn1.DataPropertyName = "BranchID";
-            this.branchIDDataGridViewTextBoxColumn1.HeaderText = "BranchID";
-            this.branchIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.branchIDDataGridViewTextBoxColumn1.Name = "branchIDDataGridViewTextBoxColumn1";
-            this.branchIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.branchIDDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // cityDataGridViewTextBoxColumn
-            // 
-            this.cityDataGridViewTextBoxColumn.DataPropertyName = "City";
-            this.cityDataGridViewTextBoxColumn.HeaderText = "City";
-            this.cityDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cityDataGridViewTextBoxColumn.Name = "cityDataGridViewTextBoxColumn";
-            this.cityDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // locationDataGridViewTextBoxColumn
-            // 
-            this.locationDataGridViewTextBoxColumn.DataPropertyName = "Location";
-            this.locationDataGridViewTextBoxColumn.HeaderText = "Location";
-            this.locationDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.locationDataGridViewTextBoxColumn.Name = "locationDataGridViewTextBoxColumn";
-            this.locationDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // branchNameDataGridViewTextBoxColumn
-            // 
-            this.branchNameDataGridViewTextBoxColumn.DataPropertyName = "BranchName";
-            this.branchNameDataGridViewTextBoxColumn.HeaderText = "BranchName";
-            this.branchNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.branchNameDataGridViewTextBoxColumn.Name = "branchNameDataGridViewTextBoxColumn";
-            this.branchNameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // depositDataGridViewTextBoxColumn
-            // 
-            this.depositDataGridViewTextBoxColumn.DataPropertyName = "Deposit";
-            this.depositDataGridViewTextBoxColumn.HeaderText = "Deposit";
-            this.depositDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.depositDataGridViewTextBoxColumn.Name = "depositDataGridViewTextBoxColumn";
-            this.depositDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // loanDataGridViewTextBoxColumn
-            // 
-            this.loanDataGridViewTextBoxColumn.DataPropertyName = "Loan";
-            this.loanDataGridViewTextBoxColumn.HeaderText = "Loan";
-            this.loanDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.loanDataGridViewTextBoxColumn.Name = "loanDataGridViewTextBoxColumn";
-            this.loanDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // displayBranchBindingSource
-            // 
-            this.displayBranchBindingSource.DataMember = "DisplayBranch";
-            this.displayBranchBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // panel7
-            // 
-            this.panel7.AutoScroll = true;
-            this.panel7.Controls.Add(branchNameLabel);
-            this.panel7.Controls.Add(this.comboBox2);
-            this.panel7.Controls.Add(this.separatorControl2);
-            this.panel7.Controls.Add(this.comboBox1);
-            this.panel7.Controls.Add(this.branchNameTextEdit);
-            this.panel7.Controls.Add(label1);
-            this.panel7.Controls.Add(this.btn_branchNew);
-            this.panel7.Controls.Add(label2);
-            this.panel7.Controls.Add(this.btn_branchSave);
-            this.panel7.Controls.Add(this.btn_branchCancel);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(520, 45);
-            this.panel7.TabIndex = 20;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.DataSource = this.cityBindingSource;
-            this.comboBox2.DisplayMember = "Description";
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(149, 78);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(332, 31);
-            this.comboBox2.TabIndex = 18;
-            this.comboBox2.ValueMember = "CityID";
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // cityBindingSource
-            // 
-            this.cityBindingSource.DataMember = "City";
-            this.cityBindingSource.DataSource = this.dB_BankDataSet;
-            // 
-            // separatorControl2
-            // 
-            this.separatorControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.separatorControl2.Location = new System.Drawing.Point(14, 115);
-            this.separatorControl2.Name = "separatorControl2";
-            this.separatorControl2.Size = new System.Drawing.Size(473, 45);
-            this.separatorControl2.TabIndex = 19;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.DataSource = this.locationBindingSource;
-            this.comboBox1.DisplayMember = "Description";
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(149, 44);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(332, 31);
-            this.comboBox1.TabIndex = 17;
-            this.comboBox1.ValueMember = "LocationID";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // branchNameTextEdit
-            // 
-            this.branchNameTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.branchNameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "BranchName", true));
-            this.branchNameTextEdit.Location = new System.Drawing.Point(149, 10);
-            this.branchNameTextEdit.Name = "branchNameTextEdit";
-            this.branchNameTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branchNameTextEdit.Properties.Appearance.Options.UseFont = true;
-            this.branchNameTextEdit.Size = new System.Drawing.Size(333, 26);
-            this.branchNameTextEdit.TabIndex = 11;
-            // 
-            // btn_branchNew
-            // 
-            this.btn_branchNew.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_branchNew.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_branchNew.Appearance.Options.UseFont = true;
-            this.btn_branchNew.ImageOptions.Image = global::Bank.Properties.Resources.additem_32x32;
-            this.btn_branchNew.Location = new System.Drawing.Point(17, 160);
-            this.btn_branchNew.Name = "btn_branchNew";
-            this.btn_branchNew.Size = new System.Drawing.Size(462, 40);
-            this.btn_branchNew.TabIndex = 12;
-            this.btn_branchNew.Text = "New";
-            this.btn_branchNew.Click += new System.EventHandler(this.btn_branchNew_Click);
-            // 
-            // btn_branchSave
-            // 
-            this.btn_branchSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_branchSave.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_branchSave.Appearance.Options.UseFont = true;
-            this.btn_branchSave.ImageOptions.Image = global::Bank.Properties.Resources.saveandnew_32x32;
-            this.btn_branchSave.Location = new System.Drawing.Point(17, 207);
-            this.btn_branchSave.Name = "btn_branchSave";
-            this.btn_branchSave.Size = new System.Drawing.Size(462, 40);
-            this.btn_branchSave.TabIndex = 13;
-            this.btn_branchSave.Text = "Save";
-            this.btn_branchSave.Click += new System.EventHandler(this.btn_branchSave_Click);
-            // 
-            // btn_branchCancel
-            // 
-            this.btn_branchCancel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_branchCancel.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_branchCancel.Appearance.Options.UseFont = true;
-            this.btn_branchCancel.ImageOptions.Image = global::Bank.Properties.Resources.cancel_32x32;
-            this.btn_branchCancel.Location = new System.Drawing.Point(17, 253);
-            this.btn_branchCancel.Name = "btn_branchCancel";
-            this.btn_branchCancel.Size = new System.Drawing.Size(462, 40);
-            this.btn_branchCancel.TabIndex = 14;
-            this.btn_branchCancel.Text = "Cancel/Delete";
-            this.btn_branchCancel.Click += new System.EventHandler(this.btn_branchCancel_Click);
-            // 
             // pnl_MI_statistics
             // 
             this.pnl_MI_statistics.AutoScroll = true;
@@ -2553,36 +3528,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram1.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram1.AxisX.Title.Text = "Branch Names";
-            xyDiagram1.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram1.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram1.AxisY.Title.Text = "Amount";
-            xyDiagram1.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram1;
+            xyDiagram3.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram3.AxisX.Title.Text = "Branch Names";
+            xyDiagram3.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram3.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram3.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram3.AxisY.Title.Text = "Amount";
+            xyDiagram3.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram3;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series1.ArgumentDataMember = "BranchName";
-            series1.DataSource = this.branchBindingSource;
-            series1.Name = "Deposits";
-            series1.ValueDataMembersSerializable = "Deposit";
-            series2.ArgumentDataMember = "BranchName";
-            series2.DataSource = this.branchBindingSource;
-            series2.Name = "Loans";
-            series2.ValueDataMembersSerializable = "Loan";
+            series5.ArgumentDataMember = "BranchName";
+            series5.DataSource = this.branchBindingSource;
+            series5.Name = "Deposits";
+            series5.ValueDataMembersSerializable = "Deposit";
+            series6.ArgumentDataMember = "BranchName";
+            series6.DataSource = this.branchBindingSource;
+            series6.Name = "Loans";
+            series6.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1,
-        series2};
+        series5,
+        series6};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle1.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle1.Text = "Bank Branches Statistics";
+            chartTitle3.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle3.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle1});
+            chartTitle3});
             // 
             // panel22
             // 
@@ -2637,979 +3612,6 @@
             this.bunifuPictureBox5.TabIndex = 7;
             this.bunifuPictureBox5.TabStop = false;
             this.bunifuPictureBox5.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
-            // 
-            // pnl
-            // 
-            this.pnl.Controls.Add(this.groupBox1);
-            this.pnl.Controls.Add(this.groupBox5);
-            this.pnl.Controls.Add(this.groupBox4);
-            this.pnl.Controls.Add(this.groupBox2);
-            this.pnl.Controls.Add(this.groupBox3);
-            this.pnl.Location = new System.Drawing.Point(638, 506);
-            this.pnl.Name = "pnl";
-            this.pnl.Size = new System.Drawing.Size(397, 247);
-            this.pnl.TabIndex = 2;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(branchIDLabel);
-            this.groupBox1.Controls.Add(this.branchIDSpinEdit);
-            this.groupBox1.Controls.Add(depositLabel);
-            this.groupBox1.Controls.Add(locationIDLabel);
-            this.groupBox1.Controls.Add(cityIDLabel);
-            this.groupBox1.Controls.Add(this.branchBindingNavigator);
-            this.groupBox1.Controls.Add(this.depositSpinEdit);
-            this.groupBox1.Controls.Add(loanLabel);
-            this.groupBox1.Controls.Add(this.locationIDSpinEdit);
-            this.groupBox1.Controls.Add(this.loanSpinEdit);
-            this.groupBox1.Controls.Add(this.cityIDSpinEdit);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(4, 26);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(387, 25);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Branch";
-            // 
-            // branchIDSpinEdit
-            // 
-            this.branchIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "BranchID", true));
-            this.branchIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.branchIDSpinEdit.Location = new System.Drawing.Point(143, 73);
-            this.branchIDSpinEdit.Name = "branchIDSpinEdit";
-            this.branchIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.branchIDSpinEdit.Size = new System.Drawing.Size(125, 24);
-            this.branchIDSpinEdit.TabIndex = 1;
-            this.branchIDSpinEdit.EditValueChanged += new System.EventHandler(this.branchIDSpinEdit_EditValueChanged);
-            // 
-            // branchBindingNavigator
-            // 
-            this.branchBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.branchBindingNavigator.BindingSource = this.branchBindingSource;
-            this.branchBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.branchBindingNavigator.DeleteItem = this.branchbindingNavigatorDeleteItem;
-            this.branchBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.branchBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.branchBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.branchbindingNavigatorDeleteItem,
-            this.branchBindingNavigatorSaveItem});
-            this.branchBindingNavigator.Location = new System.Drawing.Point(3, 37);
-            this.branchBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.branchBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.branchBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.branchBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.branchBindingNavigator.Name = "branchBindingNavigator";
-            this.branchBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 27);
-            this.branchBindingNavigator.TabIndex = 3;
-            this.branchBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // branchbindingNavigatorDeleteItem
-            // 
-            this.branchbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.branchbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("branchbindingNavigatorDeleteItem.Image")));
-            this.branchbindingNavigatorDeleteItem.Name = "branchbindingNavigatorDeleteItem";
-            this.branchbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.branchbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.branchbindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveFirstItem.Text = "Move first";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveNextItem.Text = "Move next";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorMoveLastItem.Text = "Move last";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
-            // 
-            // branchBindingNavigatorSaveItem
-            // 
-            this.branchBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.branchBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("branchBindingNavigatorSaveItem.Image")));
-            this.branchBindingNavigatorSaveItem.Name = "branchBindingNavigatorSaveItem";
-            this.branchBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.branchBindingNavigatorSaveItem.Text = "Save Data";
-            this.branchBindingNavigatorSaveItem.Click += new System.EventHandler(this.branchBindingNavigatorSaveItem_Click);
-            // 
-            // depositSpinEdit
-            // 
-            this.depositSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "Deposit", true));
-            this.depositSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.depositSpinEdit.Location = new System.Drawing.Point(143, 103);
-            this.depositSpinEdit.Name = "depositSpinEdit";
-            this.depositSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.depositSpinEdit.Size = new System.Drawing.Size(125, 24);
-            this.depositSpinEdit.TabIndex = 7;
-            // 
-            // locationIDSpinEdit
-            // 
-            this.locationIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "LocationID", true));
-            this.locationIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.locationIDSpinEdit.Location = new System.Drawing.Point(143, 161);
-            this.locationIDSpinEdit.Name = "locationIDSpinEdit";
-            this.locationIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.locationIDSpinEdit.Properties.Appearance.Options.UseFont = true;
-            this.locationIDSpinEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered;
-            this.locationIDSpinEdit.Size = new System.Drawing.Size(125, 26);
-            this.locationIDSpinEdit.TabIndex = 3;
-            // 
-            // loanSpinEdit
-            // 
-            this.loanSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "Loan", true));
-            this.loanSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.loanSpinEdit.Location = new System.Drawing.Point(143, 133);
-            this.loanSpinEdit.Name = "loanSpinEdit";
-            this.loanSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.loanSpinEdit.Size = new System.Drawing.Size(125, 24);
-            this.loanSpinEdit.TabIndex = 9;
-            // 
-            // cityIDSpinEdit
-            // 
-            this.cityIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.branchBindingSource, "CityID", true));
-            this.cityIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.cityIDSpinEdit.Location = new System.Drawing.Point(143, 191);
-            this.cityIDSpinEdit.Name = "cityIDSpinEdit";
-            this.cityIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cityIDSpinEdit.Properties.Appearance.Options.UseFont = true;
-            this.cityIDSpinEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered;
-            this.cityIDSpinEdit.Size = new System.Drawing.Size(125, 26);
-            this.cityIDSpinEdit.TabIndex = 5;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.ManagerbindingNavigator);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(3, 187);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(397, 30);
-            this.groupBox5.TabIndex = 29;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Manager";
-            // 
-            // ManagerbindingNavigator
-            // 
-            this.ManagerbindingNavigator.AddNewItem = this.ManagerbindingNavigatorAddItem;
-            this.ManagerbindingNavigator.BindingSource = this.managerBindingSource;
-            this.ManagerbindingNavigator.CountItem = this.toolStripLabel5;
-            this.ManagerbindingNavigator.DeleteItem = this.ManagerbindingNavigatorDeleteItem;
-            this.ManagerbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.ManagerbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.ManagerbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton22,
-            this.toolStripButton23,
-            this.toolStripSeparator13,
-            this.toolStripTextBox4,
-            this.toolStripLabel5,
-            this.toolStripSeparator14,
-            this.toolStripButton24,
-            this.toolStripButton25,
-            this.toolStripSeparator15,
-            this.ManagerbindingNavigatorAddItem,
-            this.ManagerbindingNavigatorDeleteItem,
-            this.ManagerbindingNavigatorSave});
-            this.ManagerbindingNavigator.Location = new System.Drawing.Point(7, 37);
-            this.ManagerbindingNavigator.MoveFirstItem = this.toolStripButton22;
-            this.ManagerbindingNavigator.MoveLastItem = this.toolStripButton25;
-            this.ManagerbindingNavigator.MoveNextItem = this.toolStripButton24;
-            this.ManagerbindingNavigator.MovePreviousItem = this.toolStripButton23;
-            this.ManagerbindingNavigator.Name = "ManagerbindingNavigator";
-            this.ManagerbindingNavigator.PositionItem = this.toolStripTextBox4;
-            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 27);
-            this.ManagerbindingNavigator.TabIndex = 8;
-            this.ManagerbindingNavigator.Text = "bindingNavigator4";
-            // 
-            // ManagerbindingNavigatorAddItem
-            // 
-            this.ManagerbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ManagerbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorAddItem.Image")));
-            this.ManagerbindingNavigatorAddItem.Name = "ManagerbindingNavigatorAddItem";
-            this.ManagerbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.ManagerbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
-            this.ManagerbindingNavigatorAddItem.Text = "Add new";
-            // 
-            // toolStripLabel5
-            // 
-            this.toolStripLabel5.Name = "toolStripLabel5";
-            this.toolStripLabel5.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel5.Text = "of {0}";
-            this.toolStripLabel5.ToolTipText = "Total number of items";
-            // 
-            // ManagerbindingNavigatorDeleteItem
-            // 
-            this.ManagerbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ManagerbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorDeleteItem.Image")));
-            this.ManagerbindingNavigatorDeleteItem.Name = "ManagerbindingNavigatorDeleteItem";
-            this.ManagerbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.ManagerbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.ManagerbindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton22.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton22.Text = "Move first";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton23.Text = "Move previous";
-            // 
-            // toolStripSeparator13
-            // 
-            this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripTextBox4
-            // 
-            this.toolStripTextBox4.AccessibleName = "Position";
-            this.toolStripTextBox4.AutoSize = false;
-            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox4.Name = "toolStripTextBox4";
-            this.toolStripTextBox4.Size = new System.Drawing.Size(50, 27);
-            this.toolStripTextBox4.Text = "0";
-            this.toolStripTextBox4.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator14
-            // 
-            this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton24
-            // 
-            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
-            this.toolStripButton24.Name = "toolStripButton24";
-            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton24.Text = "Move next";
-            // 
-            // toolStripButton25
-            // 
-            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
-            this.toolStripButton25.Name = "toolStripButton25";
-            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton25.Text = "Move last";
-            // 
-            // toolStripSeparator15
-            // 
-            this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(6, 27);
-            // 
-            // ManagerbindingNavigatorSave
-            // 
-            this.ManagerbindingNavigatorSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ManagerbindingNavigatorSave.Image = ((System.Drawing.Image)(resources.GetObject("ManagerbindingNavigatorSave.Image")));
-            this.ManagerbindingNavigatorSave.Name = "ManagerbindingNavigatorSave";
-            this.ManagerbindingNavigatorSave.Size = new System.Drawing.Size(29, 24);
-            this.ManagerbindingNavigatorSave.Text = "Save Data";
-            this.ManagerbindingNavigatorSave.Click += new System.EventHandler(this.ManagerbindingNavigatorSave_Click);
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.dataTable1DataGridView);
-            this.groupBox4.Controls.Add(this.employeeBindingNavigator);
-            this.groupBox4.Controls.Add(managerIDLabel);
-            this.groupBox4.Controls.Add(this.employeeTypeSpinEdit);
-            this.groupBox4.Controls.Add(employeeTypeLabel);
-            this.groupBox4.Controls.Add(this.managerIDSpinEdit);
-            this.groupBox4.Controls.Add(this.locationIDSpinEdit2);
-            this.groupBox4.Controls.Add(branchIDLabel1);
-            this.groupBox4.Controls.Add(locationIDLabel2);
-            this.groupBox4.Controls.Add(employeeIDLabel);
-            this.groupBox4.Controls.Add(this.branchIDSpinEdit1);
-            this.groupBox4.Controls.Add(this.employeeIDSpinEdit);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(7, 155);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(387, 26);
-            this.groupBox4.TabIndex = 8;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Employee";
-            // 
-            // dataTable1DataGridView
-            // 
-            this.dataTable1DataGridView.AutoGenerateColumns = false;
-            this.dataTable1DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataTable1DataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.employeeIDDataGridViewTextBoxColumn1,
-            this.managerIDDataGridViewTextBoxColumn,
-            this.branchIDDataGridViewTextBoxColumn,
-            this.locationIDDataGridViewTextBoxColumn,
-            this.employeeTypeDataGridViewTextBoxColumn,
-            this.employeeNameDataGridViewTextBoxColumn1,
-            this.homeAddressDataGridViewTextBoxColumn1,
-            this.dateStartedDataGridViewTextBoxColumn1});
-            this.dataTable1DataGridView.DataSource = this.employeeBindingSource;
-            this.dataTable1DataGridView.Location = new System.Drawing.Point(16, 226);
-            this.dataTable1DataGridView.Name = "dataTable1DataGridView";
-            this.dataTable1DataGridView.RowHeadersWidth = 51;
-            this.dataTable1DataGridView.RowTemplate.Height = 24;
-            this.dataTable1DataGridView.Size = new System.Drawing.Size(616, 308);
-            this.dataTable1DataGridView.TabIndex = 7;
-            // 
-            // employeeIDDataGridViewTextBoxColumn1
-            // 
-            this.employeeIDDataGridViewTextBoxColumn1.DataPropertyName = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn1.HeaderText = "EmployeeID";
-            this.employeeIDDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.employeeIDDataGridViewTextBoxColumn1.Name = "employeeIDDataGridViewTextBoxColumn1";
-            this.employeeIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.employeeIDDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // managerIDDataGridViewTextBoxColumn
-            // 
-            this.managerIDDataGridViewTextBoxColumn.DataPropertyName = "ManagerID";
-            this.managerIDDataGridViewTextBoxColumn.HeaderText = "ManagerID";
-            this.managerIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.managerIDDataGridViewTextBoxColumn.Name = "managerIDDataGridViewTextBoxColumn";
-            this.managerIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // branchIDDataGridViewTextBoxColumn
-            // 
-            this.branchIDDataGridViewTextBoxColumn.DataPropertyName = "BranchID";
-            this.branchIDDataGridViewTextBoxColumn.HeaderText = "BranchID";
-            this.branchIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.branchIDDataGridViewTextBoxColumn.Name = "branchIDDataGridViewTextBoxColumn";
-            this.branchIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // locationIDDataGridViewTextBoxColumn
-            // 
-            this.locationIDDataGridViewTextBoxColumn.DataPropertyName = "LocationID";
-            this.locationIDDataGridViewTextBoxColumn.HeaderText = "LocationID";
-            this.locationIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.locationIDDataGridViewTextBoxColumn.Name = "locationIDDataGridViewTextBoxColumn";
-            this.locationIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // employeeTypeDataGridViewTextBoxColumn
-            // 
-            this.employeeTypeDataGridViewTextBoxColumn.DataPropertyName = "EmployeeType";
-            this.employeeTypeDataGridViewTextBoxColumn.HeaderText = "EmployeeType";
-            this.employeeTypeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeTypeDataGridViewTextBoxColumn.Name = "employeeTypeDataGridViewTextBoxColumn";
-            this.employeeTypeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // employeeNameDataGridViewTextBoxColumn1
-            // 
-            this.employeeNameDataGridViewTextBoxColumn1.DataPropertyName = "EmployeeName";
-            this.employeeNameDataGridViewTextBoxColumn1.HeaderText = "EmployeeName";
-            this.employeeNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.employeeNameDataGridViewTextBoxColumn1.Name = "employeeNameDataGridViewTextBoxColumn1";
-            this.employeeNameDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // homeAddressDataGridViewTextBoxColumn1
-            // 
-            this.homeAddressDataGridViewTextBoxColumn1.DataPropertyName = "HomeAddress";
-            this.homeAddressDataGridViewTextBoxColumn1.HeaderText = "HomeAddress";
-            this.homeAddressDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.homeAddressDataGridViewTextBoxColumn1.Name = "homeAddressDataGridViewTextBoxColumn1";
-            this.homeAddressDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dateStartedDataGridViewTextBoxColumn1
-            // 
-            this.dateStartedDataGridViewTextBoxColumn1.DataPropertyName = "DateStarted";
-            this.dateStartedDataGridViewTextBoxColumn1.HeaderText = "DateStarted";
-            this.dateStartedDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dateStartedDataGridViewTextBoxColumn1.Name = "dateStartedDataGridViewTextBoxColumn1";
-            this.dateStartedDataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // employeeBindingNavigator
-            // 
-            this.employeeBindingNavigator.AddNewItem = this.employeeBindingNavigatorAddItem;
-            this.employeeBindingNavigator.BindingSource = this.employeeBindingSource;
-            this.employeeBindingNavigator.CountItem = this.toolStripLabel4;
-            this.employeeBindingNavigator.DeleteItem = this.employeeBindingNavigatorDelete;
-            this.employeeBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.employeeBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.employeeBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton18,
-            this.toolStripButton19,
-            this.toolStripSeparator10,
-            this.employeeBindingNavigatorIndex,
-            this.toolStripLabel4,
-            this.toolStripSeparator11,
-            this.toolStripButton20,
-            this.toolStripButton21,
-            this.toolStripSeparator12,
-            this.employeeBindingNavigatorAddItem,
-            this.employeeBindingNavigatorDelete,
-            this.employeeBindingNavigatorSaveItem});
-            this.employeeBindingNavigator.Location = new System.Drawing.Point(11, 185);
-            this.employeeBindingNavigator.MoveFirstItem = this.toolStripButton18;
-            this.employeeBindingNavigator.MoveLastItem = this.toolStripButton21;
-            this.employeeBindingNavigator.MoveNextItem = this.toolStripButton20;
-            this.employeeBindingNavigator.MovePreviousItem = this.toolStripButton19;
-            this.employeeBindingNavigator.Name = "employeeBindingNavigator";
-            this.employeeBindingNavigator.PositionItem = this.employeeBindingNavigatorIndex;
-            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
-            this.employeeBindingNavigator.TabIndex = 8;
-            this.employeeBindingNavigator.Text = "bindingNavigator4";
-            // 
-            // employeeBindingNavigatorAddItem
-            // 
-            this.employeeBindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.employeeBindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorAddItem.Image")));
-            this.employeeBindingNavigatorAddItem.Name = "employeeBindingNavigatorAddItem";
-            this.employeeBindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.employeeBindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
-            this.employeeBindingNavigatorAddItem.Text = "Add new";
-            // 
-            // toolStripLabel4
-            // 
-            this.toolStripLabel4.Name = "toolStripLabel4";
-            this.toolStripLabel4.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel4.Text = "of {0}";
-            this.toolStripLabel4.ToolTipText = "Total number of items";
-            // 
-            // employeeBindingNavigatorDelete
-            // 
-            this.employeeBindingNavigatorDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.employeeBindingNavigatorDelete.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorDelete.Image")));
-            this.employeeBindingNavigatorDelete.Name = "employeeBindingNavigatorDelete";
-            this.employeeBindingNavigatorDelete.RightToLeftAutoMirrorImage = true;
-            this.employeeBindingNavigatorDelete.Size = new System.Drawing.Size(29, 24);
-            this.employeeBindingNavigatorDelete.Text = "Delete";
-            // 
-            // toolStripButton18
-            // 
-            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
-            this.toolStripButton18.Name = "toolStripButton18";
-            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton18.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton18.Text = "Move first";
-            // 
-            // toolStripButton19
-            // 
-            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
-            this.toolStripButton19.Name = "toolStripButton19";
-            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton19.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton19.Text = "Move previous";
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 27);
-            // 
-            // employeeBindingNavigatorIndex
-            // 
-            this.employeeBindingNavigatorIndex.AccessibleName = "Position";
-            this.employeeBindingNavigatorIndex.AutoSize = false;
-            this.employeeBindingNavigatorIndex.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.employeeBindingNavigatorIndex.Name = "employeeBindingNavigatorIndex";
-            this.employeeBindingNavigatorIndex.Size = new System.Drawing.Size(50, 27);
-            this.employeeBindingNavigatorIndex.Text = "0";
-            this.employeeBindingNavigatorIndex.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator11
-            // 
-            this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton20.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton20.Text = "Move next";
-            // 
-            // toolStripButton21
-            // 
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton21.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton21.Text = "Move last";
-            // 
-            // toolStripSeparator12
-            // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 27);
-            // 
-            // employeeBindingNavigatorSaveItem
-            // 
-            this.employeeBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.employeeBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employeeBindingNavigatorSaveItem.Image")));
-            this.employeeBindingNavigatorSaveItem.Name = "employeeBindingNavigatorSaveItem";
-            this.employeeBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.employeeBindingNavigatorSaveItem.Text = "Save Data";
-            this.employeeBindingNavigatorSaveItem.Click += new System.EventHandler(this.employeeBindingNavigatorSaveItem_Click);
-            // 
-            // employeeTypeSpinEdit
-            // 
-            this.employeeTypeSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeType", true));
-            this.employeeTypeSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.employeeTypeSpinEdit.Location = new System.Drawing.Point(145, 120);
-            this.employeeTypeSpinEdit.Name = "employeeTypeSpinEdit";
-            this.employeeTypeSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.employeeTypeSpinEdit.Properties.Appearance.Options.UseFont = true;
-            this.employeeTypeSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.employeeTypeSpinEdit.Size = new System.Drawing.Size(215, 26);
-            this.employeeTypeSpinEdit.TabIndex = 28;
-            // 
-            // managerIDSpinEdit
-            // 
-            this.managerIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "ManagerID", true));
-            this.managerIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.managerIDSpinEdit.Location = new System.Drawing.Point(145, 27);
-            this.managerIDSpinEdit.Name = "managerIDSpinEdit";
-            this.managerIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.managerIDSpinEdit.Properties.Appearance.Options.UseFont = true;
-            this.managerIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.managerIDSpinEdit.Size = new System.Drawing.Size(215, 26);
-            this.managerIDSpinEdit.TabIndex = 22;
-            // 
-            // locationIDSpinEdit2
-            // 
-            this.locationIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "LocationID", true));
-            this.locationIDSpinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.locationIDSpinEdit2.Location = new System.Drawing.Point(145, 89);
-            this.locationIDSpinEdit2.Name = "locationIDSpinEdit2";
-            this.locationIDSpinEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.locationIDSpinEdit2.Properties.Appearance.Options.UseFont = true;
-            this.locationIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.locationIDSpinEdit2.Size = new System.Drawing.Size(215, 26);
-            this.locationIDSpinEdit2.TabIndex = 26;
-            // 
-            // branchIDSpinEdit1
-            // 
-            this.branchIDSpinEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "BranchID", true));
-            this.branchIDSpinEdit1.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.branchIDSpinEdit1.Location = new System.Drawing.Point(145, 58);
-            this.branchIDSpinEdit1.Name = "branchIDSpinEdit1";
-            this.branchIDSpinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.branchIDSpinEdit1.Properties.Appearance.Options.UseFont = true;
-            this.branchIDSpinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.branchIDSpinEdit1.Size = new System.Drawing.Size(215, 26);
-            this.branchIDSpinEdit1.TabIndex = 24;
-            // 
-            // employeeIDSpinEdit
-            // 
-            this.employeeIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.employeeBindingSource, "EmployeeID", true));
-            this.employeeIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.employeeIDSpinEdit.Location = new System.Drawing.Point(144, 152);
-            this.employeeIDSpinEdit.Name = "employeeIDSpinEdit";
-            this.employeeIDSpinEdit.Properties.Appearance.Font = new System.Drawing.Font("Microsoft YaHei", 9F);
-            this.employeeIDSpinEdit.Properties.Appearance.Options.UseFont = true;
-            this.employeeIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.employeeIDSpinEdit.Size = new System.Drawing.Size(216, 26);
-            this.employeeIDSpinEdit.TabIndex = 20;
-            this.employeeIDSpinEdit.EditValueChanged += new System.EventHandler(this.employeeIDSpinEdit_EditValueChanged);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.bindingNavigator2);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 75);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(388, 24);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Location";
-            // 
-            // bindingNavigator2
-            // 
-            this.bindingNavigator2.AddNewItem = this.locationBindingNavigatorAddNewItem;
-            this.bindingNavigator2.BindingSource = this.locationBindingSource;
-            this.bindingNavigator2.CountItem = this.toolStripLabel2;
-            this.bindingNavigator2.DeleteItem = this.locationBindingNavigatorDeleteItem;
-            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.None;
-            this.bindingNavigator2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton10,
-            this.toolStripButton11,
-            this.toolStripSeparator4,
-            this.toolStripTextBox2,
-            this.toolStripLabel2,
-            this.toolStripSeparator5,
-            this.toolStripButton12,
-            this.toolStripButton13,
-            this.toolStripSeparator6,
-            this.locationBindingNavigatorAddNewItem,
-            this.locationBindingNavigatorDeleteItem,
-            this.locationBindingNavigatorSaveItem});
-            this.bindingNavigator2.Location = new System.Drawing.Point(7, 38);
-            this.bindingNavigator2.MoveFirstItem = this.toolStripButton10;
-            this.bindingNavigator2.MoveLastItem = this.toolStripButton13;
-            this.bindingNavigator2.MoveNextItem = this.toolStripButton12;
-            this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
-            this.bindingNavigator2.Name = "bindingNavigator2";
-            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator2.Size = new System.Drawing.Size(331, 27);
-            this.bindingNavigator2.TabIndex = 6;
-            this.bindingNavigator2.Text = "bindingNavigator2";
-            // 
-            // locationBindingNavigatorAddNewItem
-            // 
-            this.locationBindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.locationBindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorAddNewItem.Image")));
-            this.locationBindingNavigatorAddNewItem.Name = "locationBindingNavigatorAddNewItem";
-            this.locationBindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.locationBindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.locationBindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // toolStripLabel2
-            // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel2.Text = "of {0}";
-            this.toolStripLabel2.ToolTipText = "Total number of items";
-            // 
-            // locationBindingNavigatorDeleteItem
-            // 
-            this.locationBindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.locationBindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorDeleteItem.Image")));
-            this.locationBindingNavigatorDeleteItem.Name = "locationBindingNavigatorDeleteItem";
-            this.locationBindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.locationBindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.locationBindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // toolStripButton10
-            // 
-            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
-            this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton10.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton10.Text = "Move first";
-            // 
-            // toolStripButton11
-            // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton11.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton11.Text = "Move previous";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripTextBox2
-            // 
-            this.toolStripTextBox2.AccessibleName = "Position";
-            this.toolStripTextBox2.AutoSize = false;
-            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 27);
-            this.toolStripTextBox2.Text = "0";
-            this.toolStripTextBox2.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton12
-            // 
-            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
-            this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton12.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton12.Text = "Move next";
-            // 
-            // toolStripButton13
-            // 
-            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton13.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton13.Text = "Move last";
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
-            // 
-            // locationBindingNavigatorSaveItem
-            // 
-            this.locationBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.locationBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("locationBindingNavigatorSaveItem.Image")));
-            this.locationBindingNavigatorSaveItem.Name = "locationBindingNavigatorSaveItem";
-            this.locationBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.locationBindingNavigatorSaveItem.Text = "Save Data";
-            this.locationBindingNavigatorSaveItem.Click += new System.EventHandler(this.locationBindingNavigatorSaveItem_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.bindingNavigator3);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(4, 118);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(388, 29);
-            this.groupBox3.TabIndex = 7;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "City";
-            // 
-            // bindingNavigator3
-            // 
-            this.bindingNavigator3.AddNewItem = this.cityBindingNavigatorAddNewItem;
-            this.bindingNavigator3.BindingSource = this.cityBindingSource;
-            this.bindingNavigator3.CountItem = this.toolStripLabel3;
-            this.bindingNavigator3.DeleteItem = this.cityBindingNavigatorDeleteItem;
-            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.None;
-            this.bindingNavigator3.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton14,
-            this.toolStripButton15,
-            this.toolStripSeparator7,
-            this.toolStripTextBox3,
-            this.toolStripLabel3,
-            this.toolStripSeparator8,
-            this.toolStripButton16,
-            this.toolStripButton17,
-            this.toolStripSeparator9,
-            this.cityBindingNavigatorAddNewItem,
-            this.cityBindingNavigatorDeleteItem,
-            this.cityBindingNavigatorSaveItem});
-            this.bindingNavigator3.Location = new System.Drawing.Point(7, 38);
-            this.bindingNavigator3.MoveFirstItem = this.toolStripButton14;
-            this.bindingNavigator3.MoveLastItem = this.toolStripButton17;
-            this.bindingNavigator3.MoveNextItem = this.toolStripButton16;
-            this.bindingNavigator3.MovePreviousItem = this.toolStripButton15;
-            this.bindingNavigator3.Name = "bindingNavigator3";
-            this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator3.Size = new System.Drawing.Size(331, 27);
-            this.bindingNavigator3.TabIndex = 6;
-            this.bindingNavigator3.Text = "bindingNavigator3";
-            // 
-            // cityBindingNavigatorAddNewItem
-            // 
-            this.cityBindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cityBindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorAddNewItem.Image")));
-            this.cityBindingNavigatorAddNewItem.Name = "cityBindingNavigatorAddNewItem";
-            this.cityBindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.cityBindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.cityBindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // toolStripLabel3
-            // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel3.Text = "of {0}";
-            this.toolStripLabel3.ToolTipText = "Total number of items";
-            // 
-            // cityBindingNavigatorDeleteItem
-            // 
-            this.cityBindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cityBindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorDeleteItem.Image")));
-            this.cityBindingNavigatorDeleteItem.Name = "cityBindingNavigatorDeleteItem";
-            this.cityBindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.cityBindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.cityBindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // toolStripButton14
-            // 
-            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
-            this.toolStripButton14.Name = "toolStripButton14";
-            this.toolStripButton14.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton14.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton14.Text = "Move first";
-            // 
-            // toolStripButton15
-            // 
-            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
-            this.toolStripButton15.Name = "toolStripButton15";
-            this.toolStripButton15.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton15.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton15.Text = "Move previous";
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripTextBox3
-            // 
-            this.toolStripTextBox3.AccessibleName = "Position";
-            this.toolStripTextBox3.AutoSize = false;
-            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox3.Name = "toolStripTextBox3";
-            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 27);
-            this.toolStripTextBox3.Text = "0";
-            this.toolStripTextBox3.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton16
-            // 
-            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton16.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton16.Image")));
-            this.toolStripButton16.Name = "toolStripButton16";
-            this.toolStripButton16.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton16.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton16.Text = "Move next";
-            // 
-            // toolStripButton17
-            // 
-            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
-            this.toolStripButton17.Name = "toolStripButton17";
-            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton17.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton17.Text = "Move last";
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 27);
-            // 
-            // cityBindingNavigatorSaveItem
-            // 
-            this.cityBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cityBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("cityBindingNavigatorSaveItem.Image")));
-            this.cityBindingNavigatorSaveItem.Name = "cityBindingNavigatorSaveItem";
-            this.cityBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.cityBindingNavigatorSaveItem.Text = "Save Data";
-            this.cityBindingNavigatorSaveItem.Click += new System.EventHandler(this.cityBindingNavigatorSaveItem_Click);
             // 
             // pnl_MI_Managers
             // 
@@ -4169,6 +4171,55 @@
             this.Main_Panel.ResumeLayout(false);
             this.Main_innerPanel.ResumeLayout(false);
             this.Main_innerPanel.PerformLayout();
+            this.pnl.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).EndInit();
+            this.ManagerbindingNavigator.ResumeLayout(false);
+            this.ManagerbindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).EndInit();
+            this.employeeBindingNavigator.ResumeLayout(false);
+            this.employeeBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeIDSpinEdit.Properties)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
+            this.bindingNavigator2.ResumeLayout(false);
+            this.bindingNavigator2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
+            this.bindingNavigator3.ResumeLayout(false);
+            this.bindingNavigator3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).EndInit();
+            this.pnl_MI_branch.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.branchDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayBranchBindingSource)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchBindingNavigator)).EndInit();
+            this.branchBindingNavigator.ResumeLayout(false);
+            this.branchBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.depositSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_IM_Employee.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).EndInit();
@@ -4176,10 +4227,7 @@
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeTypeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeNameTextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeAddressTextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateStartedDateEdit.Properties.CalendarTimeProperties)).EndInit();
@@ -4227,61 +4275,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            this.pnl_MI_branch.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.branchDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.displayBranchBindingSource)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cityBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchNameTextEdit.Properties)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
             this.panel23.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox5)).EndInit();
-            this.pnl.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchBindingNavigator)).EndInit();
-            this.branchBindingNavigator.ResumeLayout(false);
-            this.branchBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.depositSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cityIDSpinEdit.Properties)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ManagerbindingNavigator)).EndInit();
-            this.ManagerbindingNavigator.ResumeLayout(false);
-            this.ManagerbindingNavigator.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable1DataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingNavigator)).EndInit();
-            this.employeeBindingNavigator.ResumeLayout(false);
-            this.employeeBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeTypeSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.locationIDSpinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeIDSpinEdit.Properties)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
-            this.bindingNavigator2.ResumeLayout(false);
-            this.bindingNavigator2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
-            this.bindingNavigator3.ResumeLayout(false);
-            this.bindingNavigator3.PerformLayout();
             this.pnl_MI_Managers.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.managerDataGridView)).EndInit();
             this.panel16.ResumeLayout(false);

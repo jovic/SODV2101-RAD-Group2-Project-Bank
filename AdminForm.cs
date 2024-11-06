@@ -1,5 +1,6 @@
 ﻿
 using Bank.DB_BankDataSetTableAdapters;
+using DevExpress.Utils.Helpers;
 using DevExpress.XtraEditors;
 using DevExpress.XtraReports.UI;
 using System;
@@ -242,8 +243,17 @@ namespace Bank
 
         private void btn_branchCancel_Click(object sender, EventArgs e)
         {
-            setButtonControls(branchButtons, 0, true);
-            branchbindingNavigatorDeleteItem.PerformClick();
+            try
+            {
+                setButtonControls(branchButtons, 0, true);
+                branchbindingNavigatorDeleteItem.PerformClick();
+                this.branchTableAdapter.Update(dB_BankDataSet.Branch);
+                this.displayBranchTableAdapter.Fill(dB_BankDataSet.DisplayBranch);
+            }
+            catch (Exception ex)
+            {
+                set.showMessageError(this, "Cannot delete Branch because it is still being used.\n\rCheck it first before deleting the branch.", "OK");
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -409,6 +419,7 @@ namespace Bank
         private void branchDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             this.branchBindingNavigator.BindingSource.Position = branchDataGridView.CurrentRow.Index;
+            
             setButtonControls(branchButtons, 0, false);
         }
 
@@ -496,5 +507,7 @@ namespace Bank
         {
             printTool.ShowPreviewDialog();
         }
+
+       
     }
 }
