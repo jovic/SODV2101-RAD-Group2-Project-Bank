@@ -24,7 +24,7 @@ namespace Bank
         Panel[] outerPanels;
         Button[] navButtons;
         DataGridView[] dgv;
-        private bool toggle=false;
+        private bool toggle = false;
         private string dateToday = DateTime.UtcNow.ToString();
         private int _accountBranchID, _deposit, _loan;
         private static readonly string apiUrl = "http://api.exchangeratesapi.io/v1/latest?access_key=fd6f67d35cd5a99a5c7d6dafced15bc8";
@@ -763,3 +763,4 @@ namespace Bank
             }
         }
     }
+}
