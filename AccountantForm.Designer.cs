@@ -69,42 +69,42 @@
             System.Windows.Forms.Label oRNumLabel;
             System.Windows.Forms.Label tOLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountantForm));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties65 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties66 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties67 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties68 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties69 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties70 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties71 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties72 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties73 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties74 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties75 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties76 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties77 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties78 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties79 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties80 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties81 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties82 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties83 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties84 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties85 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties86 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties87 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties88 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties89 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties90 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties91 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties92 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties93 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties94 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties95 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties96 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties129 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties130 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties131 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties132 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            DevExpress.XtraCharts.XYDiagram xyDiagram5 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series9 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series10 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle5 = new DevExpress.XtraCharts.ChartTitle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties133 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties134 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties135 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties136 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties137 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties138 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties139 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties140 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties141 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties142 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties143 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties144 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties145 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties146 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties147 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties148 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties149 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties150 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties151 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties152 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties153 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties154 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties155 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties156 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties157 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties158 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties159 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties160 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -128,6 +128,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_top_outer = new System.Windows.Forms.Panel();
             this.pnl_top_inner = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_backpanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.savingAccountBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
@@ -145,7 +147,6 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.savingAccountBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_dashboard = new System.Windows.Forms.Panel();
             this.pnl_inner_dashboard = new System.Windows.Forms.Panel();
             this.lbl_position = new System.Windows.Forms.Label();
@@ -192,6 +193,49 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.pnl_main = new System.Windows.Forms.Panel();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.loanIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.accountIDSpinEdit3 = new DevExpress.XtraEditors.SpinEdit();
+            this.branchIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.datePostedDateEdit2 = new DevExpress.XtraEditors.DateEdit();
+            this.amountSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.oRNumTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.tOTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.loanbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.loanbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
+            this.loanbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
+            this.loanbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.accountbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.accountbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
+            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.accountbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.accountbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.accountIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.customerIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.accountTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.dateModefiedDateEdit = new DevExpress.XtraEditors.DateEdit();
+            this.branchIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.cardPINSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.pnl_statistics = new System.Windows.Forms.Panel();
             this.pnl_inner_statistics = new System.Windows.Forms.Panel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
@@ -222,28 +266,6 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.accountbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.accountbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.accountbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.accountbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.accountIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.customerIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
-            this.accountTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.dateModefiedDateEdit = new DevExpress.XtraEditors.DateEdit();
-            this.branchIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.cardPINSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.savingIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.accountIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
@@ -302,27 +324,6 @@
             this.checkNumbersTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.amountSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
             this.datePostedDateEdit1 = new DevExpress.XtraEditors.DateEdit();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.loanIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.accountIDSpinEdit3 = new DevExpress.XtraEditors.SpinEdit();
-            this.branchIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.datePostedDateEdit2 = new DevExpress.XtraEditors.DateEdit();
-            this.amountSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.oRNumTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.tOTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.loanbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.loanbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
-            this.loanbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
-            this.loanbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.customerIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -432,6 +433,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl_top_outer.SuspendLayout();
             this.pnl_top_inner.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.pnl_backpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingNavigator)).BeginInit();
             this.savingAccountBindingNavigator.SuspendLayout();
@@ -457,20 +459,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.loanAccountBindingSource)).BeginInit();
             this.pnl_accounts_inner.SuspendLayout();
             this.pnl_main.SuspendLayout();
-            this.pnl_statistics.SuspendLayout();
-            this.pnl_inner_statistics.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series6)).BeginInit();
-            this.pnl_Rates.SuspendLayout();
-            this.pnl_inner_rates.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).BeginInit();
-            this.pnl_sendMoney.SuspendLayout();
-            this.pnl_inner_sendMoney.SuspendLayout();
-            this.pnl_layout.SuspendLayout();
-            this.pnl_inner_receiver.SuspendLayout();
-            this.pnl_inner_sender.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).BeginInit();
+            this.loanbindingNavigator.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).BeginInit();
             this.accountbindingNavigator.SuspendLayout();
@@ -483,6 +482,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
+            this.pnl_statistics.SuspendLayout();
+            this.pnl_inner_statistics.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).BeginInit();
+            this.pnl_Rates.SuspendLayout();
+            this.pnl_inner_rates.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).BeginInit();
+            this.pnl_sendMoney.SuspendLayout();
+            this.pnl_inner_sendMoney.SuspendLayout();
+            this.pnl_layout.SuspendLayout();
+            this.pnl_inner_receiver.SuspendLayout();
+            this.pnl_inner_sender.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit1.Properties)).BeginInit();
@@ -510,17 +523,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties.CalendarTimeProperties)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).BeginInit();
-            this.loanbindingNavigator.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
@@ -962,6 +964,7 @@
             this.info.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.info.Size = new System.Drawing.Size(42, 30);
             this.info.TabIndex = 10;
+            this.info.Visible = false;
             this.info.Click += new System.EventHandler(this.info_Click);
             // 
             // panel7
@@ -1171,21 +1174,40 @@
             // pnl_top_inner
             // 
             this.pnl_top_inner.BackColor = System.Drawing.Color.Gainsboro;
-            this.pnl_top_inner.Controls.Add(this.pnl_backpanel);
-            this.pnl_top_inner.Controls.Add(this.savingAccountBindingNavigator);
+            this.pnl_top_inner.Controls.Add(this.panel1);
             this.pnl_top_inner.Controls.Add(this.btn_exit);
-            this.pnl_top_inner.Controls.Add(this.simpleButton1);
+            this.pnl_top_inner.Controls.Add(this.accountIDSpinEdit);
             this.pnl_top_inner.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_top_inner.Location = new System.Drawing.Point(0, 13);
             this.pnl_top_inner.Name = "pnl_top_inner";
             this.pnl_top_inner.Size = new System.Drawing.Size(1682, 94);
             this.pnl_top_inner.TabIndex = 2;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.pnl_backpanel);
+            this.panel1.Controls.Add(this.savingAccountBindingNavigator);
+            this.panel1.Location = new System.Drawing.Point(75, 9);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 14);
+            this.panel1.TabIndex = 7;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.ImageOptions.Image = global::Bank.Properties.Resources.chart_32x32;
+            this.simpleButton1.Location = new System.Drawing.Point(-23, 18);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(10);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(231, 58);
+            this.simpleButton1.TabIndex = 5;
+            this.simpleButton1.Text = "simpleButton1";
+            // 
             // pnl_backpanel
             // 
             this.pnl_backpanel.BackColor = System.Drawing.Color.Navy;
             this.pnl_backpanel.Controls.Add(this.button1);
-            this.pnl_backpanel.Location = new System.Drawing.Point(525, 15);
+            this.pnl_backpanel.Location = new System.Drawing.Point(221, 58);
             this.pnl_backpanel.Name = "pnl_backpanel";
             this.pnl_backpanel.Size = new System.Drawing.Size(177, 53);
             this.pnl_backpanel.TabIndex = 4;
@@ -1229,7 +1251,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.savingAccountBindingNavigatorSaveItem});
-            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(791, 41);
+            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(487, 39);
             this.savingAccountBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.savingAccountBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.savingAccountBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -1353,16 +1375,6 @@
             this.btn_exit.Text = "X";
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.ImageOptions.Image = global::Bank.Properties.Resources.chart_32x32;
-            this.simpleButton1.Location = new System.Drawing.Point(259, 10);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(10);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(231, 58);
-            this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "simpleButton1";
             // 
             // pnl_dashboard
             // 
@@ -1556,7 +1568,7 @@
             this.pnl_accounts.Location = new System.Drawing.Point(77, 82);
             this.pnl_accounts.Name = "pnl_accounts";
             this.pnl_accounts.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_accounts.Size = new System.Drawing.Size(916, 32);
+            this.pnl_accounts.Size = new System.Drawing.Size(916, 41);
             this.pnl_accounts.TabIndex = 3;
             // 
             // panel9
@@ -1851,26 +1863,26 @@
             this.txt_searchName.Modified = false;
             this.txt_searchName.Multiline = false;
             this.txt_searchName.Name = "txt_searchName";
-            stateProperties65.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties65.FillColor = System.Drawing.Color.Empty;
-            stateProperties65.ForeColor = System.Drawing.Color.Empty;
-            stateProperties65.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchName.OnActiveState = stateProperties65;
-            stateProperties66.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties66.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties66.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_searchName.OnDisabledState = stateProperties66;
-            stateProperties67.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties67.FillColor = System.Drawing.Color.Empty;
-            stateProperties67.ForeColor = System.Drawing.Color.Empty;
-            stateProperties67.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchName.OnHoverState = stateProperties67;
-            stateProperties68.BorderColor = System.Drawing.Color.Silver;
-            stateProperties68.FillColor = System.Drawing.Color.White;
-            stateProperties68.ForeColor = System.Drawing.Color.Empty;
-            stateProperties68.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchName.OnIdleState = stateProperties68;
+            stateProperties129.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties129.FillColor = System.Drawing.Color.Empty;
+            stateProperties129.ForeColor = System.Drawing.Color.Empty;
+            stateProperties129.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchName.OnActiveState = stateProperties129;
+            stateProperties130.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties130.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties130.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties130.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_searchName.OnDisabledState = stateProperties130;
+            stateProperties131.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties131.FillColor = System.Drawing.Color.Empty;
+            stateProperties131.ForeColor = System.Drawing.Color.Empty;
+            stateProperties131.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchName.OnHoverState = stateProperties131;
+            stateProperties132.BorderColor = System.Drawing.Color.Silver;
+            stateProperties132.FillColor = System.Drawing.Color.White;
+            stateProperties132.ForeColor = System.Drawing.Color.Empty;
+            stateProperties132.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchName.OnIdleState = stateProperties132;
             this.txt_searchName.Padding = new System.Windows.Forms.Padding(3);
             this.txt_searchName.PasswordChar = '\0';
             this.txt_searchName.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -1914,16 +1926,16 @@
             // 
             // pnl_main
             // 
+            this.pnl_main.Controls.Add(this.pnl_sendMoney);
+            this.pnl_main.Controls.Add(this.groupBox6);
+            this.pnl_main.Controls.Add(this.groupBox2);
+            this.pnl_main.Controls.Add(this.pnl_accounts);
             this.pnl_main.Controls.Add(this.pnl_statistics);
             this.pnl_main.Controls.Add(this.pnl_Rates);
             this.pnl_main.Controls.Add(this.pnl_dashboard);
-            this.pnl_main.Controls.Add(this.pnl_sendMoney);
-            this.pnl_main.Controls.Add(this.groupBox2);
             this.pnl_main.Controls.Add(this.groupBox3);
             this.pnl_main.Controls.Add(this.groupBox4);
             this.pnl_main.Controls.Add(this.groupBox5);
-            this.pnl_main.Controls.Add(this.groupBox6);
-            this.pnl_main.Controls.Add(this.pnl_accounts);
             this.pnl_main.Controls.Add(this.groupBox1);
             this.pnl_main.Location = new System.Drawing.Point(282, 264);
             this.pnl_main.Name = "pnl_main";
@@ -1931,534 +1943,250 @@
             this.pnl_main.Size = new System.Drawing.Size(1044, 814);
             this.pnl_main.TabIndex = 4;
             // 
-            // pnl_statistics
+            // groupBox6
             // 
-            this.pnl_statistics.Controls.Add(this.pnl_inner_statistics);
-            this.pnl_statistics.Controls.Add(this.label27);
-            this.pnl_statistics.Location = new System.Drawing.Point(78, 262);
-            this.pnl_statistics.Name = "pnl_statistics";
-            this.pnl_statistics.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_statistics.Size = new System.Drawing.Size(915, 35);
-            this.pnl_statistics.TabIndex = 27;
+            this.groupBox6.Controls.Add(loanIDLabel);
+            this.groupBox6.Controls.Add(this.loanIDSpinEdit);
+            this.groupBox6.Controls.Add(accountIDLabel3);
+            this.groupBox6.Controls.Add(this.accountIDSpinEdit3);
+            this.groupBox6.Controls.Add(branchIDLabel2);
+            this.groupBox6.Controls.Add(this.branchIDSpinEdit2);
+            this.groupBox6.Controls.Add(datePostedLabel2);
+            this.groupBox6.Controls.Add(this.datePostedDateEdit2);
+            this.groupBox6.Controls.Add(amountLabel2);
+            this.groupBox6.Controls.Add(this.amountSpinEdit2);
+            this.groupBox6.Controls.Add(oRNumLabel);
+            this.groupBox6.Controls.Add(this.oRNumTextEdit);
+            this.groupBox6.Controls.Add(tOLabel);
+            this.groupBox6.Controls.Add(this.tOTextEdit);
+            this.groupBox6.Controls.Add(this.loanbindingNavigator);
+            this.groupBox6.Location = new System.Drawing.Point(15, 555);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(590, 224);
+            this.groupBox6.TabIndex = 24;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Loan";
             // 
-            // pnl_inner_statistics
+            // loanIDSpinEdit
             // 
-            this.pnl_inner_statistics.Controls.Add(this.chartControl1);
-            this.pnl_inner_statistics.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_inner_statistics.Location = new System.Drawing.Point(7, 37);
-            this.pnl_inner_statistics.Name = "pnl_inner_statistics";
-            this.pnl_inner_statistics.Size = new System.Drawing.Size(901, 0);
-            this.pnl_inner_statistics.TabIndex = 4;
+            this.loanIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "LoanID", true));
+            this.loanIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.loanIDSpinEdit.Location = new System.Drawing.Point(110, 33);
+            this.loanIDSpinEdit.Name = "loanIDSpinEdit";
+            this.loanIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.loanIDSpinEdit.Size = new System.Drawing.Size(125, 24);
+            this.loanIDSpinEdit.TabIndex = 7;
             // 
-            // chartControl1
+            // accountIDSpinEdit3
             // 
-            this.chartControl1.DataSource = this.branchBindingSource;
-            xyDiagram3.AxisX.Title.Text = "Branch Names";
-            xyDiagram3.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram3.AxisY.Title.Text = "Amounts";
-            xyDiagram3.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram3;
-            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartControl1.Location = new System.Drawing.Point(0, 0);
-            this.chartControl1.Name = "chartControl1";
-            series5.ArgumentDataMember = "BranchName";
-            series5.DataSource = this.branchBindingSource;
-            series5.Name = "Deposits";
-            series5.ValueDataMembersSerializable = "Deposit";
-            series6.ArgumentDataMember = "BranchName";
-            series6.DataSource = this.branchBindingSource;
-            series6.Name = "Loans";
-            series6.ValueDataMembersSerializable = "Loan";
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series5,
-        series6};
-            this.chartControl1.Size = new System.Drawing.Size(901, 0);
-            this.chartControl1.TabIndex = 0;
-            chartTitle3.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle3.Text = "SKS Bank Statistics";
-            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle3});
+            this.accountIDSpinEdit3.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "AccountID", true));
+            this.accountIDSpinEdit3.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.accountIDSpinEdit3.Location = new System.Drawing.Point(110, 63);
+            this.accountIDSpinEdit3.Name = "accountIDSpinEdit3";
+            this.accountIDSpinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.accountIDSpinEdit3.Size = new System.Drawing.Size(125, 24);
+            this.accountIDSpinEdit3.TabIndex = 9;
             // 
-            // label27
+            // branchIDSpinEdit2
             // 
-            this.label27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(7, 7);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(901, 30);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "Statistics";
+            this.branchIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "BranchID", true));
+            this.branchIDSpinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.branchIDSpinEdit2.Location = new System.Drawing.Point(110, 93);
+            this.branchIDSpinEdit2.Name = "branchIDSpinEdit2";
+            this.branchIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.branchIDSpinEdit2.Size = new System.Drawing.Size(125, 24);
+            this.branchIDSpinEdit2.TabIndex = 11;
             // 
-            // pnl_Rates
+            // datePostedDateEdit2
             // 
-            this.pnl_Rates.Controls.Add(this.pnl_inner_rates);
-            this.pnl_Rates.Controls.Add(this.label26);
-            this.pnl_Rates.Location = new System.Drawing.Point(77, 201);
-            this.pnl_Rates.Name = "pnl_Rates";
-            this.pnl_Rates.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_Rates.Size = new System.Drawing.Size(915, 44);
-            this.pnl_Rates.TabIndex = 26;
+            this.datePostedDateEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "DatePosted", true));
+            this.datePostedDateEdit2.EditValue = null;
+            this.datePostedDateEdit2.Location = new System.Drawing.Point(110, 123);
+            this.datePostedDateEdit2.Name = "datePostedDateEdit2";
+            this.datePostedDateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.datePostedDateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.datePostedDateEdit2.Size = new System.Drawing.Size(125, 22);
+            this.datePostedDateEdit2.TabIndex = 13;
             // 
-            // pnl_inner_rates
+            // amountSpinEdit2
             // 
-            this.pnl_inner_rates.Controls.Add(this.dataGridViewRates);
-            this.pnl_inner_rates.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_inner_rates.Location = new System.Drawing.Point(7, 37);
-            this.pnl_inner_rates.Name = "pnl_inner_rates";
-            this.pnl_inner_rates.Size = new System.Drawing.Size(901, 0);
-            this.pnl_inner_rates.TabIndex = 4;
+            this.amountSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "Amount", true));
+            this.amountSpinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.amountSpinEdit2.Location = new System.Drawing.Point(110, 151);
+            this.amountSpinEdit2.Name = "amountSpinEdit2";
+            this.amountSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.amountSpinEdit2.Size = new System.Drawing.Size(125, 24);
+            this.amountSpinEdit2.TabIndex = 15;
             // 
-            // dataGridViewRates
+            // oRNumTextEdit
             // 
-            this.dataGridViewRates.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewRates.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewRates.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewRates.Name = "dataGridViewRates";
-            this.dataGridViewRates.RowHeadersWidth = 51;
-            this.dataGridViewRates.RowTemplate.Height = 24;
-            this.dataGridViewRates.Size = new System.Drawing.Size(901, 0);
-            this.dataGridViewRates.TabIndex = 0;
+            this.oRNumTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "ORNum", true));
+            this.oRNumTextEdit.Location = new System.Drawing.Point(110, 181);
+            this.oRNumTextEdit.Name = "oRNumTextEdit";
+            this.oRNumTextEdit.Size = new System.Drawing.Size(125, 22);
+            this.oRNumTextEdit.TabIndex = 17;
             // 
-            // label26
+            // tOTextEdit
             // 
-            this.label26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(7, 7);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(901, 30);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Rates";
+            this.tOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "TO", true));
+            this.tOTextEdit.Location = new System.Drawing.Point(110, 209);
+            this.tOTextEdit.Name = "tOTextEdit";
+            this.tOTextEdit.Size = new System.Drawing.Size(125, 22);
+            this.tOTextEdit.TabIndex = 19;
             // 
-            // pnl_sendMoney
+            // loanbindingNavigator
             // 
-            this.pnl_sendMoney.Controls.Add(this.pnl_inner_sendMoney);
-            this.pnl_sendMoney.Controls.Add(this.label18);
-            this.pnl_sendMoney.Location = new System.Drawing.Point(78, 136);
-            this.pnl_sendMoney.Name = "pnl_sendMoney";
-            this.pnl_sendMoney.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_sendMoney.Size = new System.Drawing.Size(915, 46);
-            this.pnl_sendMoney.TabIndex = 25;
+            this.loanbindingNavigator.AddNewItem = this.loanbindingNavigatorAddItem;
+            this.loanbindingNavigator.BindingSource = this.loanAccountBindingSource;
+            this.loanbindingNavigator.CountItem = this.toolStripLabel6;
+            this.loanbindingNavigator.DeleteItem = this.loanbindingNavigatorDeleteItem;
+            this.loanbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.loanbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.loanbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton23,
+            this.toolStripButton24,
+            this.toolStripSeparator16,
+            this.toolStripTextBox6,
+            this.toolStripLabel6,
+            this.toolStripSeparator17,
+            this.toolStripButton25,
+            this.toolStripButton26,
+            this.toolStripSeparator18,
+            this.loanbindingNavigatorAddItem,
+            this.loanbindingNavigatorDeleteItem,
+            this.loanbindingNavigatorSaveItem});
+            this.loanbindingNavigator.Location = new System.Drawing.Point(250, 36);
+            this.loanbindingNavigator.MoveFirstItem = this.toolStripButton23;
+            this.loanbindingNavigator.MoveLastItem = this.toolStripButton26;
+            this.loanbindingNavigator.MoveNextItem = this.toolStripButton25;
+            this.loanbindingNavigator.MovePreviousItem = this.toolStripButton24;
+            this.loanbindingNavigator.Name = "loanbindingNavigator";
+            this.loanbindingNavigator.PositionItem = this.toolStripTextBox6;
+            this.loanbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.loanbindingNavigator.TabIndex = 6;
+            this.loanbindingNavigator.Text = "bindingNavigator1";
             // 
-            // pnl_inner_sendMoney
+            // loanbindingNavigatorAddItem
             // 
-            this.pnl_inner_sendMoney.Controls.Add(this.pnl_layout);
-            this.pnl_inner_sendMoney.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_inner_sendMoney.Location = new System.Drawing.Point(7, 37);
-            this.pnl_inner_sendMoney.Name = "pnl_inner_sendMoney";
-            this.pnl_inner_sendMoney.Size = new System.Drawing.Size(901, 2);
-            this.pnl_inner_sendMoney.TabIndex = 3;
+            this.loanbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorAddItem.Image")));
+            this.loanbindingNavigatorAddItem.Name = "loanbindingNavigatorAddItem";
+            this.loanbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
+            this.loanbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorAddItem.Text = "Add new";
             // 
-            // pnl_layout
+            // toolStripLabel6
             // 
-            this.pnl_layout.Controls.Add(this.btn_sendMoney);
-            this.pnl_layout.Controls.Add(this.panel12);
-            this.pnl_layout.Controls.Add(this.pnl_inner_receiver);
-            this.pnl_layout.Controls.Add(this.pnl_inner_sender);
-            this.pnl_layout.Location = new System.Drawing.Point(91, 40);
-            this.pnl_layout.Name = "pnl_layout";
-            this.pnl_layout.Size = new System.Drawing.Size(664, 343);
-            this.pnl_layout.TabIndex = 0;
+            this.toolStripLabel6.Name = "toolStripLabel6";
+            this.toolStripLabel6.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel6.Text = "of {0}";
+            this.toolStripLabel6.ToolTipText = "Total number of items";
             // 
-            // btn_sendMoney
+            // loanbindingNavigatorDeleteItem
             // 
-            this.btn_sendMoney.Image = global::Bank.Properties.Resources.forward_32x321;
-            this.btn_sendMoney.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_sendMoney.Location = new System.Drawing.Point(262, 286);
-            this.btn_sendMoney.Name = "btn_sendMoney";
-            this.btn_sendMoney.Size = new System.Drawing.Size(133, 51);
-            this.btn_sendMoney.TabIndex = 3;
-            this.btn_sendMoney.Text = "Send Money";
-            this.btn_sendMoney.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_sendMoney.UseVisualStyleBackColor = true;
-            this.btn_sendMoney.Click += new System.EventHandler(this.btn_sendMoney_Click);
+            this.loanbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorDeleteItem.Image")));
+            this.loanbindingNavigatorDeleteItem.Name = "loanbindingNavigatorDeleteItem";
+            this.loanbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.loanbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorDeleteItem.Text = "Delete";
             // 
-            // panel12
+            // toolStripButton23
             // 
-            this.panel12.BackgroundImage = global::Bank.Properties.Resources.send_money_14644363;
-            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel12.Location = new System.Drawing.Point(310, 123);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(40, 40);
-            this.panel12.TabIndex = 1;
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton23.Text = "Move first";
             // 
-            // pnl_inner_receiver
+            // toolStripButton24
             // 
-            this.pnl_inner_receiver.Controls.Add(this.btn_searchReciever);
-            this.pnl_inner_receiver.Controls.Add(this.lbl_receiverName);
-            this.pnl_inner_receiver.Controls.Add(this.label25);
-            this.pnl_inner_receiver.Controls.Add(this.txt_receiverAccountNumber);
-            this.pnl_inner_receiver.Controls.Add(this.label22);
-            this.pnl_inner_receiver.Controls.Add(this.label20);
-            this.pnl_inner_receiver.Location = new System.Drawing.Point(341, 6);
-            this.pnl_inner_receiver.Name = "pnl_inner_receiver";
-            this.pnl_inner_receiver.Size = new System.Drawing.Size(316, 271);
-            this.pnl_inner_receiver.TabIndex = 2;
+            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
+            this.toolStripButton24.Name = "toolStripButton24";
+            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton24.Text = "Move previous";
             // 
-            // btn_searchReciever
+            // toolStripSeparator16
             // 
-            this.btn_searchReciever.Image = global::Bank.Properties.Resources.dashboard;
-            this.btn_searchReciever.Location = new System.Drawing.Point(250, 78);
-            this.btn_searchReciever.Name = "btn_searchReciever";
-            this.btn_searchReciever.Size = new System.Drawing.Size(48, 43);
-            this.btn_searchReciever.TabIndex = 8;
-            this.btn_searchReciever.UseVisualStyleBackColor = true;
-            this.btn_searchReciever.Click += new System.EventHandler(this.btn_searchReciever_Click);
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 27);
             // 
-            // lbl_receiverName
+            // toolStripTextBox6
             // 
-            this.lbl_receiverName.AutoSize = true;
-            this.lbl_receiverName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_receiverName.Location = new System.Drawing.Point(16, 162);
-            this.lbl_receiverName.Name = "lbl_receiverName";
-            this.lbl_receiverName.Size = new System.Drawing.Size(128, 20);
-            this.lbl_receiverName.TabIndex = 7;
-            this.lbl_receiverName.Text = "lbl_receiverName";
+            this.toolStripTextBox6.AccessibleName = "Position";
+            this.toolStripTextBox6.AutoSize = false;
+            this.toolStripTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox6.Name = "toolStripTextBox6";
+            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 27);
+            this.toolStripTextBox6.Text = "0";
+            this.toolStripTextBox6.ToolTipText = "Current position";
             // 
-            // label25
+            // toolStripSeparator17
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(8, 128);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(90, 20);
-            this.label25.TabIndex = 6;
-            this.label25.Text = "Information:";
+            this.toolStripSeparator17.Name = "toolStripSeparator17";
+            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 27);
             // 
-            // txt_receiverAccountNumber
+            // toolStripButton25
             // 
-            this.txt_receiverAccountNumber.AcceptsReturn = false;
-            this.txt_receiverAccountNumber.AcceptsTab = false;
-            this.txt_receiverAccountNumber.AnimationSpeed = 200;
-            this.txt_receiverAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_receiverAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_receiverAccountNumber.BackColor = System.Drawing.Color.Transparent;
-            this.txt_receiverAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_receiverAccountNumber.BackgroundImage")));
-            this.txt_receiverAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_receiverAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_receiverAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_receiverAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_receiverAccountNumber.BorderRadius = 1;
-            this.txt_receiverAccountNumber.BorderThickness = 1;
-            this.txt_receiverAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_receiverAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_receiverAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_receiverAccountNumber.DefaultText = "";
-            this.txt_receiverAccountNumber.FillColor = System.Drawing.Color.White;
-            this.txt_receiverAccountNumber.HideSelection = true;
-            this.txt_receiverAccountNumber.IconLeft = global::Bank.Properties.Resources.employee;
-            this.txt_receiverAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_receiverAccountNumber.IconPadding = 10;
-            this.txt_receiverAccountNumber.IconRight = null;
-            this.txt_receiverAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_receiverAccountNumber.Lines = new string[0];
-            this.txt_receiverAccountNumber.Location = new System.Drawing.Point(14, 79);
-            this.txt_receiverAccountNumber.MaxLength = 32767;
-            this.txt_receiverAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_receiverAccountNumber.Modified = false;
-            this.txt_receiverAccountNumber.Multiline = false;
-            this.txt_receiverAccountNumber.Name = "txt_receiverAccountNumber";
-            stateProperties69.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties69.FillColor = System.Drawing.Color.Empty;
-            stateProperties69.ForeColor = System.Drawing.Color.Empty;
-            stateProperties69.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_receiverAccountNumber.OnActiveState = stateProperties69;
-            stateProperties70.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties70.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties70.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_receiverAccountNumber.OnDisabledState = stateProperties70;
-            stateProperties71.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties71.FillColor = System.Drawing.Color.Empty;
-            stateProperties71.ForeColor = System.Drawing.Color.Empty;
-            stateProperties71.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_receiverAccountNumber.OnHoverState = stateProperties71;
-            stateProperties72.BorderColor = System.Drawing.Color.Silver;
-            stateProperties72.FillColor = System.Drawing.Color.White;
-            stateProperties72.ForeColor = System.Drawing.Color.Empty;
-            stateProperties72.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_receiverAccountNumber.OnIdleState = stateProperties72;
-            this.txt_receiverAccountNumber.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_receiverAccountNumber.PasswordChar = '\0';
-            this.txt_receiverAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_receiverAccountNumber.PlaceholderText = "Enter Account Number";
-            this.txt_receiverAccountNumber.ReadOnly = false;
-            this.txt_receiverAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_receiverAccountNumber.SelectedText = "";
-            this.txt_receiverAccountNumber.SelectionLength = 0;
-            this.txt_receiverAccountNumber.SelectionStart = 0;
-            this.txt_receiverAccountNumber.ShortcutsEnabled = true;
-            this.txt_receiverAccountNumber.Size = new System.Drawing.Size(227, 41);
-            this.txt_receiverAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_receiverAccountNumber.TabIndex = 5;
-            this.txt_receiverAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_receiverAccountNumber.TextMarginBottom = 0;
-            this.txt_receiverAccountNumber.TextMarginLeft = 10;
-            this.txt_receiverAccountNumber.TextMarginTop = 0;
-            this.txt_receiverAccountNumber.TextPlaceholder = "Enter Account Number";
-            this.txt_receiverAccountNumber.UseSystemPasswordChar = false;
-            this.txt_receiverAccountNumber.WordWrap = true;
+            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
+            this.toolStripButton25.Name = "toolStripButton25";
+            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton25.Text = "Move next";
             // 
-            // label22
+            // toolStripButton26
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(10, 54);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(124, 20);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Account Number:";
+            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
+            this.toolStripButton26.Name = "toolStripButton26";
+            this.toolStripButton26.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton26.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton26.Text = "Move last";
             // 
-            // label20
+            // toolStripSeparator18
             // 
-            this.label20.BackColor = System.Drawing.Color.Gainsboro;
-            this.label20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(0, 0);
-            this.label20.Name = "label20";
-            this.label20.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label20.Size = new System.Drawing.Size(316, 33);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Receiver Details:";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 27);
             // 
-            // pnl_inner_sender
+            // loanbindingNavigatorSaveItem
             // 
-            this.pnl_inner_sender.Controls.Add(this.btn_searchSender);
-            this.pnl_inner_sender.Controls.Add(this.txt_sendAmount);
-            this.pnl_inner_sender.Controls.Add(this.lbl_senderName);
-            this.pnl_inner_sender.Controls.Add(this.txt_senderAccountNumber);
-            this.pnl_inner_sender.Controls.Add(this.label24);
-            this.pnl_inner_sender.Controls.Add(this.label23);
-            this.pnl_inner_sender.Controls.Add(this.label21);
-            this.pnl_inner_sender.Controls.Add(this.label19);
-            this.pnl_inner_sender.Location = new System.Drawing.Point(6, 5);
-            this.pnl_inner_sender.Name = "pnl_inner_sender";
-            this.pnl_inner_sender.Size = new System.Drawing.Size(316, 271);
-            this.pnl_inner_sender.TabIndex = 0;
-            // 
-            // btn_searchSender
-            // 
-            this.btn_searchSender.Image = global::Bank.Properties.Resources.dashboard;
-            this.btn_searchSender.Location = new System.Drawing.Point(250, 78);
-            this.btn_searchSender.Name = "btn_searchSender";
-            this.btn_searchSender.Size = new System.Drawing.Size(48, 43);
-            this.btn_searchSender.TabIndex = 7;
-            this.btn_searchSender.UseVisualStyleBackColor = true;
-            this.btn_searchSender.Click += new System.EventHandler(this.btn_searchSender_Click);
-            // 
-            // txt_sendAmount
-            // 
-            this.txt_sendAmount.AcceptsReturn = false;
-            this.txt_sendAmount.AcceptsTab = false;
-            this.txt_sendAmount.AnimationSpeed = 200;
-            this.txt_sendAmount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_sendAmount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_sendAmount.BackColor = System.Drawing.Color.Transparent;
-            this.txt_sendAmount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAmount.BackgroundImage")));
-            this.txt_sendAmount.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_sendAmount.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_sendAmount.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_sendAmount.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_sendAmount.BorderRadius = 1;
-            this.txt_sendAmount.BorderThickness = 1;
-            this.txt_sendAmount.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_sendAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_sendAmount.DefaultText = "";
-            this.txt_sendAmount.FillColor = System.Drawing.Color.White;
-            this.txt_sendAmount.HideSelection = true;
-            this.txt_sendAmount.IconLeft = global::Bank.Properties.Resources.dollar_5719055;
-            this.txt_sendAmount.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.IconPadding = 10;
-            this.txt_sendAmount.IconRight = null;
-            this.txt_sendAmount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_sendAmount.Lines = new string[0];
-            this.txt_sendAmount.Location = new System.Drawing.Point(88, 203);
-            this.txt_sendAmount.MaxLength = 32767;
-            this.txt_sendAmount.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_sendAmount.Modified = false;
-            this.txt_sendAmount.Multiline = false;
-            this.txt_sendAmount.Name = "txt_sendAmount";
-            stateProperties73.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties73.FillColor = System.Drawing.Color.Empty;
-            stateProperties73.ForeColor = System.Drawing.Color.Empty;
-            stateProperties73.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnActiveState = stateProperties73;
-            stateProperties74.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties74.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties74.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_sendAmount.OnDisabledState = stateProperties74;
-            stateProperties75.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties75.FillColor = System.Drawing.Color.Empty;
-            stateProperties75.ForeColor = System.Drawing.Color.Empty;
-            stateProperties75.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnHoverState = stateProperties75;
-            stateProperties76.BorderColor = System.Drawing.Color.Silver;
-            stateProperties76.FillColor = System.Drawing.Color.White;
-            stateProperties76.ForeColor = System.Drawing.Color.Empty;
-            stateProperties76.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_sendAmount.OnIdleState = stateProperties76;
-            this.txt_sendAmount.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_sendAmount.PasswordChar = '\0';
-            this.txt_sendAmount.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_sendAmount.PlaceholderText = "Enter Amount";
-            this.txt_sendAmount.ReadOnly = false;
-            this.txt_sendAmount.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_sendAmount.SelectedText = "";
-            this.txt_sendAmount.SelectionLength = 0;
-            this.txt_sendAmount.SelectionStart = 0;
-            this.txt_sendAmount.ShortcutsEnabled = true;
-            this.txt_sendAmount.Size = new System.Drawing.Size(153, 41);
-            this.txt_sendAmount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_sendAmount.TabIndex = 6;
-            this.txt_sendAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_sendAmount.TextMarginBottom = 0;
-            this.txt_sendAmount.TextMarginLeft = 10;
-            this.txt_sendAmount.TextMarginTop = 0;
-            this.txt_sendAmount.TextPlaceholder = "Enter Amount";
-            this.txt_sendAmount.UseSystemPasswordChar = false;
-            this.txt_sendAmount.WordWrap = true;
-            // 
-            // lbl_senderName
-            // 
-            this.lbl_senderName.AutoSize = true;
-            this.lbl_senderName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_senderName.Location = new System.Drawing.Point(16, 162);
-            this.lbl_senderName.Name = "lbl_senderName";
-            this.lbl_senderName.Size = new System.Drawing.Size(119, 20);
-            this.lbl_senderName.TabIndex = 5;
-            this.lbl_senderName.Text = "lbl_senderName";
-            // 
-            // txt_senderAccountNumber
-            // 
-            this.txt_senderAccountNumber.AcceptsReturn = false;
-            this.txt_senderAccountNumber.AcceptsTab = false;
-            this.txt_senderAccountNumber.AnimationSpeed = 200;
-            this.txt_senderAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_senderAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_senderAccountNumber.BackColor = System.Drawing.Color.Transparent;
-            this.txt_senderAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_senderAccountNumber.BackgroundImage")));
-            this.txt_senderAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_senderAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_senderAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_senderAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_senderAccountNumber.BorderRadius = 1;
-            this.txt_senderAccountNumber.BorderThickness = 1;
-            this.txt_senderAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_senderAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_senderAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txt_senderAccountNumber.DefaultText = "";
-            this.txt_senderAccountNumber.FillColor = System.Drawing.Color.White;
-            this.txt_senderAccountNumber.HideSelection = true;
-            this.txt_senderAccountNumber.IconLeft = global::Bank.Properties.Resources.employee;
-            this.txt_senderAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_senderAccountNumber.IconPadding = 10;
-            this.txt_senderAccountNumber.IconRight = null;
-            this.txt_senderAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_senderAccountNumber.Lines = new string[0];
-            this.txt_senderAccountNumber.Location = new System.Drawing.Point(14, 79);
-            this.txt_senderAccountNumber.MaxLength = 32767;
-            this.txt_senderAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txt_senderAccountNumber.Modified = false;
-            this.txt_senderAccountNumber.Multiline = false;
-            this.txt_senderAccountNumber.Name = "txt_senderAccountNumber";
-            stateProperties77.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties77.FillColor = System.Drawing.Color.Empty;
-            stateProperties77.ForeColor = System.Drawing.Color.Empty;
-            stateProperties77.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_senderAccountNumber.OnActiveState = stateProperties77;
-            stateProperties78.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties78.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties78.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_senderAccountNumber.OnDisabledState = stateProperties78;
-            stateProperties79.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties79.FillColor = System.Drawing.Color.Empty;
-            stateProperties79.ForeColor = System.Drawing.Color.Empty;
-            stateProperties79.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_senderAccountNumber.OnHoverState = stateProperties79;
-            stateProperties80.BorderColor = System.Drawing.Color.Silver;
-            stateProperties80.FillColor = System.Drawing.Color.White;
-            stateProperties80.ForeColor = System.Drawing.Color.Empty;
-            stateProperties80.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_senderAccountNumber.OnIdleState = stateProperties80;
-            this.txt_senderAccountNumber.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_senderAccountNumber.PasswordChar = '\0';
-            this.txt_senderAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_senderAccountNumber.PlaceholderText = "Enter Account Number";
-            this.txt_senderAccountNumber.ReadOnly = false;
-            this.txt_senderAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_senderAccountNumber.SelectedText = "";
-            this.txt_senderAccountNumber.SelectionLength = 0;
-            this.txt_senderAccountNumber.SelectionStart = 0;
-            this.txt_senderAccountNumber.ShortcutsEnabled = true;
-            this.txt_senderAccountNumber.Size = new System.Drawing.Size(227, 41);
-            this.txt_senderAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_senderAccountNumber.TabIndex = 4;
-            this.txt_senderAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_senderAccountNumber.TextMarginBottom = 0;
-            this.txt_senderAccountNumber.TextMarginLeft = 10;
-            this.txt_senderAccountNumber.TextMarginTop = 0;
-            this.txt_senderAccountNumber.TextPlaceholder = "Enter Account Number";
-            this.txt_senderAccountNumber.UseSystemPasswordChar = false;
-            this.txt_senderAccountNumber.WordWrap = true;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(10, 129);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(90, 20);
-            this.label24.TabIndex = 3;
-            this.label24.Text = "Information:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(10, 215);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(65, 20);
-            this.label23.TabIndex = 2;
-            this.label23.Text = "Amount:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(10, 54);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(124, 20);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Account Number:";
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Gainsboro;
-            this.label19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(0, 0);
-            this.label19.Name = "label19";
-            this.label19.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label19.Size = new System.Drawing.Size(316, 33);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Sender Details:";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label18
-            // 
-            this.label18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(7, 7);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(901, 30);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "Send Money";
+            this.loanbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorSaveItem.Image")));
+            this.loanbindingNavigatorSaveItem.Name = "loanbindingNavigatorSaveItem";
+            this.loanbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorSaveItem.Text = "Save Data";
+            this.loanbindingNavigatorSaveItem.Click += new System.EventHandler(this.loanbindingNavigatorSaveItem_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.accountbindingNavigator);
             this.groupBox2.Controls.Add(accountIDLabel);
-            this.groupBox2.Controls.Add(this.accountIDSpinEdit);
             this.groupBox2.Controls.Add(customerIDLabel1);
             this.groupBox2.Controls.Add(this.customerIDSpinEdit1);
             this.groupBox2.Controls.Add(accountTypeLabel);
@@ -2471,9 +2199,9 @@
             this.groupBox2.Controls.Add(this.cardPINSpinEdit);
             this.groupBox2.Controls.Add(passwordLabel);
             this.groupBox2.Controls.Add(this.passwordTextEdit);
-            this.groupBox2.Location = new System.Drawing.Point(22, 372);
+            this.groupBox2.Location = new System.Drawing.Point(20, 380);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(583, 22);
+            this.groupBox2.Size = new System.Drawing.Size(583, 144);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Account";
@@ -2499,7 +2227,7 @@
             this.accountbindingNavigatorAddItem,
             this.accountbindingNavigatorDeleteItem,
             this.accountbindingNavigatorSaveItem});
-            this.accountbindingNavigator.Location = new System.Drawing.Point(341, 35);
+            this.accountbindingNavigator.Location = new System.Drawing.Point(16, 238);
             this.accountbindingNavigator.MoveFirstItem = this.toolStripButton7;
             this.accountbindingNavigator.MoveLastItem = this.toolStripButton10;
             this.accountbindingNavigator.MoveNextItem = this.toolStripButton9;
@@ -2618,7 +2346,7 @@
             0,
             0,
             0});
-            this.accountIDSpinEdit.Location = new System.Drawing.Point(154, 28);
+            this.accountIDSpinEdit.Location = new System.Drawing.Point(186, 44);
             this.accountIDSpinEdit.Margin = new System.Windows.Forms.Padding(4);
             this.accountIDSpinEdit.Name = "accountIDSpinEdit";
             this.accountIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -2712,6 +2440,529 @@
             this.passwordTextEdit.Name = "passwordTextEdit";
             this.passwordTextEdit.Size = new System.Drawing.Size(156, 22);
             this.passwordTextEdit.TabIndex = 13;
+            // 
+            // pnl_statistics
+            // 
+            this.pnl_statistics.Controls.Add(this.pnl_inner_statistics);
+            this.pnl_statistics.Controls.Add(this.label27);
+            this.pnl_statistics.Location = new System.Drawing.Point(78, 262);
+            this.pnl_statistics.Name = "pnl_statistics";
+            this.pnl_statistics.Padding = new System.Windows.Forms.Padding(7);
+            this.pnl_statistics.Size = new System.Drawing.Size(915, 35);
+            this.pnl_statistics.TabIndex = 27;
+            // 
+            // pnl_inner_statistics
+            // 
+            this.pnl_inner_statistics.Controls.Add(this.chartControl1);
+            this.pnl_inner_statistics.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_inner_statistics.Location = new System.Drawing.Point(7, 37);
+            this.pnl_inner_statistics.Name = "pnl_inner_statistics";
+            this.pnl_inner_statistics.Size = new System.Drawing.Size(901, 0);
+            this.pnl_inner_statistics.TabIndex = 4;
+            // 
+            // chartControl1
+            // 
+            this.chartControl1.DataSource = this.branchBindingSource;
+            xyDiagram5.AxisX.Title.Text = "Branch Names";
+            xyDiagram5.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram5.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram5.AxisY.Title.Text = "Amounts";
+            xyDiagram5.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram5.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram5;
+            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chartControl1.Location = new System.Drawing.Point(0, 0);
+            this.chartControl1.Name = "chartControl1";
+            series9.ArgumentDataMember = "BranchName";
+            series9.DataSource = this.branchBindingSource;
+            series9.Name = "Deposits";
+            series9.ValueDataMembersSerializable = "Deposit";
+            series10.ArgumentDataMember = "BranchName";
+            series10.DataSource = this.branchBindingSource;
+            series10.Name = "Loans";
+            series10.ValueDataMembersSerializable = "Loan";
+            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series9,
+        series10};
+            this.chartControl1.Size = new System.Drawing.Size(901, 0);
+            this.chartControl1.TabIndex = 0;
+            chartTitle5.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle5.Text = "SKS Bank Statistics";
+            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle5});
+            // 
+            // label27
+            // 
+            this.label27.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(7, 7);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(901, 30);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Statistics";
+            // 
+            // pnl_Rates
+            // 
+            this.pnl_Rates.Controls.Add(this.pnl_inner_rates);
+            this.pnl_Rates.Controls.Add(this.label26);
+            this.pnl_Rates.Location = new System.Drawing.Point(77, 201);
+            this.pnl_Rates.Name = "pnl_Rates";
+            this.pnl_Rates.Padding = new System.Windows.Forms.Padding(7);
+            this.pnl_Rates.Size = new System.Drawing.Size(915, 44);
+            this.pnl_Rates.TabIndex = 26;
+            // 
+            // pnl_inner_rates
+            // 
+            this.pnl_inner_rates.Controls.Add(this.dataGridViewRates);
+            this.pnl_inner_rates.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_inner_rates.Location = new System.Drawing.Point(7, 37);
+            this.pnl_inner_rates.Name = "pnl_inner_rates";
+            this.pnl_inner_rates.Size = new System.Drawing.Size(901, 0);
+            this.pnl_inner_rates.TabIndex = 4;
+            // 
+            // dataGridViewRates
+            // 
+            this.dataGridViewRates.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewRates.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewRates.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewRates.Name = "dataGridViewRates";
+            this.dataGridViewRates.RowHeadersWidth = 51;
+            this.dataGridViewRates.RowTemplate.Height = 24;
+            this.dataGridViewRates.Size = new System.Drawing.Size(901, 0);
+            this.dataGridViewRates.TabIndex = 0;
+            // 
+            // label26
+            // 
+            this.label26.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(7, 7);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(901, 30);
+            this.label26.TabIndex = 3;
+            this.label26.Text = "Rates";
+            // 
+            // pnl_sendMoney
+            // 
+            this.pnl_sendMoney.Controls.Add(this.pnl_inner_sendMoney);
+            this.pnl_sendMoney.Controls.Add(this.label18);
+            this.pnl_sendMoney.Location = new System.Drawing.Point(78, 136);
+            this.pnl_sendMoney.Name = "pnl_sendMoney";
+            this.pnl_sendMoney.Padding = new System.Windows.Forms.Padding(7);
+            this.pnl_sendMoney.Size = new System.Drawing.Size(915, 41);
+            this.pnl_sendMoney.TabIndex = 25;
+            // 
+            // pnl_inner_sendMoney
+            // 
+            this.pnl_inner_sendMoney.Controls.Add(this.pnl_layout);
+            this.pnl_inner_sendMoney.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_inner_sendMoney.Location = new System.Drawing.Point(7, 37);
+            this.pnl_inner_sendMoney.Name = "pnl_inner_sendMoney";
+            this.pnl_inner_sendMoney.Size = new System.Drawing.Size(901, 0);
+            this.pnl_inner_sendMoney.TabIndex = 3;
+            // 
+            // pnl_layout
+            // 
+            this.pnl_layout.Controls.Add(this.btn_sendMoney);
+            this.pnl_layout.Controls.Add(this.panel12);
+            this.pnl_layout.Controls.Add(this.pnl_inner_receiver);
+            this.pnl_layout.Controls.Add(this.pnl_inner_sender);
+            this.pnl_layout.Location = new System.Drawing.Point(91, 40);
+            this.pnl_layout.Name = "pnl_layout";
+            this.pnl_layout.Size = new System.Drawing.Size(664, 343);
+            this.pnl_layout.TabIndex = 0;
+            // 
+            // btn_sendMoney
+            // 
+            this.btn_sendMoney.Image = global::Bank.Properties.Resources.forward_32x321;
+            this.btn_sendMoney.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_sendMoney.Location = new System.Drawing.Point(262, 286);
+            this.btn_sendMoney.Name = "btn_sendMoney";
+            this.btn_sendMoney.Size = new System.Drawing.Size(133, 51);
+            this.btn_sendMoney.TabIndex = 3;
+            this.btn_sendMoney.Text = "Send Money";
+            this.btn_sendMoney.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_sendMoney.UseVisualStyleBackColor = true;
+            this.btn_sendMoney.Click += new System.EventHandler(this.btn_sendMoney_Click);
+            // 
+            // panel12
+            // 
+            this.panel12.BackgroundImage = global::Bank.Properties.Resources.send_money_14644363;
+            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel12.Location = new System.Drawing.Point(310, 123);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(40, 40);
+            this.panel12.TabIndex = 1;
+            // 
+            // pnl_inner_receiver
+            // 
+            this.pnl_inner_receiver.Controls.Add(this.btn_searchReciever);
+            this.pnl_inner_receiver.Controls.Add(this.lbl_receiverName);
+            this.pnl_inner_receiver.Controls.Add(this.label25);
+            this.pnl_inner_receiver.Controls.Add(this.txt_receiverAccountNumber);
+            this.pnl_inner_receiver.Controls.Add(this.label22);
+            this.pnl_inner_receiver.Controls.Add(this.label20);
+            this.pnl_inner_receiver.Location = new System.Drawing.Point(341, 6);
+            this.pnl_inner_receiver.Name = "pnl_inner_receiver";
+            this.pnl_inner_receiver.Size = new System.Drawing.Size(316, 271);
+            this.pnl_inner_receiver.TabIndex = 2;
+            // 
+            // btn_searchReciever
+            // 
+            this.btn_searchReciever.Image = global::Bank.Properties.Resources.dashboard;
+            this.btn_searchReciever.Location = new System.Drawing.Point(250, 78);
+            this.btn_searchReciever.Name = "btn_searchReciever";
+            this.btn_searchReciever.Size = new System.Drawing.Size(48, 43);
+            this.btn_searchReciever.TabIndex = 8;
+            this.btn_searchReciever.UseVisualStyleBackColor = true;
+            this.btn_searchReciever.Click += new System.EventHandler(this.btn_searchReciever_Click);
+            // 
+            // lbl_receiverName
+            // 
+            this.lbl_receiverName.AutoSize = true;
+            this.lbl_receiverName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_receiverName.Location = new System.Drawing.Point(16, 162);
+            this.lbl_receiverName.Name = "lbl_receiverName";
+            this.lbl_receiverName.Size = new System.Drawing.Size(128, 20);
+            this.lbl_receiverName.TabIndex = 7;
+            this.lbl_receiverName.Text = "lbl_receiverName";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(8, 128);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(90, 20);
+            this.label25.TabIndex = 6;
+            this.label25.Text = "Information:";
+            // 
+            // txt_receiverAccountNumber
+            // 
+            this.txt_receiverAccountNumber.AcceptsReturn = false;
+            this.txt_receiverAccountNumber.AcceptsTab = false;
+            this.txt_receiverAccountNumber.AnimationSpeed = 200;
+            this.txt_receiverAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_receiverAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_receiverAccountNumber.BackColor = System.Drawing.Color.Transparent;
+            this.txt_receiverAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_receiverAccountNumber.BackgroundImage")));
+            this.txt_receiverAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_receiverAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_receiverAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_receiverAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_receiverAccountNumber.BorderRadius = 1;
+            this.txt_receiverAccountNumber.BorderThickness = 1;
+            this.txt_receiverAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_receiverAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_receiverAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_receiverAccountNumber.DefaultText = "";
+            this.txt_receiverAccountNumber.FillColor = System.Drawing.Color.White;
+            this.txt_receiverAccountNumber.HideSelection = true;
+            this.txt_receiverAccountNumber.IconLeft = global::Bank.Properties.Resources.employee;
+            this.txt_receiverAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_receiverAccountNumber.IconPadding = 10;
+            this.txt_receiverAccountNumber.IconRight = null;
+            this.txt_receiverAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_receiverAccountNumber.Lines = new string[0];
+            this.txt_receiverAccountNumber.Location = new System.Drawing.Point(14, 79);
+            this.txt_receiverAccountNumber.MaxLength = 32767;
+            this.txt_receiverAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_receiverAccountNumber.Modified = false;
+            this.txt_receiverAccountNumber.Multiline = false;
+            this.txt_receiverAccountNumber.Name = "txt_receiverAccountNumber";
+            stateProperties133.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties133.FillColor = System.Drawing.Color.Empty;
+            stateProperties133.ForeColor = System.Drawing.Color.Empty;
+            stateProperties133.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_receiverAccountNumber.OnActiveState = stateProperties133;
+            stateProperties134.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties134.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties134.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties134.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_receiverAccountNumber.OnDisabledState = stateProperties134;
+            stateProperties135.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties135.FillColor = System.Drawing.Color.Empty;
+            stateProperties135.ForeColor = System.Drawing.Color.Empty;
+            stateProperties135.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_receiverAccountNumber.OnHoverState = stateProperties135;
+            stateProperties136.BorderColor = System.Drawing.Color.Silver;
+            stateProperties136.FillColor = System.Drawing.Color.White;
+            stateProperties136.ForeColor = System.Drawing.Color.Empty;
+            stateProperties136.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_receiverAccountNumber.OnIdleState = stateProperties136;
+            this.txt_receiverAccountNumber.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_receiverAccountNumber.PasswordChar = '\0';
+            this.txt_receiverAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_receiverAccountNumber.PlaceholderText = "Enter Account Number";
+            this.txt_receiverAccountNumber.ReadOnly = false;
+            this.txt_receiverAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_receiverAccountNumber.SelectedText = "";
+            this.txt_receiverAccountNumber.SelectionLength = 0;
+            this.txt_receiverAccountNumber.SelectionStart = 0;
+            this.txt_receiverAccountNumber.ShortcutsEnabled = true;
+            this.txt_receiverAccountNumber.Size = new System.Drawing.Size(227, 41);
+            this.txt_receiverAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_receiverAccountNumber.TabIndex = 5;
+            this.txt_receiverAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_receiverAccountNumber.TextMarginBottom = 0;
+            this.txt_receiverAccountNumber.TextMarginLeft = 10;
+            this.txt_receiverAccountNumber.TextMarginTop = 0;
+            this.txt_receiverAccountNumber.TextPlaceholder = "Enter Account Number";
+            this.txt_receiverAccountNumber.UseSystemPasswordChar = false;
+            this.txt_receiverAccountNumber.WordWrap = true;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(10, 54);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(124, 20);
+            this.label22.TabIndex = 2;
+            this.label22.Text = "Account Number:";
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.Gainsboro;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(0, 0);
+            this.label20.Name = "label20";
+            this.label20.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label20.Size = new System.Drawing.Size(316, 33);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Receiver Details:";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pnl_inner_sender
+            // 
+            this.pnl_inner_sender.Controls.Add(this.btn_searchSender);
+            this.pnl_inner_sender.Controls.Add(this.txt_sendAmount);
+            this.pnl_inner_sender.Controls.Add(this.lbl_senderName);
+            this.pnl_inner_sender.Controls.Add(this.txt_senderAccountNumber);
+            this.pnl_inner_sender.Controls.Add(this.label24);
+            this.pnl_inner_sender.Controls.Add(this.label23);
+            this.pnl_inner_sender.Controls.Add(this.label21);
+            this.pnl_inner_sender.Controls.Add(this.label19);
+            this.pnl_inner_sender.Location = new System.Drawing.Point(6, 5);
+            this.pnl_inner_sender.Name = "pnl_inner_sender";
+            this.pnl_inner_sender.Size = new System.Drawing.Size(316, 271);
+            this.pnl_inner_sender.TabIndex = 0;
+            // 
+            // btn_searchSender
+            // 
+            this.btn_searchSender.Image = global::Bank.Properties.Resources.dashboard;
+            this.btn_searchSender.Location = new System.Drawing.Point(250, 78);
+            this.btn_searchSender.Name = "btn_searchSender";
+            this.btn_searchSender.Size = new System.Drawing.Size(48, 43);
+            this.btn_searchSender.TabIndex = 7;
+            this.btn_searchSender.UseVisualStyleBackColor = true;
+            this.btn_searchSender.Click += new System.EventHandler(this.btn_searchSender_Click);
+            // 
+            // txt_sendAmount
+            // 
+            this.txt_sendAmount.AcceptsReturn = false;
+            this.txt_sendAmount.AcceptsTab = false;
+            this.txt_sendAmount.AnimationSpeed = 200;
+            this.txt_sendAmount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_sendAmount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_sendAmount.BackColor = System.Drawing.Color.Transparent;
+            this.txt_sendAmount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_sendAmount.BackgroundImage")));
+            this.txt_sendAmount.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_sendAmount.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_sendAmount.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_sendAmount.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_sendAmount.BorderRadius = 1;
+            this.txt_sendAmount.BorderThickness = 1;
+            this.txt_sendAmount.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_sendAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_sendAmount.DefaultText = "";
+            this.txt_sendAmount.FillColor = System.Drawing.Color.White;
+            this.txt_sendAmount.HideSelection = true;
+            this.txt_sendAmount.IconLeft = global::Bank.Properties.Resources.dollar_5719055;
+            this.txt_sendAmount.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.IconPadding = 10;
+            this.txt_sendAmount.IconRight = null;
+            this.txt_sendAmount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sendAmount.Lines = new string[0];
+            this.txt_sendAmount.Location = new System.Drawing.Point(88, 203);
+            this.txt_sendAmount.MaxLength = 32767;
+            this.txt_sendAmount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_sendAmount.Modified = false;
+            this.txt_sendAmount.Multiline = false;
+            this.txt_sendAmount.Name = "txt_sendAmount";
+            stateProperties137.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties137.FillColor = System.Drawing.Color.Empty;
+            stateProperties137.ForeColor = System.Drawing.Color.Empty;
+            stateProperties137.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnActiveState = stateProperties137;
+            stateProperties138.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties138.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties138.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties138.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_sendAmount.OnDisabledState = stateProperties138;
+            stateProperties139.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties139.FillColor = System.Drawing.Color.Empty;
+            stateProperties139.ForeColor = System.Drawing.Color.Empty;
+            stateProperties139.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnHoverState = stateProperties139;
+            stateProperties140.BorderColor = System.Drawing.Color.Silver;
+            stateProperties140.FillColor = System.Drawing.Color.White;
+            stateProperties140.ForeColor = System.Drawing.Color.Empty;
+            stateProperties140.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_sendAmount.OnIdleState = stateProperties140;
+            this.txt_sendAmount.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_sendAmount.PasswordChar = '\0';
+            this.txt_sendAmount.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_sendAmount.PlaceholderText = "Enter Amount";
+            this.txt_sendAmount.ReadOnly = false;
+            this.txt_sendAmount.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sendAmount.SelectedText = "";
+            this.txt_sendAmount.SelectionLength = 0;
+            this.txt_sendAmount.SelectionStart = 0;
+            this.txt_sendAmount.ShortcutsEnabled = true;
+            this.txt_sendAmount.Size = new System.Drawing.Size(153, 41);
+            this.txt_sendAmount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_sendAmount.TabIndex = 6;
+            this.txt_sendAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_sendAmount.TextMarginBottom = 0;
+            this.txt_sendAmount.TextMarginLeft = 10;
+            this.txt_sendAmount.TextMarginTop = 0;
+            this.txt_sendAmount.TextPlaceholder = "Enter Amount";
+            this.txt_sendAmount.UseSystemPasswordChar = false;
+            this.txt_sendAmount.WordWrap = true;
+            // 
+            // lbl_senderName
+            // 
+            this.lbl_senderName.AutoSize = true;
+            this.lbl_senderName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_senderName.Location = new System.Drawing.Point(16, 162);
+            this.lbl_senderName.Name = "lbl_senderName";
+            this.lbl_senderName.Size = new System.Drawing.Size(119, 20);
+            this.lbl_senderName.TabIndex = 5;
+            this.lbl_senderName.Text = "lbl_senderName";
+            // 
+            // txt_senderAccountNumber
+            // 
+            this.txt_senderAccountNumber.AcceptsReturn = false;
+            this.txt_senderAccountNumber.AcceptsTab = false;
+            this.txt_senderAccountNumber.AnimationSpeed = 200;
+            this.txt_senderAccountNumber.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_senderAccountNumber.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_senderAccountNumber.BackColor = System.Drawing.Color.Transparent;
+            this.txt_senderAccountNumber.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_senderAccountNumber.BackgroundImage")));
+            this.txt_senderAccountNumber.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_senderAccountNumber.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_senderAccountNumber.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_senderAccountNumber.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_senderAccountNumber.BorderRadius = 1;
+            this.txt_senderAccountNumber.BorderThickness = 1;
+            this.txt_senderAccountNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_senderAccountNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_senderAccountNumber.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txt_senderAccountNumber.DefaultText = "";
+            this.txt_senderAccountNumber.FillColor = System.Drawing.Color.White;
+            this.txt_senderAccountNumber.HideSelection = true;
+            this.txt_senderAccountNumber.IconLeft = global::Bank.Properties.Resources.employee;
+            this.txt_senderAccountNumber.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_senderAccountNumber.IconPadding = 10;
+            this.txt_senderAccountNumber.IconRight = null;
+            this.txt_senderAccountNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_senderAccountNumber.Lines = new string[0];
+            this.txt_senderAccountNumber.Location = new System.Drawing.Point(14, 79);
+            this.txt_senderAccountNumber.MaxLength = 32767;
+            this.txt_senderAccountNumber.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txt_senderAccountNumber.Modified = false;
+            this.txt_senderAccountNumber.Multiline = false;
+            this.txt_senderAccountNumber.Name = "txt_senderAccountNumber";
+            stateProperties141.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties141.FillColor = System.Drawing.Color.Empty;
+            stateProperties141.ForeColor = System.Drawing.Color.Empty;
+            stateProperties141.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_senderAccountNumber.OnActiveState = stateProperties141;
+            stateProperties142.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties142.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties142.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties142.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_senderAccountNumber.OnDisabledState = stateProperties142;
+            stateProperties143.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties143.FillColor = System.Drawing.Color.Empty;
+            stateProperties143.ForeColor = System.Drawing.Color.Empty;
+            stateProperties143.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_senderAccountNumber.OnHoverState = stateProperties143;
+            stateProperties144.BorderColor = System.Drawing.Color.Silver;
+            stateProperties144.FillColor = System.Drawing.Color.White;
+            stateProperties144.ForeColor = System.Drawing.Color.Empty;
+            stateProperties144.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_senderAccountNumber.OnIdleState = stateProperties144;
+            this.txt_senderAccountNumber.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_senderAccountNumber.PasswordChar = '\0';
+            this.txt_senderAccountNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_senderAccountNumber.PlaceholderText = "Enter Account Number";
+            this.txt_senderAccountNumber.ReadOnly = false;
+            this.txt_senderAccountNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_senderAccountNumber.SelectedText = "";
+            this.txt_senderAccountNumber.SelectionLength = 0;
+            this.txt_senderAccountNumber.SelectionStart = 0;
+            this.txt_senderAccountNumber.ShortcutsEnabled = true;
+            this.txt_senderAccountNumber.Size = new System.Drawing.Size(227, 41);
+            this.txt_senderAccountNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_senderAccountNumber.TabIndex = 4;
+            this.txt_senderAccountNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_senderAccountNumber.TextMarginBottom = 0;
+            this.txt_senderAccountNumber.TextMarginLeft = 10;
+            this.txt_senderAccountNumber.TextMarginTop = 0;
+            this.txt_senderAccountNumber.TextPlaceholder = "Enter Account Number";
+            this.txt_senderAccountNumber.UseSystemPasswordChar = false;
+            this.txt_senderAccountNumber.WordWrap = true;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(10, 129);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(90, 20);
+            this.label24.TabIndex = 3;
+            this.label24.Text = "Information:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(10, 215);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 20);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "Amount:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(10, 54);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(124, 20);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Account Number:";
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Gainsboro;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(0, 0);
+            this.label19.Name = "label19";
+            this.label19.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label19.Size = new System.Drawing.Size(316, 33);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Sender Details:";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(7, 7);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(901, 30);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "Send Money";
             // 
             // groupBox3
             // 
@@ -3371,246 +3622,6 @@
             this.datePostedDateEdit1.Size = new System.Drawing.Size(125, 22);
             this.datePostedDateEdit1.TabIndex = 9;
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(loanIDLabel);
-            this.groupBox6.Controls.Add(this.loanIDSpinEdit);
-            this.groupBox6.Controls.Add(accountIDLabel3);
-            this.groupBox6.Controls.Add(this.accountIDSpinEdit3);
-            this.groupBox6.Controls.Add(branchIDLabel2);
-            this.groupBox6.Controls.Add(this.branchIDSpinEdit2);
-            this.groupBox6.Controls.Add(datePostedLabel2);
-            this.groupBox6.Controls.Add(this.datePostedDateEdit2);
-            this.groupBox6.Controls.Add(amountLabel2);
-            this.groupBox6.Controls.Add(this.amountSpinEdit2);
-            this.groupBox6.Controls.Add(oRNumLabel);
-            this.groupBox6.Controls.Add(this.oRNumTextEdit);
-            this.groupBox6.Controls.Add(tOLabel);
-            this.groupBox6.Controls.Add(this.tOTextEdit);
-            this.groupBox6.Controls.Add(this.loanbindingNavigator);
-            this.groupBox6.Location = new System.Drawing.Point(15, 555);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(590, 29);
-            this.groupBox6.TabIndex = 24;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Loan";
-            // 
-            // loanIDSpinEdit
-            // 
-            this.loanIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "LoanID", true));
-            this.loanIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.loanIDSpinEdit.Location = new System.Drawing.Point(110, 33);
-            this.loanIDSpinEdit.Name = "loanIDSpinEdit";
-            this.loanIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.loanIDSpinEdit.Size = new System.Drawing.Size(125, 24);
-            this.loanIDSpinEdit.TabIndex = 7;
-            // 
-            // accountIDSpinEdit3
-            // 
-            this.accountIDSpinEdit3.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "AccountID", true));
-            this.accountIDSpinEdit3.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.accountIDSpinEdit3.Location = new System.Drawing.Point(110, 63);
-            this.accountIDSpinEdit3.Name = "accountIDSpinEdit3";
-            this.accountIDSpinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.accountIDSpinEdit3.Size = new System.Drawing.Size(125, 24);
-            this.accountIDSpinEdit3.TabIndex = 9;
-            // 
-            // branchIDSpinEdit2
-            // 
-            this.branchIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "BranchID", true));
-            this.branchIDSpinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.branchIDSpinEdit2.Location = new System.Drawing.Point(110, 93);
-            this.branchIDSpinEdit2.Name = "branchIDSpinEdit2";
-            this.branchIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.branchIDSpinEdit2.Size = new System.Drawing.Size(125, 24);
-            this.branchIDSpinEdit2.TabIndex = 11;
-            // 
-            // datePostedDateEdit2
-            // 
-            this.datePostedDateEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "DatePosted", true));
-            this.datePostedDateEdit2.EditValue = null;
-            this.datePostedDateEdit2.Location = new System.Drawing.Point(110, 123);
-            this.datePostedDateEdit2.Name = "datePostedDateEdit2";
-            this.datePostedDateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.datePostedDateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.datePostedDateEdit2.Size = new System.Drawing.Size(125, 22);
-            this.datePostedDateEdit2.TabIndex = 13;
-            // 
-            // amountSpinEdit2
-            // 
-            this.amountSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "Amount", true));
-            this.amountSpinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.amountSpinEdit2.Location = new System.Drawing.Point(110, 151);
-            this.amountSpinEdit2.Name = "amountSpinEdit2";
-            this.amountSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.amountSpinEdit2.Size = new System.Drawing.Size(125, 24);
-            this.amountSpinEdit2.TabIndex = 15;
-            // 
-            // oRNumTextEdit
-            // 
-            this.oRNumTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "ORNum", true));
-            this.oRNumTextEdit.Location = new System.Drawing.Point(110, 181);
-            this.oRNumTextEdit.Name = "oRNumTextEdit";
-            this.oRNumTextEdit.Size = new System.Drawing.Size(125, 22);
-            this.oRNumTextEdit.TabIndex = 17;
-            // 
-            // tOTextEdit
-            // 
-            this.tOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "TO", true));
-            this.tOTextEdit.Location = new System.Drawing.Point(110, 209);
-            this.tOTextEdit.Name = "tOTextEdit";
-            this.tOTextEdit.Size = new System.Drawing.Size(125, 22);
-            this.tOTextEdit.TabIndex = 19;
-            // 
-            // loanbindingNavigator
-            // 
-            this.loanbindingNavigator.AddNewItem = this.loanbindingNavigatorAddItem;
-            this.loanbindingNavigator.BindingSource = this.loanAccountBindingSource;
-            this.loanbindingNavigator.CountItem = this.toolStripLabel6;
-            this.loanbindingNavigator.DeleteItem = this.loanbindingNavigatorDeleteItem;
-            this.loanbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.loanbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.loanbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton23,
-            this.toolStripButton24,
-            this.toolStripSeparator16,
-            this.toolStripTextBox6,
-            this.toolStripLabel6,
-            this.toolStripSeparator17,
-            this.toolStripButton25,
-            this.toolStripButton26,
-            this.toolStripSeparator18,
-            this.loanbindingNavigatorAddItem,
-            this.loanbindingNavigatorDeleteItem,
-            this.loanbindingNavigatorSaveItem});
-            this.loanbindingNavigator.Location = new System.Drawing.Point(250, 36);
-            this.loanbindingNavigator.MoveFirstItem = this.toolStripButton23;
-            this.loanbindingNavigator.MoveLastItem = this.toolStripButton26;
-            this.loanbindingNavigator.MoveNextItem = this.toolStripButton25;
-            this.loanbindingNavigator.MovePreviousItem = this.toolStripButton24;
-            this.loanbindingNavigator.Name = "loanbindingNavigator";
-            this.loanbindingNavigator.PositionItem = this.toolStripTextBox6;
-            this.loanbindingNavigator.Size = new System.Drawing.Size(331, 31);
-            this.loanbindingNavigator.TabIndex = 6;
-            this.loanbindingNavigator.Text = "bindingNavigator1";
-            // 
-            // loanbindingNavigatorAddItem
-            // 
-            this.loanbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorAddItem.Image")));
-            this.loanbindingNavigatorAddItem.Name = "loanbindingNavigatorAddItem";
-            this.loanbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.loanbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorAddItem.Text = "Add new";
-            // 
-            // toolStripLabel6
-            // 
-            this.toolStripLabel6.Name = "toolStripLabel6";
-            this.toolStripLabel6.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel6.Text = "of {0}";
-            this.toolStripLabel6.ToolTipText = "Total number of items";
-            // 
-            // loanbindingNavigatorDeleteItem
-            // 
-            this.loanbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorDeleteItem.Image")));
-            this.loanbindingNavigatorDeleteItem.Name = "loanbindingNavigatorDeleteItem";
-            this.loanbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.loanbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton23.Text = "Move first";
-            // 
-            // toolStripButton24
-            // 
-            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
-            this.toolStripButton24.Name = "toolStripButton24";
-            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton24.Text = "Move previous";
-            // 
-            // toolStripSeparator16
-            // 
-            this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripTextBox6
-            // 
-            this.toolStripTextBox6.AccessibleName = "Position";
-            this.toolStripTextBox6.AutoSize = false;
-            this.toolStripTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox6.Name = "toolStripTextBox6";
-            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 27);
-            this.toolStripTextBox6.Text = "0";
-            this.toolStripTextBox6.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator17
-            // 
-            this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton25
-            // 
-            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
-            this.toolStripButton25.Name = "toolStripButton25";
-            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton25.Text = "Move next";
-            // 
-            // toolStripButton26
-            // 
-            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
-            this.toolStripButton26.Name = "toolStripButton26";
-            this.toolStripButton26.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton26.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton26.Text = "Move last";
-            // 
-            // toolStripSeparator18
-            // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 27);
-            // 
-            // loanbindingNavigatorSaveItem
-            // 
-            this.loanbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorSaveItem.Image")));
-            this.loanbindingNavigatorSaveItem.Name = "loanbindingNavigatorSaveItem";
-            this.loanbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorSaveItem.Text = "Save Data";
-            this.loanbindingNavigatorSaveItem.Click += new System.EventHandler(this.loanbindingNavigatorSaveItem_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(customerIDLabel);
@@ -3958,26 +3969,26 @@
             this.txt_customerName.Modified = false;
             this.txt_customerName.Multiline = false;
             this.txt_customerName.Name = "txt_customerName";
-            stateProperties81.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties81.FillColor = System.Drawing.Color.Empty;
-            stateProperties81.ForeColor = System.Drawing.Color.Empty;
-            stateProperties81.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_customerName.OnActiveState = stateProperties81;
-            stateProperties82.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties82.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties82.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_customerName.OnDisabledState = stateProperties82;
-            stateProperties83.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties83.FillColor = System.Drawing.Color.Empty;
-            stateProperties83.ForeColor = System.Drawing.Color.Empty;
-            stateProperties83.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_customerName.OnHoverState = stateProperties83;
-            stateProperties84.BorderColor = System.Drawing.Color.Silver;
-            stateProperties84.FillColor = System.Drawing.Color.White;
-            stateProperties84.ForeColor = System.Drawing.Color.Empty;
-            stateProperties84.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_customerName.OnIdleState = stateProperties84;
+            stateProperties145.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties145.FillColor = System.Drawing.Color.Empty;
+            stateProperties145.ForeColor = System.Drawing.Color.Empty;
+            stateProperties145.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_customerName.OnActiveState = stateProperties145;
+            stateProperties146.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties146.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties146.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties146.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_customerName.OnDisabledState = stateProperties146;
+            stateProperties147.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties147.FillColor = System.Drawing.Color.Empty;
+            stateProperties147.ForeColor = System.Drawing.Color.Empty;
+            stateProperties147.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_customerName.OnHoverState = stateProperties147;
+            stateProperties148.BorderColor = System.Drawing.Color.Silver;
+            stateProperties148.FillColor = System.Drawing.Color.White;
+            stateProperties148.ForeColor = System.Drawing.Color.Empty;
+            stateProperties148.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_customerName.OnIdleState = stateProperties148;
             this.txt_customerName.Padding = new System.Windows.Forms.Padding(3);
             this.txt_customerName.PasswordChar = '\0';
             this.txt_customerName.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4033,26 +4044,26 @@
             this.txt_homeAddress.Modified = false;
             this.txt_homeAddress.Multiline = false;
             this.txt_homeAddress.Name = "txt_homeAddress";
-            stateProperties85.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties85.FillColor = System.Drawing.Color.Empty;
-            stateProperties85.ForeColor = System.Drawing.Color.Empty;
-            stateProperties85.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_homeAddress.OnActiveState = stateProperties85;
-            stateProperties86.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties86.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties86.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_homeAddress.OnDisabledState = stateProperties86;
-            stateProperties87.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties87.FillColor = System.Drawing.Color.Empty;
-            stateProperties87.ForeColor = System.Drawing.Color.Empty;
-            stateProperties87.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_homeAddress.OnHoverState = stateProperties87;
-            stateProperties88.BorderColor = System.Drawing.Color.Silver;
-            stateProperties88.FillColor = System.Drawing.Color.White;
-            stateProperties88.ForeColor = System.Drawing.Color.Empty;
-            stateProperties88.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_homeAddress.OnIdleState = stateProperties88;
+            stateProperties149.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties149.FillColor = System.Drawing.Color.Empty;
+            stateProperties149.ForeColor = System.Drawing.Color.Empty;
+            stateProperties149.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_homeAddress.OnActiveState = stateProperties149;
+            stateProperties150.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties150.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties150.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties150.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_homeAddress.OnDisabledState = stateProperties150;
+            stateProperties151.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties151.FillColor = System.Drawing.Color.Empty;
+            stateProperties151.ForeColor = System.Drawing.Color.Empty;
+            stateProperties151.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_homeAddress.OnHoverState = stateProperties151;
+            stateProperties152.BorderColor = System.Drawing.Color.Silver;
+            stateProperties152.FillColor = System.Drawing.Color.White;
+            stateProperties152.ForeColor = System.Drawing.Color.Empty;
+            stateProperties152.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_homeAddress.OnIdleState = stateProperties152;
             this.txt_homeAddress.Padding = new System.Windows.Forms.Padding(3);
             this.txt_homeAddress.PasswordChar = '\0';
             this.txt_homeAddress.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4081,7 +4092,7 @@
             this.pnl_selectAccount.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnl_selectAccount.Controls.Add(this.panel8);
             this.pnl_selectAccount.Controls.Add(this.panel11);
-            this.pnl_selectAccount.Location = new System.Drawing.Point(1364, 636);
+            this.pnl_selectAccount.Location = new System.Drawing.Point(513, 163);
             this.pnl_selectAccount.Name = "pnl_selectAccount";
             this.pnl_selectAccount.Size = new System.Drawing.Size(540, 308);
             this.pnl_selectAccount.TabIndex = 7;
@@ -4240,26 +4251,26 @@
             this.txt_amount.Modified = false;
             this.txt_amount.Multiline = false;
             this.txt_amount.Name = "txt_amount";
-            stateProperties89.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties89.FillColor = System.Drawing.Color.Empty;
-            stateProperties89.ForeColor = System.Drawing.Color.Empty;
-            stateProperties89.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_amount.OnActiveState = stateProperties89;
-            stateProperties90.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties90.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties90.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_amount.OnDisabledState = stateProperties90;
-            stateProperties91.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties91.FillColor = System.Drawing.Color.Empty;
-            stateProperties91.ForeColor = System.Drawing.Color.Empty;
-            stateProperties91.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_amount.OnHoverState = stateProperties91;
-            stateProperties92.BorderColor = System.Drawing.Color.Silver;
-            stateProperties92.FillColor = System.Drawing.Color.White;
-            stateProperties92.ForeColor = System.Drawing.Color.Empty;
-            stateProperties92.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_amount.OnIdleState = stateProperties92;
+            stateProperties153.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties153.FillColor = System.Drawing.Color.Empty;
+            stateProperties153.ForeColor = System.Drawing.Color.Empty;
+            stateProperties153.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_amount.OnActiveState = stateProperties153;
+            stateProperties154.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties154.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties154.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties154.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_amount.OnDisabledState = stateProperties154;
+            stateProperties155.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties155.FillColor = System.Drawing.Color.Empty;
+            stateProperties155.ForeColor = System.Drawing.Color.Empty;
+            stateProperties155.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_amount.OnHoverState = stateProperties155;
+            stateProperties156.BorderColor = System.Drawing.Color.Silver;
+            stateProperties156.FillColor = System.Drawing.Color.White;
+            stateProperties156.ForeColor = System.Drawing.Color.Empty;
+            stateProperties156.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_amount.OnIdleState = stateProperties156;
             this.txt_amount.Padding = new System.Windows.Forms.Padding(3);
             this.txt_amount.PasswordChar = '\0';
             this.txt_amount.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4450,26 +4461,26 @@
             this.txt_searchClient.Modified = false;
             this.txt_searchClient.Multiline = false;
             this.txt_searchClient.Name = "txt_searchClient";
-            stateProperties93.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties93.FillColor = System.Drawing.Color.Empty;
-            stateProperties93.ForeColor = System.Drawing.Color.Empty;
-            stateProperties93.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchClient.OnActiveState = stateProperties93;
-            stateProperties94.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties94.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties94.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties94.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_searchClient.OnDisabledState = stateProperties94;
-            stateProperties95.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties95.FillColor = System.Drawing.Color.Empty;
-            stateProperties95.ForeColor = System.Drawing.Color.Empty;
-            stateProperties95.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchClient.OnHoverState = stateProperties95;
-            stateProperties96.BorderColor = System.Drawing.Color.Silver;
-            stateProperties96.FillColor = System.Drawing.Color.White;
-            stateProperties96.ForeColor = System.Drawing.Color.Empty;
-            stateProperties96.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_searchClient.OnIdleState = stateProperties96;
+            stateProperties157.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties157.FillColor = System.Drawing.Color.Empty;
+            stateProperties157.ForeColor = System.Drawing.Color.Empty;
+            stateProperties157.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchClient.OnActiveState = stateProperties157;
+            stateProperties158.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties158.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties158.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties158.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_searchClient.OnDisabledState = stateProperties158;
+            stateProperties159.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties159.FillColor = System.Drawing.Color.Empty;
+            stateProperties159.ForeColor = System.Drawing.Color.Empty;
+            stateProperties159.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchClient.OnHoverState = stateProperties159;
+            stateProperties160.BorderColor = System.Drawing.Color.Silver;
+            stateProperties160.FillColor = System.Drawing.Color.White;
+            stateProperties160.ForeColor = System.Drawing.Color.Empty;
+            stateProperties160.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_searchClient.OnIdleState = stateProperties160;
             this.txt_searchClient.Padding = new System.Windows.Forms.Padding(3);
             this.txt_searchClient.PasswordChar = '\0';
             this.txt_searchClient.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4508,10 +4519,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1917, 1055);
             this.Controls.Add(this.pnl_main);
-            this.Controls.Add(this.pnl_selectAccount);
             this.Controls.Add(this.pnl_openAccount);
             this.Controls.Add(this.pnl_top_outer);
             this.Controls.Add(this.pnl_left_outer);
+            this.Controls.Add(this.pnl_selectAccount);
             this.Controls.Add(this.pnl_searchclient);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -4533,7 +4544,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl_top_outer.ResumeLayout(false);
             this.pnl_top_inner.ResumeLayout(false);
-            this.pnl_top_inner.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.pnl_backpanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingNavigator)).EndInit();
             this.savingAccountBindingNavigator.ResumeLayout(false);
@@ -4564,22 +4576,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.loanAccountBindingSource)).EndInit();
             this.pnl_accounts_inner.ResumeLayout(false);
             this.pnl_main.ResumeLayout(false);
-            this.pnl_statistics.ResumeLayout(false);
-            this.pnl_inner_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
-            this.pnl_Rates.ResumeLayout(false);
-            this.pnl_inner_rates.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).EndInit();
-            this.pnl_sendMoney.ResumeLayout(false);
-            this.pnl_inner_sendMoney.ResumeLayout(false);
-            this.pnl_layout.ResumeLayout(false);
-            this.pnl_inner_receiver.ResumeLayout(false);
-            this.pnl_inner_receiver.PerformLayout();
-            this.pnl_inner_sender.ResumeLayout(false);
-            this.pnl_inner_sender.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).EndInit();
+            this.loanbindingNavigator.ResumeLayout(false);
+            this.loanbindingNavigator.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).EndInit();
@@ -4594,6 +4603,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
+            this.pnl_statistics.ResumeLayout(false);
+            this.pnl_inner_statistics.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
+            this.pnl_Rates.ResumeLayout(false);
+            this.pnl_inner_rates.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).EndInit();
+            this.pnl_sendMoney.ResumeLayout(false);
+            this.pnl_inner_sendMoney.ResumeLayout(false);
+            this.pnl_layout.ResumeLayout(false);
+            this.pnl_inner_receiver.ResumeLayout(false);
+            this.pnl_inner_receiver.PerformLayout();
+            this.pnl_inner_sender.ResumeLayout(false);
+            this.pnl_inner_sender.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingIDSpinEdit.Properties)).EndInit();
@@ -4627,19 +4652,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).EndInit();
-            this.loanbindingNavigator.ResumeLayout(false);
-            this.loanbindingNavigator.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).EndInit();
@@ -4944,6 +4956,7 @@
         private DevExpress.XtraCharts.ChartControl chartControl1;
         private System.Windows.Forms.Timer toggleTimer;
         private DevExpress.XtraEditors.SimpleButton btn_logout;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 #endregion  

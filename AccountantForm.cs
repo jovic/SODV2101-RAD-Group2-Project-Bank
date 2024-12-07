@@ -1,4 +1,5 @@
 ﻿using Bunifu.UI.WinForms;
+using DevExpress.Utils.MVVM;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Data;
@@ -36,165 +37,194 @@ namespace Bank
 
         private void setDefaults()
         {
-            navButtons = new Button[] { nav_dash, nav_open, nav_rates, nav_send, nav_statistics,nav_accounts};
-            outerPanels = new Panel[] { pnl_left_outer, pnl_top_outer};
-            LayoutPanels = new Panel[] { pnl_left_inner, pnl_top_inner, pnl_dashboard,pnl_openAccount, pnl_accounts, pnl_sendMoney,pnl_layout, pnl_statistics,pnl_Rates };
-            innerPanels = new Panel[] { pnl_inner_dashboard,pnl_openAccount_Inner, pnl_accounts_inner,pnl_inner_sendMoney,pnl_inner_receiver,pnl_inner_sender,pnl_inner_statistics,pnl_inner_rates };
-            dgv = new DataGridView[] { customerDataGridView, savingAccountDataGridView,checkingAccountDataGridView,loanAccountDataGridView, dataGridViewRates };
-            
+            // Initialize navigation buttons
+            navButtons = new Button[] { nav_dash, nav_open, nav_rates, nav_send, nav_statistics, nav_accounts };
+
+            // Initialize outer panels
+            outerPanels = new Panel[] { pnl_left_outer, pnl_top_outer };
+
+            // Initialize layout panels
+            LayoutPanels = new Panel[] { pnl_left_inner, pnl_top_inner, pnl_dashboard, pnl_openAccount, pnl_accounts, pnl_sendMoney, pnl_layout, pnl_statistics, pnl_Rates };
+
+            // Initialize inner panels
+            innerPanels = new Panel[] { pnl_inner_dashboard, pnl_openAccount_Inner, pnl_accounts_inner, pnl_inner_sendMoney, pnl_inner_receiver, pnl_inner_sender, pnl_inner_statistics, pnl_inner_rates };
+
+            // Initialize data grid views
+            dgv = new DataGridView[] { customerDataGridView, savingAccountDataGridView, checkingAccountDataGridView, loanAccountDataGridView, dataGridViewRates };
+
+            // Set main panel to fill the parent container
             pnl_main.Dock = DockStyle.Fill;
+
+            // Set panel properties
             setPanelElipse(LayoutPanels, 15);
             set.PanelLayouts(LayoutPanels, Color.WhiteSmoke);
             set.PanelLayouts(innerPanels, Color.White);
             set.setDataGridViews(dgv);
-            
-            
 
-
+            // Set greeting message based on the current time
             string str = DateTime.Now.ToString("tt");
             if (str == "AM")
                 lbl_greetings.Text = "Good Morning!";
             else
                 lbl_greetings.Text = "Good Evening!";
 
+            // Set user details
             lbl_user.Text = userDetails.Name.ToString();
             lbl_position.Text = userDetails.Role.ToString();
 
-            
+            // Clear sender and receiver names
+            lbl_senderName.Text = "";
+            lbl_receiverName.Text = "";
         }
-
         private void setPanelElipse(Panel[] pnl, int radius)
         {
+            // Loop through each panel in the array
             for (int i = 0; i < pnl.Length; i++)
             {
-                set.setElipse(pnl[i],radius);
+                // Set the ellipse for the current panel with the specified radius
+                set.setElipse(pnl[i], radius);
             }
         }
+
         private void setNav(object sender)
         {
-            for(int i=0; i< navButtons.Length; i++)
+            // Reset all navigation buttons to idle state
+            for (int i = 0; i < navButtons.Length; i++)
                 set.NavButtonIdle(navButtons[i]);
 
-            if(sender != null)
+            // Check if the sender is not null
+            if (sender != null)
             {
+                // Cast the sender to a Button
                 Button button = (Button)sender;
+
+                // Set the active state for the clicked navigation button
                 set.NavButtonActive(sender);
             }
-            
         }
 
-       
+
         private void btn_exit_Click(object sender, System.EventArgs e)
         {
             Application.Exit();
         }
 
-       
+
 
         private void AccountantForm_Load(object sender, System.EventArgs e)
         {
+            // Simulate a click on the dashboard navigation button
             nav_dash.PerformClick();
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Branch' table. You can move, or remove it, as needed.
+
+            // Fill the Branch table with data based on the user's BranchID
             this.branchTableAdapter.FillByBranchID(this.dB_BankDataSet.Branch, userDetails.BranchID);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Account' table. You can move, or remove it, as needed.
+
+            // Fill the Account table with data
             this.accountTableAdapter.Fill(this.dB_BankDataSet.Account);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.Customer' table. You can move, or remove it, as needed.
+
+            // Fill the Customer table with data
             this.customerTableAdapter.Fill(this.dB_BankDataSet.Customer);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.CheckingAccount' table. You can move, or remove it, as needed.
-            //this.checkingAccountTableAdapter.Fill(this.dB_BankDataSet.CheckingAccount);
-            // TODO: This line of code loads data into the 'dB_BankDataSet.SavingAccount' table. You can move, or remove it, as needed.
-            //this.savingAccountTableAdapter.Fill(this.dB_BankDataSet.SavingAccount);
+
+            // Convert the deposit and loan values from the spin edit controls to integers
             _deposit = set.DecimaltoInt(depositSpinEdit.Text);
             _loan = set.DecimaltoInt(loanSpinEdit.Text);
-
-
         }
-
-
 
         private void bunifuTextBox2_KeyUp(object sender, KeyEventArgs e)
         {
+            // Update the full name text edit with the text from the customer name textbox
             fullNameTextEdit1.Text = txt_customerName.Text;
         }
+
         private void txt_homeAddress_KeyUp(object sender, KeyEventArgs e)
         {
+            // Update the full name text edit with the text from the home address textbox
             fullNameTextEdit.Text = txt_homeAddress.Text;
         }
 
         private void savingAccountBindingNavigatorSaveItem_Click(object sender, System.EventArgs e)
         {
+            // Validate the current data
             this.Validate();
-            this.savingAccountBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
 
+            // End editing for the saving account binding source
+            this.savingAccountBindingSource.EndEdit();
+
+            // Update all changes to the database
+            this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
+
         private void customerbindingNavigatorSaveItem_Click(object sender, System.EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the customer binding source
             this.customerBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
+
         private void accountbindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the account binding source
             this.accountBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
 
         private void savingsbindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the saving account binding source
             this.savingAccountBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
 
         private void branchbindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the branch binding source
             this.branchBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
 
         private void checkingbindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the checking account binding source
             this.checkingAccountBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
 
         private void loanbindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
+            // Validate the current data
             this.Validate();
+
+            // End editing for the loan account binding source
             this.loanAccountBindingSource.EndEdit();
+
+            // Update all changes to the database
             this.tableAdapterManager.UpdateAll(this.dB_BankDataSet);
         }
-
-        private void nav_open_Click(object sender, System.EventArgs e)
-        {
-            setNav(sender);
-            set.showPanel(pnl_openAccount,this, DockStyle.None);
-            set.NavButtonEnabler(navButtons, false);
-            customerbindingNavigatorAddItem.PerformClick();
-        }
-
-        private void nav_accounts_Click(object sender, EventArgs e)
-        {
-            setNav(sender);
-            set.showPanel(pnl_accounts, this, DockStyle.Fill);
-        }
-        private void nav_dash_Click(object sender, System.EventArgs e)
-        {
-            setNav(sender);
-            set.showPanel(pnl_dashboard, this, DockStyle.Fill);
-        }
-
-        private void nav_send_Click(object sender, EventArgs e)
-        {
-            setNav(sender);
-            set.showPanel(pnl_sendMoney, this, DockStyle.Fill);
-            pnl_layout.Location = new Point(pnl_inner_sendMoney.Width / 2 - pnl_layout.Size.Width / 2, pnl_inner_sendMoney.Height / 2 - pnl_layout.Size.Height / 2);
-        }
-
         private async void nav_rates_Click(object sender, EventArgs e)
         {
             setNav(sender);
@@ -274,8 +304,8 @@ namespace Bank
             if(!string.IsNullOrEmpty(txt_amount.Text) && cbo_accountType.Text != "")
             {
                 int i = cbo_accountType.SelectedIndex;
-                if (accounts.getAccountID() != 0)
-                    creeateAccount();
+                if (accounts.getAccountID() == 0)
+                    createAccount();
 
                 if (i == 0)
                 {
@@ -293,7 +323,7 @@ namespace Bank
                     else
                         LoanAccount(txt_amount.Text, "APPR Amount");
                 }
-                    
+                pnl_selectAccount.SendToBack();
             }
             else
                 set.showMessageError(this, "Please fill all the fields.", "OK");
@@ -304,8 +334,9 @@ namespace Bank
             string orno = $"{accounts.getLoanID()}{DateTime.Today.Year}{DateTime.Today.Month}{DateTime.Today.Day}{DateTime.Today.Hour}{DateTime.Today.Minute}{DateTime.Today.Second}";
             loanbindingNavigatorAddItem.PerformClick();
             accountIDSpinEdit3.Text = accounts.getAccountID().ToString();
-            branchIDSpinEdit2.Text = accounts.getBranchID().ToString();
+            branchIDSpinEdit2.Text = userDetails.BranchID.ToString();
             datePostedDateEdit2.Text = dateToday;
+            tOTextEdit.Text = to;
             amountSpinEdit2.Text = amt;
             oRNumTextEdit.Text = orno;
             loanbindingNavigatorSaveItem.PerformClick();
@@ -331,13 +362,17 @@ namespace Bank
             _deposit += set.DecimaltoInt(amt);
             savingsbindingNavigatorSaveItem.PerformClick();
             updateBank();
+            
         }
 
-        private void creeateAccount()
+        private void createAccount()
         {
+            int selectedType = cbo_accountType.SelectedIndex + 1;
+            MessageBox.Show(selectedType.ToString());
+            
             accountbindingNavigatorAddItem.PerformClick();
             customerIDSpinEdit1.Text = accounts.getClientID().ToString();
-            accountTypeSpinEdit.Text = cbo_accountType.SelectedIndex.ToString();
+            accountTypeSpinEdit.Text = selectedType.ToString();
             dateModefiedDateEdit.Text = dateToday.ToString();
             branchIDSpinEdit.Text = userDetails.BranchID.ToString();
             cardPINSpinEdit.Text = "0000";
@@ -374,10 +409,10 @@ namespace Bank
 
                 this.accountTableAdapter.FillByCustomerID(this.dB_BankDataSet.Account, accounts.getClientID());
                 
-                if(!string.IsNullOrEmpty(accountIDSpinEdit.Text))
-                {
-                    loadAccounts(accountIDSpinEdit.Text);  
-                }
+                if(!string.IsNullOrEmpty(accountIDSpinEdit.Text)) 
+                    loadAccounts(accountIDSpinEdit.Text);
+                else
+                    loadAccounts("0");
 
             }
             else
@@ -387,9 +422,11 @@ namespace Bank
         private void loadAccounts(string text)
         {
             accounts.setAccountID(Int32.Parse(text));
+            
             this.savingAccountTableAdapter.FillByID(this.dB_BankDataSet.SavingAccount, accounts.getAccountID());
             this.checkingAccountTableAdapter.FillByAccountID(this.dB_BankDataSet.CheckingAccount, accounts.getAccountID());
             this.loanAccountTableAdapter.FillByID(this.dB_BankDataSet.LoanAccount, accounts.getAccountID());
+
         }
 
         private void customerDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -448,7 +485,7 @@ namespace Bank
 
         private void btn_searchReciever_Click(object sender, EventArgs e)
         {
-            searchAccount(txt_senderAccountNumber.Text, lbl_receiverName, transferDetailsReceiver = new TransferDetails());
+            searchAccount(txt_receiverAccountNumber.Text, lbl_receiverName, transferDetailsReceiver = new TransferDetails());
         }
 
         private void btn_sendMoney_Click(object sender, EventArgs e)
