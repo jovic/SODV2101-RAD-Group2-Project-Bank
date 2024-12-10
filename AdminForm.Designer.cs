@@ -57,10 +57,10 @@
             System.Windows.Forms.Label managerNameLabel;
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
-            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.branchBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_BankDataSet = new Bank.DB_BankDataSet();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -489,9 +489,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             this.pnl_MI_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.panel23.SuspendLayout();
@@ -1179,7 +1179,7 @@
             this.bindingNavigator1.MovePreviousItem = this.toolStripButton4;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.toolStripTextBox1;
-            this.bindingNavigator1.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator1.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator1.TabIndex = 4;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -1235,6 +1235,7 @@
             // 
             this.toolStripTextBox1.AccessibleName = "Position";
             this.toolStripTextBox1.AutoSize = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox1.Text = "0";
@@ -1389,7 +1390,7 @@
             this.branchBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.branchBindingNavigator.Name = "branchBindingNavigator";
             this.branchBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.branchBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.branchBindingNavigator.TabIndex = 3;
             this.branchBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1399,7 +1400,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -1445,6 +1446,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -1588,7 +1590,7 @@
             this.ManagerbindingNavigator.MovePreviousItem = this.toolStripButton23;
             this.ManagerbindingNavigator.Name = "ManagerbindingNavigator";
             this.ManagerbindingNavigator.PositionItem = this.toolStripTextBox4;
-            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.ManagerbindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.ManagerbindingNavigator.TabIndex = 8;
             this.ManagerbindingNavigator.Text = "bindingNavigator4";
             // 
@@ -1649,6 +1651,7 @@
             // 
             this.toolStripTextBox4.AccessibleName = "Position";
             this.toolStripTextBox4.AutoSize = false;
+            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox4.Name = "toolStripTextBox4";
             this.toolStripTextBox4.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox4.Text = "0";
@@ -1832,7 +1835,7 @@
             this.employeeBindingNavigator.MovePreviousItem = this.toolStripButton19;
             this.employeeBindingNavigator.Name = "employeeBindingNavigator";
             this.employeeBindingNavigator.PositionItem = this.employeeBindingNavigatorIndex;
-            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.employeeBindingNavigator.Size = new System.Drawing.Size(331, 27);
             this.employeeBindingNavigator.TabIndex = 8;
             this.employeeBindingNavigator.Text = "bindingNavigator4";
             // 
@@ -1888,6 +1891,7 @@
             // 
             this.employeeBindingNavigatorIndex.AccessibleName = "Position";
             this.employeeBindingNavigatorIndex.AutoSize = false;
+            this.employeeBindingNavigatorIndex.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.employeeBindingNavigatorIndex.Name = "employeeBindingNavigatorIndex";
             this.employeeBindingNavigatorIndex.Size = new System.Drawing.Size(50, 27);
             this.employeeBindingNavigatorIndex.Text = "0";
@@ -2055,7 +2059,7 @@
             this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
             this.bindingNavigator2.Name = "bindingNavigator2";
             this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator2.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator2.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator2.TabIndex = 6;
             this.bindingNavigator2.Text = "bindingNavigator2";
             // 
@@ -2116,6 +2120,7 @@
             // 
             this.toolStripTextBox2.AccessibleName = "Position";
             this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox2.Name = "toolStripTextBox2";
             this.toolStripTextBox2.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox2.Text = "0";
@@ -2197,7 +2202,7 @@
             this.bindingNavigator3.MovePreviousItem = this.toolStripButton15;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator3.Size = new System.Drawing.Size(331, 31);
+            this.bindingNavigator3.Size = new System.Drawing.Size(331, 27);
             this.bindingNavigator3.TabIndex = 6;
             this.bindingNavigator3.Text = "bindingNavigator3";
             // 
@@ -2258,6 +2263,7 @@
             // 
             this.toolStripTextBox3.AccessibleName = "Position";
             this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox3.Name = "toolStripTextBox3";
             this.toolStripTextBox3.Size = new System.Drawing.Size(50, 27);
             this.toolStripTextBox3.Text = "0";
@@ -2924,7 +2930,7 @@
             this.calendarControl1.Location = new System.Drawing.Point(0, 99);
             this.calendarControl1.Name = "calendarControl1";
             this.calendarControl1.ShowWeekNumbers = true;
-            this.calendarControl1.Size = new System.Drawing.Size(342, 291);
+            this.calendarControl1.Size = new System.Drawing.Size(347, 291);
             this.calendarControl1.TabIndex = 4;
             // 
             // layoutControl1
@@ -3522,36 +3528,36 @@
             // 
             this.chartControl1.BorderOptions.Visibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl1.DataSource = this.dB_BankDataSet.Account;
-            xyDiagram3.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram3.AxisX.Title.Text = "Branch Names";
-            xyDiagram3.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram3.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
-            xyDiagram3.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
-            xyDiagram3.AxisY.Title.Text = "Amount";
-            xyDiagram3.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram3;
+            xyDiagram1.AxisX.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram1.AxisX.Title.Text = "Branch Names";
+            xyDiagram1.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.Label.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 10F);
+            xyDiagram1.AxisY.Title.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 11F);
+            xyDiagram1.AxisY.Title.Text = "Amount";
+            xyDiagram1.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram1;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            series5.ArgumentDataMember = "BranchName";
-            series5.DataSource = this.branchBindingSource;
-            series5.Name = "Deposits";
-            series5.ValueDataMembersSerializable = "Deposit";
-            series6.ArgumentDataMember = "BranchName";
-            series6.DataSource = this.branchBindingSource;
-            series6.Name = "Loans";
-            series6.ValueDataMembersSerializable = "Loan";
+            series1.ArgumentDataMember = "BranchName";
+            series1.DataSource = this.branchBindingSource;
+            series1.Name = "Deposits";
+            series1.ValueDataMembersSerializable = "Deposit";
+            series2.ArgumentDataMember = "BranchName";
+            series2.DataSource = this.branchBindingSource;
+            series2.Name = "Loans";
+            series2.ValueDataMembersSerializable = "Loan";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series5,
-        series6};
+        series1,
+        series2};
             this.chartControl1.Size = new System.Drawing.Size(549, 116);
             this.chartControl1.TabIndex = 18;
-            chartTitle3.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle3.Text = "Bank Branches Statistics";
+            chartTitle1.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle1.Text = "Bank Branches Statistics";
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle3});
+            chartTitle1});
             // 
             // panel22
             // 
@@ -4270,9 +4276,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             this.pnl_MI_statistics.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();

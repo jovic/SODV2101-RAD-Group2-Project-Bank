@@ -195,6 +195,7 @@
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.accountbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             checkIDLabel = new System.Windows.Forms.Label();
             accountIDLabel = new System.Windows.Forms.Label();
             checkNumbersLabel = new System.Windows.Forms.Label();
@@ -249,6 +250,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).BeginInit();
             this.accountbindingNavigator.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkIDLabel
@@ -1682,7 +1684,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.savingAccountBindingNavigatorSaveItem});
-            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(30, 156);
+            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(22, 17);
             this.savingAccountBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.savingAccountBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.savingAccountBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -1833,7 +1835,7 @@
             this.groupBox1.Controls.Add(this.amountSpinEdit);
             this.groupBox1.Controls.Add(datePostedLabel);
             this.groupBox1.Controls.Add(this.datePostedDateEdit);
-            this.groupBox1.Location = new System.Drawing.Point(70, 384);
+            this.groupBox1.Location = new System.Drawing.Point(62, 245);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(297, 25);
             this.groupBox1.TabIndex = 3;
@@ -1922,7 +1924,7 @@
             this.groupBox2.Controls.Add(this.cardPINSpinEdit);
             this.groupBox2.Controls.Add(passwordLabel);
             this.groupBox2.Controls.Add(this.passwordTextEdit);
-            this.groupBox2.Location = new System.Drawing.Point(70, 207);
+            this.groupBox2.Location = new System.Drawing.Point(62, 68);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(389, 145);
             this.groupBox2.TabIndex = 6;
@@ -2051,7 +2053,7 @@
             this.accountbindingNavigatorAddItem,
             this.accountbindingNavigatorDeleteItem,
             this.accountbindingNavigatorSaveItem});
-            this.accountbindingNavigator.Location = new System.Drawing.Point(80, 495);
+            this.accountbindingNavigator.Location = new System.Drawing.Point(72, 356);
             this.accountbindingNavigator.MoveFirstItem = this.toolStripButton7;
             this.accountbindingNavigator.MoveLastItem = this.toolStripButton10;
             this.accountbindingNavigator.MoveNextItem = this.toolStripButton9;
@@ -2157,18 +2159,29 @@
             this.accountbindingNavigatorSaveItem.Text = "Save Data";
             this.accountbindingNavigatorSaveItem.Click += new System.EventHandler(this.accountbindingNavigatorSaveItem_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.savingAccountBindingNavigator);
+            this.panel2.Controls.Add(this.accountbindingNavigator);
+            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.Controls.Add(this.groupBox2);
+            this.panel2.Location = new System.Drawing.Point(12, 132);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(447, 10);
+            this.panel2.TabIndex = 15;
+            // 
             // ClientFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1496, 680);
-            this.Controls.Add(this.accountbindingNavigator);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.savingAccountBindingNavigator);
+            this.ControlBox = false;
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ClientFrm";
             this.Padding = new System.Windows.Forms.Padding(15);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -2226,8 +2239,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).EndInit();
             this.accountbindingNavigator.ResumeLayout(false);
             this.accountbindingNavigator.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -2362,5 +2376,6 @@
         private DevExpress.XtraEditors.SpinEdit branchIDSpinEdit;
         private DevExpress.XtraEditors.SpinEdit cardPINSpinEdit;
         private DevExpress.XtraEditors.TextEdit passwordTextEdit;
+        private System.Windows.Forms.Panel panel2;
     }
 }

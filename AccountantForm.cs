@@ -86,6 +86,54 @@ namespace Bank
             }
         }
 
+        private void nav_open_Click(object sender, System.EventArgs e)
+        {
+            // Set the navigation state based on the clicked sender
+            setNav(sender);
+
+            // Show the open account panel without filling the parent container
+            set.showPanel(pnl_openAccount, this, DockStyle.None);
+
+            // Disable navigation buttons
+            set.NavButtonEnabler(navButtons, false);
+
+            // Simulate a click on the "Add" item in the customer binding navigator
+            customerbindingNavigatorAddItem.PerformClick();
+        }
+
+        private void nav_dash_Click(object sender, System.EventArgs e)
+        {
+            // Set the navigation state based on the clicked sender
+            setNav(sender);
+
+            // Show the dashboard panel and fill the parent container
+            set.showPanel(pnl_dashboard, this, DockStyle.Fill);
+        }
+
+        private void nav_accounts_Click(object sender, EventArgs e)
+        {
+            // Set the navigation state based on the clicked sender
+            setNav(sender);
+
+            // Show the accounts panel and fill the parent container
+            set.showPanel(pnl_accounts, this, DockStyle.Fill);
+        }
+        private void nav_send_Click(object sender, EventArgs e)
+        {
+            // Set the navigation state based on the clicked sender
+            setNav(sender);
+
+            // Show the send money panel and fill the parent container
+            set.showPanel(pnl_sendMoney, this, DockStyle.Fill);
+
+            // Center the layout panel within the inner send money panel
+            pnl_layout.Location = new Point(
+                pnl_inner_sendMoney.Width / 2 - pnl_layout.Size.Width / 2,
+                pnl_inner_sendMoney.Height / 2 - pnl_layout.Size.Height / 2
+            );
+        }
+
+
         private void setNav(object sender)
         {
             // Reset all navigation buttons to idle state
@@ -434,7 +482,7 @@ namespace Bank
         {
             // Get the selected account type index and adjust for 1-based indexing
             int selectedType = cbo_accountType.SelectedIndex + 1;
-            MessageBox.Show(selectedType.ToString()); // Display the selected account type for debugging
+            //MessageBox.Show(selectedType.ToString()); // Display the selected account type for debugging
 
             // Initiate the addition of a new account entry
             accountbindingNavigatorAddItem.PerformClick();
@@ -586,7 +634,7 @@ namespace Bank
                 {
                     // Perform the transaction: deduct from sender and add to receiver
                     CheckingAccount(txt_sendAmount.Text.ToString(), "ETranc", transferDetailsReceiver.AccountID); // Credit to receiver
-                    CheckingAccount($"-{txt_sendAmount.Text.ToString()}", "ETranc", transferDetailsSender.AccountID); // Debit from sender
+                    CheckingAccount($"-{txt_sendAmount.Text.ToString()}", "ETranc", int.Parse(txt_senderAccountNumber.Text)); // Debit from sender
 
                     // Show success message upon completion of the transaction
                     set.showMessageSuccess(this, "Transaction complete.");

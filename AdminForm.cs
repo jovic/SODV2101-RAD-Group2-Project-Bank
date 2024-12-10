@@ -34,6 +34,7 @@ namespace Bank
 
         private void SetDefaults()
         {
+            // Initialize arrays for various UI components
             panelList = new Panel[] { left_innerPanel, Top_innerPanel, Main_innerPanel };
             navButtons = new Button[] { btn_nav_Branch, btn_nav_city, btn_nav_dashboard, btn_nav_manager, btn_nav_employee, btn_nav_location, btn_nav_reports, btn_nav_statistics, btn_nav_aboutus };
             branchButtons = new SimpleButton[] { btn_branchNew, btn_branchSave, btn_branchCancel };
@@ -45,19 +46,23 @@ namespace Bank
             dashboardPanels = new Panel[] { pnl_vision, pnl_mission, pnl_core };
             innerPanels = new Panel[] { pnl_MI_dashboard, pnl_MI_branch, pnl_MI_city, pnl_IM_Location, pnl_MI_Managers, pnl_IM_Employee, pnl_MI_statistics, pnl_MI_about };
 
+            // Set up data grid views
             set.setDataGridViews(dataGridViews);
+
+            // Set panel layouts with specified colors
             set.PanelLayouts(panelList, Color.WhiteSmoke);
             set.PanelLayouts(dashboardPanels, Color.Transparent);
             set.PanelLayouts(innerPanels, Color.White);
 
+            // Initialize button controls to a default state
             setButtonControls(branchButtons, 0, true);
             setButtonControls(LocationButtons, 0, true);
             setButtonControls(CityButtons, 0, true);
             setButtonControls(EmployeeButtons, 0, true);
             setButtonControls(ManagersButtons, 0, true);
 
+            // Set the ellipse effect on the logo picture box
             set.setElipse(pb_logo, 5);
-
         }
         public void setNavButtons(Button[] btn, Object obj)
         {

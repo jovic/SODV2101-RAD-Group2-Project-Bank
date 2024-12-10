@@ -100,8 +100,11 @@ namespace Bank
         private void testingValues()
         {
             // Set test values for username and password
-            txt_uname.Text = "85";
-            txt_password.Text = "new";
+            /*txt_uname.Text = "85";
+            txt_password.Text = "new";*/
+
+            txt_uname.Text = "4";
+            txt_password.Text = "mypassword";
 
             // Create a timer to delay the login attempt
             Timer timer = new Timer();
