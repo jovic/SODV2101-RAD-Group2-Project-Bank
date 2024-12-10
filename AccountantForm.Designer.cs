@@ -73,10 +73,6 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties66 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties67 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties68 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties69 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties70 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties71 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -89,6 +85,10 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties78 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties79 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties80 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties81 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties82 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties83 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -128,6 +128,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_top_outer = new System.Windows.Forms.Panel();
             this.pnl_top_inner = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.pnl_backpanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.savingAccountBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
@@ -145,7 +147,8 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.savingAccountBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.accountIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pnl_dashboard = new System.Windows.Forms.Panel();
             this.pnl_inner_dashboard = new System.Windows.Forms.Panel();
             this.lbl_position = new System.Windows.Forms.Label();
@@ -192,14 +195,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.pnl_main = new System.Windows.Forms.Panel();
-            this.pnl_statistics = new System.Windows.Forms.Panel();
-            this.pnl_inner_statistics = new System.Windows.Forms.Panel();
-            this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.label27 = new System.Windows.Forms.Label();
-            this.pnl_Rates = new System.Windows.Forms.Panel();
-            this.pnl_inner_rates = new System.Windows.Forms.Panel();
-            this.dataGridViewRates = new System.Windows.Forms.DataGridView();
-            this.label26 = new System.Windows.Forms.Label();
             this.pnl_sendMoney = new System.Windows.Forms.Panel();
             this.pnl_inner_sendMoney = new System.Windows.Forms.Panel();
             this.pnl_layout = new System.Windows.Forms.Panel();
@@ -222,10 +217,30 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.loanIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.accountIDSpinEdit3 = new DevExpress.XtraEditors.SpinEdit();
+            this.branchIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.datePostedDateEdit2 = new DevExpress.XtraEditors.DateEdit();
+            this.amountSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.oRNumTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.tOTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.loanbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.loanbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
+            this.loanbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
+            this.loanbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.accountbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.accountbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.accountbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
@@ -237,13 +252,20 @@
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.accountbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.accountIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.customerIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
             this.accountTypeSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.dateModefiedDateEdit = new DevExpress.XtraEditors.DateEdit();
             this.branchIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.cardPINSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.passwordTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.pnl_statistics = new System.Windows.Forms.Panel();
+            this.pnl_inner_statistics = new System.Windows.Forms.Panel();
+            this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
+            this.label27 = new System.Windows.Forms.Label();
+            this.pnl_Rates = new System.Windows.Forms.Panel();
+            this.pnl_inner_rates = new System.Windows.Forms.Panel();
+            this.dataGridViewRates = new System.Windows.Forms.DataGridView();
+            this.label26 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.savingIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.accountIDSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
@@ -302,27 +324,6 @@
             this.checkNumbersTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.amountSpinEdit1 = new DevExpress.XtraEditors.SpinEdit();
             this.datePostedDateEdit1 = new DevExpress.XtraEditors.DateEdit();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.loanIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
-            this.accountIDSpinEdit3 = new DevExpress.XtraEditors.SpinEdit();
-            this.branchIDSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.datePostedDateEdit2 = new DevExpress.XtraEditors.DateEdit();
-            this.amountSpinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.oRNumTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.tOTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.loanbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.loanbindingNavigatorAddItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
-            this.loanbindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
-            this.loanbindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.customerIDSpinEdit = new DevExpress.XtraEditors.SpinEdit();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -432,10 +433,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl_top_outer.SuspendLayout();
             this.pnl_top_inner.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.pnl_backpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingNavigator)).BeginInit();
             this.savingAccountBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
             this.pnl_dashboard.SuspendLayout();
             this.pnl_inner_dashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator1)).BeginInit();
@@ -457,6 +461,32 @@
             ((System.ComponentModel.ISupportInitialize)(this.loanAccountBindingSource)).BeginInit();
             this.pnl_accounts_inner.SuspendLayout();
             this.pnl_main.SuspendLayout();
+            this.pnl_sendMoney.SuspendLayout();
+            this.pnl_inner_sendMoney.SuspendLayout();
+            this.pnl_layout.SuspendLayout();
+            this.pnl_inner_receiver.SuspendLayout();
+            this.pnl_inner_sender.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).BeginInit();
+            this.loanbindingNavigator.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).BeginInit();
+            this.accountbindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
             this.pnl_statistics.SuspendLayout();
             this.pnl_inner_statistics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
@@ -466,23 +496,6 @@
             this.pnl_Rates.SuspendLayout();
             this.pnl_inner_rates.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).BeginInit();
-            this.pnl_sendMoney.SuspendLayout();
-            this.pnl_inner_sendMoney.SuspendLayout();
-            this.pnl_layout.SuspendLayout();
-            this.pnl_inner_receiver.SuspendLayout();
-            this.pnl_inner_sender.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).BeginInit();
-            this.accountbindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit1.Properties)).BeginInit();
@@ -510,17 +523,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties.CalendarTimeProperties)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).BeginInit();
-            this.loanbindingNavigator.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
@@ -957,11 +959,12 @@
             // info
             // 
             this.info.ImageOptions.Image = global::Bank.Properties.Resources.info_32x32;
-            this.info.Location = new System.Drawing.Point(75, 637);
+            this.info.Location = new System.Drawing.Point(64, 711);
             this.info.Name = "info";
             this.info.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.info.Size = new System.Drawing.Size(42, 30);
             this.info.TabIndex = 10;
+            this.info.Visible = false;
             this.info.Click += new System.EventHandler(this.info_Click);
             // 
             // panel7
@@ -1171,21 +1174,39 @@
             // pnl_top_inner
             // 
             this.pnl_top_inner.BackColor = System.Drawing.Color.Gainsboro;
-            this.pnl_top_inner.Controls.Add(this.pnl_backpanel);
-            this.pnl_top_inner.Controls.Add(this.savingAccountBindingNavigator);
+            this.pnl_top_inner.Controls.Add(this.panel1);
             this.pnl_top_inner.Controls.Add(this.btn_exit);
-            this.pnl_top_inner.Controls.Add(this.simpleButton1);
             this.pnl_top_inner.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_top_inner.Location = new System.Drawing.Point(0, 13);
             this.pnl_top_inner.Name = "pnl_top_inner";
             this.pnl_top_inner.Size = new System.Drawing.Size(1682, 94);
             this.pnl_top_inner.TabIndex = 2;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.pnl_backpanel);
+            this.panel1.Controls.Add(this.savingAccountBindingNavigator);
+            this.panel1.Location = new System.Drawing.Point(75, 9);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 14);
+            this.panel1.TabIndex = 7;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.ImageOptions.Image = global::Bank.Properties.Resources.chart_32x32;
+            this.simpleButton1.Location = new System.Drawing.Point(-23, 18);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(10);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(231, 58);
+            this.simpleButton1.TabIndex = 5;
+            this.simpleButton1.Text = "simpleButton1";
+            // 
             // pnl_backpanel
             // 
             this.pnl_backpanel.BackColor = System.Drawing.Color.Navy;
             this.pnl_backpanel.Controls.Add(this.button1);
-            this.pnl_backpanel.Location = new System.Drawing.Point(525, 15);
+            this.pnl_backpanel.Location = new System.Drawing.Point(221, 58);
             this.pnl_backpanel.Name = "pnl_backpanel";
             this.pnl_backpanel.Size = new System.Drawing.Size(177, 53);
             this.pnl_backpanel.TabIndex = 4;
@@ -1229,7 +1250,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.savingAccountBindingNavigatorSaveItem});
-            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(791, 41);
+            this.savingAccountBindingNavigator.Location = new System.Drawing.Point(487, 39);
             this.savingAccountBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.savingAccountBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.savingAccountBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -1354,15 +1375,26 @@
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // simpleButton1
+            // accountIDSpinEdit
             // 
-            this.simpleButton1.ImageOptions.Image = global::Bank.Properties.Resources.chart_32x32;
-            this.simpleButton1.Location = new System.Drawing.Point(259, 10);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(10);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(231, 58);
-            this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "simpleButton1";
+            this.accountIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "AccountID", true));
+            this.accountIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.accountIDSpinEdit.Location = new System.Drawing.Point(156, 24);
+            this.accountIDSpinEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.accountIDSpinEdit.Name = "accountIDSpinEdit";
+            this.accountIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.accountIDSpinEdit.Size = new System.Drawing.Size(156, 24);
+            this.accountIDSpinEdit.TabIndex = 1;
+            // 
+            // accountBindingSource
+            // 
+            this.accountBindingSource.DataMember = "Account";
+            this.accountBindingSource.DataSource = this.dB_BankDataSet;
             // 
             // pnl_dashboard
             // 
@@ -1556,7 +1588,7 @@
             this.pnl_accounts.Location = new System.Drawing.Point(77, 82);
             this.pnl_accounts.Name = "pnl_accounts";
             this.pnl_accounts.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_accounts.Size = new System.Drawing.Size(916, 32);
+            this.pnl_accounts.Size = new System.Drawing.Size(916, 41);
             this.pnl_accounts.TabIndex = 3;
             // 
             // panel9
@@ -1914,122 +1946,22 @@
             // 
             // pnl_main
             // 
+            this.pnl_main.Controls.Add(this.pnl_sendMoney);
+            this.pnl_main.Controls.Add(this.groupBox6);
+            this.pnl_main.Controls.Add(this.groupBox2);
+            this.pnl_main.Controls.Add(this.pnl_accounts);
             this.pnl_main.Controls.Add(this.pnl_statistics);
             this.pnl_main.Controls.Add(this.pnl_Rates);
             this.pnl_main.Controls.Add(this.pnl_dashboard);
-            this.pnl_main.Controls.Add(this.pnl_sendMoney);
-            this.pnl_main.Controls.Add(this.groupBox2);
             this.pnl_main.Controls.Add(this.groupBox3);
             this.pnl_main.Controls.Add(this.groupBox4);
             this.pnl_main.Controls.Add(this.groupBox5);
-            this.pnl_main.Controls.Add(this.groupBox6);
-            this.pnl_main.Controls.Add(this.pnl_accounts);
             this.pnl_main.Controls.Add(this.groupBox1);
             this.pnl_main.Location = new System.Drawing.Point(282, 264);
             this.pnl_main.Name = "pnl_main";
             this.pnl_main.Padding = new System.Windows.Forms.Padding(0, 0, 15, 15);
             this.pnl_main.Size = new System.Drawing.Size(1044, 814);
             this.pnl_main.TabIndex = 4;
-            // 
-            // pnl_statistics
-            // 
-            this.pnl_statistics.Controls.Add(this.pnl_inner_statistics);
-            this.pnl_statistics.Controls.Add(this.label27);
-            this.pnl_statistics.Location = new System.Drawing.Point(78, 262);
-            this.pnl_statistics.Name = "pnl_statistics";
-            this.pnl_statistics.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_statistics.Size = new System.Drawing.Size(915, 35);
-            this.pnl_statistics.TabIndex = 27;
-            // 
-            // pnl_inner_statistics
-            // 
-            this.pnl_inner_statistics.Controls.Add(this.chartControl1);
-            this.pnl_inner_statistics.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_inner_statistics.Location = new System.Drawing.Point(7, 37);
-            this.pnl_inner_statistics.Name = "pnl_inner_statistics";
-            this.pnl_inner_statistics.Size = new System.Drawing.Size(901, 0);
-            this.pnl_inner_statistics.TabIndex = 4;
-            // 
-            // chartControl1
-            // 
-            this.chartControl1.DataSource = this.branchBindingSource;
-            xyDiagram3.AxisX.Title.Text = "Branch Names";
-            xyDiagram3.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram3.AxisY.Title.Text = "Amounts";
-            xyDiagram3.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram3;
-            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartControl1.Location = new System.Drawing.Point(0, 0);
-            this.chartControl1.Name = "chartControl1";
-            series5.ArgumentDataMember = "BranchName";
-            series5.DataSource = this.branchBindingSource;
-            series5.Name = "Deposits";
-            series5.ValueDataMembersSerializable = "Deposit";
-            series6.ArgumentDataMember = "BranchName";
-            series6.DataSource = this.branchBindingSource;
-            series6.Name = "Loans";
-            series6.ValueDataMembersSerializable = "Loan";
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series5,
-        series6};
-            this.chartControl1.Size = new System.Drawing.Size(901, 0);
-            this.chartControl1.TabIndex = 0;
-            chartTitle3.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
-            chartTitle3.Text = "SKS Bank Statistics";
-            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle3});
-            // 
-            // label27
-            // 
-            this.label27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(7, 7);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(901, 30);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "Statistics";
-            // 
-            // pnl_Rates
-            // 
-            this.pnl_Rates.Controls.Add(this.pnl_inner_rates);
-            this.pnl_Rates.Controls.Add(this.label26);
-            this.pnl_Rates.Location = new System.Drawing.Point(77, 201);
-            this.pnl_Rates.Name = "pnl_Rates";
-            this.pnl_Rates.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_Rates.Size = new System.Drawing.Size(915, 44);
-            this.pnl_Rates.TabIndex = 26;
-            // 
-            // pnl_inner_rates
-            // 
-            this.pnl_inner_rates.Controls.Add(this.dataGridViewRates);
-            this.pnl_inner_rates.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_inner_rates.Location = new System.Drawing.Point(7, 37);
-            this.pnl_inner_rates.Name = "pnl_inner_rates";
-            this.pnl_inner_rates.Size = new System.Drawing.Size(901, 0);
-            this.pnl_inner_rates.TabIndex = 4;
-            // 
-            // dataGridViewRates
-            // 
-            this.dataGridViewRates.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewRates.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewRates.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewRates.Name = "dataGridViewRates";
-            this.dataGridViewRates.RowHeadersWidth = 51;
-            this.dataGridViewRates.RowTemplate.Height = 24;
-            this.dataGridViewRates.Size = new System.Drawing.Size(901, 0);
-            this.dataGridViewRates.TabIndex = 0;
-            // 
-            // label26
-            // 
-            this.label26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(7, 7);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(901, 30);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Rates";
             // 
             // pnl_sendMoney
             // 
@@ -2038,7 +1970,7 @@
             this.pnl_sendMoney.Location = new System.Drawing.Point(78, 136);
             this.pnl_sendMoney.Name = "pnl_sendMoney";
             this.pnl_sendMoney.Padding = new System.Windows.Forms.Padding(7);
-            this.pnl_sendMoney.Size = new System.Drawing.Size(915, 46);
+            this.pnl_sendMoney.Size = new System.Drawing.Size(915, 41);
             this.pnl_sendMoney.TabIndex = 25;
             // 
             // pnl_inner_sendMoney
@@ -2047,7 +1979,7 @@
             this.pnl_inner_sendMoney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_inner_sendMoney.Location = new System.Drawing.Point(7, 37);
             this.pnl_inner_sendMoney.Name = "pnl_inner_sendMoney";
-            this.pnl_inner_sendMoney.Size = new System.Drawing.Size(901, 2);
+            this.pnl_inner_sendMoney.Size = new System.Drawing.Size(901, 0);
             this.pnl_inner_sendMoney.TabIndex = 3;
             // 
             // pnl_layout
@@ -2454,6 +2386,246 @@
             this.label18.TabIndex = 2;
             this.label18.Text = "Send Money";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(loanIDLabel);
+            this.groupBox6.Controls.Add(this.loanIDSpinEdit);
+            this.groupBox6.Controls.Add(accountIDLabel3);
+            this.groupBox6.Controls.Add(this.accountIDSpinEdit3);
+            this.groupBox6.Controls.Add(branchIDLabel2);
+            this.groupBox6.Controls.Add(this.branchIDSpinEdit2);
+            this.groupBox6.Controls.Add(datePostedLabel2);
+            this.groupBox6.Controls.Add(this.datePostedDateEdit2);
+            this.groupBox6.Controls.Add(amountLabel2);
+            this.groupBox6.Controls.Add(this.amountSpinEdit2);
+            this.groupBox6.Controls.Add(oRNumLabel);
+            this.groupBox6.Controls.Add(this.oRNumTextEdit);
+            this.groupBox6.Controls.Add(tOLabel);
+            this.groupBox6.Controls.Add(this.tOTextEdit);
+            this.groupBox6.Controls.Add(this.loanbindingNavigator);
+            this.groupBox6.Location = new System.Drawing.Point(15, 555);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(590, 28);
+            this.groupBox6.TabIndex = 24;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Loan";
+            // 
+            // loanIDSpinEdit
+            // 
+            this.loanIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "LoanID", true));
+            this.loanIDSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.loanIDSpinEdit.Location = new System.Drawing.Point(110, 33);
+            this.loanIDSpinEdit.Name = "loanIDSpinEdit";
+            this.loanIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.loanIDSpinEdit.Size = new System.Drawing.Size(125, 24);
+            this.loanIDSpinEdit.TabIndex = 7;
+            // 
+            // accountIDSpinEdit3
+            // 
+            this.accountIDSpinEdit3.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "AccountID", true));
+            this.accountIDSpinEdit3.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.accountIDSpinEdit3.Location = new System.Drawing.Point(110, 63);
+            this.accountIDSpinEdit3.Name = "accountIDSpinEdit3";
+            this.accountIDSpinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.accountIDSpinEdit3.Size = new System.Drawing.Size(125, 24);
+            this.accountIDSpinEdit3.TabIndex = 9;
+            // 
+            // branchIDSpinEdit2
+            // 
+            this.branchIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "BranchID", true));
+            this.branchIDSpinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.branchIDSpinEdit2.Location = new System.Drawing.Point(110, 93);
+            this.branchIDSpinEdit2.Name = "branchIDSpinEdit2";
+            this.branchIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.branchIDSpinEdit2.Size = new System.Drawing.Size(125, 24);
+            this.branchIDSpinEdit2.TabIndex = 11;
+            // 
+            // datePostedDateEdit2
+            // 
+            this.datePostedDateEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "DatePosted", true));
+            this.datePostedDateEdit2.EditValue = null;
+            this.datePostedDateEdit2.Location = new System.Drawing.Point(110, 123);
+            this.datePostedDateEdit2.Name = "datePostedDateEdit2";
+            this.datePostedDateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.datePostedDateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.datePostedDateEdit2.Size = new System.Drawing.Size(125, 22);
+            this.datePostedDateEdit2.TabIndex = 13;
+            // 
+            // amountSpinEdit2
+            // 
+            this.amountSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "Amount", true));
+            this.amountSpinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.amountSpinEdit2.Location = new System.Drawing.Point(110, 151);
+            this.amountSpinEdit2.Name = "amountSpinEdit2";
+            this.amountSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.amountSpinEdit2.Size = new System.Drawing.Size(125, 24);
+            this.amountSpinEdit2.TabIndex = 15;
+            // 
+            // oRNumTextEdit
+            // 
+            this.oRNumTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "ORNum", true));
+            this.oRNumTextEdit.Location = new System.Drawing.Point(110, 181);
+            this.oRNumTextEdit.Name = "oRNumTextEdit";
+            this.oRNumTextEdit.Size = new System.Drawing.Size(125, 22);
+            this.oRNumTextEdit.TabIndex = 17;
+            // 
+            // tOTextEdit
+            // 
+            this.tOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "TO", true));
+            this.tOTextEdit.Location = new System.Drawing.Point(110, 209);
+            this.tOTextEdit.Name = "tOTextEdit";
+            this.tOTextEdit.Size = new System.Drawing.Size(125, 22);
+            this.tOTextEdit.TabIndex = 19;
+            // 
+            // loanbindingNavigator
+            // 
+            this.loanbindingNavigator.AddNewItem = this.loanbindingNavigatorAddItem;
+            this.loanbindingNavigator.BindingSource = this.loanAccountBindingSource;
+            this.loanbindingNavigator.CountItem = this.toolStripLabel6;
+            this.loanbindingNavigator.DeleteItem = this.loanbindingNavigatorDeleteItem;
+            this.loanbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.loanbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.loanbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton23,
+            this.toolStripButton24,
+            this.toolStripSeparator16,
+            this.toolStripTextBox6,
+            this.toolStripLabel6,
+            this.toolStripSeparator17,
+            this.toolStripButton25,
+            this.toolStripButton26,
+            this.toolStripSeparator18,
+            this.loanbindingNavigatorAddItem,
+            this.loanbindingNavigatorDeleteItem,
+            this.loanbindingNavigatorSaveItem});
+            this.loanbindingNavigator.Location = new System.Drawing.Point(250, 36);
+            this.loanbindingNavigator.MoveFirstItem = this.toolStripButton23;
+            this.loanbindingNavigator.MoveLastItem = this.toolStripButton26;
+            this.loanbindingNavigator.MoveNextItem = this.toolStripButton25;
+            this.loanbindingNavigator.MovePreviousItem = this.toolStripButton24;
+            this.loanbindingNavigator.Name = "loanbindingNavigator";
+            this.loanbindingNavigator.PositionItem = this.toolStripTextBox6;
+            this.loanbindingNavigator.Size = new System.Drawing.Size(331, 31);
+            this.loanbindingNavigator.TabIndex = 6;
+            this.loanbindingNavigator.Text = "bindingNavigator1";
+            // 
+            // loanbindingNavigatorAddItem
+            // 
+            this.loanbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorAddItem.Image")));
+            this.loanbindingNavigatorAddItem.Name = "loanbindingNavigatorAddItem";
+            this.loanbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
+            this.loanbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorAddItem.Text = "Add new";
+            // 
+            // toolStripLabel6
+            // 
+            this.toolStripLabel6.Name = "toolStripLabel6";
+            this.toolStripLabel6.Size = new System.Drawing.Size(45, 24);
+            this.toolStripLabel6.Text = "of {0}";
+            this.toolStripLabel6.ToolTipText = "Total number of items";
+            // 
+            // loanbindingNavigatorDeleteItem
+            // 
+            this.loanbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorDeleteItem.Image")));
+            this.loanbindingNavigatorDeleteItem.Name = "loanbindingNavigatorDeleteItem";
+            this.loanbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.loanbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton23.Text = "Move first";
+            // 
+            // toolStripButton24
+            // 
+            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
+            this.toolStripButton24.Name = "toolStripButton24";
+            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton24.Text = "Move previous";
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripTextBox6
+            // 
+            this.toolStripTextBox6.AccessibleName = "Position";
+            this.toolStripTextBox6.AutoSize = false;
+            this.toolStripTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox6.Name = "toolStripTextBox6";
+            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 27);
+            this.toolStripTextBox6.Text = "0";
+            this.toolStripTextBox6.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator17
+            // 
+            this.toolStripSeparator17.Name = "toolStripSeparator17";
+            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripButton25
+            // 
+            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
+            this.toolStripButton25.Name = "toolStripButton25";
+            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton25.Text = "Move next";
+            // 
+            // toolStripButton26
+            // 
+            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
+            this.toolStripButton26.Name = "toolStripButton26";
+            this.toolStripButton26.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton26.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton26.Text = "Move last";
+            // 
+            // toolStripSeparator18
+            // 
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 27);
+            // 
+            // loanbindingNavigatorSaveItem
+            // 
+            this.loanbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.loanbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorSaveItem.Image")));
+            this.loanbindingNavigatorSaveItem.Name = "loanbindingNavigatorSaveItem";
+            this.loanbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+            this.loanbindingNavigatorSaveItem.Text = "Save Data";
+            this.loanbindingNavigatorSaveItem.Click += new System.EventHandler(this.loanbindingNavigatorSaveItem_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.accountbindingNavigator);
@@ -2471,9 +2643,9 @@
             this.groupBox2.Controls.Add(this.cardPINSpinEdit);
             this.groupBox2.Controls.Add(passwordLabel);
             this.groupBox2.Controls.Add(this.passwordTextEdit);
-            this.groupBox2.Location = new System.Drawing.Point(22, 372);
+            this.groupBox2.Location = new System.Drawing.Point(20, 380);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(583, 22);
+            this.groupBox2.Size = new System.Drawing.Size(583, 21);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Account";
@@ -2499,7 +2671,7 @@
             this.accountbindingNavigatorAddItem,
             this.accountbindingNavigatorDeleteItem,
             this.accountbindingNavigatorSaveItem});
-            this.accountbindingNavigator.Location = new System.Drawing.Point(341, 35);
+            this.accountbindingNavigator.Location = new System.Drawing.Point(16, 238);
             this.accountbindingNavigator.MoveFirstItem = this.toolStripButton7;
             this.accountbindingNavigator.MoveLastItem = this.toolStripButton10;
             this.accountbindingNavigator.MoveNextItem = this.toolStripButton9;
@@ -2518,11 +2690,6 @@
             this.accountbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
             this.accountbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
             this.accountbindingNavigatorAddItem.Text = "Add new";
-            // 
-            // accountBindingSource
-            // 
-            this.accountBindingSource.DataMember = "Account";
-            this.accountBindingSource.DataSource = this.dB_BankDataSet;
             // 
             // toolStripLabel2
             // 
@@ -2610,22 +2777,6 @@
             this.accountbindingNavigatorSaveItem.Text = "Save Data";
             this.accountbindingNavigatorSaveItem.Click += new System.EventHandler(this.accountbindingNavigatorSaveItem_Click);
             // 
-            // accountIDSpinEdit
-            // 
-            this.accountIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "AccountID", true));
-            this.accountIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.accountIDSpinEdit.Location = new System.Drawing.Point(154, 28);
-            this.accountIDSpinEdit.Margin = new System.Windows.Forms.Padding(4);
-            this.accountIDSpinEdit.Name = "accountIDSpinEdit";
-            this.accountIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.accountIDSpinEdit.Size = new System.Drawing.Size(156, 24);
-            this.accountIDSpinEdit.TabIndex = 1;
-            // 
             // customerIDSpinEdit1
             // 
             this.customerIDSpinEdit1.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.accountBindingSource, "CustomerID", true));
@@ -2712,6 +2863,106 @@
             this.passwordTextEdit.Name = "passwordTextEdit";
             this.passwordTextEdit.Size = new System.Drawing.Size(156, 22);
             this.passwordTextEdit.TabIndex = 13;
+            // 
+            // pnl_statistics
+            // 
+            this.pnl_statistics.Controls.Add(this.pnl_inner_statistics);
+            this.pnl_statistics.Controls.Add(this.label27);
+            this.pnl_statistics.Location = new System.Drawing.Point(78, 262);
+            this.pnl_statistics.Name = "pnl_statistics";
+            this.pnl_statistics.Padding = new System.Windows.Forms.Padding(7);
+            this.pnl_statistics.Size = new System.Drawing.Size(915, 35);
+            this.pnl_statistics.TabIndex = 27;
+            // 
+            // pnl_inner_statistics
+            // 
+            this.pnl_inner_statistics.Controls.Add(this.chartControl1);
+            this.pnl_inner_statistics.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_inner_statistics.Location = new System.Drawing.Point(7, 37);
+            this.pnl_inner_statistics.Name = "pnl_inner_statistics";
+            this.pnl_inner_statistics.Size = new System.Drawing.Size(901, 0);
+            this.pnl_inner_statistics.TabIndex = 4;
+            // 
+            // chartControl1
+            // 
+            this.chartControl1.DataSource = this.branchBindingSource;
+            xyDiagram3.AxisX.Title.Text = "Branch Names";
+            xyDiagram3.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram3.AxisY.Title.Text = "Amounts";
+            xyDiagram3.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram3;
+            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chartControl1.Location = new System.Drawing.Point(0, 0);
+            this.chartControl1.Name = "chartControl1";
+            series5.ArgumentDataMember = "BranchName";
+            series5.DataSource = this.branchBindingSource;
+            series5.Name = "Deposits";
+            series5.ValueDataMembersSerializable = "Deposit";
+            series6.ArgumentDataMember = "BranchName";
+            series6.DataSource = this.branchBindingSource;
+            series6.Name = "Loans";
+            series6.ValueDataMembersSerializable = "Loan";
+            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series5,
+        series6};
+            this.chartControl1.Size = new System.Drawing.Size(901, 0);
+            this.chartControl1.TabIndex = 0;
+            chartTitle3.DXFont = new DevExpress.Drawing.DXFont("Segoe UI", 12F, DevExpress.Drawing.DXFontStyle.Bold);
+            chartTitle3.Text = "SKS Bank Statistics";
+            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle3});
+            // 
+            // label27
+            // 
+            this.label27.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(7, 7);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(901, 30);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Statistics";
+            // 
+            // pnl_Rates
+            // 
+            this.pnl_Rates.Controls.Add(this.pnl_inner_rates);
+            this.pnl_Rates.Controls.Add(this.label26);
+            this.pnl_Rates.Location = new System.Drawing.Point(77, 201);
+            this.pnl_Rates.Name = "pnl_Rates";
+            this.pnl_Rates.Padding = new System.Windows.Forms.Padding(7);
+            this.pnl_Rates.Size = new System.Drawing.Size(915, 44);
+            this.pnl_Rates.TabIndex = 26;
+            // 
+            // pnl_inner_rates
+            // 
+            this.pnl_inner_rates.Controls.Add(this.dataGridViewRates);
+            this.pnl_inner_rates.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_inner_rates.Location = new System.Drawing.Point(7, 37);
+            this.pnl_inner_rates.Name = "pnl_inner_rates";
+            this.pnl_inner_rates.Size = new System.Drawing.Size(901, 0);
+            this.pnl_inner_rates.TabIndex = 4;
+            // 
+            // dataGridViewRates
+            // 
+            this.dataGridViewRates.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewRates.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewRates.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewRates.Name = "dataGridViewRates";
+            this.dataGridViewRates.RowHeadersWidth = 51;
+            this.dataGridViewRates.RowTemplate.Height = 24;
+            this.dataGridViewRates.Size = new System.Drawing.Size(901, 0);
+            this.dataGridViewRates.TabIndex = 0;
+            // 
+            // label26
+            // 
+            this.label26.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(7, 7);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(901, 30);
+            this.label26.TabIndex = 3;
+            this.label26.Text = "Rates";
             // 
             // groupBox3
             // 
@@ -3371,246 +3622,6 @@
             this.datePostedDateEdit1.Size = new System.Drawing.Size(125, 22);
             this.datePostedDateEdit1.TabIndex = 9;
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(loanIDLabel);
-            this.groupBox6.Controls.Add(this.loanIDSpinEdit);
-            this.groupBox6.Controls.Add(accountIDLabel3);
-            this.groupBox6.Controls.Add(this.accountIDSpinEdit3);
-            this.groupBox6.Controls.Add(branchIDLabel2);
-            this.groupBox6.Controls.Add(this.branchIDSpinEdit2);
-            this.groupBox6.Controls.Add(datePostedLabel2);
-            this.groupBox6.Controls.Add(this.datePostedDateEdit2);
-            this.groupBox6.Controls.Add(amountLabel2);
-            this.groupBox6.Controls.Add(this.amountSpinEdit2);
-            this.groupBox6.Controls.Add(oRNumLabel);
-            this.groupBox6.Controls.Add(this.oRNumTextEdit);
-            this.groupBox6.Controls.Add(tOLabel);
-            this.groupBox6.Controls.Add(this.tOTextEdit);
-            this.groupBox6.Controls.Add(this.loanbindingNavigator);
-            this.groupBox6.Location = new System.Drawing.Point(15, 555);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(590, 29);
-            this.groupBox6.TabIndex = 24;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Loan";
-            // 
-            // loanIDSpinEdit
-            // 
-            this.loanIDSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "LoanID", true));
-            this.loanIDSpinEdit.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.loanIDSpinEdit.Location = new System.Drawing.Point(110, 33);
-            this.loanIDSpinEdit.Name = "loanIDSpinEdit";
-            this.loanIDSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.loanIDSpinEdit.Size = new System.Drawing.Size(125, 24);
-            this.loanIDSpinEdit.TabIndex = 7;
-            // 
-            // accountIDSpinEdit3
-            // 
-            this.accountIDSpinEdit3.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "AccountID", true));
-            this.accountIDSpinEdit3.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.accountIDSpinEdit3.Location = new System.Drawing.Point(110, 63);
-            this.accountIDSpinEdit3.Name = "accountIDSpinEdit3";
-            this.accountIDSpinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.accountIDSpinEdit3.Size = new System.Drawing.Size(125, 24);
-            this.accountIDSpinEdit3.TabIndex = 9;
-            // 
-            // branchIDSpinEdit2
-            // 
-            this.branchIDSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "BranchID", true));
-            this.branchIDSpinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.branchIDSpinEdit2.Location = new System.Drawing.Point(110, 93);
-            this.branchIDSpinEdit2.Name = "branchIDSpinEdit2";
-            this.branchIDSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.branchIDSpinEdit2.Size = new System.Drawing.Size(125, 24);
-            this.branchIDSpinEdit2.TabIndex = 11;
-            // 
-            // datePostedDateEdit2
-            // 
-            this.datePostedDateEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "DatePosted", true));
-            this.datePostedDateEdit2.EditValue = null;
-            this.datePostedDateEdit2.Location = new System.Drawing.Point(110, 123);
-            this.datePostedDateEdit2.Name = "datePostedDateEdit2";
-            this.datePostedDateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.datePostedDateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.datePostedDateEdit2.Size = new System.Drawing.Size(125, 22);
-            this.datePostedDateEdit2.TabIndex = 13;
-            // 
-            // amountSpinEdit2
-            // 
-            this.amountSpinEdit2.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "Amount", true));
-            this.amountSpinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.amountSpinEdit2.Location = new System.Drawing.Point(110, 151);
-            this.amountSpinEdit2.Name = "amountSpinEdit2";
-            this.amountSpinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.amountSpinEdit2.Size = new System.Drawing.Size(125, 24);
-            this.amountSpinEdit2.TabIndex = 15;
-            // 
-            // oRNumTextEdit
-            // 
-            this.oRNumTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "ORNum", true));
-            this.oRNumTextEdit.Location = new System.Drawing.Point(110, 181);
-            this.oRNumTextEdit.Name = "oRNumTextEdit";
-            this.oRNumTextEdit.Size = new System.Drawing.Size(125, 22);
-            this.oRNumTextEdit.TabIndex = 17;
-            // 
-            // tOTextEdit
-            // 
-            this.tOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.loanAccountBindingSource, "TO", true));
-            this.tOTextEdit.Location = new System.Drawing.Point(110, 209);
-            this.tOTextEdit.Name = "tOTextEdit";
-            this.tOTextEdit.Size = new System.Drawing.Size(125, 22);
-            this.tOTextEdit.TabIndex = 19;
-            // 
-            // loanbindingNavigator
-            // 
-            this.loanbindingNavigator.AddNewItem = this.loanbindingNavigatorAddItem;
-            this.loanbindingNavigator.BindingSource = this.loanAccountBindingSource;
-            this.loanbindingNavigator.CountItem = this.toolStripLabel6;
-            this.loanbindingNavigator.DeleteItem = this.loanbindingNavigatorDeleteItem;
-            this.loanbindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.loanbindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.loanbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton23,
-            this.toolStripButton24,
-            this.toolStripSeparator16,
-            this.toolStripTextBox6,
-            this.toolStripLabel6,
-            this.toolStripSeparator17,
-            this.toolStripButton25,
-            this.toolStripButton26,
-            this.toolStripSeparator18,
-            this.loanbindingNavigatorAddItem,
-            this.loanbindingNavigatorDeleteItem,
-            this.loanbindingNavigatorSaveItem});
-            this.loanbindingNavigator.Location = new System.Drawing.Point(250, 36);
-            this.loanbindingNavigator.MoveFirstItem = this.toolStripButton23;
-            this.loanbindingNavigator.MoveLastItem = this.toolStripButton26;
-            this.loanbindingNavigator.MoveNextItem = this.toolStripButton25;
-            this.loanbindingNavigator.MovePreviousItem = this.toolStripButton24;
-            this.loanbindingNavigator.Name = "loanbindingNavigator";
-            this.loanbindingNavigator.PositionItem = this.toolStripTextBox6;
-            this.loanbindingNavigator.Size = new System.Drawing.Size(331, 31);
-            this.loanbindingNavigator.TabIndex = 6;
-            this.loanbindingNavigator.Text = "bindingNavigator1";
-            // 
-            // loanbindingNavigatorAddItem
-            // 
-            this.loanbindingNavigatorAddItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorAddItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorAddItem.Image")));
-            this.loanbindingNavigatorAddItem.Name = "loanbindingNavigatorAddItem";
-            this.loanbindingNavigatorAddItem.RightToLeftAutoMirrorImage = true;
-            this.loanbindingNavigatorAddItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorAddItem.Text = "Add new";
-            // 
-            // toolStripLabel6
-            // 
-            this.toolStripLabel6.Name = "toolStripLabel6";
-            this.toolStripLabel6.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel6.Text = "of {0}";
-            this.toolStripLabel6.ToolTipText = "Total number of items";
-            // 
-            // loanbindingNavigatorDeleteItem
-            // 
-            this.loanbindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorDeleteItem.Image")));
-            this.loanbindingNavigatorDeleteItem.Name = "loanbindingNavigatorDeleteItem";
-            this.loanbindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.loanbindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton23.Text = "Move first";
-            // 
-            // toolStripButton24
-            // 
-            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
-            this.toolStripButton24.Name = "toolStripButton24";
-            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton24.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton24.Text = "Move previous";
-            // 
-            // toolStripSeparator16
-            // 
-            this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripTextBox6
-            // 
-            this.toolStripTextBox6.AccessibleName = "Position";
-            this.toolStripTextBox6.AutoSize = false;
-            this.toolStripTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox6.Name = "toolStripTextBox6";
-            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 27);
-            this.toolStripTextBox6.Text = "0";
-            this.toolStripTextBox6.ToolTipText = "Current position";
-            // 
-            // toolStripSeparator17
-            // 
-            this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 27);
-            // 
-            // toolStripButton25
-            // 
-            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
-            this.toolStripButton25.Name = "toolStripButton25";
-            this.toolStripButton25.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton25.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton25.Text = "Move next";
-            // 
-            // toolStripButton26
-            // 
-            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
-            this.toolStripButton26.Name = "toolStripButton26";
-            this.toolStripButton26.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton26.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton26.Text = "Move last";
-            // 
-            // toolStripSeparator18
-            // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 27);
-            // 
-            // loanbindingNavigatorSaveItem
-            // 
-            this.loanbindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.loanbindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("loanbindingNavigatorSaveItem.Image")));
-            this.loanbindingNavigatorSaveItem.Name = "loanbindingNavigatorSaveItem";
-            this.loanbindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.loanbindingNavigatorSaveItem.Text = "Save Data";
-            this.loanbindingNavigatorSaveItem.Click += new System.EventHandler(this.loanbindingNavigatorSaveItem_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(customerIDLabel);
@@ -4081,7 +4092,7 @@
             this.pnl_selectAccount.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnl_selectAccount.Controls.Add(this.panel8);
             this.pnl_selectAccount.Controls.Add(this.panel11);
-            this.pnl_selectAccount.Location = new System.Drawing.Point(1364, 636);
+            this.pnl_selectAccount.Location = new System.Drawing.Point(513, 163);
             this.pnl_selectAccount.Name = "pnl_selectAccount";
             this.pnl_selectAccount.Size = new System.Drawing.Size(540, 308);
             this.pnl_selectAccount.TabIndex = 7;
@@ -4508,10 +4519,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1917, 1055);
             this.Controls.Add(this.pnl_main);
-            this.Controls.Add(this.pnl_selectAccount);
             this.Controls.Add(this.pnl_openAccount);
             this.Controls.Add(this.pnl_top_outer);
             this.Controls.Add(this.pnl_left_outer);
+            this.Controls.Add(this.pnl_selectAccount);
             this.Controls.Add(this.pnl_searchclient);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -4533,12 +4544,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl_top_outer.ResumeLayout(false);
             this.pnl_top_inner.ResumeLayout(false);
-            this.pnl_top_inner.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.pnl_backpanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingNavigator)).EndInit();
             this.savingAccountBindingNavigator.ResumeLayout(false);
             this.savingAccountBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingAccountBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
             this.pnl_dashboard.ResumeLayout(false);
             this.pnl_inner_dashboard.ResumeLayout(false);
             this.pnl_inner_dashboard.PerformLayout();
@@ -4564,6 +4578,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.loanAccountBindingSource)).EndInit();
             this.pnl_accounts_inner.ResumeLayout(false);
             this.pnl_main.ResumeLayout(false);
+            this.pnl_sendMoney.ResumeLayout(false);
+            this.pnl_inner_sendMoney.ResumeLayout(false);
+            this.pnl_layout.ResumeLayout(false);
+            this.pnl_inner_receiver.ResumeLayout(false);
+            this.pnl_inner_receiver.PerformLayout();
+            this.pnl_inner_sender.ResumeLayout(false);
+            this.pnl_inner_sender.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).EndInit();
+            this.loanbindingNavigator.ResumeLayout(false);
+            this.loanbindingNavigator.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).EndInit();
+            this.accountbindingNavigator.ResumeLayout(false);
+            this.accountbindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
             this.pnl_statistics.ResumeLayout(false);
             this.pnl_inner_statistics.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
@@ -4573,27 +4619,6 @@
             this.pnl_Rates.ResumeLayout(false);
             this.pnl_inner_rates.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRates)).EndInit();
-            this.pnl_sendMoney.ResumeLayout(false);
-            this.pnl_inner_sendMoney.ResumeLayout(false);
-            this.pnl_layout.ResumeLayout(false);
-            this.pnl_inner_receiver.ResumeLayout(false);
-            this.pnl_inner_receiver.PerformLayout();
-            this.pnl_inner_sender.ResumeLayout(false);
-            this.pnl_inner_sender.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountbindingNavigator)).EndInit();
-            this.accountbindingNavigator.ResumeLayout(false);
-            this.accountbindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountTypeSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateModefiedDateEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cardPINSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.passwordTextEdit.Properties)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savingIDSpinEdit.Properties)).EndInit();
@@ -4627,19 +4652,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit1.Properties)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loanIDSpinEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.accountIDSpinEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.branchIDSpinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.datePostedDateEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amountSpinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oRNumTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tOTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loanbindingNavigator)).EndInit();
-            this.loanbindingNavigator.ResumeLayout(false);
-            this.loanbindingNavigator.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customerIDSpinEdit.Properties)).EndInit();
@@ -4944,6 +4956,7 @@
         private DevExpress.XtraCharts.ChartControl chartControl1;
         private System.Windows.Forms.Timer toggleTimer;
         private DevExpress.XtraEditors.SimpleButton btn_logout;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 #endregion  
